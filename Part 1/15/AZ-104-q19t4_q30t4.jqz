@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Rodrigo</dc:creator>
+    <dc:title>AZ104 - Topic 4</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ104 - Topic 4</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription that contains a web app named webapp1.
+You need to add a custom domain named www.contoso.com to webapp1.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Create a DNS record</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a connection string</text><feedback>Correct Answer: A &amp;#x003C;br&amp;#x003E;
+You can use either a CNAME record or an A record to map a custom DNS name to App Service. You should use CNAME records for all custom DNS names except root domains (for example, contoso.com). For root domains, use A records. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/Azure/app-service/app-service-web-tutorial-custom-domain</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Upload a certificate</text><feedback>Correct Answer: A &amp;#x003C;br&amp;#x003E;
+You can use either a CNAME record or an A record to map a custom DNS name to App Service. You should use CNAME records for all custom DNS names except root domains (for example, contoso.com). For root domains, use A records. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/Azure/app-service/app-service-web-tutorial-custom-domain</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stop webapp1</text><feedback>Correct Answer: A &amp;#x003C;br&amp;#x003E;
+You can use either a CNAME record or an A record to map a custom DNS name to App Service. You should use CNAME records for all custom DNS names except root domains (for example, contoso.com). For root domains, use A records. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/Azure/app-service/app-service-web-tutorial-custom-domain</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q20t4.png&quot; alt=&quot;q20t4.png&quot; title=&quot;AZ104Topic4_20&quot; width=&quot;573&quot; height=&quot;234&quot; /&amp;#x003E;
+VM1 connects to VNET1.
+You need to connect VM1 to VNET2.
+
+Solution: You move VM1 to RG2, and then you add a new network interface to VM1.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>No Instead, you should delete VM1. Then recreate VM1 and add the network interface for VM1. &amp;#x003C;br&amp;#x003E;
+To migrate a VM from a VNET to another VNET. &amp;#x003C;br&amp;#x003E;
+The only option is to delete the VM and redeploy it using a new NIC and NIC connected to VNET2. &amp;#x003C;br&amp;#x003E;
+Note: When you create an Azure Virtual Machine (VM), you must create a Virtual Network (VNet) or use an existing VNet. &amp;#x003C;br&amp;#x003E;
+You can change the subnet a VM is connected to after it&apos;s created, but you cannot change the VNet. &amp;#x003C;br&amp;#x003E;You can also change the size of a VM. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/virtual-machines/windows/network-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q20t4.png&quot; alt=&quot;q20t4.png&quot; title=&quot;AZ104Topic4_20&quot; width=&quot;573&quot; height=&quot;234&quot; /&amp;#x003E;
+VM1 connects to VNET1.
+You need to connect VM1 to VNET2.
+
+Solution: You delete VM1. You recreate VM1, and then you create a new network interface for VM1 and connect it to VNET2.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>You should delete VM1. You recreate VM1, and then you add the network interface for VM1.&amp;#x003C;br&amp;#x003E;
+Note: When you create an Azure virtual machine (VM), you must create a virtual network (VNet) or use an existing VNet. You can change the subnet a VM is connected to after it&apos;s created, but you cannot change the VNet.&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/network-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q20t4.png&quot; alt=&quot;q20t4.png&quot; title=&quot;AZ104Topic4_20&quot; width=&quot;573&quot; height=&quot;234&quot; /&amp;#x003E;
+VM1 connects to VNET1.
+You need to connect VM1 to VNET2.
+
+Solution: You turn off VM1, and then you add a new network interface to VM1.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>No Instead, you should delete VM1. 
+Then recreate VM1 and add the network interface for VM1.&amp;#x003C;br&amp;#x003E;
+ To migrate a VM from a VNET to another VNET. &amp;#x003C;br&amp;#x003E;
+The only option is to delete the VM and redeploy it using a new NIC and NIC connected to VNET2. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Note: When you create an Azure Virtual Machine (VM), you must create a Virtual Network (VNet) or use an existing VNet.&amp;#x003C;br&amp;#x003E;
+ You can change the subnet a VM is connected to after it&apos;s created, but you cannot change the VNet. 
+You can also change the size of a VM. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/virtual-machines/windows/network-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1 that contains the quotas shown in the following table.
+&amp;#x003C;img src=&quot;q23t41.jpg&quot; alt=&quot;q23t41.jpg&quot; title=&quot;q23t41&quot; width=&quot;567&quot; height=&quot;109&quot;/&amp;#x003E;
+
+You deploy virtual machines to Subscription1 as shown in the following table.
+&amp;#x003C;img src=&quot;q23t42.jpg&quot; alt=&quot;q23t42.jpg&quot; title=&quot;q23t42&quot; width=&quot;567&quot; height=&quot;87&quot;/&amp;#x003E;
+
+You plan to deploy the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q23t43.png&quot; alt=&quot;q23t43.png&quot; title=&quot;q23t43&quot; width=&quot;510&quot; height=&quot;120&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q23t44.jpg&quot; alt=&quot;q23t44.jpg&quot; title=&quot;q23t44&quot; width=&quot;567&quot; height=&quot;215&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can deploy VM3 to West US - Yes</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy VM3 to West US - No</text><feedback>NOT CORRECT&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+The total regional vCPUs is 20 so that means a maximum total of 20 vCPUs across all the different VM sizes. &amp;#x003C;br&amp;#x003E;
+The deallocated VM with 16 vCPUs counts towards the total. &amp;#x003C;br&amp;#x003E;
+VM20 and VM1 are using 18 of the maximum 20 vCPUs leaving only two vCPUs available.&amp;#x003C;br&amp;#x003E;
+
+Total regional vCPUs = 20 2 vCPUs (VM1) + 16 vCPUs (VM20) = 18 vCPUs, which means that only 2 vCPUs left to exceed usage limit. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 1: Yes - We can add 1 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 1 vCPU (VM3) = 19 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 2: No We cannot add 4 vCPUs.
+ 2 vCPUs (VM1) + 16 vCPUs (VM20) + 4 vCPU (VM4) = 22 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 3: No We cannot add 16 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 16 vCPU (VM5) = 34 vCPUs &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quotas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy VM4 to West US - Yes</text><feedback>NOT CORRECT&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+The total regional vCPUs is 20 so that means a maximum total of 20 vCPUs across all the different VM sizes. &amp;#x003C;br&amp;#x003E;
+The deallocated VM with 16 vCPUs counts towards the total. &amp;#x003C;br&amp;#x003E;
+VM20 and VM1 are using 18 of the maximum 20 vCPUs leaving only two vCPUs available.&amp;#x003C;br&amp;#x003E;
+
+Total regional vCPUs = 20 2 vCPUs (VM1) + 16 vCPUs (VM20) = 18 vCPUs, which means that only 2 vCPUs left to exceed usage limit. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 1: Yes - We can add 1 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 1 vCPU (VM3) = 19 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 2: No We cannot add 4 vCPUs.
+ 2 vCPUs (VM1) + 16 vCPUs (VM20) + 4 vCPU (VM4) = 22 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 3: No We cannot add 16 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 16 vCPU (VM5) = 34 vCPUs &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quotas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy VM4 to West US - No</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy VM5 to West US - Yes</text><feedback>NOT CORRECT&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+The total regional vCPUs is 20 so that means a maximum total of 20 vCPUs across all the different VM sizes. &amp;#x003C;br&amp;#x003E;
+The deallocated VM with 16 vCPUs counts towards the total. &amp;#x003C;br&amp;#x003E;
+VM20 and VM1 are using 18 of the maximum 20 vCPUs leaving only two vCPUs available.&amp;#x003C;br&amp;#x003E;
+
+Total regional vCPUs = 20 2 vCPUs (VM1) + 16 vCPUs (VM20) = 18 vCPUs, which means that only 2 vCPUs left to exceed usage limit. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 1: Yes - We can add 1 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 1 vCPU (VM3) = 19 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 2: No We cannot add 4 vCPUs.
+ 2 vCPUs (VM1) + 16 vCPUs (VM20) + 4 vCPU (VM4) = 22 vCPUs 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Box 3: No We cannot add 16 vCPU. 
+2 vCPUs (VM1) + 16 vCPUs (VM20) + 16 vCPU (VM5) = 34 vCPUs &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quotas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy VM5 to West US - No</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains an Azure Availability Set named WEBPROD-AS-USE2 as shown in the following exhibit.
+&amp;#x003C;img src=&quot;q24t41.jpg&quot; alt=&quot;q24t41.jpg&quot; title=&quot;q24t41&quot; width=&quot;567&quot; height=&quot;445&quot;/&amp;#x003E;
+
+You add 14 virtual machines to WEBPROD-AS-USE2.
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q24t42.jpg&quot; alt=&quot;q24t42.jpg&quot; title=&quot;q24t42&quot; width=&quot;567&quot; height=&quot;267&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>When Microsoft performs planned maintenance in East US 2, the maximum number of unavailable virtual machines will be.[answer choice]. 2</text><feedback></feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When Microsoft performs planned maintenance in East US 2, the maximum number of unavailable virtual machines will be.[answer choice]. 7</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When Microsoft performs planned maintenance in East US 2, the maximum number of unavailable virtual machines will be.[answer choice]. 10</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When Microsoft performs planned maintenance in East US 2, the maximum number of unavailable virtual machines will be.[answer choice]. 17</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If the server rack in the Azure datacenter that hosts WEBPROD-AS-USE2 experiences a power failure, the maximum number of unavailable virtual machines will be. [answer choice]. 2</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If the server rack in the Azure datacenter that hosts WEBPROD-AS-USE2 experiences a power failure, the maximum number of unavailable virtual machines will be. [answer choice]. 7</text><feedback></feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If the server rack in the Azure datacenter that hosts WEBPROD-AS-USE2 experiences a power failure, the maximum number of unavailable virtual machines will be. [answer choice]. 10</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If the server rack in the Azure datacenter that hosts WEBPROD-AS-USE2 experiences a power failure, the maximum number of unavailable virtual machines will be. [answer choice]. 17</text><feedback>Correct Answer: &amp;#x003C;br&amp;#x003E;
+Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains, so 4 update domains will have 2 VMs and 6 update domains will have 1 VM.  &amp;#x003C;br&amp;#x003E;
+Only one update domain is rebooted at a time. D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 vm1 vm2 vm3 vm4 vm5 vm6 vm7 vm8 vm9 vm10 vm11 vm12 vm13 vm14 Maximum Down = 2 Minimum Down = 1 
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline. 14 VM in 2 Fault Domain Rack 1 Rack 2 vm1 vm8 vm2 vm9 vm3 vm10 vm4 vm11 vm5 vm12 vm6 vm13 vm7 vm14 Maximum Down = 7 Minimum Down = 7
+ &amp;#x003C;br&amp;#x003E; &amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses the IP addresses shown in the following table
+&amp;#x003C;img src=&quot;q25t41.png&quot; alt=&quot;q25t41.png&quot; title=&quot;q25t41&quot; width=&quot;528&quot; height=&quot;147&quot;/&amp;#x003E;
+
+You need to provide internet users with access to the applications that run in Cluster1.
+
+Which IP address should you include in the DNS record for Cluster1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>131.107.2.1</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>10.0.10.11</text><feedback>Correct Answer: A 
+&amp;#x003C;br&amp;#x003E;To be able to access applications on Kubernetes, you need an application Load Balancer created by Azure which have public IP. &amp;#x003C;br&amp;#x003E;
+Note: 10.X.X.X range is private. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>172.17.7.1</text><feedback>Correct Answer: A 
+&amp;#x003C;br&amp;#x003E;To be able to access applications on Kubernetes, you need an application Load Balancer created by Azure which have public IP. &amp;#x003C;br&amp;#x003E;
+Note: 10.X.X.X range is private. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>192.168.10.2</text><feedback>Correct Answer: A 
+&amp;#x003C;br&amp;#x003E;To be able to access applications on Kubernetes, you need an application Load Balancer created by Azure which have public IP. &amp;#x003C;br&amp;#x003E;
+Note: 10.X.X.X range is private. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have a deployment template named Template1 that is used to deploy 10 Azure web apps.
+You need to identify what to deploy before you deploy Template1. The solution must minimize Azure costs.
+
+What should you identify?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>five Azure Application Gateways</text><feedback>Correct Answer: B &amp;#x003C;br&amp;#x003E;Creating one App Service Plan, you can support up to 10 Web Apps. &amp;#x003C;br&amp;#x003E;Adding any of the other resources are pointless and not noted as a requirement. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>one App Service plan</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>10 App Service plans</text><feedback>Correct Answer: B &amp;#x003C;br&amp;#x003E;Creating one App Service Plan, you can support up to 10 Web Apps. &amp;#x003C;br&amp;#x003E;Adding any of the other resources are pointless and not noted as a requirement. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>one Azure Traffic Manager</text><feedback>Correct Answer: B &amp;#x003C;br&amp;#x003E;Creating one App Service Plan, you can support up to 10 Web Apps. &amp;#x003C;br&amp;#x003E;Adding any of the other resources are pointless and not noted as a requirement. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>one Azure Application Gateway</text><feedback>Correct Answer: B &amp;#x003C;br&amp;#x003E;Creating one App Service Plan, you can support up to 10 Web Apps. &amp;#x003C;br&amp;#x003E;Adding any of the other resources are pointless and not noted as a requirement. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You plan to deploy an Azure container instance by using the following Azure Resource Manager template
+&amp;#x003C;img src=&quot;q27t41.png&quot; alt=&quot;q27t41.png&quot; title=&quot;q27t41&quot; width=&quot;412&quot; height=&quot;722&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the template.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q27t42.jpg&quot; alt=&quot;q27t42.jpg&quot; title=&quot;q27t42&quot; width=&quot;567&quot; height=&quot;184&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Internet users [answer choice]
+can connect to the container from any device</text><feedback></feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Internet users [answer choice]
+cannot connect to the container</text><feedback>Correct Answer is:&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+1) Internet users &quot;can connect to the container from any device&quot; 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+2) If Internet Information Services (IIS) in the container fails, &quot;the container will restart automatically&quot;. 
+Explanation: No Access restrictions are specified. The &quot;restartPolicy&quot; is set as &quot;OnFailure&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-template</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Internet users [answer choice]
+can connect to the container from devices that run Windows</text><feedback>Correct Answer is:&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+1) Internet users &quot;can connect to the container from any device&quot; 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+2) If Internet Information Services (IIS) in the container fails, &quot;the container will restart automatically&quot;. 
+Explanation: No Access restrictions are specified. The &quot;restartPolicy&quot; is set as &quot;OnFailure&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-template</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If internet Information Services(IIS) in the container fail, [answer choise]
+the container will restart automatically</text><feedback></feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If internet Information Services(IIS) in the container fail, [answer choise]
+the container will only restart manually</text><feedback>Correct Answer is:&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+1) Internet users &quot;can connect to the container from any device&quot; 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+2) If Internet Information Services (IIS) in the container fails, &quot;the container will restart automatically&quot;. 
+Explanation: No Access restrictions are specified. The &quot;restartPolicy&quot; is set as &quot;OnFailure&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-template</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If internet Information Services(IIS) in the container fail, [answer choise]
+the container must be redeployed</text><feedback>Correct Answer is:&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+1) Internet users &quot;can connect to the container from any device&quot; 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+2) If Internet Information Services (IIS) in the container fails, &quot;the container will restart automatically&quot;. 
+Explanation: No Access restrictions are specified. The &quot;restartPolicy&quot; is set as &quot;OnFailure&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-template</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>#28 - You have an Azure subscription that contains a virtual machine named VM1. VM1 hosts a line-of-business application that is available 24 hours a day. VM1 has one network interface and one managed disk. VM1 uses the D4s v3 size.
+
+You plan to make the following changes to VM1:
+&amp;#x2711; Change the size to D8s v3.
+&amp;#x2711; Add a 500-GB managed disk.
+&amp;#x2711; Add the Puppet Agent extension.
+&amp;#x2711; Enable Desired State Configuration Management.
+
+Which change will cause downtime for VM1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Enable Desired State Configuration Management</text><feedback>Correct Answer: C
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+While resizing, the VM must be in a stopped state, therefore there will be a downtime. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://azure.microsoft.com/en-us/blog/resize-virtual-machines/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a 500-GB managed disk</text><feedback>Correct Answer: C
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+While resizing, the VM must be in a stopped state, therefore there will be a downtime. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://azure.microsoft.com/en-us/blog/resize-virtual-machines/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Change the size to D8s v3</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add the Puppet Agent extension</text><feedback>Correct Answer: C
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+While resizing, the VM must be in a stopped state, therefore there will be a downtime. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://azure.microsoft.com/en-us/blog/resize-virtual-machines/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an app named App1 that runs on an Azure web app named webapp1.
+The developers at your company upload an update of App1 to a Git repository named Git1.
+Webapp1 has the deployment slots shown in the following table.
+&amp;#x003C;img src=&quot;q29t41.png&quot; alt=&quot;q29t41.png&quot; title=&quot;q29t41&quot; width=&quot;507&quot; height=&quot;99&quot;/&amp;#x003E;
+
+You need to ensure that the App1 update is tested before the update is made available to users.
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Swap the slots</text><feedback>The answer correct ia A and D. - Deploying an app to a slot first(Test is this case) and swapping it into production makes sure that all instances of the slot are warmed up before being swapped into production. - After a swap, the slot with previously staged app now has the previous production app. If the changes swapped into the production slot aren&apos;t as you expect, you can perform the same swap immediately to get your &quot;last known good site&quot; back.
+&amp;#x003C;br&amp;#x003E;
+Correct Answer: A and D
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Deploy the App1 update to webapp1-prod, and then test the update</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stop webapp1-prod</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Deploy the App1 update to webapp1-test, and then test the update</text><feedback>The answer correct ia A and D. - Deploying an app to a slot first(Test is this case) and swapping it into production makes sure that all instances of the slot are warmed up before being swapped into production. - After a swap, the slot with previously staged app now has the previous production app. If the changes swapped into the production slot aren&apos;t as you expect, you can perform the same swap immediately to get your &quot;last known good site&quot; back.
+&amp;#x003C;br&amp;#x003E;
+Correct Answer: A and D
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stop webapp1-test</text><feedback>Correct Answer: A and D
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference:&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that has the following providers registered:
+&amp;#x2711; Authorization
+&amp;#x2711; Automation
+&amp;#x2711; Resources
+&amp;#x2711; Compute
+&amp;#x2711; KeyVault
+&amp;#x2711; Network
+&amp;#x2711; Storage
+&amp;#x2711; Billing
+&amp;#x2711; Web
+
+Subscription1 contains an Azure virtual machine named VM1 that has the following configurations:
+&amp;#x2711; Private IP address: 10.0.0.4 (dynamic)
+&amp;#x2711; Network security group (NSG): NSG1
+&amp;#x2711; Public IP address: None
+&amp;#x2711; Availability set: AVSet
+&amp;#x2711; Subnet: 10.0.0.0/24
+&amp;#x2711; Managed disks: No
+&amp;#x2711; Location: East US
+
+You need to record all the successful and failed connection attempts to VM1.
+Which three actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Enable Azure Network Watcher in the East US Azure region.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add an Azure Network Watcher connection monitor.</text><feedback>Community vote distribution
+DEF (59%)
+AEF (33%)
+
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Register the MicrosoftLogAnalytics provider.</text><feedback>Community vote distribution
+DEF (59%)
+AEF (33%)
+
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create an Azure Storage account.</text><feedback>Community vote distribution
+DEF (59%)
+AEF (33%)
+
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Register the Microsoft.Insights resource provider.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Enable Azure Network Watcher flow logs.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

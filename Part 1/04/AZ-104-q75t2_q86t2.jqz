@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>JMG</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>
+You have an Azure subscription that contains a user named User1 and the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;75p1.PNG&quot; alt=&quot;75p1.PNG&quot; title=&quot;75p1&quot; width=&quot;492&quot; height=&quot;125&quot;/&amp;#x003E;
+
+NSG1 is associated to networkinterface1.
+
+User1 has role assignments for NSG1 as shown in the following table.
+
+&amp;#x003C;img src=&quot;75p2.PNG&quot; alt=&quot;75p2.PNG&quot; title=&quot;75p2&quot; width=&quot;559&quot; height=&quot;139&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;75p3.png&quot; alt=&quot;75p3.png&quot; title=&quot;75p3&quot; width=&quot;750&quot; height=&quot;175&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>User1 can create an storage account in RG1 YES</text><feedback>(YES)User1 can create a storage account in RG1, since User1 has Storage Account Contribute Role inherited from Resource Group.
+
+
+&amp;#x003C;img src=&quot;75p4.png&quot; alt=&quot;75p4.png&quot; title=&quot;75p4&quot; width=&quot;624&quot; height=&quot;145&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create an storage account in RG1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can modify the DNS settings of networkinterface1 YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can modify the DNS settings of networkinterface1 NO</text><feedback>(NO) User1 can modify the DNS settings of networkinterface1, since it requires Network Contribute role referring to the following link. https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface?tabs=network-interface-portal#permissions</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create an inboud security rule to filter inbound traffic to networkinterface1 YES</text><feedback>(YES) User1 can create an inbound security rule to filter inbound traffic to networkinterface1, since User1 has Contributor role for NSG1</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create an inboud security rule to filter inbound traffic to networkinterface1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.
+
+Subscription1 has a user named User1. User1 has the following roles:
+
+&amp;#x2022; Reader
+&amp;#x2022; Security Admin
+&amp;#x2022; Security Reader
+
+You need to ensure that User1 can assign the Reader role for VNet1 to other users.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Access Administrator role for VNet1.</text><feedback>B is correct, You need to have the Owner Role or Access Administrator role to assign roles but Access Administrator role is preferred as it is least privilege. https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Network Contributor role for RG1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have three Azure subscriptions named Sub1, Sub2, and Sub3 that are linked to an Azure AD tenant.
+
+The tenant contains a user named User1, a security group named Group1, and a management group named MG1. User is a member of Group1.
+
+Sub1 and Sub2 are members of MG1. Sub1 contains a resource group named RG1. RG1 contains five Azure functions.
+
+You create the following role assignments for MG1:
+
+&amp;#x2022; Group1: Reader
+&amp;#x2022; User1: User Access Administrator
+
+You assign User the Virtual Machine Contributor role for Sub1 and Sub2.
+&amp;#x003C;img src=&quot;77p1.png&quot; alt=&quot;77p1.png&quot; title=&quot;77p1&quot; width=&quot;957&quot; height=&quot;336&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>The group1 members can view the configurations of the azure functions YES</text><feedback>&amp;#x003C;img src=&quot;77p1.png&quot; alt=&quot;77p1.png&quot; title=&quot;77p1&quot; width=&quot;957&quot; height=&quot;336&quot;/&amp;#x003E;
+Microsoft.Resources/subscriptions/resourceGroups/read Gets or lists resource groups. https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The group1 members can view the configurations of the azure functions NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can assign the owner role for RG1 YES</text><feedback>&amp;#x003C;img src=&quot;77p1.png&quot; alt=&quot;77p1.png&quot; title=&quot;77p1&quot; width=&quot;957&quot; height=&quot;336&quot;/&amp;#x003E;
+Microsoft.Resources/subscriptions/resourceGroups/read Gets or lists resource groups. https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can assign the owner role for RG1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create a new resource group and deploy a virtual machine to the new group YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create a new resource group and deploy a virtual machine to the new group NO</text><feedback>&amp;#x003C;img src=&quot;77p1.png&quot; alt=&quot;77p1.png&quot; title=&quot;77p1&quot; width=&quot;957&quot; height=&quot;336&quot;/&amp;#x003E;
+Microsoft.Resources/subscriptions/resourceGroups/read Gets or lists resource groups. https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;78p1.png&quot; alt=&quot;78p1.png&quot; title=&quot;78p1&quot; width=&quot;422&quot; height=&quot;103&quot;/&amp;#x003E;
+You need to assign User1 the Storage File Data SMB Share Contributor role for share1.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Enable identity-based data access for the file shares in storage1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the security profile for the file shares in storage1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Select Default to Azure Active Directory authorization in the Azure portal for storage1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure Access control (IAM) for share1.</text><feedback>To assign the Storage File Data SMB Share Contributor role to User1 for share1, you should follow these steps: 1. In the Azure portal, navigate to your file share or create a new one. 2. Select Access Control (IAM). 3. Click on Add a role assignment. 4. In the Add role assignment blade, select the appropriate built-in role from the Role list: Storage File Data SMB Share Contributor. 5. Leave the Assign access to at the default setting: Azure AD user, group, or service principal. 6. Select the target Azure AD identity representing User1. Here is the link to MS docs: https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-assign-permissions?tabs=azure-portal#share-level-permissions-for-specific-azure-ad-users-or-groups</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.
+
+Subscription1 has a user named User1. User1 has the following roles:
+
+&amp;#x2022; Reader
+&amp;#x2022; Security Admin
+&amp;#x2022; Security Reader
+
+You need to ensure that User1 can assign the Reader role for VNet1 to other users.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the User Access Administrator role for VNet1.</text><feedback>B is indeed correct. Only User Access Administrator role and Owner role can assign permissions.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Remove User1 from the Security Reader and Reader roles for Subscription1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Contributor role for VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.
+&amp;#x003C;img src=&quot;80p1.png&quot; alt=&quot;80p1.png&quot; title=&quot;80p1&quot; width=&quot;348&quot; height=&quot;98&quot;/&amp;#x003E;
+
+Adatum.com contains the users shown in the following table.
+
+&amp;#x003C;img src=&quot;80p2.png&quot; alt=&quot;80p2.png&quot; title=&quot;80p2&quot; width=&quot;233&quot; height=&quot;96&quot;/&amp;#x003E;
+
+You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;80p3.png&quot; alt=&quot;80p3.png&quot; title=&quot;80p3&quot; width=&quot;665&quot; height=&quot;604&quot; style=&quot;float: left;&quot;/&amp;#x003E;
+Group2 is NOT directly assigned a license.
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;80p4.png&quot; alt=&quot;80p4.png&quot; title=&quot;80p4&quot; width=&quot;650&quot; height=&quot;194&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can assign User1 the Microsoft Defender for Cloud Apps Discovery license YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can assign User1 the Microsoft Defender for Cloud Apps Discovery license NO</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can remove the Azure Active Directory Premium P2 license for User1 YES</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can remove the Azure Active Directory Premium P2 license for User1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 is assigned the Azure Active Directory Premium P2 YES</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 is assigned the Azure Active Directory Premium P2 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.
+&amp;#x003C;img src=&quot;81p1.png&quot; alt=&quot;81p1.png&quot; title=&quot;81p1&quot; width=&quot;523&quot; height=&quot;107&quot;/&amp;#x003E;
+You need to modify the JobTitle and UsageLocation attributes for the users.
+
+For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;81p2.png&quot; alt=&quot;81p2.png&quot; title=&quot;81p2&quot; width=&quot;446&quot; height=&quot;320&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Jobtitle: User1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Jobtitle: User1 and User2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Jobtitle: User1 and User3 only</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Jobtitle: User1, User2 and User3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Usage location: User1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Usage location: User1 and User2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Usage location: User1 and User3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Usage location: User1, User2 and User3</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure Active Directory (Azure AD) tenant named contoso.com.
+
+You have a CSV file that contains the names and email addresses of 500 external users.
+
+You need to create a guest user account in contoso.com for each of the 500 external users.
+
+Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each external user.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>answer is actually &quot;B - No&quot; because they are guest users and should be invited not created, therefore make use of Bulk invite - https://docs.microsoft.com/en-us/azure/active-directory/external-identities/tutorial-bulk-invite</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure Active Directory (Azure AD) tenant named contoso.com.
+
+You have a CSV file that contains the names and email addresses of 500 external users.
+
+You need to create a guest user account in contoso.com for each of the 500 external users.
+
+Solution: You create a PowerShell script that runs the New-MgInvitation cmdlet for each external user.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>The question is: You need to CREATE a guest user account in contoso.com for each of the 500 external users. The command provided as an answer to this question is New-MgInvitation, it INVITES guest users and do NOT create users. Answer is B: No. Reference: https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.identity.signins/new-mginvitation?view=graph-powershell-1.0</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.
+
+A user named User1 has the following roles for Subscription1:
+
+&amp;#x2022; Reader
+&amp;#x2022; Security Admin
+&amp;#x2022; Security Reader
+
+You need to ensure that User1 can assign the Reader role for VNet1 to other users.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Assign User1 the Contributor role for VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Network Contributor role for VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the User Access Administrator role for VNet1.</text><feedback>Assigning roles to users is at least User Access Administrator</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.
+
+User named User1 has the following roles for Subscription1:
+
+&amp;#x2022; Reader
+&amp;#x2022; Security Admin
+&amp;#x2022; Security Reader
+
+You need to ensure that User1 can assign the Reader role for VNet1 to other users.
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Network Contributor role for VNet1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the User Access Administrator role for VNet1</text><feedback>To allow User1 to assign the Reader role for VNet1 to other users, User1 needs to have permissions related to Azure RBAC (Role-Based Access Control). Among the listed options: A. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1. - The Contributor role allows a user to manage everything except access. B. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1. - Again, the Contributor role doesn&apos;t grant User1 the ability to assign roles to others. C. Assign User1 the Network Contributor role for VNet1. - This role provides permissions to manage networking resources, not role assignments. D. Assign User1 the User Access Administrator role for VNet1. - This role provides permissions to manage user access to Azure resources, which means User1 can assign roles to other users for VNet1. The correct action to meet the requirement is: D. Assign User1 the User Access Administrator role for VNet1.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.
+
+You need to use AzCopy to copy data to the blob storage and file storage in storage1.
+
+Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;86p1.png&quot; alt=&quot;86p1.png&quot; title=&quot;86p1&quot; width=&quot;852&quot; height=&quot;468&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Blob storage: Azure AD only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob storage: Shared access signatures (SAS) only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob storage: Azure AD and shared access signatures (SAS)</text><feedback>First: Azure AD &amp;#x0026; SAS Second: SAS Source: https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#authorize-azcopy</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File storage: Azure AD only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File storage: Azure AD only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File storage: Shared access signatures (SAS) only</text><feedback>First: Azure AD &amp;#x0026; SAS Second: SAS Source: https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#authorize-azcopy</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File storage: Azure AD and shared access signatures (SAS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
