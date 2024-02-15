@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>DOM</dc:creator>
+    <dc:title>AZ104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have a general-purpose v1 Azure Storage account named storage1 that uses locally-redundant storage (LRS).
+
+You need to ensure that the data in the storage account is protected if a zone fails. The solution must minimize costs and administrative effort.
+
+What should you do first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Create a new storage account.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure object replication rules.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Upgrade the account to general-purpose v2.</text><feedback>The lifecycle management feature is available in all Azure regions for general purpose v2 (GPv2) accounts, blob storage accounts, premium block blobs storage accounts, and Azure Data Lake Storage Gen2 accounts. 
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle- management-concepts?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the Replication setting of storage1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the storage accounts shown in the following table.
+
+&amp;#x003C;img src=&quot;Q36T3.png&quot; alt=&quot;Q36T3.png&quot; title=&quot;Q36T3&quot; width=&quot;880&quot; height=&quot;251&quot;/&amp;#x003E;
+
+You plan to manage the data stored in the accounts by using lifecycle management rules.
+
+To which storage accounts can you apply lifecycle management rules?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>storage1 only</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage1 and storage2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage3 and storage4 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage1, storage2, and storage3 only</text><feedback>The lifecycle management feature is available in all Azure regions for general purpose v2 (GPv2) accounts, blob storage accounts, premium block blobs storage accounts, and Azure Data Lake Storage Gen2 accounts. 
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle- management-concepts?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage1, storage2, storage3, and storage4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You create an Azure Storage account named contosostorage.
+
+You plan to create a file share named data.
+
+Users need to map a drive to the data file share from home computers that run Windows 10.
+
+Which outbound port should you open between the home computers and the data file share?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>80</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>443</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>445</text><feedback>Server Message Block (SMB) is used to connect to an Azure file share over the internet. The SMB protocol requires TCP port 445 to be open.
+
+As this is port for SMB protocol to share files Incorrect: Port 80: HTTP, this is for web Port 443: HTTPS, for web too Port 3389: Remote desktop protocol (RDP)
+
+https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files- windows</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3389</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1. 
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure File Storage</text><feedback>https://docs.microsoft.com/en-us/azure/import-export/storage-import-export- service</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>An Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Data Factory</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure SQL Database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains an Azure Storage account named storageaccount1.
+
+You export storageaccount1 as an Azure Resource Manager template. 
+
+The template contains the following sections
+
+&amp;#x003C;img src=&quot;Q39T3.png&quot; alt=&quot;Q39T3.png&quot; title=&quot;Q39T3&quot; width=&quot;855&quot; height=&quot;1141&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A server has a public IP address 131.107.103.10 can access storageaccount1 - Yes</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A server has a public IP address 131.107.103.10 can access storageaccount1 - No</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Individual blobs in storageaccount1 can be set to use the archive tier - Yes</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Individual blobs in storageaccount1 can be set to use the archive tier - No</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Global administrations in Azure Active Directory (Azure AD) can access a file share hosted in storageaccount1 by using thier Azure AD credentials - Yes</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Global administrations in Azure Active Directory (Azure AD) can access a file share hosted in storageaccount1 by using thier Azure AD credentials - No</text><feedback>Box 1- Yes. VirtualNetworkRules &amp;#x0026; IpRules are blank, with the default action Allow. 
+Box 2- Yes. Individual blobs can be set to the archive tier - ref.https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview 
+Box 3. No. To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments: A data access role, such as Storage Blob Data Contributor The Azure Resource Manager Reader role
+ 
+References:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access?tabs=portal
+https://docs.microsoft.com/en-us/azure/templates/microsoft.storage/ storageaccounts?tabs=json</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Uou have an Azure subscription that contains a storage account named storage1.
+
+&amp;#x003C;img src=&quot;Q40T3.png&quot; alt=&quot;Q40T3.png&quot; title=&quot;Q40T3&quot; width=&quot;834&quot; height=&quot;276&quot;/&amp;#x003E;
+
+You have the devices shown in the following table.
+
+From which devices can you use AzCopy to copy data to storage1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Device 1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Device1, Device2 and Device3</text><feedback>AzCopy is supported in all three operating systems. First, download the AzCopy V10 executable file to any directory on your computer. AzCopy V10 is just an executable file, so there&apos;s nothing to install. Windows 64-bit (zip) Windows 32-bit (zip) Linux x86-64 (tar) Linux ARM64 Preview (tar) macOS (zip) Note: If you want to copy data to and from your Azure Table storage service, then install AzCopy version 7.3. 
+https://docs.microsoft.com/en- us/azure/storage/common/storage-use-azcopy-v1</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Device1 and Device2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Device1 and Device3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure Storage account named storage1 that contains a blob container named container1.
+
+You need to prevent new content added to container1 from being modified for one year.
+
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>The access tier</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>An access policy</text><feedback>Time-based retention policies: With a time-based retention policy, users can set policies to store data for a specified interval. When a time-based retention policy is set, objects can be created and read, but not modified or deleted. After the retention period has expired, objects can be deleted but not overwritten.
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage- overview?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Access control (IAM) settings</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The access level</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+
+You have an Azure Storage account named storage1 that contains a blob container. The blob container has a default access tier of Hot. Storage1 contains a container named conainer1.
+
+You create lifecycle management rules in storage1 as shown in the following table.
+
+&amp;#x003C;img src=&quot;Q42T3_1.png&quot; alt=&quot;Q42T3_1.png&quot; title=&quot;Q42T3_1&quot; width=&quot;883&quot; height=&quot;295&quot;/&amp;#x003E;
+
+You perform the actions shown in the following table.
+
+&amp;#x003C;img src=&quot;Q42T3_2.png&quot; alt=&quot;Q42T3_2.png&quot; title=&quot;Q42T3_2&quot; width=&quot;882&quot; height=&quot;159&quot;/&amp;#x003E;
+
+For each of the following statements, select if the statement is true.
+
+NOTE: Each correct selection is worth one point. Hot Area:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>On october 10, you can read Dep1File1.docx. - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On october 10, you can read Dep1File1.docx. -  No</text><feedback>Rule1 archives blobs(aka files) after 2 days of inactivity and deletes after 9 Rule2 moves to cool tier after 3 days and archive tier after 9 Of the three files, Rule1 only applies to Dep1File1.docx, while the other files have Rule2 applied. 
+
+The question asks if you can read the files on the 10th, not if they still exist. 
+Files in the archive tier CANNOT be read as documented by Microsoft: &quot;While a blob is in archive storage, the blob data is offline and can&apos;t be read or modified. To read or download a blob in archive, you must first rehydrate it to an online tier.&quot;
+ https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob- storage-tiers Dep1File1.docx
+was last updated 8 days ago, and would be in archive tier File2.docx was last updated 5 days ago, and would be in cool tier File3.docx was last updated 8 days ago and would be in cool tier Dep1File1 &amp;#x003E; No cannot be read File2 &amp;#x003E; Yes cannot be read File3 &amp;#x003E; Yes can be read</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On october 10, you can read File2.docx. - Yes</text><feedback>Rule1 archives blobs(aka files) after 2 days of inactivity and deletes after 9 Rule2 moves to cool tier after 3 days and archive tier after 9 Of the three files, Rule1 only applies to Dep1File1.docx, while the other files have Rule2 applied. 
+
+The question asks if you can read the files on the 10th, not if they still exist. 
+Files in the archive tier CANNOT be read as documented by Microsoft: &quot;While a blob is in archive storage, the blob data is offline and can&apos;t be read or modified. To read or download a blob in archive, you must first rehydrate it to an online tier.&quot;
+ https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob- storage-tiers Dep1File1.docx
+was last updated 8 days ago, and would be in archive tier File2.docx was last updated 5 days ago, and would be in cool tier File3.docx was last updated 8 days ago and would be in cool tier Dep1File1 &amp;#x003E; No cannot be read File2 &amp;#x003E; Yes cannot be read File3 &amp;#x003E; Yes can be read</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On october 10, you can read File2.docx. - No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On october 10, you can read File3.docx. - Yes</text><feedback>Rule1 archives blobs(aka files) after 2 days of inactivity and deletes after 9 Rule2 moves to cool tier after 3 days and archive tier after 9 Of the three files, Rule1 only applies to Dep1File1.docx, while the other files have Rule2 applied. 
+
+The question asks if you can read the files on the 10th, not if they still exist. 
+Files in the archive tier CANNOT be read as documented by Microsoft: &quot;While a blob is in archive storage, the blob data is offline and can&apos;t be read or modified. To read or download a blob in archive, you must first rehydrate it to an online tier.&quot;
+ https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob- storage-tiers Dep1File1.docx
+was last updated 8 days ago, and would be in archive tier File2.docx was last updated 5 days ago, and would be in cool tier File3.docx was last updated 8 days ago and would be in cool tier Dep1File1 &amp;#x003E; No cannot be read File2 &amp;#x003E; Yes cannot be read File3 &amp;#x003E; Yes can be read</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On october 10, you can read File3.docx. - No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You are configuring Azure Active Directory (Azure AD) authentication for an Azure Storage account named storage1.
+
+You need to ensure that the members of a group named Group1 can upload files by using the Azure portal. The solution must use the principle of least privilege.
+
+Which two roles should you configure for storage1? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Storage Account Contributor</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Storage Blob Data Contributor</text><feedback>To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments:
+*	A data access role, such as Storage Blob Data Reader or Storage Blob Data Contributor
+*	The Azure Resource Manager Reader role, at a minimum
+The Reader role is an Azure Resource Manager role that permits users  to view storage account resources, but not modify them. It does not provide read permissions to data in Azure Storage, but only to account management resources. The Reader role is necessary so that users can navigate to blob containers in the Azure portal.
+Note: in order from least to greatest permissions:
+
+The Reader and Data  Access  role - The Storage Account Contributor role
+The Azure Resource Manager Contributor role The Azure Resource Manager Owner role Reference:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access
+
+
+&quot;The Reader role is an Azure Resource Manager role that permits users to view storage account resources, but not modify them. It does not provide read permissions to data in Azure Storage, but only to account management resources.
+ 
+The Reader role is necessary so that users can navigate to blob containers in the Azure portal. For example, if you assign the Storage Blob Data Contributor role to user Mary at the level of a container named sample-container, then Mary is granted read, write, and delete access to all of the blobs in that container.
+However, if Mary wants to view a blob in the Azure portal, then the Storage Blob Data Contributor role by itself will not provide sufficient permissions to navigate through the portal to the blob in order to view it. The additional permissions are required to navigate through the portal and view the other resources that are visible there.&quot; - https://docs.microsoft.com/en-us/azure/storage/blobs/assign- azure-role-data-access?tabs=portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Reader</text><feedback>To access blob data in the Azure portal with Azure AD credentials, a user must have the following role assignments:
+*	A data access role, such as Storage Blob Data Reader or Storage Blob Data Contributor
+*	The Azure Resource Manager Reader role, at a minimum
+The Reader role is an Azure Resource Manager role that permits users  to view storage account resources, but not modify them. It does not provide read permissions to data in Azure Storage, but only to account management resources. The Reader role is necessary so that users can navigate to blob containers in the Azure portal.
+Note: in order from least to greatest permissions:
+
+The Reader and Data  Access  role - The Storage Account Contributor role
+The Azure Resource Manager Contributor role The Azure Resource Manager Owner role Reference:
+https://docs.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data- access
+
+
+&quot;The Reader role is an Azure Resource Manager role that permits users to view storage account resources, but not modify them. It does not provide read permissions to data in Azure Storage, but only to account management resources.
+ 
+The Reader role is necessary so that users can navigate to blob containers in the Azure portal. For example, if you assign the Storage Blob Data Contributor role to user Mary at the level of a container named sample-container, then Mary is granted read, write, and delete access to all of the blobs in that container.
+However, if Mary wants to view a blob in the Azure portal, then the Storage Blob Data Contributor role by itself will not provide sufficient permissions to navigate through the portal to the blob in order to view it. The additional permissions are required to navigate through the portal and view the other resources that are visible there.&quot; - https://docs.microsoft.com/en-us/azure/storage/blobs/assign- azure-role-data-access?tabs=portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Contributor</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Storage Blob Data Reader</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+
+You have an Azure Storage account named storage1 that stores images. You need to create a new storage account and replicate the images in storage1 to the new account by using object replication.
+
+How should you configure the new account? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point. Hot Area:
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Account type: StorageV2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type: 
+StorageV2 or FileStorage only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type: 
+StorageV2 or BlobStorage only</text><feedback>Account type: StorageV2 or BlobStorage only Object type to create in the new account: Container Object Replication supports General Purpose V2 and Premium Blob accounts. Blob versioning should be enabled on both the source and destination storage account. Change feed is enabled on the source storage account.
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/object-replication- overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type: 
+StorageV2, BlobStorage or FileStorage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Object type to create in the new account: 
+Container</text><feedback>Account type: StorageV2 or BlobStorage only Object type to create in the new account: Container Object Replication supports General Purpose V2 and Premium Blob accounts. Blob versioning should be enabled on both the source and destination storage account. Change feed is enabled on the source storage account.
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/object-replication- overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Object type to create in the new account: 
+File share</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Object type to create in the new account: 
+Table</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Object type to create in the new account: 
+Queue</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an on-premises server that contains a folder named D:\Folder1.
+You need to copy the contents of D:\Folder1 to the public container in an Azure Storage account named contosodata.
+
+Which command should you run?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>https://contosodata.blob.core.windows.net/public</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>azcopy sync D:\folder1 https://contosodata.blob.core.windows.net/public --snapshot</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive</text><feedback>A: URL of the Storage Account. B: The azcopy sync command replicates the source location to the destination location. However, the file is skipped if the last modified time in the destination is more recent. C: The azcopy copy command copies a directory (and all the files in that directory) to a blob container. The result is a directory in the container by the same name. D: The az storage blob copy start-batch command copies multiple blobs to a blob container. Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage- use-azcopy-blobs
+https://docs.microsoft.com/en-us/azure/storage/common/storage-ref-azcopy- copy
+
+The azcopy copy command copies a directory (and all of the files in that directory) to a blob container. The result is a directory in the container by the same name.
+Incorrect Answers:
+B: The azcopy sync command replicates the source location to the destination location. However, the file is skipped if the last modified time in the destination is more recent.
+D: The az storage blob copy start-batch command copies multiple blobs to a blob container.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy- blobs https://docs.microsoft.com/en-us/azure/storage/common/storage-ref- azcopy-copy</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>az storage blob copy start-batch D:\Folder1 https://contosodata.blob.core.windows.net/public</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription.
+In the Azure portal, you plan to create a storage account named storage1 that will have the following settings:
+
+&amp;#x2711; Performance: Standard
+
+&amp;#x2711; Replication: Zone-redundant storage (ZRS)
+
+&amp;#x2711; Access tier (default): Cool
+
+&amp;#x2711; Hierarchical namespace: Disabled
+
+You need to ensure that you can set Account kind for storage1 to BlockBlobStorage.
+
+Which setting should you modify first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Performance</text><feedback>https://docs.microsoft.com/en-us/azure/storage/common/storage-account- create?tabs=azure-portal Select Standard performance for general-purpose v2 storage accounts (default). This type of account is recommended by Microsoft for most scenarios. For more information, see Types of storage accounts. Select Premium for scenarios requiring low latency. After selecting Premium, select the type of premium storage account to create. The following types of premium storage accounts are available: Block blobs File shares Page blobs
+
+https://docs.microsoft.com/en-us/azure/storage/common/storage-account- overview https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob- performance-tiers</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Replication</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Access tier (default)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Hierarchical namespace</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Ariel</dc:creator>
+    <dc:title>Az104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Az104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription named Sub1 that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q99t2.png&quot; alt=&quot;q99t2.png&quot; title=&quot;q99t2&quot; width=&quot;310&quot; height=&quot;113&quot;/&amp;#x003E;
+
+You create a user named Admin1. 
+
+To what can you add Admin1 as a co-administrator?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>RG1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>MG1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Sub1</text><feedback>The correct answer is: C. Sub1 You can add Admin1 as a co-administrator to the Sub1 subscription. You cannot add Admin1 as a co-administrator to the RG1 resource group, MG1 management group, or VM1 virtual machine. Co-administrators have full access to all resources in a subscription, including the ability to create, read, update, and delete resources. To add Admin1 as a co-administrator to Sub1: In the Azure portal, navigate to Sub1. Click Access control (IAM). Click Assign role. Select the Co-Administrator role. Select Admin1 in the Select drop-down list. Click Assign. Once the role has been assigned, Admin1 will have full access to all resources in Sub1. Note: Co-administrators can only be assigned at the subscription scope. You cannot assign co-administrators to resource groups, management groups, or virtual machines.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains the storage accounts shown in the following table:
+
+&amp;#x003C;img src=&quot;Q1T3.jpg&quot; alt=&quot;T3Q1.jpg&quot; title=&quot;Q1T3&quot; width=&quot;707&quot; height=&quot;148&quot;/&amp;#x003E;
+
+
+You plan to use the Azure Import/Export service to export data from Subscription1. You need to identify which storage account can be used to export the data. What should you identify?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>storage1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage4</text><feedback>Azure Import/Export service supports the following of storage accounts: &amp;#x2711; Standard General Purpose v2 storage accounts (recommended for most scenarios) &amp;#x2711; Blob Storage accounts &amp;#x2711; General Purpose v1 storage accounts (both Classic or Azure Resource Manager deployments), Azure Import/Export service supports the following storage types: &amp;#x2711; Import supports Azure Blob storage and Azure File storage &amp;#x2711; Export supports Azure Blob storage Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-requirements</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - 
+You have Azure Storage accounts as shown in the following exhibit
+&amp;#x003C;img src=&quot;Q2T31.jpg&quot; alt=&quot;Q2T31.jpg&quot; title=&quot;Q2T3&quot; width=&quot;701&quot; height=&quot;632&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q2t32.jpg&quot; alt=&quot;q2t32.jpg&quot; title=&quot;q2t32&quot; width=&quot;841&quot; height=&quot;368&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Table Storage: storageaccount1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Table Storage: storageaccount2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Table Storage: storageaccount3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Table Storage: storageaccount1 and storageaccount2</text><feedback>Box 1: storageaccount1 and storageaccount2 only Box 2: All the storage accounts https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#legacy-storage-account-types</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Table Storage:  storageaccount1 and storageaccount3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob Storage: storageaccount3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob Storage: storageaccount2 and storageaccount3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob Storage: storageaccount1 and storageaccount3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Blob Storage: all the storage account</text><feedback>Box 1: storageaccount1 and storageaccount2 only Box 2: All the storage accounts https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#legacy-storage-account-types</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have Azure subscription that includes data in following locations:
+
+&amp;#x003C;img src=&quot;Q3T3.jpg&quot; alt=&quot;Q3T3.jpg&quot; title=&quot;Q3T3&quot; width=&quot;659&quot; height=&quot;193&quot;/&amp;#x003E;
+
+You plan to export data by using Azure import/export job named Export1. 
+You need to identify the data that can be exported by using Export1. 
+
+Which data should you identify?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>DB1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>container1</text><feedback>Answer is correct. B - Blob Container. For Azure file share, it is tricky as it is mentioned Azure Files can be used for export and import. But I tested especially with file share and it doesn&apos;t work. Maybe work for storage account with type file or something. but not Azure file shares.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>share1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Table1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure Storage account named storage1.
+You have an Azure App Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity.
+You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements:
+&amp;#x2711; Minimize the number of secrets used.
+&amp;#x2711; Ensure that App2 can only read from storage1 for the next 30 days.
+
+What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q4T3.jpg&quot; alt=&quot;Q4T3.jpg&quot; title=&quot;Q4T3&quot; width=&quot;711&quot; height=&quot;423&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>APP1:
+Access Keys</text><feedback>App1: Access keys - App2: Shared access signature (SAS) A shared access signature (SAS) provides secure delegated access to resources in your storage account without compromising the security of your data. With a SAS, you have granular control over how a client can access your data. You can control what resources the client may access, what permissions they have on those resources, and how long the SAS is valid, among other parameters. Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP1:
+Advanced security</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP1:
+Access control (IAM)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP1:
+Shared access signatures (SAS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP2:
+Access Keys</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP2:
+Advanced security</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP2:
+Access control (IAM)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>APP2:
+Shared access signatures (SAS)</text><feedback>App1: Access keys - App2: Shared access signature (SAS) A shared access signature (SAS) provides secure delegated access to resources in your storage account without compromising the security of your data. With a SAS, you have granular control over how a client can access your data. You can control what resources the client may access, what permissions they have on those resources, and how long the SAS is valid, among other parameters. Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You need to create an Azure Storage account that meets the following requirements:
+&amp;#x2711; Minimizes costs.
+&amp;#x2711; Supports hot, cool, and archive blob tiers.
+&amp;#x2711; Provides fault tolerance if a disaster affects the Azure region where the account resides.
+
+How should you complete the command? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q5T3.jpg&quot; alt=&quot;Q5T3.jpg&quot; title=&quot;Q5T3&quot; width=&quot;697&quot; height=&quot;260&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Kind:
+FileStorage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Kind:
+Storage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Kind:
+StorageV2</text><feedback>Box 1: StorageV2 - You may only tier your object storage data to hot, cool, or archive in Blob storage and General Purpose v2 (GPv2) accounts. General Purpose v1 (GPv1) accounts do not support tiering. General-purpose v2 accounts deliver the lowest per-gigabyte capacity prices for Azure Storage, as well as industry-competitive transaction prices. Box 2: Standard_GRS - Geo-redundant storage (GRS): Cross-regional replication to protect against region-wide unavailability. Incorrect Answers: Locally-redundant storage (LRS): A simple, low-cost replication strategy. Data is replicated within a single storage scale unit. Read-access geo-redundant storage (RA-GRS): Cross-regional replication with read access to the replica. RA-GRS provides read-only access to the data in the secondary location, in addition to geo-replication across two regions, but is more expensive compared to GRS. Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-grs https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sku:
+Standard_GRS</text><feedback>Box 1: StorageV2 - You may only tier your object storage data to hot, cool, or archive in Blob storage and General Purpose v2 (GPv2) accounts. General Purpose v1 (GPv1) accounts do not support tiering. General-purpose v2 accounts deliver the lowest per-gigabyte capacity prices for Azure Storage, as well as industry-competitive transaction prices. Box 2: Standard_GRS - Geo-redundant storage (GRS): Cross-regional replication to protect against region-wide unavailability. Incorrect Answers: Locally-redundant storage (LRS): A simple, low-cost replication strategy. Data is replicated within a single storage scale unit. Read-access geo-redundant storage (RA-GRS): Cross-regional replication with read access to the replica. RA-GRS provides read-only access to the data in the secondary location, in addition to geo-replication across two regions, but is more expensive compared to GRS. Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-grs https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sku:
+Standard_LRS</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sku:
+Standard_RAGRS</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>sku:Premium_LRS</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the resources in the following table
+
+&amp;#x003C;img src=&quot;Q6T3.jpg&quot; alt=&quot;Q6T3.jpg&quot; title=&quot;Q6T3&quot; width=&quot;560&quot; height=&quot;159&quot;/&amp;#x003E;
+
+Store1 contains a file share named data. Data contains 5,000 files.
+You need to synchronize the files in the file share named data to an on-premises server named Server1.
+
+Which three actions should you perform? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Create a container instance</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Register Server1</text><feedback>Correct Answer: B, C and E 
+Step 1: Install the Azure File Sync agent on Server1. The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share. 
+Step 2: Register Server1. Register Windows Server with Storage Sync Service. Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server and the Storage Sync Service. 
+Step 3: Create a sync group and a cloud endpoint. A sync group defines the sync topology for a set of files. 
+
+Endpoints within a sync group are kept in sync with each other. 
+A sync group must contain one cloud, which represents an Azure file share and one or more server endpoints. 
+A server endpoint represents a path on registered server. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Install the Azure File Sync agent on Server1</text><feedback>Correct Answer: B, C and E 
+Step 1: Install the Azure File Sync agent on Server1. The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share. 
+Step 2: Register Server1. Register Windows Server with Storage Sync Service. Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server and the Storage Sync Service. 
+Step 3: Create a sync group and a cloud endpoint. A sync group defines the sync topology for a set of files. 
+
+Endpoints within a sync group are kept in sync with each other. 
+A sync group must contain one cloud, which represents an Azure file share and one or more server endpoints. 
+A server endpoint represents a path on registered server. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Download an automation script</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a sync group</text><feedback>Correct Answer: B, C and E 
+Step 1: Install the Azure File Sync agent on Server1. The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share. 
+Step 2: Register Server1. Register Windows Server with Storage Sync Service. Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server and the Storage Sync Service. 
+Step 3: Create a sync group and a cloud endpoint. A sync group defines the sync topology for a set of files. 
+
+Endpoints within a sync group are kept in sync with each other. 
+A sync group must contain one cloud, which represents an Azure file share and one or more server endpoints. 
+A server endpoint represents a path on registered server. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - 
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;Q7T3.jpg&quot; alt=&quot;Q7T3.jpg&quot; title=&quot;Q7T3&quot; width=&quot;714&quot; height=&quot;235&quot;/&amp;#x003E;
+
+The status of VM1 is Running.
+You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;Q7T3_2.jpg&quot; alt=&quot;Q7T3_2.jpg&quot; title=&quot;Q7T3_2&quot; width=&quot;699&quot; height=&quot;553&quot;/&amp;#x003E;
+
+You assign the policy by using the following parameters: Microsoft.ClassicNetwork/virtualNetworks Microsoft.Network/virtualNetworks Microsoft.Compute/virtualMachines 
+
+For each of the following statements, select Yes if the statement is true.
+
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>An administrator can move Vnet1 to RG2 -Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>An administrator can move Vnet1 to RG2 -NO</text><feedback>For item3, please see below: A policy assignment to the scope of your new or updated resource meets the criteria of a policy definition with a Deny effect. Resources that meet these 
+definitions are prevented from being created or updated. https://learn.microsoft.com/en-us/azure/governance/policy/troubleshoot/general The default value for Effect of the built-in policy &quot;Not allowed resource types&quot; is Deny. https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definiti
+
+onId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F6c112d4e-5bc7-47ae-a041-ea2d9dccd749
+
+NO HAY UNA VERIFICACION APOYADA POR LA MAYORIA (PREGUNTARLE A MIGUEL)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The state of VM1 changed to deallocated- Yes</text><feedback>For item3, please see below: A policy assignment to the scope of your new or updated resource meets the criteria of a policy definition with a Deny effect. Resources that meet these 
+definitions are prevented from being created or updated. https://learn.microsoft.com/en-us/azure/governance/policy/troubleshoot/general The default value for Effect of the built-in policy &quot;Not allowed resource types&quot; is Deny. https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definiti
+
+onId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F6c112d4e-5bc7-47ae-a041-ea2d9dccd749
+
+NO HAY UNA VERIFICACION APOYADA POR LA MAYORIA (PREGUNTARLE A MIGUEL)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The state of VM1 changed to deallocated- NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>An administrator can modify the address space of VNET2-Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>An administrator can modify the address space of VNET2-NO</text><feedback>For item3, please see below: A policy assignment to the scope of your new or updated resource meets the criteria of a policy definition with a Deny effect. Resources that meet these 
+definitions are prevented from being created or updated. https://learn.microsoft.com/en-us/azure/governance/policy/troubleshoot/general The default value for Effect of the built-in policy &quot;Not allowed resource types&quot; is Deny. https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definiti
+
+onId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F6c112d4e-5bc7-47ae-a041-ea2d9dccd749
+
+NO HAY UNA VERIFICACION APOYADA POR LA MAYORIA (PREGUNTARLE A MIGUEL)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT - 
+You have Azure subscription that includes following Azure file shares:
+&amp;#x003C;img src=&quot;Q9T3.jpg&quot; alt=&quot;Q9T3.jpg&quot; title=&quot;Q9T3&quot; width=&quot;732&quot; height=&quot;409&quot;/&amp;#x003E;
+
+You have the following on-premises servers:
+&amp;#x003C;img src=&quot;Q9T3_2.jpg&quot; alt=&quot;Q9T3_2.jpg&quot; title=&quot;Q9T3_2&quot; width=&quot;717&quot; height=&quot;255&quot;/&amp;#x003E;
+
+You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.
+You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1.
+
+For each of the following statements, select if the statement is true.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q9t33.jpg&quot; alt=&quot;q9t33.jpg&quot; title=&quot;q9t33&quot; width=&quot;815&quot; height=&quot;282&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>BOX 1- Yes</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 1- NO</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2- Yes</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2- NO</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 3- Yes</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 3- NO</text><feedback>Correct Answer: 
+Box 1: No A sync group contains one cloud endpoint, or Azure file share, and at least one server endpoint. 
+Box 2: No Azure File Sync does not support more than one server endpoint from the same server in the same Sync Group. 
+Box 3: Yes Multiple server endpoints can exist on the same volume if their namespaces are not overlapping (for example, F:\sync1 and F:\sync2) and each endpoint is syncing to a unique sync group. 
+
+Reference: 
+https://docs.microsoft.com/en-us/answers/questions/110822/azure-file-sync-multiple-sync-directories-for-same.html 
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

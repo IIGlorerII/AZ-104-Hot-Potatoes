@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #59Topic 5
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
+Balancer.
+
+The effective network security configurations for VM2 are shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q59t5.png&quot; alt=&quot;q59t5.png&quot; title=&quot;q59t5&quot; width=&quot;840&quot; height=&quot;347&quot;/&amp;#x003E;
+
+You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
+You verify that the Load Balancer rules are configured correctly.
+You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.
+
+Solution: You modify the priority of the Allow_131.107.100.50 inbound security rule.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Incorrect! The rule currently has the highest priority.
+Reference:
+https://fastreroute.com/azure-network-security-groups-explained/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Correct! The rule currently has the highest priority.
+Reference:
+https://fastreroute.com/azure-network-security-groups-explained/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #60Topic 5
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
+Another administrator plans to create several network security groups (NSGs) in the subscription.
+You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.
+
+Solution: You assign a built-in policy definition to the subscription.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Incorrect! Resource policy definition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the policy is enforced and what effect to take. By defining conventions, you can control costs and more easily manage your resources.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-policy/policy-definition</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Correct! Resource policy definition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the policy is enforced and what effect to take. By defining conventions, you can control costs and more easily manage your resources.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-policy/policy-definition</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #61Topic 5
+
+You have an Azure subscription.
+You plan to deploy an Azure Kubernetes Service (AKS) cluster to support an app named App1. On-premises clients connect to App1 by using the IP address of the pod.
+For the AKS cluster, you need to choose a network type that will support App1.
+
+What should you choose?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Kubenet</text><feedback>Incorrect! the correct answer was &quot;AzureContainer Networking Interface (CNI)&quot;! With Azure CNI, every pod gets an IP address from the subnet and can be accessed directly. These IP addresses must be unique across your network space.
+Incorrect Answers:
+A: The kubenet networking option is the default configuration for AKS cluster creation. With kubenet, nodes get an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes. Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network.
+C, D: AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/concepts-network</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Container Networking Interface (CNI)</text><feedback>Correct! With Azure CNI, every pod gets an IP address from the subnet and can be accessed directly. These IP addresses must be unique across your network space.
+Incorrect Answers:
+A: The kubenet networking option is the default configuration for AKS cluster creation. With kubenet, nodes get an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes. Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network.
+C, D: AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/concepts-network</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Hybrid Connection endpoints</text><feedback>Incorrect! the correct answer was &quot;AzureContainer Networking Interface (CNI)&quot;! With Azure CNI, every pod gets an IP address from the subnet and can be accessed directly. These IP addresses must be unique across your network space.
+Incorrect Answers:
+A: The kubenet networking option is the default configuration for AKS cluster creation. With kubenet, nodes get an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes. Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network.
+C, D: AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/concepts-network</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Private Link</text><feedback>Incorrect! the correct answer was &quot;AzureContainer Networking Interface (CNI)&quot;! With Azure CNI, every pod gets an IP address from the subnet and can be accessed directly. These IP addresses must be unique across your network space.
+Incorrect Answers:
+A: The kubenet networking option is the default configuration for AKS cluster creation. With kubenet, nodes get an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes. Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network.
+C, D: AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/concepts-network</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #62Topic 5
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains the virtual machines shown in the following table.
+
+&amp;#x003C;img src=&quot;q62t5.png&quot; alt=&quot;q62t5.png&quot; title=&quot;q62t5&quot; width=&quot;834&quot; height=&quot;105&quot;/&amp;#x003E;
+
+You deploy a load balancer that has the following configurations:
+
+&amp;#x2711; Name: LB1
+&amp;#x2711; Type: Internal
+&amp;#x2711; SKU: Standard
+&amp;#x2711; Virtual network: VNET1
+
+You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
+
+Solution: You disassociate the public IP address from the network interface of VM2.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Correct! Yes You can only attach virtual machines that are in the same location and on the same virtual network as the LB. Virtual machines must have a standard SKU public IP or no public IP. The LB needs to be a standard SKU to accept individual VMs outside an availability set or vmss. VMs do not need to have public IPs but if they do have them they have to be standard SKU. Vms can only be from a single network. When they don&amp;#x2019;t have a public IP they are assigned an ephemeral IP. Also, when adding them to a backend pool, it doesn&amp;#x2019;t matter in which status are the VMs. Note: Load balancer and the public IP address SKU must match when you use them with public IP addresses.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Incorrect! Yes You can only attach virtual machines that are in the same location and on the same virtual network as the LB. Virtual machines must have a standard SKU public IP or no public IP. The LB needs to be a standard SKU to accept individual VMs outside an availability set or vmss. VMs do not need to have public IPs but if they do have them they have to be standard SKU. Vms can only be from a single network. When they don&amp;#x2019;t have a public IP they are assigned an ephemeral IP. Also, when adding them to a backend pool, it doesn&amp;#x2019;t matter in which status are the VMs. Note: Load balancer and the public IP address SKU must match when you use them with public IP addresses.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #63Topic 5
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
+Another administrator plans to create several network security groups (NSGs) in the subscription.
+You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.
+
+Solution: You configure a custom policy definition, and then you assign the policy to the subscription.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Correct! Resource policy definition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the policy is enforced and what effect to take. By defining conventions, you can control costs and more easily manage your resources.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-policy/policy-definition</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Incorrect! Resource policy definition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the policy is enforced and what effect to take. By defining conventions, you can control costs and more easily manage your resources.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-policy/policy-definition</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #64Topic 5
+
+You have two Azure virtual networks named VNet1 and VNet2. VNet1 contains an Azure virtual machine named VM1. VNet2 contains an Azure virtual machine named VM2.
+VM1 hosts a frontend application that connects to VM2 to retrieve data.
+Users report that the frontend application is slower than usual.
+You need to view the average round-trip time (RTT) of the packets from VM1 to VM2.
+Which Azure Network Watcher feature should you use?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>IP flow verify</text><feedback>Incorrect! the correct answer was &quot;connection monitor&quot;! The connection monitor capability monitors communication at a regular interval and informs you of reachability, latency, and network topology changes between the VM and the endpoint
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Connection troubleshoot</text><feedback>Incorrect! the correct answer was &quot;connection monitor&quot; !The connection monitor capability monitors communication at a regular interval and informs you of reachability, latency, and network topology changes between the VM and the endpoint
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Connection monitor</text><feedback>Correct! The connection monitor capability monitors communication at a regular interval and informs you of reachability, latency, and network topology changes between the VM and the endpoint
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NSG flow logs</text><feedback>Incorrect! the correct answer was &quot;connection monitor&quot;! The connection monitor capability monitors communication at a regular interval and informs you of reachability, latency, and network topology changes between the VM and the endpoint
+https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #65Topic 5
+
+HOTSPOT -
+You have an Azure subscription that contains the public load balancers shown in the following table.
+
+&amp;#x003C;img src=&quot;q65t5i1.png&quot; alt=&quot;q65t5i1.png&quot; title=&quot;q65t5i1&quot; width=&quot;509&quot; height=&quot;127&quot;/&amp;#x003E;
+
+You plan to create six virtual machines and to load balance requests to the virtual machines. Each load balancer will load balance three virtual machines.
+You need to create the virtual machines for the planned solution.
+How should you create the virtual machines? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;q65t5i2.png&quot; alt=&quot;q65t5i2.png&quot; title=&quot;q65t5i2&quot; width=&quot;813&quot; height=&quot;240&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: be connected to the same virtual network</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: be created in the same resource group</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: be created in the same availability set or virtual machine scale set</text><feedback>Correct! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: run the same operating system</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:be connected to the same virtual network</text><feedback>Correct! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:be created in the same resource group</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:be created in the same availability set or virtual machine scale set</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:run the same operating system</text><feedback>Incorrect! Box 1: be created in the same availability set or virtual machine scale set.
+The Basic tier is quite restrictive. A load balancer is restricted to a single availability set, virtual machine scale set, or a single machine.
+Box 2: be connected to the same virtual network
+The Standard tier can span any virtual machine in a single virtual network, including blends of scale sets, availability sets, and machines.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #66Topic 5
+
+HOTSPOT -
+
+You have an on-premises data center and an Azure subscription. The data center contains two VPN devices. The subscription contains an Azure virtual network named VNet1. VNet1 contains a gateway subnet.
+You need to create a site-to-site VPN. The solution must ensure that if a single instance of an Azure VPN gateway fails, or a single on-premises VPN device fails, the failure will not cause an interruption that is longer than two minutes.
+What is the minimum number of public IP addresses, virtual network gateways, and local network gateways required in Azure? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+&amp;#x003C;img src=&quot;q66t5.png&quot; alt=&quot;q66t5.png&quot; title=&quot;q66t5&quot; width=&quot;841&quot; height=&quot;694&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: 1</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 2</text><feedback>Correct! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 3</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 4</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 1</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 2</text><feedback>Correct! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 3</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 4</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: 1</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: 2</text><feedback>Correct! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: 3</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: 4</text><feedback>Incorrec! the correct answer was 2-2-2! The &quot;local network gateway&quot; IS an azure resource (the on-prem VPN thing is called &quot;VPN Device&quot; in Microsoft Azure terminology) (Hence correct answer is: 2-1-2) You can try to create a &quot;Local NW GW&quot; yourself in Portal &quot;Create a local network gateway to represent the on-premises site that you want to connect to a virtual network. The local network gateway specifies the public IP address of the VPN device and IP address ranges located on the on-premises site. Later, create a VPN gateway connection between the virtual network gateway for the virtual network, and the local network gateway for the on-premises site.&quot; And if you try to create a VPN Gateway Standard in Active-Active mode you will see that only one VNet is required. The A-A config takes care of the rest. Hence the following _in Azure_: 2 Public IPs (assuming Active-Active, which comes from &amp;#x003C;2 minutes requirement) 1 VNet (see config of VPN GW in Azure) 2 Local Gateways (as you have 2 &quot;VPN Devices&quot; on-prem)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #67Topic 5
+
+You have an Azure subscription that contains two virtual machines as shown in the following table.
+
+&amp;#x003C;img src=&quot;q67t5.png&quot; alt=&quot;q67t5.png&quot; title=&quot;q67t5&quot; width=&quot;835&quot; height=&quot;83&quot;/&amp;#x003E;
+
+You perform a reverse DNS lookup for 10.0.0.4 from VM2.
+Which FQDN will be returned?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>vm1.core.windows.net</text><feedback>Incorrect! the correct answer was vm1.internal.cloudapp.net</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>vm1.azure.com</text><feedback>Incorrect! the correct answer was vm1.internal.cloudapp.net</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>vm1.westeurope.cloudapp.azure.com</text><feedback>Incorrect! the correct answer was vm1.internal.cloudapp.net</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>vm1.internal.cloudapp.net</text><feedback>Correct!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #68Topic 5
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
+Balancer.
+
+The effective network security configurations for VM2 are shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q68t5.png&quot; alt=&quot;q68t5.png&quot; title=&quot;q68t5&quot; width=&quot;820&quot; height=&quot;328&quot;/&amp;#x003E;
+
+You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
+You verify that the Load Balancer rules are configured correctly.
+You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.
+
+Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a cost of 150.
+
+Does this meet the goal?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Correct! The rule with priority 200 blocks all inbound trafic. That involves the Azure Load Balancer health probe directed to the VM. That results in VM2 being considered unhealthy and the LB does not route traffic to it (hence the issue). By placing a rule with the priority 150 that allows the AzureLoadBalancer traffic tag, VM2 is discovered as functional/healthy, the LB directs traffic to it</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Incorrect! The rule with priority 200 blocks all inbound trafic. That involves the Azure Load Balancer health probe directed to the VM. That results in VM2 being considered unhealthy and the LB does not route traffic to it (hence the issue). By placing a rule with the priority 150 that allows the AzureLoadBalancer traffic tag, VM2 is discovered as functional/healthy, the LB directs traffic to it</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #69Topic 5
+
+You have an Azure subscription that contains a policy-based virtual network gateway named GW1 and a virtual network named VNet1.
+You need to ensure that you can configure a point-to-site connection from an on-premises computer to VNet1.
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Add a service endpoint to VNet1</text><feedback>Incorrect! the correct answer was C and E! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Reset GW1</text><feedback>Incorrect! the correct answer was C and E! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a route-based virtual network gateway</text><feedback>Correct! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a connection to GW1</text><feedback>Incorrect! the correct answer was C and E! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Delete GW1</text><feedback>Correct! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a public IP address space to VNet1</text><feedback>Incorrect! the correct answer was C and E! C: A VPN gateway is used when creating a VPN connection to your on-premises network.
+Route-based VPN devices use any-to-any (wildcard) traffic selectors, and let routing/forwarding tables direct traffic to different IPsec tunnels. It is typically built on router platforms where each IPsec tunnel is modeled as a network interface or VTI (virtual tunnel interface).
+E: Policy-based VPN devices use the combinations of prefixes from both networks to define how traffic is encrypted/decrypted through IPsec tunnels. It is typically built on firewall devices that perform packet filtering. IPsec tunnel encryption and decryption are added to the packet filtering and processing engine.
+Incorrect Answers:
+F: Point-to-Site connections do not require a VPN device or a public-facing IP address.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #70Topic 5
+
+HOTSPOT -
+You have an Azure subscription that contains the resources in the following table:
+
+In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to VNet2. The adatum.com zone is configured as shown in the following exhibit:
+
+&amp;#x003C;img src=&quot;q70t5i2.png&quot; alt=&quot;q70t5i2.png&quot; title=&quot;q70t5i2&quot; width=&quot;896&quot; height=&quot;670&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>The A record for VM5 will be registered automatically in the adatum.com zone: Yes</text><feedback>Incorrect! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The A record for VM5 will be registered automatically in the adatum.com zone: No</text><feedback>Correct! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM5 van resolve VM9.adatum.com: Yes</text><feedback>Incorrect! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM5 van resolve VM9.adatum.com: No</text><feedback>Correct! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM6 van resolve VM9.adatum.com: Yes</text><feedback>Correct! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM6 van resolve VM9.adatum.com: No</text><feedback>Incorrect! Box 1: No -
+Azure DNS provides automatic registration of virtual machines from a single virtual network that&apos;s linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
+
+Box 2: No -
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
+
+Box 3: Yes -
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

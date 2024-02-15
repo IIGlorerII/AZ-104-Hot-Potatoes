@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Zero</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. 
+Adatum contains a group named Developers. 
+Subscription1 contains a resource group named Dev. 
+You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.
+
+Solution: On Dev, you assign the Logic App Contributor role to he Developers group.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Answer &quot;Yes&quot; is correct. Logic App Contributor role will allow you to create Logic Apps. 
+&amp;#x003C;br&amp;#x003E;
+See here: 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/logic-apps/logic-apps-securing-a-logic-app?tabs=azure-portal
+&amp;#x003C;br&amp;#x003E; 
+&quot;Your Azure subscription requires Contributor permissions for the resource group that contains that logic app resource. If you create a logic app resource, you automatically have Contributor access.&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure Load Balancer named LB1.
+You assign a user named User1 the roles shown in the following exhibit.
+&amp;#x003C;img src=&quot;Question52Topic2.jpg&quot; alt=&quot;Question52Topic2.jpg&quot; title=&quot;Question52Topic2&quot; width=&quot;802&quot; height=&quot;432&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+User1 can [answer choice] LB1:
+
+User1 can [answer choice] the resource group:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>User1 can delete LB1.</text><feedback>Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can create a NAT rule for LB1.</text><feedback>Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can assign access to other users for LB1.</text><feedback>Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can delete a virtual machine from the resource group</text><feedback>&amp;#x003C;br&amp;#x003E;
+Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can modify the load balances in the resource group.</text><feedback>Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can deploy an Azure Kubernetes Service (AKS) cluster to in the resource group.</text><feedback>Has full access to all resources including the right to delegate access to
+others.
+&amp;#x003C;br&amp;#x003E;
+Note:
+&amp;#x003C;br&amp;#x003E;
+There are several versions of this question in the exam. The question has two
+possible correct answers:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the User Access Administrator role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Owner role for VNet1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Other incorrect answer options you may see on the exam include the
+following:
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Remove User1 from the Security Reader and Reader roles for
+Subscription1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x2711; Assign User1 the Network Contributor role for RG1.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+References:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-anddirectory-admin-roles
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains a virtual
+network named VNet1. VNet1 is in a resource group named RG1.
+Subscription1 has a user named User1. User1 has the following roles:
+*Reader
+*Security Admin
+*Security Reader
+You need to ensure that User1 can assign the Reader role for VNet1 to other
+users.
+
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Remove User1 from the Security Reader role for Subscription1.
+Assign User1 the Contributor role for RG1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Owner role for VNet1.</text><feedback>&quot;Grants full access to manage all resources, including the ability to assign roles inAzure RBAC.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-accesscontrol/built-in-roles#owner</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Contributor role for VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Network Contributor role for VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You configure the custom role shown in the following exhibit.
+&amp;#x003C;img src=&quot;Question54Topic2.jpg&quot; alt=&quot;Question54Topic2.jpg&quot; title=&quot;Question54Topic2&quot; width=&quot;878&quot; height=&quot;871&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the actions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the roletype section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the notActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the dataActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the notDataActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that users can sign in to virtual machines that are assgined role1, modify the assignableScopes section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the actions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the roletype section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the notActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the dataActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the notDataActions section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>To ensure that role1 can be assigned only to a resource group named RG1, modify the assignableScopes section</text><feedback>Data Actions and Assignable scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/rolebased-access-control/built-in-roles#logic-app-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains a storage account named
+storage1. The storage1 account contains a file share named share1.
+The subscription is linked to a hybrid Azure Active Directory (Azure AD)
+tenant that contains a security group named Group1.
+You need to grant Group1 the Storage File Data SMB Share Elevated
+Contributor role for share1.
+
+What should you do first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Enable Active Directory Domain Service (AD DS) authentication for
+storage1.</text><feedback>A) &quot; Enable Active Directory Domain Service (AD DS) authentication for storage1. &quot;
+Reference: 
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/storage/files/storage-filesidentity-auth-active-directory-domain-service-enable?tabs=azure-portal#overviewof-the-workflow</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Grant share-level permissions by using File Explorer.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Mount share1 by using File Explorer.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a private endpoint.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have 15 Azure subscriptions.
+You have an Azure Active Directory (Azure AD) tenant that contains a
+security group named Group1.
+You plan to purchase additional Azure subscription.
+You need to ensure that Group1 can manage role assignments for the
+existing subscriptions and the planned subscriptions. The solution must meet
+the following requirements:
+*Use the principle of least privilege.
+*Minimize administrative effort.
+
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Assign Group1 the Owner role for the root management group.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign Group1 the User Access Administrator role for the root
+management group.</text><feedback>B) &quot; Assign Group1 the User Access Administrator role for the root management group.&quot; To be able to assign licenses to all current and future subscriptions, while minimizing the administrative effort, one should apply the role to the Root Management Group. And because we should use the principle of least privilege we should chose the User Access Administrator role instead of the Owner one.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new management group and assign Group1 the User Access
+Administrator role for the group.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new management group and assign Group1 the Owner role
+for the group.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the hierarchy shown in the
+following exhibit.
+&amp;#x003C;img src=&quot;Question57Topic2.jpg&quot; alt=&quot;Question57Topic2.jpg&quot; title=&quot;Question57Topic2&quot; width=&quot;208&quot; height=&quot;720&quot;/&amp;#x003E;
+You create an Azure Policy definition named Policy1.
+To which Azure resources can you assign Policy1 and which Azure resources
+can you specify as exclusions from Policy1? To answer, select the
+appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can assign Policy1 to Subscription1 and RG1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can assign Policy1 to ManagementGroup1 and Subscription1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can assign Policy1 to Tenant Root Group, ManagementGroup1, and Subscription1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can assign Policy1 to Tenant Root Group, ManagementGroup1, Subscription1, and RG1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can assign Policy1 to Tenant Root Group, ManagementGroup1, and Subscription1, RG1, and VM1</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can exclude Policy1 from VM1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can exclude Policy1 from RG1 and VM1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can exclude Policy1 from Subscription1, RG1 and VM1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can exclude Policy1 from ManagementGroup1, Subscription1, RG1 and VM1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can exclude Policy1 from TenantRootGroup1, ManagementGroup1, Subscription1, RG1 and VM1 only</text><feedback>Given answer look correct to me. #1 You can assign to all, global pol from root to policy on resources, see; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/management-groups/overview 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest#az-policy-assignment-create #2 
+&amp;#x003C;br&amp;#x003E;
+Exclusions in effect on all except global at root level; https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-andmanage</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the following users in an Azure
+Active Directory tenant named contoso.onmicrosoft.com:
+&amp;#x003C;img src=&quot;Question58Topic2.jpg&quot; alt=&quot;Question58Topic2.jpg&quot; title=&quot;Question58Topic2&quot; width=&quot;771&quot; height=&quot;166&quot;/&amp;#x003E;
+User1 creates a new Azure Active Directory tenant named
+external.contoso.onmicrosoft.com.
+You need to create new user accounts in external.contoso.onmicrosoft.com.
+
+Solution: You instruct User2 to create the user accounts.
+
+Does that meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Correct Answer: A - Yes Only User1 has access to the new Tenant, because User1 created the Tenant and became automatically Global Admin.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the following users in an Azure
+Active Directory tenant named contoso.onmicrosoft.com:
+&amp;#x003C;img src=&quot;Question59Topic2.jpg&quot; alt=&quot;Question59Topic2.jpg&quot; title=&quot;Question59Topic2&quot; width=&quot;771&quot; height=&quot;166&quot;/&amp;#x003E;
+User1 creates a new Azure Active Directory tenant named
+external.contoso.onmicrosoft.com.
+You need to create new user accounts in external.contoso.onmicrosoft.com.
+
+Solution: You instruct User4 to create the user accounts.
+
+Does that meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>B:No, when you create a new tenant, the creator is the only global admin and owner, he must first give access to others to allow anything. 
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/activedirectory-access-create-new-tenant#your-user-account-in-the-new-tenant</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the following users in an Azure
+Active Directory tenant named contoso.onmicrosoft.com:
+&amp;#x003C;img src=&quot;Question60Topic2.jpg&quot; alt=&quot;Question60Topic2.jpg&quot; title=&quot;Question60Topic2&quot; width=&quot;771&quot; height=&quot;166&quot;/&amp;#x003E;
+User1 creates a new Azure Active Directory tenant named
+external.contoso.onmicrosoft.com.
+You need to create new user accounts in external.contoso.onmicrosoft.com.
+
+Solution: You instruct User3 to create the user accounts.
+
+Does that meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>B is the answer. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/roles/customoverview#scope 
+&amp;#x003C;br&amp;#x003E;
+When you assign a role, you specify one of the following types of scope: - Tenant - Administrative unit</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have two Azure subscriptions named Sub1 and Sub2.
+An administrator creates a custom role that has an assignable scope to a
+resource group named RG1 in Sub1.
+You need to ensure that you can apply the custom role to any resource group
+in Sub1 and Sub2. The solution must minimize administrative effort.
+
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Select the custom role and add Sub1 and Sub2 to the assignable
+scopes. Remove RG1 from the assignable scopes.</text><feedback>A) &quot; 
+&amp;#x003C;br&amp;#x003E;
+Select the custom role and add Sub1 and Sub2 to the assignable scopes. 
+&amp;#x003C;br&amp;#x003E;
+Remove RG1 from the assignable scopes. &quot; 
+&amp;#x003C;br&amp;#x003E;
+To assure the solution minimizes the administrative effort, we just need to change the assignable scope list of the custom role. Reference: 
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/custom-roles#custom-role-propertiesminimizes 
+&amp;#x003C;br&amp;#x003E;
+the administrative effort, we just need to change the assignable scope list of the
+custom role. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Reference: 
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/role-basedaccess-control/custom-roles#custom-role-properties</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new custom role for Sub1. Create a new custom role for
+Sub2. Remove the role from RG1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new custom role for Sub1 and add Sub2 to the assignable
+scopes. Remove the role from RG1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Select the custom role and add Sub1 to the assignable scopes.
+Remove RG1 from the assignable scopes. Create a new custom role for
+Sub2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #62Topic 2
+You have an Azure Subscription that contains a storage account named
+storageacct1234 and two users named User1 and User2.
+You assign User1 the roles shown in the following exhibit.
+&amp;#x003C;img src=&quot;Question62Topic2.jpg&quot; alt=&quot;Question62Topic2.jpg&quot; title=&quot;Question62Topic2&quot; width=&quot;869&quot; height=&quot;412&quot;/&amp;#x003E;
+Which two actions can User1 perform? Each correct answer presents a
+complete solution.
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Assign roles to User2 for storageacct1234.</text><feedback>User1 tiene asignados los roles de &quot;Reader&quot; y &quot;Storage Blob Data Contributor&quot; para la cuenta de almacenamiento storageacct1234 en Azure. Bas&amp;#x00E1;ndonos en estos roles, User1 puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+B. Subir datos de blob a storageacct1234: El rol de &quot;Storage Blob Data Contributor&quot; permite a User1 subir (o modificar) blobs en los contenedores de blob de la cuenta de almacenamiento.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+D. Ver datos de blob en storageacct1234: Como &quot;Reader&quot;, User1 puede ver todos los recursos de Azure a los que tiene acceso. Adem&amp;#x00E1;s, el rol de &quot;Storage Blob Data Contributor&quot; tambi&amp;#x00E9;n incluye permisos para leer blobs y sus propiedades y metadatos asociados.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+User1 no puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+A. Asignar roles a User2 para storageacct1234: User1 necesita el rol de &quot;User Access Administrator&quot; o ser un administrador del servicio para poder asignar roles a otros usuarios.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+C. Modificar el firewall de storageacct1234: Para modificar el firewall se necesitan permisos de administrador de la cuenta de almacenamiento, que no est&amp;#x00E1;n incluidos en los roles de &quot;Reader&quot; ni &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+E. Ver comparticiones de archivos en storageacct1234: Aunque el rol de &quot;Reader&quot; le permite ver recursos, no incluye permisos espec&amp;#x00ED;ficos para ver comparticiones de archivos dentro de una cuenta de almacenamiento. Adem&amp;#x00E1;s, este permiso no est&amp;#x00E1; incluido en el rol de &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Para leer m&amp;#x00E1;s sobre este tema y entender los permisos asociados con los roles en Azure, puedes visitar la documentaci&amp;#x00F3;n oficial de Microsoft Azure, espec&amp;#x00ED;ficamente la secci&amp;#x00F3;n de &quot;Azure Role-Based Access Control (RBAC)&quot; en la documentaci&amp;#x00F3;n de &quot;Azure Built-in Roles&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/role-based-access-control/built-in-roles</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Upload blob data to storageacct1234.</text><feedback>User1 tiene asignados los roles de &quot;Reader&quot; y &quot;Storage Blob Data Contributor&quot; para la cuenta de almacenamiento storageacct1234 en Azure. Bas&amp;#x00E1;ndonos en estos roles, User1 puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+B. Subir datos de blob a storageacct1234: El rol de &quot;Storage Blob Data Contributor&quot; permite a User1 subir (o modificar) blobs en los contenedores de blob de la cuenta de almacenamiento.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+D. Ver datos de blob en storageacct1234: Como &quot;Reader&quot;, User1 puede ver todos los recursos de Azure a los que tiene acceso. Adem&amp;#x00E1;s, el rol de &quot;Storage Blob Data Contributor&quot; tambi&amp;#x00E9;n incluye permisos para leer blobs y sus propiedades y metadatos asociados.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+User1 no puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+A. Asignar roles a User2 para storageacct1234: User1 necesita el rol de &quot;User Access Administrator&quot; o ser un administrador del servicio para poder asignar roles a otros usuarios.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+C. Modificar el firewall de storageacct1234: Para modificar el firewall se necesitan permisos de administrador de la cuenta de almacenamiento, que no est&amp;#x00E1;n incluidos en los roles de &quot;Reader&quot; ni &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+E. Ver comparticiones de archivos en storageacct1234: Aunque el rol de &quot;Reader&quot; le permite ver recursos, no incluye permisos espec&amp;#x00ED;ficos para ver comparticiones de archivos dentro de una cuenta de almacenamiento. Adem&amp;#x00E1;s, este permiso no est&amp;#x00E1; incluido en el rol de &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Para leer m&amp;#x00E1;s sobre este tema y entender los permisos asociados con los roles en Azure, puedes visitar la documentaci&amp;#x00F3;n oficial de Microsoft Azure, espec&amp;#x00ED;ficamente la secci&amp;#x00F3;n de &quot;Azure Role-Based Access Control (RBAC)&quot; en la documentaci&amp;#x00F3;n de &quot;Azure Built-in Roles&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/role-based-access-control/built-in-roles</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the firewall of storageacct1234.</text><feedback>User1 tiene asignados los roles de &quot;Reader&quot; y &quot;Storage Blob Data Contributor&quot; para la cuenta de almacenamiento storageacct1234 en Azure. Bas&amp;#x00E1;ndonos en estos roles, User1 puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+B. Subir datos de blob a storageacct1234: El rol de &quot;Storage Blob Data Contributor&quot; permite a User1 subir (o modificar) blobs en los contenedores de blob de la cuenta de almacenamiento.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+D. Ver datos de blob en storageacct1234: Como &quot;Reader&quot;, User1 puede ver todos los recursos de Azure a los que tiene acceso. Adem&amp;#x00E1;s, el rol de &quot;Storage Blob Data Contributor&quot; tambi&amp;#x00E9;n incluye permisos para leer blobs y sus propiedades y metadatos asociados.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+User1 no puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+A. Asignar roles a User2 para storageacct1234: User1 necesita el rol de &quot;User Access Administrator&quot; o ser un administrador del servicio para poder asignar roles a otros usuarios.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+C. Modificar el firewall de storageacct1234: Para modificar el firewall se necesitan permisos de administrador de la cuenta de almacenamiento, que no est&amp;#x00E1;n incluidos en los roles de &quot;Reader&quot; ni &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+E. Ver comparticiones de archivos en storageacct1234: Aunque el rol de &quot;Reader&quot; le permite ver recursos, no incluye permisos espec&amp;#x00ED;ficos para ver comparticiones de archivos dentro de una cuenta de almacenamiento. Adem&amp;#x00E1;s, este permiso no est&amp;#x00E1; incluido en el rol de &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Para leer m&amp;#x00E1;s sobre este tema y entender los permisos asociados con los roles en Azure, puedes visitar la documentaci&amp;#x00F3;n oficial de Microsoft Azure, espec&amp;#x00ED;ficamente la secci&amp;#x00F3;n de &quot;Azure Role-Based Access Control (RBAC)&quot; en la documentaci&amp;#x00F3;n de &quot;Azure Built-in Roles&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/role-based-access-control/built-in-roles</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>View blob data in storageacct1234.</text><feedback>User1 tiene asignados los roles de &quot;Reader&quot; y &quot;Storage Blob Data Contributor&quot; para la cuenta de almacenamiento storageacct1234 en Azure. Bas&amp;#x00E1;ndonos en estos roles, User1 puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+B. Subir datos de blob a storageacct1234: El rol de &quot;Storage Blob Data Contributor&quot; permite a User1 subir (o modificar) blobs en los contenedores de blob de la cuenta de almacenamiento.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+D. Ver datos de blob en storageacct1234: Como &quot;Reader&quot;, User1 puede ver todos los recursos de Azure a los que tiene acceso. Adem&amp;#x00E1;s, el rol de &quot;Storage Blob Data Contributor&quot; tambi&amp;#x00E9;n incluye permisos para leer blobs y sus propiedades y metadatos asociados.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+User1 no puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+A. Asignar roles a User2 para storageacct1234: User1 necesita el rol de &quot;User Access Administrator&quot; o ser un administrador del servicio para poder asignar roles a otros usuarios.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+C. Modificar el firewall de storageacct1234: Para modificar el firewall se necesitan permisos de administrador de la cuenta de almacenamiento, que no est&amp;#x00E1;n incluidos en los roles de &quot;Reader&quot; ni &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+E. Ver comparticiones de archivos en storageacct1234: Aunque el rol de &quot;Reader&quot; le permite ver recursos, no incluye permisos espec&amp;#x00ED;ficos para ver comparticiones de archivos dentro de una cuenta de almacenamiento. Adem&amp;#x00E1;s, este permiso no est&amp;#x00E1; incluido en el rol de &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Para leer m&amp;#x00E1;s sobre este tema y entender los permisos asociados con los roles en Azure, puedes visitar la documentaci&amp;#x00F3;n oficial de Microsoft Azure, espec&amp;#x00ED;ficamente la secci&amp;#x00F3;n de &quot;Azure Role-Based Access Control (RBAC)&quot; en la documentaci&amp;#x00F3;n de &quot;Azure Built-in Roles&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/role-based-access-control/built-in-roles</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>View file shares in storageacct1234.</text><feedback>User1 tiene asignados los roles de &quot;Reader&quot; y &quot;Storage Blob Data Contributor&quot; para la cuenta de almacenamiento storageacct1234 en Azure. Bas&amp;#x00E1;ndonos en estos roles, User1 puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+B. Subir datos de blob a storageacct1234: El rol de &quot;Storage Blob Data Contributor&quot; permite a User1 subir (o modificar) blobs en los contenedores de blob de la cuenta de almacenamiento.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+D. Ver datos de blob en storageacct1234: Como &quot;Reader&quot;, User1 puede ver todos los recursos de Azure a los que tiene acceso. Adem&amp;#x00E1;s, el rol de &quot;Storage Blob Data Contributor&quot; tambi&amp;#x00E9;n incluye permisos para leer blobs y sus propiedades y metadatos asociados.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+User1 no puede realizar las siguientes acciones:
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+A. Asignar roles a User2 para storageacct1234: User1 necesita el rol de &quot;User Access Administrator&quot; o ser un administrador del servicio para poder asignar roles a otros usuarios.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+C. Modificar el firewall de storageacct1234: Para modificar el firewall se necesitan permisos de administrador de la cuenta de almacenamiento, que no est&amp;#x00E1;n incluidos en los roles de &quot;Reader&quot; ni &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+E. Ver comparticiones de archivos en storageacct1234: Aunque el rol de &quot;Reader&quot; le permite ver recursos, no incluye permisos espec&amp;#x00ED;ficos para ver comparticiones de archivos dentro de una cuenta de almacenamiento. Adem&amp;#x00E1;s, este permiso no est&amp;#x00E1; incluido en el rol de &quot;Storage Blob Data Contributor&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Para leer m&amp;#x00E1;s sobre este tema y entender los permisos asociados con los roles en Azure, puedes visitar la documentaci&amp;#x00F3;n oficial de Microsoft Azure, espec&amp;#x00ED;ficamente la secci&amp;#x00F3;n de &quot;Azure Role-Based Access Control (RBAC)&quot; en la documentaci&amp;#x00F3;n de &quot;Azure Built-in Roles&quot;.
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/es-es/azure/role-based-access-control/built-in-roles</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

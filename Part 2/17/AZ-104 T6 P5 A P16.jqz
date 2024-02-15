@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Man</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription that contains the identities shown in the following table.
+&amp;#x003C;img src=&quot;imagen_Q5T6.png&quot; alt=&quot;imagen_Q5T6.png&quot; title=&quot;imagen_Q5T6&quot; width=&quot;478&quot; height=&quot;120&quot;/&amp;#x003E;
+User1, Principal1, and Group1 are assigned the Monitoring Reader role. An action group named AG1 has the Email Azure Resource Manager Role notification type and is configured to email the Monitoring Reader role. You create an alert rule named Alert1 that uses AG1. You need to identity who will receive an email notification when Alert1 is triggered. Who should you identify?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>User1 and Principal1 only</text><feedback>Correct Answer: C Email will only be sent to Azure AD user members of the Monitoring Reader role. Email will not be sent to Azure AD groups or service principals. Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1, User2, Principal1, and Principal2</text><feedback>Correct Answer: C Email will only be sent to Azure AD user members of the Monitoring Reader role. Email will not be sent to Azure AD groups or service principals. Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 only</text><feedback>Correct Answer: C Email will only be sent to Azure AD user members of the Monitoring Reader role. Email will not be sent to Azure AD groups or service principals. Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 and User2 onl</text><feedback>Correct Answer: C Email will only be sent to Azure AD user members of the Monitoring Reader role. Email will not be sent to Azure AD groups or service principals. Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - You have an Azure virtual machine named VM1 and a Recovery Services vault named Vault1. You create a backup policy named Policy1 as shown in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;imagen_Q6T6.png&quot; alt=&quot;imagen_Q6T6.png&quot; title=&quot;imagen_Q6T6&quot; width=&quot;404&quot; height=&quot;476&quot;/&amp;#x003E;
+You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM. You need to identify the number of available recovery points for VM1. How many recovery points are available on January 8 and January 15? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;imagen_Q6T6.png&quot; alt=&quot;imagen_Q6T6.png&quot; title=&quot;imagen_Q6T6&quot; width=&quot;404&quot; height=&quot;476&quot;/&amp;#x003E;
+You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM. You need to identify the number of available recovery points for VM1. How many recovery points are available on January 8 and January 15? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;imagen_Q6T6.png&quot; alt=&quot;imagen_Q6T6.png&quot; title=&quot;imagen_Q6T6&quot; width=&quot;404&quot; height=&quot;476&quot;/&amp;#x003E;
+You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM. You need to identify the number of available recovery points for VM1. How many recovery points are available on January 8 and January 15? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1:5</text><feedback>Box 1: 6 - 5 latest daily recovery points, which includes the weekly backup from the previous Sunday, plus the monthly recovery point.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1:6</text><feedback>Box 1: 6 - 5 latest daily recovery points, which includes the weekly backup from the previous Sunday, plus the monthly recovery point.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1:8</text><feedback>Box 1: 6 - 5 latest daily recovery points, which includes the weekly backup from the previous Sunday, plus the monthly recovery point.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1:9</text><feedback>Box 1: 6 - 5 latest daily recovery points, which includes the weekly backup from the previous Sunday, plus the monthly recovery point.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:5</text><feedback>Box 2: 8 - 5 latest daily recovery points, plus two weekly backups, plus the monthly recovery point. Reference: https://social.technet.microsoft.com/Forums/en-US/854ab6ae-79aa-4bad-ac65-
+
+471c4d422e94/daily-monthly-yearly-recovery-points-and-storage-used? forum=windowsazureonlinebackup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:8</text><feedback>Box 2: 8 - 5 latest daily recovery points, plus two weekly backups, plus the monthly recovery point. Reference: https://social.technet.microsoft.com/Forums/en-US/854ab6ae-79aa-4bad-ac65-
+
+471c4d422e94/daily-monthly-yearly-recovery-points-and-storage-used? forum=windowsazureonlinebackup</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:17</text><feedback>Box 2: 8 - 5 latest daily recovery points, plus two weekly backups, plus the monthly recovery point. Reference: https://social.technet.microsoft.com/Forums/en-US/854ab6ae-79aa-4bad-ac65-
+
+471c4d422e94/daily-monthly-yearly-recovery-points-and-storage-used? forum=windowsazureonlinebackup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:19</text><feedback>Box 2: 8 - 5 latest daily recovery points, plus two weekly backups, plus the monthly recovery point. Reference: https://social.technet.microsoft.com/Forums/en-US/854ab6ae-79aa-4bad-ac65-
+
+471c4d422e94/daily-monthly-yearly-recovery-points-and-storage-used? forum=windowsazureonlinebackup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT - You have the web apps shown in the following table.
+&amp;#x003C;img src=&quot;imagen_Q7T6.png&quot; alt=&quot;imagen_Q7T6.png&quot; title=&quot;imagen_Q7T6&quot; width=&quot;461&quot; height=&quot;142&quot;/&amp;#x003E;
+You need to monitor the performance and usage of the apps by using Azure Application Insights. The solution must minimize modifications to the application code. What should you do on each app? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+You need to monitor the performance and usage of the apps by using Azure Application Insights. The solution must minimize modifications to the application code. What should you do on each app? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: Install the Log Analytics agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Install the Azure Monitor agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Use the Application Insights SDK</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Install the Application Insights Agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Install the Log Analytics agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2:  Install the Azure Monitor agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Use the Application Insights SDK</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Install the Application Insights Agent</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure virtual machine named VM1. You use Azure Backup to create a backup of VM1 named Backup1. After creating Backup1, you perform the following changes to VM1: &amp;#x2711; Modify the size of VM1. 
+&amp;#x2711; Copy a file named Budget.xls to a folder named Data. 
+&amp;#x2711; Reset the password for the built-in administrator account. 
+&amp;#x2711; Add a data disk to VM1. 
+An administrator uses the Replace existing option to restore VM1 from Backup1. You need to ensure that all the changes to VM1 are restored. Which change should you perform again?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Modify the size of VM1.</text><feedback>Correct Answer: D 
+Reference: https://docs.microsoft.com/en-us/azure/backup/about-azure-vm-restor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Reset the password for the built-in administrator account.</text><feedback>Correct Answer: D 
+Reference: https://docs.microsoft.com/en-us/azure/backup/about-azure-vm-restor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a data disk.</text><feedback>Correct Answer: D 
+Reference: https://docs.microsoft.com/en-us/azure/backup/about-azure-vm-restor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Copy Budget.xls to Data</text><feedback>Correct Answer: D
+Reference: https://docs.microsoft.com/en-us/azure/backup/about-azure-vm-restore</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains the users shown in the following table.
+&amp;#x003C;img src=&quot;imagen_Q9T6_1.png&quot; alt=&quot;imagen_Q9T6_1.png&quot; title=&quot;imagen_Q9T6_1&quot; width=&quot;459&quot; height=&quot;74&quot;/&amp;#x003E;
+You enable password reset for contoso.onmicrosoft.com as shown in the Password Reset exhibit. (Click the Password Reset tab.)
+&amp;#x003C;img src=&quot;imagen_Q9T6_2.png&quot; alt=&quot;imagen_Q9T6_2.png&quot; title=&quot;imagen_Q9T6_2&quot; width=&quot;443&quot; height=&quot;206&quot;/&amp;#x003E;
+You configure the authentication methods for password reset as shown in the Authentication Methods exhibit. (Click the Authentication Methods tab.)
+&amp;#x003C;img src=&quot;imagen_Q9T6_3.png&quot; alt=&quot;imagen_Q9T6_3.png&quot; title=&quot;imagen_Q9T6_3&quot; width=&quot;423&quot; height=&quot;420&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+&amp;#x003C;img src=&quot;imagen_Q9T6_4.png&quot; alt=&quot;imagen_Q9T6_4.png&quot; title=&quot;imagen_Q9T6_4&quot; width=&quot;453&quot; height=&quot;216&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: Yes</text><feedback>Two methods are required
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: No</text><feedback>Two methods are required
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Yes</text><feedback>Self-service password reset is only enabled for Group2, and User1 is not a member of Group2
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: No</text><feedback>Self-service password reset is only enabled for Group2, and User1 is not a member of Group2
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: Yes</text><feedback>As a User Administrator, User3 can add security questions to the reset process. 
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: No</text><feedback>As a User Administrator, User3 can add security questions to the reset process. 
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Your company has a main office in London that contains 100 client computers. 
+Three years ago, you migrated to Azure Active Directory (Azure AD). 
+The company&apos;s security policy states that all personal devices and corporate-owned devices must be registered or joined to Azure AD. 
+A remote user named User1 is unable to join a personal device to Azure AD from a home network. 
+You verify that User1 was able to join devices to Azure AD in the past. 
+You need to ensure that User1 can join the device to Azure AD. What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Assign the User administrator role to User1.</text><feedback>The Maximum number of devices setting enables you to select the maximum number of devices that a user can have in Azure AD. If a user reaches this quota, they will not be able to add additional devices until one or more of the existing devices are removed.
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal http://techgenix.com/pros-and-cons-azure-ad-join/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Device settings blade, modify the Maximum number of devices per user setting.</text><feedback>The Maximum number of devices setting enables you to select the maximum number of devices that a user can have in Azure AD. If a user reaches this quota, they will not be able to add additional devices until one or more of the existing devices are removed.
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal http://techgenix.com/pros-and-cons-azure-ad-join/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a point-to-site VPN from the home network of User1 to Azure.</text><feedback>The Maximum number of devices setting enables you to select the maximum number of devices that a user can have in Azure AD. If a user reaches this quota, they will not be able to add additional devices until one or more of the existing devices are removed.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Device settings blade, modify the Users may join devices to Azure AD setting.</text><feedback>The Maximum number of devices setting enables you to select the maximum number of devices that a user can have in Azure AD. If a user reaches this quota, they will not be able to add additional devices until one or more of the existing devices are removed.
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal http://techgenix.com/pros-and-cons-azure-ad-join/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - You have two Azure App Service app named App1 and App2. Each app has a production deployment slot and a test deployment slot. 
+The Backup Configuration settings for the production slots are shown in the following table.
+&amp;#x003C;img src=&quot;imagen_Q11T6_1.png&quot; alt=&quot;imagen_Q11T6_1.png&quot; title=&quot;imagen_Q11T6_1&quot; width=&quot;432&quot; height=&quot;66&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No. 
+NOTE: Each correct selection is worth one point. 
+Hot Area:
+&amp;#x003C;img src=&quot;imagen_Q11T6_2.png&quot; alt=&quot;imagen_Q11T6_2.png&quot; title=&quot;imagen_Q11T6_2&quot; width=&quot;447&quot; height=&quot;211&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: Yes</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Yes</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: Yes</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT - You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant is synced to the on-premises Active Directory domain. The domain contains the users shown in the following table.
+&amp;#x003C;img src=&quot;imagen_Q12T6_1.png&quot; alt=&quot;imagen_Q12T6_1.png&quot; title=&quot;imagen_Q12T6_1&quot; width=&quot;316&quot; height=&quot;100&quot;/&amp;#x003E;
+You enable self-service password reset (SSPR) for all users and configure SSPR to have the following authentication methods: 
+&amp;#x2711; Number of methods required to reset: 2 
+&amp;#x2711; Methods available to users: Mobile phone, Security questions 
+&amp;#x2711; Number of questions required to register: 3 
+&amp;#x2711; Number of questions required to reset: 3 
+You select the following security questions: 
+&amp;#x2711; What is your favorite food? 
+&amp;#x2711; In what city was your first job? 
+&amp;#x2711; What was the name of your first pet? For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+&amp;#x003C;img src=&quot;imagen_Q12T6_2.png&quot; alt=&quot;imagen_Q12T6_2.png&quot; title=&quot;imagen_Q12T6_2&quot; width=&quot;440&quot; height=&quot;197&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: Yes</text><feedback>No -
+
+Administrator accounts are special accounts with elevated permissions. To secure them, the following restrictions apply to changing passwords of administrators: On-premises enterprise administrators or domain administrators cannot reset their password through Self-service password reset (SSPR). They can only change their password in their on-premises environment. Thus, we recommend not syncing on-prem AD admin accounts to Azure AD. An administrator cannot use secret Questions &amp;#x0026; Answers as a method to reset password.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: No</text><feedback>No -
+
+Administrator accounts are special accounts with elevated permissions. To secure them, the following restrictions apply to changing passwords of administrators: On-premises enterprise administrators or domain administrators cannot reset their password through Self-service password reset (SSPR). They can only change their password in their on-premises environment. Thus, we recommend not syncing on-prem AD admin accounts to Azure AD. An administrator cannot use secret Questions &amp;#x0026; Answers as a method to reset password.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Yes</text><feedback>Yes -
+
+Self-service password reset (SSPR) is an Azure Active Directory feature that enables employees to reset their passwords without needing to contact IT staff.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: No</text><feedback>Yes -
+
+Self-service password reset (SSPR) is an Azure Active Directory feature that enables employees to reset their passwords without needing to contact IT staff.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: Yes</text><feedback>Yes -
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box3: No</text><feedback>Yes -
+
+Reference: https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. 
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. 
+You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:
+&amp;#x003C;img src=&quot;imagen_Q13T6.png&quot; alt=&quot;imagen_Q13T6.png&quot; title=&quot;imagen_Q13T6&quot; width=&quot;428&quot; height=&quot;89&quot;/&amp;#x003E;
+User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. 
+You need to create new user accounts in external.contoso.onmicrosoft.com. 
+Solution: You instruct User1 to create the user accounts. 
+Does that meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>Yes</text><feedback>Only a global administrator can add users to this tenant. 
+Reference: https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/add-users-to-azure-ad</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Only a global administrator can add users to this tenant. 
+Reference: https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/add-users-to-azure-ad</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an existing Azure subscription that contains 10 virtual machines. 
+You need to monitor the latency between your on-premises network and the virtual machines. 
+What should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>Service Map</text><feedback>Network Performance Monitor is a cloud-based hybrid network monitoring solution that helps you monitor network performance between various points in your network infrastructure. It also helps you monitor network connectivity to service and application endpoints and monitor the performance of Azure ExpressRoute. You can monitor network connectivity across cloud deployments and on-premises locations, multiple data centers, and branch offices and mission-critical multitier applications or microservices. With Performance Monitor, you can detect network issues before users complain. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Connection troubleshoo</text><feedback>Network Performance Monitor is a cloud-based hybrid network monitoring solution that helps you monitor network performance between various points in your network infrastructure. It also helps you monitor network connectivity to service and application endpoints and monitor the performance of Azure ExpressRoute. You can monitor network connectivity across cloud deployments and on-premises locations, multiple data centers, and branch offices and mission-critical multitier applications or microservices. With Performance Monitor, you can detect network issues before users complain. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Network Performance Monitor</text><feedback>Network Performance Monitor is a cloud-based hybrid network monitoring solution that helps you monitor network performance between various points in your network infrastructure. It also helps you monitor network connectivity to service and application endpoints and monitor the performance of Azure ExpressRoute. You can monitor network connectivity across cloud deployments and on-premises locations, multiple data centers, and branch offices and mission-critical multitier applications or microservices. With Performance Monitor, you can detect network issues before users complain. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Effective routes</text><feedback>Network Performance Monitor is a cloud-based hybrid network monitoring solution that helps you monitor network performance between various points in your network infrastructure. It also helps you monitor network connectivity to service and application endpoints and monitor the performance of Azure ExpressRoute. You can monitor network connectivity across cloud deployments and on-premises locations, multiple data centers, and branch offices and mission-critical multitier applications or microservices. With Performance Monitor, you can detect network issues before users complain. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT - 
+You have an Azure App Service plan named ASP1. 
+CPU usage for ASP1 is shown in the following exhibit.
+&amp;#x003C;img src=&quot;imagen_Q15T6_1.png&quot; alt=&quot;imagen_Q15T6_1.png&quot; title=&quot;imagen_Q15T6_1&quot; width=&quot;438&quot; height=&quot;298&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. 
+NOTE: Each correct selection is worth one point. 
+Hot Area:
+&amp;#x003C;img src=&quot;imagen_Q15T6_2.png&quot; alt=&quot;imagen_Q15T6_2.png&quot; title=&quot;imagen_Q15T6_2&quot; width=&quot;431&quot; height=&quot;274&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: once</text><feedback>Box 1: four times - From the exhibit we see that the time granularity is 6 hours: Last 30 days (Automatic - 6 hours). 
+CPU Percentage Last days Automatic - hours</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: four times</text><feedback>Box 1: four times - From the exhibit we see that the time granularity is 6 hours: Last 30 days (Automatic - 6 hours). 
+CPU Percentage Last days Automatic - hours</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: six times</text><feedback>Box 1: four times - From the exhibit we see that the time granularity is 6 hours: Last 30 days (Automatic - 6 hours). 
+CPU Percentage Last days Automatic - hours</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 24 times</text><feedback>Box 1: four times - From the exhibit we see that the time granularity is 6 hours: Last 30 days (Automatic - 6 hours). 
+CPU Percentage Last days Automatic - hours</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: scaled up</text><feedback>Box 2: scaled up -
+Scale up when: * You see that your workloads are hitting some performance limit such as CPU or I/O limits. 
+* You need to quickly react to fix performance issues that can&apos;t be solved with classic database optimization. 
+* You need a solution that allows you to change service tiers to adapt to changing latency requirements. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-troubleshoot https://azure.microsoft.com/en-us/overview/scaling-out-vs-scaling-up</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: scaled down</text><feedback>Box 2: scaled up -
+Scale up when: * You see that your workloads are hitting some performance limit such as CPU or I/O limits. 
+* You need to quickly react to fix performance issues that can&apos;t be solved with classic database optimization. 
+* You need a solution that allows you to change service tiers to adapt to changing latency requirements. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-troubleshoot https://azure.microsoft.com/en-us/overview/scaling-out-vs-scaling-up</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: scaled out</text><feedback>Box 2: scaled up -
+Scale up when: * You see that your workloads are hitting some performance limit such as CPU or I/O limits. 
+* You need to quickly react to fix performance issues that can&apos;t be solved with classic database optimization. 
+* You need a solution that allows you to change service tiers to adapt to changing latency requirements. 
+
+Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-troubleshoot https://azure.microsoft.com/en-us/overview/scaling-out-vs-scaling-up</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>DRAG DROP - 
+You have an Azure Linux virtual machine that is protected by Azure Backup. One week ago, two files were deleted from the virtual machine. 
+You need to restore the deleted files to an on-premises Windows Server 2016 computer as quickly as possible. 
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. 
+Select and Place:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

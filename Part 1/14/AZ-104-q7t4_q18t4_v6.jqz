@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>rafael</dc:creator>
+    <dc:title>Az-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Az-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>HOTSPOT -
+You have the App Service plans shown in the following table.
+&amp;#x003C;table style=&quot;border-style: solid; border-width: 1px; &quot;&amp;#x003E;&amp;#x003C;tbody&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Name&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Operating system&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Location&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;ASP1&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Windows&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;West US&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;&amp;#x003C;ASP2/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Windows&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Central US&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;ASP3&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Linux&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;West US&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;/tbody&amp;#x003E;&amp;#x003C;/table&amp;#x003E;
+You plan to create the Azure web apps shown in the following table.
+&amp;#x003C;table style=&quot;border-style: solid; border-width: 1px; &quot;&amp;#x003E;&amp;#x003C;tbody&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Name&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Runtime stack&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;Location&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;WebApp1&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;.NET Core 3.0&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;West US&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;tr&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;WebApp2&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;ASP .NET 4.7&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;td style=&quot;padding: 2px; margin: 2px; border-style: solid; border-width: 1px; &quot;&amp;#x003E;West US&amp;#x003C;/td&amp;#x003E;
+&amp;#x003C;/tr&amp;#x003E;
+&amp;#x003C;/tbody&amp;#x003E;&amp;#x003C;/table&amp;#x003E;
+You need to identify which App Service plans can be used for the web apps.
+What should you identify? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q7t4.png&quot; alt=&quot;q7t4.png&quot; title=&quot;q7t4&quot; width=&quot;511&quot; height=&quot;379&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>WebApp1: ASP1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp1: ASP3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp1: ASP1 and ASP2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp1: ASP1 and ASP3 only</text><feedback>Box 1: ASP1 ASP3 -
+Asp1, ASP3: ASP.NET Core apps can be hosted both on Windows or Linux.
+Not ASP2: The region in which your app runs is the region of the App Service plan it&apos;s in.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp1: ASP1, ASP2, and ASP3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp2: ASP1 only</text><feedback>Box 2: ASP1 -
+ASP.NET apps can be hosted on Windows only.
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=platform-linux https://docs.microsoft.com/en-us/azure/app-service/app-service-plan-manage#</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp2: ASP3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp2: ASP1 and ASP2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp2: ASP1 and ASP3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>WebApp2: ASP1, ASP2, and ASP3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit.
+&amp;#x003C;img src=&quot;q8t41.png&quot; alt=&quot;q8t41.png&quot; title=&quot;fq8t41&quot; width=&quot;612&quot; height=&quot;714&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+&amp;#x003C;img src=&quot;q8t42.png&quot; alt=&quot;q8t42.png&quot; title=&quot;fq8t41&quot; width=&quot;798&quot; height=&quot;405&quot;/&amp;#x003E;
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Area1: 2 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area1: 4 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area1: 6 virtual machines</text><feedback>Box 1: 6 virtual machines -
+The Autoscale scale out rule increases the number of VMs by 2 if the CPU threshold is 80% or higher. The initial instance count is 4 and rises to 6 when the 2 extra instances of VMs are added.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area1: 10 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area1: 20 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area2: 2 virtual machines</text><feedback>Box 2: 2 virtual machnes -
+The Autoscale scale in rule decreases the number of VMs by 4 if the CPU threshold is 30% or lower. The initial instance count is 4 and thus cannot be reduced to
+0 as the minimum instances is set to 2. Instances are only added when the CPU threshold reaches 80%.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-overview https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-best-practices https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-common-scale-patterns</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area2: 4 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area2: 6 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area2: 8 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Area2: 10 virtual machines</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to automate the deployment of a virtual machine scale set that uses the Windows Server 2016 Datacenter image.
+You need to ensure that when the scale set virtual machines are provisioned, they have web server components installed.
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Upload a configuration script</text><feedback>To ensure that when the scale set virtual machines are provisioned, they have web server components installed, you need to: A. **Upload a configuration script**: This script will contain the necessary commands to install the web server components on a Windows Server 2016 Datacenter instance. D. **Modify the extensionProfile section of the Azure Resource Manager template**: The extensionProfile section in a Virtual Machine Scale Set ARM template allows you to specify extensions, which are</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create an automation account</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create an Azure policy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the extensionProfile section of the Azure Resource Manager template</text><feedback>To ensure that when the scale set virtual machines are provisioned, they have web server components installed, you need to: A. **Upload a configuration script**: This script will contain the necessary commands to install the web server components on a Windows Server 2016 Datacenter instance. D. **Modify the extensionProfile section of the Azure Resource Manager template**: The extensionProfile section in a Virtual Machine Scale Set ARM template allows you to specify extensions, which are</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new virtual machine scale set in the Azure portal</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer named Computer1 that runs Windows 10. Computer1 that has the Azure CLI installed.
+You need to install the kubectl client on Computer1.
+Which command should you run? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q10t4.png&quot; alt=&quot;q10t4.png&quot; title=&quot;foto4&quot; width=&quot;713&quot; height=&quot;246&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: az</text><feedback>To install kubectl locally, use the az aks install-cli command: az aks install-cli
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: docker</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: msiexec.exe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: install-Module</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: aks</text><feedback>To install kubectl locally, use the az aks install-cli command: az aks install-cli
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: /package</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: -name</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: pull</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure Resource Manager template named Template1 that is used to deploy an Azure virtual machine.
+Template1 contains the following text:
+&amp;#x003C;img src=&quot;q12t41.png&quot; alt=&quot;q12t41.png&quot; title=&quot;q12t41&quot; width=&quot;213&quot; height=&quot;202&quot;/&amp;#x003E;
+The variables section in Template1 contains the following text:
+&quot;location&quot;: &quot;westeurope&quot;
+The resources section in Template1 contains the following text:
+&amp;#x003C;img src=&quot;q12t42.png&quot; alt=&quot;q12t42.png&quot; title=&quot;q12t42&quot; width=&quot;361&quot; height=&quot;102&quot;/&amp;#x003E;
+You need to deploy the virtual machine to the West US location by using Template1.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Modify the location in the resources section to westus</text><feedback>Correct Answer: A 
+You can change the location in resources. Parameters used to define the value of some variables to be able to use in different places in the template resources. 
+
+Resources are used only for complicated expressions. In any case, RM will only deploy from resources. In case the value is not mentioned directly, then it will check parameters if it is specified in the resources. Based on this question, the value of location is defined directly in resources. so you change the resources location value. Use location parameter. To allow flexibility when deploying your template, use a parameter to specify the location for resources. Set the default value of the parameter to resourceGroup().location. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/resource-location?tabs=azure-powershell</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Select West US during the deployment</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the location in the variables section to westus</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You create an App Service plan named Plan1 and an Azure web app named webapp1.
+You discover that the option to create a staging slot is unavailable.
+You need to create a staging slot for Plan1.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>From Plan1, scale up the App Service plan</text><feedback>The app must be running in the Standard, Premium, or Isolated tier in order for you to enable multiple deployment slots.
+If the app isn&apos;t already in the Standard, Premium, or Isolated tier, you receive a message that indicates the supported tiers for enabling staged publishing. At this point, you have the option to select Upgrade and go to the Scale tab of your app before continuing.
+Scale up: Get more CPU, memory, disk space, and extra features like dedicated virtual machines (VMs), custom domains and certificates, staging slots, autoscaling, and more.
+Incorrect:
+Scale out: Increase the number of VM instances that run your app. You can scale out to as many as 30 instances
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots https://docs.microsoft.com/en-us/azure/app-service/manage-scale-up</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From webapp1, modify the Application settings</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From webapp1, add a custom domain</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Plan1, scale out the App Service plan</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to move a distributed on-premises app named App1 to an Azure subscription.
+After the planned move, App1 will be hosted on several Azure virtual machines.
+You need to ensure that App1 always runs on at least eight virtual machines during planned Azure maintenance.
+
+What should you create?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>One virtual machine scale set that has 10 virtual machines instances</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>One Availability Set that has three fault domains and one update domain</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>One Availability Set that has 10 update domains and one fault domain</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>One virtual machine scale set that has 12 virtual machines instances</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Joana</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You create an Azure Storage account.
+
+You plan to add 10 blob containers to the storage account.
+
+For one of the containers, you need to use a different key to encrypt data at
+rest.
+
+What should you do before you create the container?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Generate a shared access signature (SAS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Modify the minimum TLS version.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Rotate the access keys.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Create an encryption scope.</text><feedback>Encryption scopes enable you to manage encryption with a key that is
+scoped to a container or an individual blob. You can use encryption scopes to
+create secure boundaries between data that resides in the same storage
+account but belongs to different customers.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription. The subscription contains a storage account
+named storage1 that has the lifecycle management rules shown in the
+following table.
+
+&amp;#x003C;img src=&quot;AZ-104-Q49-T3(1).png&quot; alt=&quot;AZ-104-Q49-T3(1).png&quot; title=&quot;AZ-104-Q49-T3(1)&quot; width=&quot;631&quot; height=&quot;121&quot;/&amp;#x003E;
+
+On June 1, you store two blobs in storage1 as shown in the following table.
+
+&amp;#x003C;img src=&quot;AZ-104-Q49-T3(2).png&quot; alt=&quot;AZ-104-Q49-T3(2).png&quot; title=&quot;AZ-104-Q49-T3(2)&quot; width=&quot;287&quot; height=&quot;65&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true.
+Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;AZ-104-Q49-T3(3).png&quot; alt=&quot;AZ-104-Q49-T3(3).png&quot; title=&quot;AZ-104-Q49-T3(3)&quot; width=&quot;931&quot; height=&quot;358&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>On June 6,  File 1 will be stored in the Cool access tier. 
+Correct answer - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On June 6,  File 1 will be stored in the Cool access tier. 
+Correct answer - No</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q49-T3(4).png&quot; alt=&quot;AZ-104-Q49-T3(4).png&quot; title=&quot;AZ-104-Q49-T3(4)&quot; width=&quot;596&quot; height=&quot;229&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On June 1, File 2 will be stored in the Cool access tier.
+Correct answer - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On June 1, File 2 will be stored in the Cool access tier.
+Correct answer - No</text><feedback>NNN is the answer.
+https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-managementoverview
+Transition current versions of a blob, previous versions of a blob, or blob</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On June 16, File2 will be stored in the Archive access tier.
+Correct answer - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On June 16, File2 will be stored in the Archive access tier.
+Correct answer - No</text><feedback>Q1:Y Q2:N Q3:N For first see URL;
+https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-managementoverview
+And from site &quot; If no prefix match is specified, then the policy will apply</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription.
+
+You plan to deploy a storage account named storage1 by using the following
+Azure Resource Manager (ARM) template.
+
+&amp;#x003C;img src=&quot;AZ-104-Q50-T3(1).png&quot; alt=&quot;AZ-104-Q50-T3(1).png&quot; title=&quot;AZ-104-Q50-T3(1)&quot; width=&quot;600&quot; height=&quot;853&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is hue.
+Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;AZ-104-Q50-T3(2).png&quot; alt=&quot;AZ-104-Q50-T3(2).png&quot; title=&quot;AZ-104-Q50-T3(2)&quot; width=&quot;558&quot; height=&quot;142&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Changes made to the data in storage1 can be rolled back after seven days.
+Answer - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Changes made to the data in storage1 can be rolled back after seven days.
+Answer - No</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q50-T3(2).png&quot; alt=&quot;AZ-104-Q50-T3(2).png&quot; title=&quot;AZ-104-Q50-T3(2)&quot; width=&quot;558&quot; height=&quot;142&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only users located in the East US Azure region can connect to storage1. Answer - Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only users located in the East US Azure region can connect to storage1. Answer: No</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q50-T3(2).png&quot; alt=&quot;AZ-104-Q50-T3(2).png&quot; title=&quot;AZ-104-Q50-T3(2)&quot; width=&quot;558&quot; height=&quot;142&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Three copies of storage1 will be maintained in the East US Azure region. Answer: Yes</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q50-T3(3).png&quot; alt=&quot;AZ-104-Q50-T3(3).png&quot; title=&quot;AZ-104-Q50-T3(3)&quot; width=&quot;558&quot; height=&quot;142&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Three copies of storage1 will be maintained in the East US Azure region. Answer - No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an on-premises server that contains a folder named D:\Folder1.
+
+You need to copy the contents of D:\Folder1 to the public container in an
+Azure Storage account named contosodata.
+
+Which command should you run?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. az storage blob copy start D:\Folder1
+https://contosodata.blob.core.windows.net/public</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. azcopy sync D:\folder1
+https://contosodata.blob.core.windows.net/public --snapshot</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. azcopy copy D:\folder1
+https://contosodata.blob.core.windows.net/public --recursive</text><feedback>Correct Answer: C 
+A: URL of the Storage Account. 
+
+B: The azcopy sync command replicates the source location to the destination location. However, the file is skipped if the last modified time in the destination is more recent. 
+
+C: The azcopy copy command copies a directory (and all the files in that directory) to a blob container. 
+
+The result is a directory in the container by the same name. D: The az storage blob copy start-batch command copies multiple blobs to a blob container. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-blobs 
+https://docs.microsoft.com/en-us/azure/storage/common/storage-ref-azcopy-copy</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. az storage blob copy start-batch D:\Folder1
+https://contosodata.blob.core.windows.net/public</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains a storage account named
+storage1. The storage1 account contains a container named container1.
+
+You need to create a lifecycle management rule for storage1 that will
+automatically move the blobs in container1 to the lowest-cost tier after 90
+days.
+
+How should you complete the rule? To answer, select the appropriate
+options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;AZ-104-Q52-T3(1).png&quot; alt=&quot;AZ-104-Q52-T3(1).png&quot; title=&quot;AZ-104-Q52-T3(1)&quot; width=&quot;397&quot; height=&quot;595&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>&quot;baseBlob&quot;: {
+&quot;enableAutoTierToHotFromCool&quot;:{
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;baseBlob&quot;: {
+&quot;tierToArchive&quot;:{
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q52-T3(2).png&quot; alt=&quot;AZ-104-Q52-T3(2).png&quot; title=&quot;AZ-104-Q52-T3(2)&quot; width=&quot;398&quot; height=&quot;592&quot;/&amp;#x003E;
+
+tierToArchive and prefixMatch - tierToArchive because it&apos;s the lowest cost tier, and
+doesnt say anyhting about needing to read data after 90 days. However,
+rehydration costs will occur if they did need to read it. - prefixMatch because we
+only want the blob in the container1.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;baseBlob&quot;: {
+&quot;tierToCool&quot;:{
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;filters&quot;: {
+&quot;blobIndexMatch&quot;:[
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;filters&quot;: {
+&quot;blobTypes&quot;:[
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;filters&quot;: {
+&quot;prefixMatch&quot;:[
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q52-T3(2).png&quot; alt=&quot;AZ-104-Q52-T3(2).png&quot; title=&quot;AZ-104-Q52-T3(2)&quot; width=&quot;398&quot; height=&quot;592&quot;/&amp;#x003E;
+
+prefixMatch --&amp;#x003E; An array of strings for
+prefixes to be matched. Each rule can define up to 10 case-sensitive prefixes. A
+prefix string must start with a container name.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1.
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. an Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Azure File Storage</text><feedback>Correct Answer: B
+----------------------------------
+
+B is the answer. https://learn.microsoft.com/en-us/azure/import-export/storageimport-
+export-service Azure Import/Export service is used to securely import
+large amounts of data to Azure Blob storage and Azure Files by shipping disk
+drives to an Azure datacenter. This service can also be used to transfer data from
+Azure Blob storage to disk drives and ship to your on-premises sites. Data from
+one or more disk drives can be imported either to Azure Blob storage or Azure
+Files.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure SQL Database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. a virtual machine</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the
+following table.
+
+&amp;#x003C;img src=&quot;AZ-104-Q55-T3(1).jpg&quot; alt=&quot;AZ-104-Q55-T3(1).jpg&quot; title=&quot;AZ-104-Q55-T3(1)&quot; width=&quot;376&quot; height=&quot;92&quot;/&amp;#x003E;
+
+You need to perform the tasks shown in the following table.
+
+&amp;#x003C;img src=&quot;AZ-104-Q55-T3(2).jpg&quot; alt=&quot;AZ-104-Q55-T3(2).jpg&quot; title=&quot;AZ-104-Q55-T3(2)&quot; width=&quot;504&quot; height=&quot;113&quot;/&amp;#x003E;
+
+Which tasks can you perform by using Azure Storage Explorer?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Task1 and Task3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Task1, Task2, and Task3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Task1, Task3, and Task4 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Task2, Task3, and Task4 only</text><feedback>Correct Answer: D
+
+Azure Storage Explorer does what is states, it explores Storage, not create it.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. Task1, Task 2, Task 3 and Task 4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure AD user named User1 and a read-access geo-redundant
+storage (RA-GRS) account named contoso2023.
+
+You need to meet the following requirements:
+
+&amp;#x2022; User1 must be able to write blob data to contoso2023.
+&amp;#x2022; The contoso2023 account must fail over to its secondary endpoint.
+
+Which two settings should you configure? To answer, select the appropriate
+settings in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;AZ-104-Q56-T3(1).png&quot; alt=&quot;AZ-104-Q56-T3(1).png&quot; title=&quot;AZ-104-Q56-T3(1)&quot; width=&quot;308&quot; height=&quot;1100&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>contoso2023
+Storage account: 
+
+Search (Ctrl+/)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>contoso2023
+Storage account: 
+
+Diagnose and solve problems</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>contoso2023
+Storage account: 
+
+Access Control (IAM)</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q56-T3(2).png&quot; alt=&quot;AZ-104-Q56-T3(2).png&quot; title=&quot;AZ-104-Q56-T3(2)&quot; width=&quot;267&quot; height=&quot;971&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>contoso2023
+Storage account: 
+
+Data migration</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>contoso2023
+Storage account: 
+
+Events</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>contoso2023
+Storage account: 
+
+Storage browser</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data Storage:
+
+Containers</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data Storage:
+
+
+File shares</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data Storage:
+
+Queues</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data Storage:
+
+Tables</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Networking</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Azure CDN</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Access keys</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Shared access signature</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Encryption</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Security + networking:
+
+Microsoft Defender for Cloud</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Geo-replication</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q56-T3(2).png&quot; alt=&quot;AZ-104-Q56-T3(2).png&quot; title=&quot;AZ-104-Q56-T3(2)&quot; width=&quot;267&quot; height=&quot;971&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Data replication</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Object replication</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Blob inventory</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Static website</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Data management:
+
+Lifecycle management</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains a storage account named
+storage1.
+
+You plan to create a blob container named container1.
+
+You need to use customer-managed key encryption for container1.
+
+Which key should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. an EC key that uses the P-384 curve only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. an EC key that uses the P-521 curve only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. an EC key that uses the P-384 curve or P-521 curve only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. an RSA key with a key size of 4096 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. an RSA key type with a key size of 2048, 3072, or 4096 only</text><feedback>Correct Answer: E
+
+Provided answer E is correct. &quot;Azure storage encryption supports RSA and RSAHSM
+keys of sizes 2048, 3072 and 4096&quot;
+https://learn.microsoft.com/en-us/azure/storage/common/customer-managedkeys-
+overview#enable-customer-managed-keys-for-a-storage-account</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains a user named User1 and a
+storage account named storage1. The storage1 account contains the
+resources shown in the following table.
+
+&amp;#x003C;img src=&quot;AZ-104-Q58-T3(1).jpg&quot; alt=&quot;AZ-104-Q58-T3(1).jpg&quot; title=&quot;AZ-104-Q58-T3(1)&quot; width=&quot;212&quot; height=&quot;94&quot;/&amp;#x003E;
+
+User1 is assigned the following roles for storage1:
+
+&amp;#x2022; Storage Blob Data Reader
+&amp;#x2022; Storage Table Data Contributor
+&amp;#x2022; Storage File Data SMB Share Contributor
+
+For storage1, you create a shared access signature (SAS) named SAS1 that
+has the settings shown in the following exhibit. (Click the Exhibit tab.)
+
+&amp;#x003C;img src=&quot;AZ-104-Q58-T3(2).jpg&quot; alt=&quot;AZ-104-Q58-T3(2).jpg&quot; title=&quot;AZ-104-Q58-T3(2)&quot; width=&quot;624&quot; height=&quot;831&quot;/&amp;#x003E;
+
+To which resources can User1 write by using SAS1 and key1? To answer,
+select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Key1: Table1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Key1: Table1 and container1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Key1: folder1 and Table 1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(4).jpg&quot; alt=&quot;AZ-104-Q58-T3(4).jpg&quot; title=&quot;AZ-104-Q58-T3(4)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Key1: Table1, folder1, and container1</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>SAS1: Table1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>SAS1: Table1 and container1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(4).jpg&quot; alt=&quot;AZ-104-Q58-T3(4).jpg&quot; title=&quot;AZ-104-Q58-T3(4)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>SAS1: folder1 and Table1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>SAS1: folder1 and container1 only</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>SAS1: Table1, folder1, and container1</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q58-T3(3).jpg&quot; alt=&quot;AZ-104-Q58-T3(3).jpg&quot; title=&quot;AZ-104-Q58-T3(3)&quot; width=&quot;419&quot; height=&quot;349&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

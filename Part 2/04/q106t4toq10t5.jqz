@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Cpl34</dc:creator>
+    <dc:title>az-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>az-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Topic4 -Q106  You have an Azure subscription that contains an Azure container registry named ContReg1.You enable the Admin user for ContReg1.Which username can you use to sign in to ContReg1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Root</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.admin</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/container-registry/container-registry-authentication?tabs=azure-cli#admin-account&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.administrator</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. ContReg1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q1
+HOTSPOT -You have an Azure subscription named Sub1.You plan to deploy a multi-tiered application that will contain the tiers shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q1t51.png&quot; alt=&quot;q1t51.png&quot; title=&quot;q1t51&quot; width=&quot;638&quot; height=&quot;118&quot;/&amp;#x003E;
+You need to recommend a networking solution to meet the following requirements:
+- Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
+- Protect the web servers from SQL injection attacks.
+Which Azure resource should you recommend for each requirement? To answer, select the appropriate options in the answer area.NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;imagenes/q1t52.png&quot; alt=&quot;q1t52.png&quot; title=&quot;q1t52&quot; width=&quot;682&quot; height=&quot;300&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
+
+AN APPLICATION GATEWAY THAT USES THE STANDARD TIER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
+
+AN APPLICATION GATEWAY THAT USES THE WAF TIER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.:
+
+AN INTERNAL LOAD BALANCER</text><feedback>Azure Internal Load Balancer (ILB) provides network load balancing between virtual machines that reside inside a cloud service or a virtual network with a regional scope.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
+
+A NETWORK SECURITY GROUP (NSG)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
+
+A PUBLIC LOAD BALANCER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protect the web servers from SQL injection attacks.
+
+AN APPLICATION GATEWAY THAT USES THE STANDARD TIER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protect the web servers from SQL injection attacks.
+
+AN APPLICATION GATEWAY THAT USES THE WAF TIER</text><feedback>Azure Web Application Firewall (WAF) on Azure Application Gateway provides centralized protection of your web applications from common exploits and vulnerabilities. Web applications are increasingly targeted by malicious attacks that exploit commonly known vulnerabilities.
+
+&amp;#x003C;img src=&quot;imagenes/q1t53.png&quot; alt=&quot;q1t53.png&quot; title=&quot;q1t53&quot; width=&quot;456&quot; height=&quot;198&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protect the web servers from SQL injection attacks.
+
+AN INTERNAL LOAD BALANCER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protect the web servers from SQL injection attacks.
+
+A NETWORK SECURITY GROUP (NSG)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protect the web servers from SQL injection attacks.
+
+A PUBLIC LOAD BALANCER</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic 5-Q2
+Your company has three offices. The offices are located in Miami, Los Angeles, and New York. Each office contains datacenter.You have an Azure subscription that contains resources in the East US and West US Azure regions. Each region contains a virtual network. The virtual networks are peered.You need to connect the datacenters to the subscription. The solution must minimize network latency between the datacenters.What should you create?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. three Azure Application Gateways and one On-premises data gateway</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.&amp;#x00A0;three virtual hubs and one virtual WAN</text><feedback>A virtual hub is a Microsoft-managed virtual network. The hub contains various service endpoints to enable connectivity. From your on-premises network (vpnsite), you can connect to a VPN gateway inside the virtual hub, connect ExpressRoute circuits to a virtual hub, or even connect mobile users to a point-to-site gateway in the virtual hub. The hub is the core of your network in a region. Multiple virtual hubs can be created in the same region.
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.&amp;#x00A0;three virtual WANs and one virtual hub</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D.&amp;#x00A0;three On-premises data gateways and one Azure Application Gateway</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q3
+HOTSPOT -You plan to deploy five virtual machines to a virtual network subnet.Each virtual machine will have a public IP address and a private IP address.Each virtual machine requires the same inbound and outbound security rules.What is the minimum number of network interfaces and network security groups that you require? To answer, select the appropriate options in the answer area.
+&amp;#x003C;img src=&quot;imagenes/q3t51.png&quot; alt=&quot;q3t51.png&quot; title=&quot;q3t51&quot; width=&quot;401&quot; height=&quot;200&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>minimum number of network interfaces
+
+5</text><feedback>A public and a private IP address can be assigned to a single network interface.
+
+&amp;#x003C;img src=&quot;imagenes/q3t52.png&quot; alt=&quot;q3t52.png&quot; title=&quot;q3t52&quot; width=&quot;433&quot; height=&quot;150&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>minimum number of network interfaces
+
+10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>minimum number of network interfaces
+
+15</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>minimum number of network interfaces
+
+20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Minimum network security groups
+
+1</text><feedback>You can associate zero, or one, network security group to each virtual network subnet and network interface in a virtual machine. The same network security group can be associated to as many subnets and network interfaces as you choose
+
+&amp;#x003C;img src=&quot;imagenes/q3t53.png&quot; alt=&quot;q3t53.png&quot; title=&quot;q3t53&quot; width=&quot;340&quot; height=&quot;100&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface-addresses&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Minimum network security groups
+
+2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Minimum network security groups
+
+5</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Minimum network security groups
+
+10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q4
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q4t51.png&quot; alt=&quot;q4t51.png&quot; title=&quot;q4t51&quot; width=&quot;322&quot; height=&quot;100&quot;/&amp;#x003E;
+LB1 is configured as shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q4t52.png&quot; alt=&quot;q4t52.png&quot; title=&quot;q4t52&quot; width=&quot;446&quot; height=&quot;180&quot;/&amp;#x003E;
+You plan to create new inbound NAT rules that meet the following requirements:
+*Provide Remote Desktop access to VM1 from the internet by using port 3389.
+*Provide Remote Desktop access to VM2 from the internet by using port 3389.
+What should you create on LB1 before you can create the new inbound NAT rules?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A.&amp;#x00A0;a frontend IP address</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.&amp;#x00A0;a load balancing rule</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.&amp;#x00A0;a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D.&amp;#x00A0;a backend pool</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q5
+HOTSPOT -You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q5t51.png&quot; alt=&quot;q5t51.png&quot; title=&quot;q5t51&quot; width=&quot;519&quot; height=&quot;70&quot;/&amp;#x003E;
+You create a private Azure DNS zone named adatum.com. You configure the adatum.com zone to allow auto registration from VNET1
+Which A records will be added to the adatum.com zone for each virtual machine? 
+To answer, select the appropriate options in the answer area.NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;imagenes/q5t52.png&quot; alt=&quot;q5t52.png&quot; title=&quot;q5t52&quot; width=&quot;388&quot; height=&quot;190&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A records for VM1
+
+A.NONE</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM1
+
+B.PRIVATE IP  ADDRESS ONLY</text><feedback>&amp;#x003C;img src=&quot;imagenes/q5t53.png&quot; alt=&quot;q5t53.png&quot; title=&quot;q5t53&quot; width=&quot;385&quot; height=&quot;90&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM1
+
+C. PUBLIC IP ADDRESS ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM1
+
+D. PRIVATE IP ADDRESS AND PUBLIC IP ADDRESS</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a records for VM2
+
+E. NONE</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM2
+
+F: PRIVATE IP ADDRESS ONLY</text><feedback>&amp;#x003C;img src=&quot;imagenes/q5t54.png&quot; alt=&quot;q5t54.png&quot; title=&quot;q5t54&quot; width=&quot;382&quot; height=&quot;90&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/dns/private-dns-overview&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;
+
+
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/dns/private-dns-scenarios&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM2
+
+G. PUBLIC IP ADDRESS ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A records for VM2
+
+H. PRIVATE IP ADDRESS AND PUBLIC IP ADDRESS</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q6
+HOTSPOT -You have an Azure virtual network named VNet1 that connects to your on-premises network by using a site-to-site VPN. VNet1 contains one subnet named Subnet1.
+Subnet1 is associated to a network security group (NSG) named NSG1. Subnet1 contains a basic internal load balancer named ILB1. 
+ILB1 has three Azure virtual machines in the backend pool.
+You need to collect data about the IP addresses that connects to ILB1. You must be able to run interactive queries from the Azure portal against the collected data.What should you do? 
+To answer, select the appropriate options in the answer area.
+&amp;#x003C;img src=&quot;imagenes/q6t51.png&quot; alt=&quot;q6t51.png&quot; title=&quot;q6t51&quot; width=&quot;413&quot; height=&quot;175&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Resource to create
+
+A. AN AZURE EVENT GRID</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource to create
+
+B. AN AZURE LOG ANALYTICS WORKSPACE</text><feedback>In the Azure portal you can set up a Log Analytics workspace, which is a unique Log Analytics environment with its own data repository, data sources, and solutions
+
+&amp;#x003C;img src=&quot;imagenes/q6t52.png&quot; alt=&quot;q6t52.png&quot; title=&quot;q6t52&quot; width=&quot;464&quot; height=&quot;90&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/load-balancer/monitor-load-balancer&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource to create
+
+C. AN AZURE STORAGE ACCOUNT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource on which to enable diagnostics
+
+D. ILB1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource on which to enable diagnostics
+
+E. NSG1</text><feedback>NSG flow logs allow viewing information about ingress and egress IP traffic through a Network security group. Through this, the IP addresses that connect to the ILB can be monitored when the diagnostics are enabled on a Network Security Group. We cannot enable diagnostics on an internal load balancer to check for the IP addresses. As for Internal LB, it is basic one. Basic can only connect to storage account. Also, Basic LB has only activity logs, which doesn&apos;t include the connectivity workflow. So, we need to use NSG to meet the mentioned requirements.
+
+&amp;#x003C;img src=&quot;imagenes/q6t53.png&quot; alt=&quot;q6t53.png&quot; title=&quot;q6t53&quot; width=&quot;464&quot; height=&quot;78&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-gb/azure/load-balancer/skus#skus&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource on which to enable diagnostics
+
+F. THE AZURE VIRTUAL MACHINES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q7
+You have the Azure virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q7t51.png&quot; alt=&quot;q7t51.png&quot; title=&quot;q7t51&quot; width=&quot;503&quot; height=&quot;90&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A.&amp;#x00A0;VNet2 andVNet3 only</text><feedback>The address space for VNet2 overlaps with VNet1. We therefore cannot establish a peering between VNet2 and VNet1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.&amp;#x00A0;VNet2 only</text><feedback>The address space for VNet2 overlaps with VNet1. We therefore cannot establish a peering between VNet2 and VNet1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.&amp;#x00A0;VNet3 and VNet4 only</text><feedback>Address spaces must not overlap to enable VNet Peering
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D.&amp;#x00A0;VNet2, VNet3, and VNet4</text><feedback>The address space for VNet2 overlaps with VNet1. We therefore cannot establish a peering between VNet2 and VNet1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q8
+You have an Azure subscription that contains a virtual network named VNet1. VNet1 contains four subnets named Gateway, Perimeter, NVA, and Production.
+The NVA subnet contains two network virtual appliances (NVAs) that will perform network traffic inspection between the Perimeter subnet and the Production subnet.
+You need to implement an Azure load balancer for the NVAs. The solution must meet the following requirements:
+* The NVAs must run in an active-active configuration that uses automatic failover
+* The load balancer must load balance traffic to two services on the Production subnet. The services have different IP addresses.
+Which three actions should you perform? Each correct answer presents part of the solution</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A.&amp;#x00A0;Deploy a basic load balancer</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.&amp;#x00A0;Deploy a standard load balancer</text><feedback>A standard load balancer is required for the HA ports
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/load-balancer/skus?source=recommendations&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.&amp;#x00A0;Add two load balancing rules that have HA Ports and Floating IP enabled</text><feedback>Floating IP rule is used where backend ports are reused.
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-ha-ports-overview&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D.&amp;#x00A0;Add two load balancing rules that have HA Ports enabled and Floating IP disabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E.&amp;#x00A0;Add a frontend IP configuration, a backend pool, and a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>F.&amp;#x00A0;Add a frontend IP configuration, two backend pools, and a health probe</text><feedback>Two backend pools are needed as there are two services with different IP addresses.
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/load-balancer/backend-pool-management&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q9
+You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. 
+VNet1 contains a VPN gateway namedVPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.
+On a computer named Client1 that runs Windows 10, you configure a point-to-site VPN connection to VNet1.
+You configure virtual network peering between VNet1 and VNet2. You verify that you can connect to VNet2 from the on-premises network.
+ Client1 is unable to connect to VNet2.You need to ensure that you can connect Client1 to VNet2.
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A.&amp;#x00A0;Download and re-install the VPN client configuration package on Client1.</text><feedback>If you make a change to the topology of your network and have Windows VPN clients, the VPN client package for Windows clients must be downloaded and installed again
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B.&amp;#x00A0;Select Allow gateway transit on VNet1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C.&amp;#x00A0;Select Allow gateway transit on VNet2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Enable BGP on VPNGW1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Topic5-Q10
+HOTSPOT -You have an Azure subscription. The subscription contains virtual machines that run Windows Server 2016 and are configured as shown in the following table.
+&amp;#x003C;img src=&quot;imagenes/q10t51.png&quot; alt=&quot;q10t51.png&quot; title=&quot;q10t51&quot; width=&quot;480&quot; height=&quot;100&quot;/&amp;#x003E;
+You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.You create a virtual network link for contoso.com as shown in the following exhibit.
+&amp;#x003C;img src=&quot;imagenes/q10t52.png&quot; alt=&quot;q10t52.png&quot; title=&quot;q10t52&quot; width=&quot;351&quot; height=&quot;250&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;imagenes/q10t53.png&quot; alt=&quot;q10t53.png&quot; title=&quot;q10t53&quot; width=&quot;449&quot; height=&quot;150&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>When VM1 starts, a record for VM1 is added to the contoso.com to DNS Zone
+
+YES</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/dns/private-dns-autoregistration&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When VM1 starts, a record for VM1 is added to the contoso.com to DNS Zone
+
+NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When VM2 starts, a record for VM2 is added to the contoso.com to DNS Zone
+
+YES</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/dns/private-dns-autoregistration&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When VM2 starts, a record for VM2 is added to the contoso.com to DNS Zone
+
+NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When VM3 starts, a record for VM3 is added to the adatum.com to DNS Zone
+
+YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When VM3 starts, a record for VM3 is added to the adatum.com to DNS Zone
+
+NO</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/dns/dns-faq-private#i-have-configured-a-preferred-dns-suffix-in-my-windows-virtual-machine--why-are-my-records-still-registered-in-the-zone-linked-to-the-virtual-network-&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;
+
+&amp;#x003C;img src=&quot;imagenes/q10t54.png&quot; alt=&quot;q10t54.png&quot; title=&quot;q10t54&quot; width=&quot;444&quot; height=&quot;150&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Beatriz</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>HOTSPOT -
+You have an Azure subscription that contains an Azure Storage account.
+You plan to copy an on-premises virtual machine image to a container named
+vmimages.
+You need to create the container for the planned image.
+Which command should you run? To answer, select the appropriate options
+in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q11t3.jpg&quot; alt=&quot;q11t3.jpg&quot; title=&quot;q11t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>azcopy make</text><feedback>&amp;#x003C;img src=&quot;q11.1t3.jpg&quot; alt=&quot;q11.1t3.jpg&quot; title=&quot;q11.1t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+Similar to OS
+Images, a VM Image is a collection of metadata and pointers to a set of VHDs (one
+VHD per disk) stored as page blobs in Azure Storage. Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-ref-azcopymake</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>azcopy sync</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>azcopy copy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.blob.core.windows.net/vimages</text><feedback>&amp;#x003C;img src=&quot;q11.1t3.jpg&quot; alt=&quot;q11.1t3.jpg&quot; title=&quot;q11.1t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+Similar to OS
+Images, a VM Image is a collection of metadata and pointers to a set of VHDs (one
+VHD per disk) stored as page blobs in Azure Storage. Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-ref-azcopymake</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.dfs.core.windows.net/vimages</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.queue.core.windows.net/vimages</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.table.core.windows.net/vimages</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.images.core.windows.net/vimages</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>https://mystorageaccount.file.core.windows.net/vimages</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure File sync group that has the endpoints shown in the
+following table.
+&amp;#x003C;img src=&quot;q12t3.jpg&quot; alt=&quot;q12t3.jpg&quot; title=&quot;q12t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+
+Cloud tiering is enabled for Endpoint3.
+You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2.
+On which endpoints will File1 and File2 be available within 24 hours of
+adding the files? To answer, select the appropriate options in the answer
+area.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q12.1t3.jpg&quot; alt=&quot;q12.1t3.jpg&quot; title=&quot;q12.1t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>File 1: Endpoint1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 1: Endpoint3 only</text><feedback>&amp;#x003C;img src=&quot;q12.2t3.jpg&quot; alt=&quot;q12.2t3.jpg&quot; title=&quot;q12.2t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+File1: Endpoint3 only -
+Cloud Tiering: A switch to enable or disable cloud tiering. When enabled,
+cloud tiering will tier files to your Azure file shares. This converts onpremises
+file shares into a cache, rather than a complete copy of the dataset,
+to help you manage space efficiency on your server. With cloud tiering,
+infrequently used or accessed files can be tiered to Azure Files.
+
+Correct Answer: File1: Endpoint1 only It is a cloud endpoint, and it is scanned by
+the detection job every 24 hours. File2: Endpoint1, Endpoint2 and Endpoint3 With
+the on-premises servers the file is scanned and synced automatically after it&apos;s
+being added. Note: They changed the question in Exam from &quot;within 24 hours&quot; to
+&quot;after 24 hours&quot;. So, the answer is: File1: Endpoint1, Endpoint2 and Endpoint3
+File2: Endpoint1, Endpoint2 and Endpoint3 Reference:
+https://docs.microsoft.com/en-us/learn/modules/extend-share-capacity-withazure-
+file-sync/2-what-azure-file-sync</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 1: Endpoint2 and Endpoint3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 1: Endpoint1, Endpoint2 and Endpoint3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 2: Endpoint2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 2: Endpoint3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File 2: Endpoint2 and Endpoint3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Endpoint1, Endpoint2 and Endpoint3</text><feedback>&amp;#x003C;img src=&quot;q12.2t3.jpg&quot; alt=&quot;q12.2t3.jpg&quot; title=&quot;q12.2t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+File2: Endpoint1, Endpoint2, and Endpoint3
+Correct Answer: File1: Endpoint1 only It is a cloud endpoint, and it is scanned by
+the detection job every 24 hours. File2: Endpoint1, Endpoint2 and Endpoint3 With
+the on-premises servers the file is scanned and synced automatically after it&apos;s
+being added. Note: They changed the question in Exam from &quot;within 24 hours&quot; to
+&quot;after 24 hours&quot;. So, the answer is: File1: Endpoint1, Endpoint2 and Endpoint3
+File2: Endpoint1, Endpoint2 and Endpoint3 Reference:
+https://docs.microsoft.com/en-us/learn/modules/extend-share-capacity-withazure-
+file-sync/2-what-azure-file-sync
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-cloudtiering</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have several Azure virtual machines on a virtual network named VNet1.
+You configure an Azure Storage account as shown in the following exhibit.
+&amp;#x003C;img src=&quot;q13t3.jpg&quot; alt=&quot;q13t3.jpg&quot; title=&quot;q13t3&quot; width=&quot;819&quot; height=&quot;602&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q13.1t3.jpg&quot; alt=&quot;q13.1t3.jpg&quot; title=&quot;q13.1t3&quot; width=&quot;894&quot; height=&quot;460&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>The virtual machines on the 10.2.9.0/24 subnet will have network connectivity to the file shares in the storage account always</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The virtual machines on the 10.2.9.0/24 subnet will have network connectivity to the file shares in the storage account during a backup</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The virtual machines on the 10.2.9.0/24 subnet will have network connectivity to the file shares in the storage account never</text><feedback>Box 1: never -
+The 10.2.9.0/24 subnet is not whitelisted
+&amp;#x003C;img src=&quot;q13.2t3.jpg&quot; alt=&quot;q13.2t3.jpg&quot; title=&quot;q13.2t3&quot; width=&quot;894&quot; height=&quot;460&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Backup will be able to back up the unmanaged hard disks of the virtual machines in the storage account always</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Backup will be able to back up the unmanaged hard disks of the virtual machines in the storage account during a backup</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Backup will be able to back up the unmanaged hard disks of the virtual machines in the storage account never</text><feedback>&amp;#x003C;img src=&quot;q13.2t3.jpg&quot; alt=&quot;q13.2t3.jpg&quot; title=&quot;q13.2t3&quot; width=&quot;894&quot; height=&quot;460&quot;/&amp;#x003E;
+Box 2: never -
+After you configure firewall and virtual network settings for your storage
+account, select Allow trusted Microsoft services to access this storage
+account as an exception to enable Azure Backup service to access the
+network restricted storage account.
+&amp;#x003C;img src=&quot;q13.3t3.jpg&quot; alt=&quot;q13.3t3.jpg&quot; title=&quot;q13.3t3&quot; width=&quot;831&quot; height=&quot;584&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have a sync group named Sync1 that has a cloud endpoint. The cloud
+endpoint includes a file named File1.txt.
+Your on-premises network contains servers that run Windows Server 2016.
+The servers are configured as shown in the following table.
+&amp;#x003C;img src=&quot;q14t3.jpg&quot; alt=&quot;q14t3.jpg&quot; title=&quot;q14t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as
+an endpoint for Sync1.
+
+For each of the following statements, select if the statement is true.
+
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q14.1t3.jpg&quot; alt=&quot;q14.1t3.jpg&quot; title=&quot;q14.1t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>On the cloud endpoint, File1.txt is overwritten by File1.txt from Share 1  YES</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On the cloud endpoint, File1.txt is overwritten by File1.txt from Share 1    NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On Server1, File1.txt is overwritten by File1.txt from the cloud endpoint   YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>On Server1, File1.txt is overwritten by File1.txt from the cloud endpoint   NO</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File1.txt from Share1 replicates to Share2.  YES</text><feedback>&amp;#x003C;img src=&quot;q14.2t3.jpg&quot; alt=&quot;q14.2t3.jpg&quot; title=&quot;q14.2t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+This question appeared on exam 15/09/2023 Correct answer is -------------&amp;#x003E; N - N - Y
+Box 1: Yes -
+If you add an Azure file share that has an existing set of files as a cloud
+endpoint to a sync group, the existing files are merged with any other files
+that are already on other endpoints in the sync group.
+Box 2: No -
+Box 3: Yes -
+https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-filesplanning
+
+Agree, files are never overwritten. If the file exists, it will get a new name on the
+endpoint (file1(1).txt)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>File1.txt from Share1 replicates to Share2.    NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the storage accounts shown in
+the following table.
+&amp;#x003C;img src=&quot;q15t3.jpg&quot; alt=&quot;q15t3.jpg&quot; title=&quot;q15t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+redundant
+storage (ZRS) replication by requesting a live migration from
+Azure support.
+
+What should you identify?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>storage1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage2</text><feedback>Correct Answer: B
+ZRS currently supports standard general-purpose v2, FileStorage and
+BlockBlobStorage storage account types.
+
+Incorrect Answers:
+A, not C: Live migration is supported only for storage accounts that use LRS
+replication. If your account uses GRS or RA-GRS, then you need to first
+change your account&apos;s replication type to LRS before proceeding. This
+intermediary step removes the secondary endpoint provided by GRS/RAGRS.
+Also, only standard storage account types support live migration. Premium
+storage accounts must be migrated manually.
+D: ZRS currently supports standard general-purpose v2, FileStorage and
+BlockBlobStorage storage account types.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancyzrs</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains a storage account named
+account1.
+
+You plan to upload the disk files of a virtual machine to account1 from your
+on-premises network. The on-premises network uses a public IP address
+space of
+131.107.1.0/24.
+
+You plan to use the disk files to provision an Azure virtual machine named
+VM1. VM1 will be attached to a virtual network named VNet1. VNet1 uses
+an IP address space of 192.168.0.0/24.
+
+You need to configure account1 to meet the following requirements:
+&amp;#x2711; Ensure that you can upload the disk files to account1.
+&amp;#x2711; Ensure that you can attach the disks to VM1.
+&amp;#x2711; Prevent all other access to account1.
+
+Which two actions should you perform? Each correct answer presents part of
+the solution.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>From the Networking blade of account1, select Selected networks</text><feedback>A: By default, storage accounts accept connections from clients on any
+network. To limit access to selected networks, you must first change the
+default action.
+Azure portal -
+1. Navigate to the storage account you want to secure.
+2. Click on the settings menu called Firewalls and virtual networks.
+3. To deny access by default, choose to allow access from &apos;Selected
+networks&apos;. To allow traffic from all networks, choose to allow access from &apos;All
+networks&apos;.
+4. Click Save to apply your changes.
+
+E: Grant access from a Virtual Network
+Storage accounts can be configured to allow access only from specific Azure
+Virtual Networks.
+By enabling a Service Endpoint for Azure Storage within the Virtual
+Network, traffic is ensured an optimal route to the Azure Storage service.
+The identities of the virtual network and the subnet are also transmitted with
+each request.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-networksecurity
+
+Too many mixed answers here. Decided to spend hours reading MS Docs! K, let&apos;s
+settle this one once and for all. Technically all answers are correct, however you
+can only choose 2. So here we go: B, C, D depends on A. And B is selected by
+default btw (once you do A). E has to be done for the disk to be used by VM1. So
+the correct answer is A and E. A which will cover B C D. And E as explained above.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Networking blade of account1, select Allow trusted
+Microsoft services to access this storage account.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Networking blade of account1, add the 131.107.1.0/24 IP
+address range.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Networking blade of account1, add VNet1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Service endpoints blade of VNet1, add a service endpoint</text><feedback>A: By default, storage accounts accept connections from clients on any
+network. To limit access to selected networks, you must first change the
+default action.
+Azure portal -
+1. Navigate to the storage account you want to secure.
+2. Click on the settings menu called Firewalls and virtual networks.
+3. To deny access by default, choose to allow access from &apos;Selected
+networks&apos;. To allow traffic from all networks, choose to allow access from &apos;All
+networks&apos;.
+4. Click Save to apply your changes.
+
+E: Grant access from a Virtual Network
+Storage accounts can be configured to allow access only from specific Azure
+Virtual Networks.
+By enabling a Service Endpoint for Azure Storage within the Virtual
+Network, traffic is ensured an optimal route to the Azure Storage service.
+The identities of the virtual network and the subnet are also transmitted with
+each request.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-networksecurity
+
+Too many mixed answers here. Decided to spend hours reading MS Docs! K, let&apos;s
+settle this one once and for all. Technically all answers are correct, however you
+can only choose 2. So here we go: B, C, D depends on A. And B is selected by
+default btw (once you do A). E has to be done for the disk to be used by VM1. So
+the correct answer is A and E. A which will cover B C D. And E as explained above.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You plan to create an Azure Storage account in the Azure region of East US
+2.
+You need to create a storage account that meets the following requirements:
+&amp;#x2711; Replicates synchronously.
+&amp;#x2711; Remains available if a single data center in the region fails.
+How should you configure the storage account? To answer, select the
+appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q18t3.jpg&quot; alt=&quot;q18t3.jpg&quot; title=&quot;q18t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Replication
+Geo-redundant storage (GRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Replication 
+Locally-redundant storage (LRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Replication
+Read-access geo-redundant storage (RA GRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Replication
+Zone-redundant storage (ZRS)</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type
+Blob storage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type 
+Storage (general purpose v1)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account type
+StorageV2 (general purpose v2)</text><feedback>&amp;#x003C;img src=&quot;q18.1t3.jpg&quot; alt=&quot;q18.1t3.jpg&quot; title=&quot;q18.1t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;
+Box 1: Zone-redundant storage (ZRS)
+Zone-redundant storage (ZRS) replicates your data synchronously across
+three storage clusters in a single region.
+LRS would not remain available if a data center in the region fails
+GRS and RA GRS use asynchronous replication.
+Box 2: StorageV2 (general purpose V2)
+ZRS only support GPv2.
+Reference:https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancyzrs</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to use the Azure Import/Export service to copy files to a storage
+account.
+
+Which two files should you create before you prepare the drives for the
+import job? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>an XML manifest file</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a dataset CSV file</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a JSON configuration file</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a PowerShell PS1 file</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a driveset CSV file</text><feedback>Correct Answer: BE
+B: Modify the dataset.csv file in the root folder where the tool resides.
+Depending on whether you want to import a file or folder or both, add
+entries in the dataset.csv file
+E: Modify the driveset.csv file in the root folder where the tool resides.
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-importexport-
+data-to-files</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have a Recovery Service vault that you use to test backups. The test
+backups contain two protected virtual machines.
+You need to delete the Recovery Services vault.
+
+What should you do first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>From the Recovery Service vault, delete the backup data.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the disaster recovery properties of each virtual machine.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the locks of each virtual machine.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Recovery Service vault, stop the backup of each backup
+item.</text><feedback>Correct Answer: D
+You can&apos;t delete a Recovery Services vault if it is registered to a server and
+holds backup data. If you try to delete a vault, but can&apos;t, the vault is still
+configured to receive backup data.
+Remove vault dependencies and delete vault
+In the vault dashboard menu, scroll down to the Protected Items section, and
+click Backup Items. In this menu, you can stop and delete Azure File
+Servers, SQL
+Servers in Azure VM, and Azure virtual machines.
+&amp;#x003C;img src=&quot;q20t3.jpg&quot; alt=&quot;q20t3.jpg&quot; title=&quot;q20t3&quot; width=&quot;819&quot; height=&quot;460&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1 that contains the
+resources shown in the following table.
+&amp;#x003C;img src=&quot;q21t3.jpg&quot; alt=&quot;q21t3.jpg&quot; title=&quot;q21t3&quot; width=&quot;623&quot; height=&quot;175&quot;/&amp;#x003E;
+In storage1, you create a blob container named blob1 and a file share named
+share1.
+Which resources can be backed up to Vault1 and Vault2? To answer, select
+the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Can use Vault1 for backups VM1 only</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault1 for backups VM1 and share1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault1 for backups VM1 and SQL1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault1 for backups VM1, storage1. and SQL1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault1 for backups VM1, blob1, share1, and SQL1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault2 for backups storage1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault2 for backups share1 only</text><feedback>&amp;#x003C;img src=&quot;q21.1t3.jpg&quot; alt=&quot;q21.1t3.jpg&quot; title=&quot;q21.1t3&quot; width=&quot;546&quot; height=&quot;403&quot;/&amp;#x003E;
+VM1 is in the same region as Vault1.
+File1 is not in the same region as Vautl1.
+SQL is not in the same region as Vault1.
+Blobs cannot be backup up to service vaults.
+Note: To create a vault to protect virtual machines, the vault must be in the
+same region as the virtual machines.
+Box 2: Share1 only.
+Storage1 is in the same region (West USA) as Vault2. Share1 is in Storage1.
+Note: After you select Backup, the Backup pane opens and prompts you to
+select a storage account from a list of discovered supported storage
+accounts. They&apos;re either associated with this vault or present in the same
+region as the vault, but not yet associated to any Recovery Services vault.
+Reference:
+https://docs.microsoft.com/bs-cyrl-ba/azure/backup/backup-create-rs-vault
+https://docs.microsoft.com/en-us/azure/backup/backup-afs</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault2 for backups VM1 and share1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault2 for backups blob1 and share1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can use Vault2 for backups storage1 and SQL1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1.
+You have 5 TB of data that you need to transfer to Subscription1.
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>a virtual machine</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure File Storage</text><feedback>Correct Answer: C
+Azure Import/Export service is used to securely import large amounts of data
+to Azure Blob storage and Azure Files by shipping disk drives to an Azure
+datacenter.
+The maximum size of an Azure Files Resource of a file share is 5 TB.
+Note:
+There are several versions of this question in the exam. The question has two
+correct answers:
+1. Azure File Storage
+2. Azure Blob Storage
+The question can have other incorrect answer options, including the
+following:
+&amp;#x2711; Azure Data Lake Store
+&amp;#x2711; Azure SQL Database
+&amp;#x2711; Azure Data Factory
+Reference:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-importexport-
+service</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Azure File Sync Storage Sync Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the
+following table.
+&amp;#x003C;img src=&quot;q43t4.jpg&quot; alt=&quot;q43t4.jpg&quot; title=&quot;q43t4&quot; width=&quot;624&quot; height=&quot;154&quot;/&amp;#x003E;
+You need to configure a proximity placement group for VMSS1.
+
+Which proximity placement groups should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Proximity2 only</text><feedback>Resource Group location of VMSS1 is the RG2 location, which is West US.
+Only Proximity2, which also in RG2, is location in West US
+Reference:
+https://azure.microsoft.com/en-us/blog/introducing-proximity-placementgroups/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Proximity1, Proximity2, and Proximity3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Proximity1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Proximity1 and Proximity3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription named Subscription1. Subscription1
+contains a resource group named RG1. RG1 contains resources that were
+deployed by using templates.
+You need to view the date and time when the resources were created in RG1.
+
+Solution: From the Subscriptions blade, you select the subscription, and then
+click Resource providers.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>Correct Answer: B - No From the RG1 blade, click Deployments. You see a history
+of deployment for the resource group. Reference: https://docs.microsoft.com/enus/
+azure/azure-resource-manager/templates/template-tutorial-create-firsttemplate?
+tabs=azure-powershell
+
+I agree, you should look at the Deployments under the Resource Group</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription named Subscription1. Subscription1
+contains a resource group named RG1. RG1 contains resources that were
+deployed by using templates.
+You need to view the date and time when the resources were created in RG1.
+
+Solution: From the RG1 blade, you click Automation script.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>Correct Answer: B
+From the RG1 blade, click Deployments. You see a history of deployment for
+the resource group.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/
+template-tutorial-create-first-template?tabs=azure-powershell
+correct. Programmatic deployment are used for API/CLI</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription named Subscription1. Subscription1
+contains a resource group named RG1. RG1 contains resources that were
+deployed by using templates.
+You need to view the date and time when the resources were created in RG1.
+
+Solution: From the RG1 blade, you click Deployments.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback>Correct Answer: A
+From the RG1 blade, click Deployments. You see a history of deployment for
+the resource group.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/
+template-tutorial-create-first-template?tabs=azure-powershell</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1.
+You deploy a Linux virtual machine named VM1 to Subscription1.
+You need to monitor the metrics and the logs of VM1.
+
+What should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure HDInsight</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Linux Diagnostic Extension (LAD) 3.0</text><feedback>The Linux Diagnostic Extension should be used which downloads the
+Diagnostic Extension (LAD) agent on Linux server.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/
+diagnostics-linux</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the AzurePerformanceDiagnostics extension</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Analysis Services</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1. Subscription1
+contains a virtual machine named VM1.
+You install and configure a web server and a DNS server on VM1.
+VM1 has the effective network security rules shown in the following exhibit:
+&amp;#x003C;img src=&quot;q48t4.jpg&quot; alt=&quot;q48t4.jpg&quot; title=&quot;q48t4&quot; width=&quot;815&quot; height=&quot;372&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q48.1t4.jpg&quot; alt=&quot;q48.1t4.jpg&quot; title=&quot;q48.1t4&quot; width=&quot;885&quot; height=&quot;340&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Internet users can connect to only the DNS server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Internet users can connect to only the web server on VM1</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Internet users can connect to the web server and the DNS server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Internet users cannot connect to the web server and the DNS server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you delete Rule2, Internet users can connect to only the DNS server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you delete Rule2, Internet users can connect to only the web server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you delete Rule2, Internet users can connect to the web server and the DNS server on VM1</text><feedback>&amp;#x003C;img src=&quot;q48.2t4.jpg&quot; alt=&quot;q48.2t4.jpg&quot; title=&quot;q48.2t4&quot; width=&quot;885&quot; height=&quot;340&quot;/&amp;#x003E;
+Box 1:
+Rule2 blocks ports 50-60, which includes port 53, the DNS port. Internet
+users can reach to the Web server, since it uses port 80.
+Box 2:
+If Rule2 is removed internet users can reach the DNS server as well.
+Note: Rules are processed in priority order, with lower numbers processed
+before higher numbers, because lower numbers have higher priority. Once
+traffic matches a rule, processing stops. As a result, any rules that exist with
+lower priorities (higher numbers) that have the same attributes as rules with
+higher priorities are not processed.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/security-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you delete Rule2, Internet users cannot  connect to the web server and the DNS server on VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy three Azure virtual machines named VM1, VM2, and
+VM3. The virtual machines will host a web app named App1.
+You need to ensure that at least two virtual machines are available if a single
+Azure datacenter becomes unavailable.
+
+What should you deploy?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>all three virtual machines in a single Availability Zone</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>all virtual machines in a single Availability Set</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>each virtual machine in a separate Availability Zone</text><feedback>Use availability zones to protect from datacenter level failures.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manageavailability
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorialavailability-
+sets</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>each virtual machine in a separate Availability Set</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure virtual machine named VM1 that runs Windows Server
+2019.
+You save VM1 as a template named Template1 to the Azure Resource
+Manager library.
+You plan to deploy a virtual machine named VM2 from Template1.
+
+What can you configure during the deployment of VM2?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>operating system</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>administrator username</text><feedback>Correct Answer: B
+When deploying a virtual machine from a template, you must specify:
+&amp;#x2711; the Resource Group name and location for the VM
+&amp;#x2711; the administrator username and password
+&amp;#x2711; an unique DNS name for the public IP
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/pstemplate</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>virtual machine size</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>resource group</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains an Azure virtual machine
+named VM1. VM1 runs a financial reporting app named App1 that does not
+support multiple active instances.
+At the end of each month, CPU usage for VM1 peaks when App1 runs.
+You need to create a scheduled runbook to increase the processor
+performance of VM1 at the end of each month.
+
+What task should you include in the runbook?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Add the Azure Performance Diagnostics agent to VM1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the VM size property of VM1.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add VM1 to a scale set.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Increase the vCPU quota for the subscription.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Add a Desired State Configuration (DSC) extension to VM1.</text><feedback>Correct Answer: E
+Desired State Configuration (DSC) extension can be used to configure and
+manage the desired state of a virtual machine (VM) in Azure. DSC allows you to
+define the configuration of a machine in a declarative way, and it can be used to
+automate tasks such as adjusting the processor performance.
+Reference:
+https://docs.microsoft.com/en-us/azure/automation/automation-quickstartdsc-
+configuration
+
+Sin embargo el 90% del foro dice que la respuesta es la B
+
+not correct. Answer is B. Scale up the VM using Automation virtual scale set
+runbooks which trigger a webhook</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows
+Server 2019 in a virtual machine scale set by using an Azure Resource
+Manager template.
+You need to ensure that NGINX is available on all the virtual machines after
+they are deployed.
+
+What should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Deployment Center in Azure App Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A Desired State Configuration (DSC) extension</text><feedback>Correct Answer: B
+Azure virtual machine extensions are small packages that run postdeployment
+configuration and automation on Azure virtual machines.
+In the following example, the Azure CLI is used to deploy a custom script
+extension to an existing virtual machine, which installs a Nginx webserver.
+az vm extension set \
+--resource-group myResourceGroup \
+--vm-name myVM --name customScript \
+--publisher Microsoft.Azure.Extensions \
+--settings &apos;{&quot;commandToExecute&quot;: &quot;apt-get install -y nginx&quot;}
+Note:
+There are several versions of this question in the exam. The question has two
+correct answers:
+1. a Desired State Configuration (DSC) extension
+2. Azure Custom Script Extension
+The question can have other incorrect answer options, including the
+following:
+&amp;#x2711; the Publish-AzVMDscConfiguration cmdlet
+&amp;#x2711; Azure Application Insights
+Reference:
+https://docs.microsoft.com/en-us/azure/architecture/framework/devops/
+automation-configuration</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the New-AzConfigurationAssignment cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Microsoft Intune device configuration profile</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You deploy an Azure Kubernetes Service (AKS) cluster that has the network
+profile shown in the following exhibit.
+&amp;#x003C;img src=&quot;q53t4.jpg&quot; alt=&quot;q53t4.jpg&quot; title=&quot;q53t4&quot; width=&quot;392&quot; height=&quot;338&quot;/&amp;#x003E;
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q53.1t4.jpg&quot; alt=&quot;q53.1t4.jpg&quot; title=&quot;q53.1t4&quot; width=&quot;671&quot; height=&quot;312&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Containers will be assigned an IP address in the 10.244.0.0/16 subnet</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Containers will be assigned an IP address in the 10.0.0.0/16 subnet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Containers will be assigned an IP address in the 172.17.0.1/16 subnet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Services in the AKS cluster will be assigned an IP address in the 10.244.0.0/16 subnet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Services in the AKS cluster will be assigned an IP address in the 10.0.0.0/16 subnet</text><feedback>&amp;#x003C;img src=&quot;q53.2t4.jpg&quot; alt=&quot;q53.2t4.jpg&quot; title=&quot;q53.2t4&quot; width=&quot;671&quot; height=&quot;312&quot;/&amp;#x003E;
+Box 1: 10.244.0.0/16 -
+The Pod CIDR.
+Note: The --pod-cidr should be a large address space that isn&apos;t in use
+elsewhere in your network environment. This range includes any onpremises
+network ranges if you connect, or plan to connect, your Azure
+virtual networks using Express Route or a Site-to-Site VPN connection.
+This address range must be large enough to accommodate the number of
+nodes that you expect to scale up to. You can&apos;t change this address range
+once the cluster is deployed if you need more addresses for additional nodes.
+Box 2: 10.0.0.0/16 -
+The --service-cidr is used to assign internal services in the AKS cluster an IP
+address.
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/configure-kubenet</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Services in the AKS cluster will be assigned an IP address in the 172.17.0.1/16 subnet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have the App Service plan shown in the following exhibit.
+&amp;#x003C;img src=&quot;q54t4.jpg&quot; alt=&quot;q54t4.jpg&quot; title=&quot;q54t4&quot; width=&quot;835&quot; height=&quot;452&quot;/&amp;#x003E;
+The scale-in settings for the App Service plan are configured as shown in the
+following exhibit.
+&amp;#x003C;img src=&quot;q54.1t4.jpg&quot; alt=&quot;q54.1t4.jpg&quot; title=&quot;q54.1t4&quot; width=&quot;640&quot; height=&quot;427&quot;/&amp;#x003E;
+The scale out rule is configured with the same duration and cool down tile as
+the scale in rule.
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q54.2t4.jpg&quot; alt=&quot;q54.2t4.jpg&quot; title=&quot;q54.2t4&quot; width=&quot;949&quot; height=&quot;470&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>If after deployment CPU usage is 70 percent for one hour and then reaches 90 percent for five minutes, at that time the total number of instances will be 1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment CPU usage is 70 percent for one hour and then reaches 90 percent for five minutes, at that time the total number of instances will be 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment CPU usage is 70 percent for one hour and then reaches 90 percent for five minutes, at that time the total number of instances will be 3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment CPU usage is 70 percent for one hour and then reaches 90 percent for five minutes, at that time the total number of instances will be 4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment CPU usage is 70 percent for one hour and then reaches 90 percent for five minutes, at that time the total number of instances will be 5</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment the CPU maintains constant usage of 90 percent for one hour, and then the average CPU usage is below 25 percent for nine minutes, at that point the number of instances will be 1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment the CPU maintains constant usage of 90 percent for one hour, and then the average CPU usage is below 25 percent for nine minutes, at that point the number of instances will be 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment the CPU maintains constant usage of 90 percent for one hour, and then the average CPU usage is below 25 percent for nine minutes, at that point the number of instances will be 3</text><feedback>&amp;#x003C;img src=&quot;q54.3t4.jpg&quot; alt=&quot;q54.3t4.jpg&quot; title=&quot;q54.3t4&quot; width=&quot;949&quot; height=&quot;470&quot;/&amp;#x003E;
+Box 1: 5 -
+The maximum 5 will kept as the CPU Usage &amp;#x003E;= 30.
+Box 2: 3 -
+As soon as the average CPU usage drops below 30%, the count will decrease
+by 1. After the 5 minute cool-down it will decrease by another 1, reaching 3.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorialautoscale-
+performance-schedule</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment the CPU maintains constant usage of 90 percent for one hour, and then the average CPU usage is below 25 percent for nine minutes, at that point the number of instances will be 4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If after deployment the CPU maintains constant usage of 90 percent for one hour, and then the average CPU usage is below 25 percent for nine minutes, at that point the number of instances will be 5</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

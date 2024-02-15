@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Alvaro</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
+You need to deploy a YAML file to AKS1.
+Solution: From Azure Cloud Shell, you run az aks.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>To deploy a YAML file, the command is:
+kubectl apply -f &amp;#x003C;file_name&amp;#x003E;.yaml
+Reference:
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure virtual machine named VM1 that runs Windows Server 2016.
+You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
+Solution: You create an Azure Log Analytics workspace and configure the data settings. You add the Microsoft Monitoring Agent VM extension to VM1. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>You must install the Microsoft Monitoring Agent on VM1, and not the Microsoft Monitoring Agent VM extension.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agents-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure virtual machine named VM1 that runs Windows Server 2016.
+You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
+Solution: You create an Azure Log Analytics workspace and configure the data settings. You install the Microsoft Monitoring Agent on VM1. You create an alert in
+Azure Monitor and specify the Log Analytics workspace as the source.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Alerts in Azure Monitor can identify important information in your Log Analytics repository. They are created by alert rules that automatically run log searches at regular intervals, and if results of the log search match particular criteria, then an alert record is created and it can be configured to perform an automated response.
+The Log Analytics agent collects monitoring data from the guest operating system and workloads of virtual machines in Azure, other cloud providers, and on- premises. It collects data into a Log Analytics workspace.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agents-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;/q72t41.png&quot; alt=&quot;q72t41.png&quot; title=&quot;q72t41&quot; width=&quot;425&quot; height=&quot;87&quot;/&amp;#x003E;
+All virtual machines run Windows Server 2016.
+On VM1, you back up a folder named Folder1 as shown in the following exhibit.
+&amp;#x003C;img src=&quot;/q72t42.jpg&quot; alt=&quot;q72t42.jpg&quot; title=&quot;q72t42&quot; width=&quot;567&quot; height=&quot;266&quot;/&amp;#x003E;
+You plan to restore the backup to a different virtual machine.
+You need to restore the backup to VM2.
+What should you do first?
+&amp;#x003C;img src=&quot;../imagenes/q73t41.png&quot; alt=&quot;q73t41.png&quot; title=&quot;q73t41&quot; width=&quot;425&quot; height=&quot;323&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>From VM1, install the Windows Server Backup feature.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM2, install the Microsoft Azure Recovery Services Agent.</text><feedback>Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-restore-windows-server</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM1, install the Microsoft Azure Recovery Services Agent.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM2, install the Windows Server Backup feature.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription.
+You need to use an Azure Resource Manager (ARM) template to create a virtual machine that will have multiple data disks.
+How should you complete the template? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q73t41.png&quot; alt=&quot;q73t41.png&quot; title=&quot;q73t41&quot; width=&quot;425&quot; height=&quot;323&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box 1: &quot;copy&quot;:[</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: &quot;copyIndex&quot;:[</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: &quot;dependsOn&quot;:[</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;copy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;copyIndex</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;dependsOn</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q74t41.png&quot; alt=&quot;q74t41.png&quot; title=&quot;q74t41&quot; width=&quot;425&quot; height=&quot;123&quot;/&amp;#x003E;
+Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
+You need to create a new network interface named NIC2 for VM1.
+Solution: You create NIC2 in RG1 and West US.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>The virtual machine you attach a network interface to and the virtual network you connect it to must exist in the same location, here West US, also referred to as a region.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q75t41.png&quot; alt=&quot;q75t41.png&quot; title=&quot;q75t41&quot; width=&quot;425&quot; height=&quot;123&quot;/&amp;#x003E;
+Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
+You need to create a new network interface named NIC2 for VM1.
+Solution: You create NIC2 in RG2 and Central US.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>The virtual machine you attach a network interface to and the virtual network you connect it to must exist in the same location, here West US, also referred to as a region.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q76t41.png&quot; alt=&quot;q76t41.png&quot; title=&quot;q76t41&quot; width=&quot;425&quot; height=&quot;123&quot;/&amp;#x003E;
+Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
+You need to create a new network interface named NIC2 for VM1.
+Solution: You create NIC2 in RG2 and West US.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>The virtual machine you attach a network interface to and the virtual network you connect it to must exist in the same location, here West US, also referred to as a region.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You develop the following Azure Resource Manager (ARM) template to create a resource group and deploy an Azure Storage account to the resource group.
+&amp;#x003C;img src=&quot;q77t41.jpg&quot; alt=&quot;q77t41.jpg&quot; title=&quot;q77t41&quot; width=&quot;567&quot; height=&quot;559&quot;/&amp;#x003E;
+Which cmdlet should you run to deploy the template?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>New-AzResource</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>New-AzResourceGroupDeployment</text><feedback>Deployment scope.
+You can target your deployment to a resource group, subscription, management group, or tenant. Depending on the scope of the deployment, you use different commands.
+To deploy to a resource group, use New-AzResourceGroupDeployment.
+Incorrect:
+Not C: To deploy to a tenant, use New-AzTenantDeployment.
+Not D: To deploy to a subscription, use New-AzSubscriptionDeployment which is an alias of the New-AzDeployment cmdlet.
+To deploy to a management group, use New-AzManagementGroupDeployment.
+Not A: The New-AzResource cmdlet creates an Azure resource, such as a website, Azure SQL Database server, or Azure SQL Database, in a resource group.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-powershell</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>New-AzTenantDeployment</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>New-AzDeployment</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure App Service app named WebApp1 that contains two folders named Folder1 and Folder2.
+You need to configure a daily backup of WebApp1. The solution must ensure that Folder2 is excluded from the backup.
+What should you create first, and what should you use to exclude Folder2? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q78t41.jpg&quot; alt=&quot;q78t41.jpg&quot; title=&quot;q78t41&quot; width=&quot;567&quot; height=&quot;311&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box 1: An Azure Storage account</text><feedback>An Azure Storage account -
+App Service can back up the following information to an Azure storage account and container that you have configured your app to use.
+Note: Choose your backup destination by selecting a Storage Account and Container. The storage account must belong to the same subscription as the app you want to back up. If you wish, you can create a new storage account or a new container in the respective pages.
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/manage-backup</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: A Backup vault</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: A Recovery Services vault</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: A resource group</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: A _backup.filter file</text><feedback>Exclude files from your backup.
+Suppose you have an app that contains log files and static images that have been backup once and are not going to change. In such cases, you can exclude those folders and files from being stored in your future backups. To exclude files and folders from your backups, create a _backup.filter file in the D:\home\site
+\wwwroot folder of your app. Specify the list of files and folders you want to exclude in this file.
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/manage-backup</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: A backup policy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: A lock</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: A WebJob</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>The Publish-AzVMDscConfiguration cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Custom Script Extension</text><feedback>Use Azure Resource Manager templates to install applications into virtual machine scale sets with the Custom Script Extension.
+Note: The Custom Script Extension downloads and executes scripts on Azure VMs. This extension is useful for post deployment configuration, software installation, or any other configuration / management task.
+To see the Custom Script Extension in action, create a scale set that installs the NGINX web server and outputs the hostname of the scale set VM instance.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/tutorial-install-apps-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A Microsoft Endpoint Manager device configuration profile</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription. The subscription contains a virtual machine that runs Windows 10.
+You need to join the virtual machine to an Active Directory domain.
+How should you complete the Azure Resource Manager (ARM) template? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q80t41.jpg&quot; alt=&quot;q80t41.jpg&quot; title=&quot;q80t41&quot; width=&quot;567&quot; height=&quot;622&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box 1: &quot;Extensions&quot;,</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: &quot;Microsoft.Compute/VirtualMachines&quot;,</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 1: &quot;Microsoft.Compute/virtualMachines/extensions&quot;,</text><feedback>The following JSON example uses the Microsoft.Compute/virtualMachines/extensions resource type to install the Active Directory domain join extension.
+Parameters are used that you specify at deployment time. When the extension is deployed, the VM is joined to the specified managed domain.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;ProtectedSettings&quot;:{</text><feedback>Example:
+{
+&quot;apiVersion&quot;: &quot;2015-06-15&quot;,
+&quot;type&quot;: &quot;Microsoft.Compute/virtualMachines/extensions&quot;,
+&quot;name&quot;: &quot;[concat(parameters(&apos;dnsLabelPrefix&apos;),&apos;/joindomain&apos;)]&quot;,
+&quot;location&quot;: &quot;[parameters(&apos;location&apos;)]&quot;,
+&quot;dependsOn&quot;: [
+&quot;[concat(&apos;Microsoft.Compute/virtualMachines/&apos;, parameters(&apos;dnsLabelPrefix&apos;))]&quot;
+],
+&quot;properties&quot;: {
+&quot;publisher&quot;: &quot;Microsoft.Compute&quot;,
+&quot;type&quot;: &quot;JsonADDomainExtension&quot;,
+&quot;typeHandlerVersion&quot;: &quot;1.3&quot;,
+&quot;autoUpgradeMinorVersion&quot;: true,
+&quot;settings&quot;: {
+&quot;Name&quot;: &quot;[parameters(&apos;domainToJoin&apos;)]&quot;,
+&quot;OUPath&quot;: &quot;[parameters(&apos;ouPath&apos;)]&quot;,
+&quot;User&quot;: &quot;[concat(parameters(&apos;domainToJoin&apos;), &apos;\\&apos;, parameters(&apos;domainUsername&apos;))]&quot;,
+&quot;Restart&quot;: &quot;true&quot;,
+&quot;Options&quot;: &quot;[parameters(&apos;domainJoinOptions&apos;)]&quot;
+},
+&quot;protectedSettings&quot;: {
+&quot;Password&quot;: &quot;[parameters(&apos;domainPassword&apos;)]&quot;
+}
+}
+}
+Reference:
+https://docs.microsoft.com/en-us/azure/active-directory-domain-services/join-windows-vm-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;Settings&quot;:{</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box 2: &quot;Statuses&quot;:{</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

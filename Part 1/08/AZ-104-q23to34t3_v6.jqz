@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Cpl34</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>HOTSPOT -
+You have an Azure subscription.
+You create the Azure Storage account shown in the following exhibit.
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+&amp;#x003C;img src=&quot;q23t31.png&quot; alt=&quot;q23t31.png&quot; title=&quot;q23t31&quot; width=&quot;707&quot; height=&quot;718&quot;/&amp;#x003E;
+
+&amp;#x003C;img src=&quot;q23t33.png&quot; alt=&quot;q23t33.png&quot; title=&quot;q23t33&quot; width=&quot;712&quot; height=&quot;337&quot;/&amp;#x003E;
+
+NOTE: Each correct selection is worth one point.
+
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1: 1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 3</text><feedback>Box 1: 3 -
+Locally Redundant Storage (LRS) provides highly durable and available 
+storage within a single location (sub region). We maintain an equivalent of 3 
+copies
+(replicas) of your data within the primary location as described in our SOSP 
+paper; this ensures that we can recover from common failures (disk, node, 
+rack) without impacting your storage account&apos;s availability and durability.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: Access tier (default)</text><feedback>Box 2: Access tier -
+Change the access tier from Hot to Cool.
+
+Note: Azure storage offers different access tiers, which allow you to store 
+blob object data in the most cost-effective manner. The available access tiers
+include:
+Hot - Optimized for storing data that is accessed frequently.
+Cool - Optimized for storing data that is infrequently accessed and stored forat least 30 days.
+Archive - Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements (on the order of hours)
+
+&amp;#x003C;img src=&quot;q23t32.png&quot; alt=&quot;q23t32.png&quot; title=&quot;q23t32&quot; width=&quot;707&quot; height=&quot;356&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: Performance</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2:Account kind</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: Replication</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure Storage account named storage1.
+You plan to use AzCopy to copy data to storage1.
+You need to identify the storage services in storage1 to which you can copy 
+the data.
+
+Which storage services should you identify?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. blob, file, table, and queue</text><feedback>AzCopy does not support table and queue storage services</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. blob and file only</text><feedback>AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account.
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. file and table only</text><feedback>AzCopy does not support table and queue storage services</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. file only</text><feedback>AzCopy supports file storage services, as well as blob storage services</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. blob, table, and queue only</text><feedback>AzCopy does not support table and queue storage services</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure Storage account named storage1 that uses Azure Blob 
+storage and Azure File storage.
+You need to use AzCopy to copy data to the blob storage and file storage in storage1.
+Which authentication method should you use for each type of storage? 
+To answer, select the appropriate options in the answer area.
+
+&amp;#x003C;img src=&quot;q25t31.png&quot; alt=&quot;q25t31.png&quot; title=&quot;q25t31&quot; width=&quot;598&quot; height=&quot;225&quot;/&amp;#x003E;
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>BLOB STORAGE
+Box 1: Azure Active Directory (Azure AD) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BLOB STORAGE
+Box 1: Shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BLOB STORAGE
+Box 1: Access Keys and shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BLOB STORAGE
+Box 1:  Azur Active Directory (Azure AD) and shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>Both Azure Active Directory (AD) and Shared Access Signature (SAS) token 
+are supported for Blob storage.
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;img src=&quot;q25t32.png&quot; alt=&quot;q25t32.png&quot; title=&quot;q25t32&quot; width=&quot;602&quot; height=&quot;112&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BLOB STORAGE
+Box 1:  Azure Active Directory (Azure AD), Access Keys and shared access signatures (SAS)
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>FILE STORAGE
+Box 2: Azure Active Directory (Azure AD) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>FILE STORAGE
+Box 2: Shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>Only Shared Access Signature (SAS) token is supported for File storage.
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;img src=&quot;q25t33.png&quot; alt=&quot;q25t33.png&quot; title=&quot;q25t33&quot; width=&quot;602&quot; height=&quot;112&quot;/&amp;#x003E;
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>FILE STORAGE
+Box 2:Access Keys and shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>FILE STORAGE
+Box 2: Azure Active Directory (Azure AD) and shared access signatures (SAS) only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>FILE STORAGE
+Box 2:Azure Active Directory (Azure AD), Access Keys and shared access signatures (SAS)
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains an Azure Storage account.
+You plan to create an Azure container instance named container1 that will use a Docker image named Image1. Image1 contains a Microsoft SQL Server
+instance that requires persistent storage. You need to configure a storage service for Container1.
+
+What should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Azure Files</text><feedback>&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/aks/concepts-storage&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Azure Blob storage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure Queue storage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Azure Table storage</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an app named App1 that runs on two Azure virtual machines named VM1 and VM2.
+You plan to implement an Azure Availability Set for App1. 
+The solution must ensure that App1 is available during planned maintenance of the hardware 
+hosting VM1 and VM2.
+
+What should you include in the Availability Set?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. one update domain</text><feedback>A: An update domain is a group of VMs and underlying physical hardware that can be rebooted at the same time</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. two fault domains</text><feedback>A fault domain shares common storage as well as a common power source and network switch. It is used to protect against unplanned system failure</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. one fault domain</text><feedback>A fault domain shares common storage as well as a common power source and network switch. It is used to protect against unplanned system failure</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. two update domains</text><feedback>Microsoft updates, which Microsoft refers to as planned maintenance events,sometimes require that VMs be rebooted to complete the update. To reduce 
+the impact on VMs, the Azure fabric is divided into update domains to ensure that not all VMs are rebooted at the same time.
+
+Referencia
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;
+
+
+When you create an Availability Set, the hardware in a location is divided into multiple update domains and fault domains. An update domain is a
+group of VMs and underlying physical hardware that can be rebooted at the same time. VMs in the same fault domain share common storage as well as a common 
+power source and network switch. During scheduled maintenance, only one update domain is updated at any given time. Update domains aren&apos;t necessarily 
+updated sequentially. So, we need two update domains
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/virtual-machines/maintenance-and-updates&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1.You have 5 TB of data that you need to transfer to Subscription1.
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. an Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Azure Blob storage</text><feedback>Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure 
+datacenter.
+
+Note:
+There are several versions of this question in the exam. The question has two
+correct answers:
+1. Azure File Storage
+2. Azure Blob Storage
+The question can have other incorrect answer options, including the following: a virtual machine, Azure SQL Database and  Azure Data Factory
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-service&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure Data Lake Store</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. the Azure File Sync Storage Sync Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains the file shares shown in the following table.
+&amp;#x003C;img src=&quot;q30t31.png&quot; alt=&quot;q30t31.png&quot; title=&quot;q30t31&quot; width=&quot;383&quot; height=&quot;100&quot;/&amp;#x003E;
+You have the on-premises file shares shown in the following table.
+&amp;#x003C;img src=&quot;q30t32.png&quot; alt=&quot;q30t32.png&quot; title=&quot;q30t32&quot; width=&quot;384&quot; height=&quot;100&quot;/&amp;#x003E;
+
+You create an Azure file sync group named Sync1 and perform the following 
+actions:
+&amp;#x2711; Add share1 as the cloud endpoint for Sync1.
+&amp;#x2711; Add data1 as a server endpoint for Sync1.
+&amp;#x2711; Register Server1 and Server2 to Sync1.
+&amp;#x003C;img src=&quot;q30t33.png&quot; alt=&quot;q30t33.png&quot; title=&quot;q30t33&quot; width=&quot;550&quot; height=&quot;175&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. 
+Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+referencia:&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal%2Cproactive-portal#create-a-sync-group-and-a-&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can add share3 as an additional cloud endpoint for Sync1. YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can add share3 as an additional cloud endpoint for Sync1. NO</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can add data2 as an additional server endpoint for Sync1. YES</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can add data2 as an additional server endpoint for Sync1. NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can add data3 as an additional server endpoint for Sync1. YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can add data3 as an additional server endpoint for Sync1. NO</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1 that contains the resources shown in the following table:
+&amp;#x003C;img src=&quot;q31t31.png&quot; alt=&quot;q31t31.png&quot; title=&quot;q31t31&quot; width=&quot;707&quot; height=&quot;223&quot;/&amp;#x003E;
+
+You plan to configure Azure Backup reports for Vault1. You are configuring the Diagnostics settings for the AzureBackupReports log.
+Which storage accounts and which Log Analytics workspaces can you use for the Azure Backup reports of Vault1?
+ To answer, select the appropriate options in the answer area.
+
+&amp;#x003C;img src=&quot;q31t32.png&quot; alt=&quot;q31t32.png&quot; title=&quot;q31t32&quot; width=&quot;635&quot; height=&quot;253&quot;/&amp;#x003E;
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>STORAGE ACCOUNT
+storage1 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>STORAGE ACCOUNT
+storage2 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>STORAGE ACCOUNT
+storage3 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>STORAGE ACCOUNT
+storage1, storage2 and storage3
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>The location and subscription where this Log Analytics workspace can be created is independent of the location and subscription where your vaults exist</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LOG ANALITYCS WORKSPACE
+Analityc1 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LOG ANALITYCS WORKSPACE
+Analityc2 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LOG ANALITYCS WORKSPACE
+Analityc3 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>Box 2: Analytics3 -
+Vault1 and Analytics3 are both in West Europe
+
+&amp;#x003C;img src=&quot;q31t33.png&quot; alt=&quot;q31t33.png&quot; title=&quot;q31t33&quot; width=&quot;426&quot; height=&quot;150&quot;/&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/backup/backup-azure-configure-reports&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LOG ANALITYCS WORKSPACE
+Analityc1, Analitycs2 and Analitycs3
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains the storage accounts shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q32t31.png&quot; alt=&quot;q32t31.png&quot; title=&quot;q32t31&quot; width=&quot;630&quot; height=&quot;150&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point
+
+&amp;#x003C;img src=&quot;q32t31.png&quot; alt=&quot;q32t31.png&quot; title=&quot;q32t31&quot; width=&quot;721&quot; height=&quot;320&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Can you create a premium file share in
+Contoso101 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can you create a premium file share in
+Contoso104 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>Premium file shares are hosted in a special purpose storage account kind, called a FileStorage account</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can you create a premium file share in
+Contoso101 o Contoso104 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can you create a premium file share in
+Contoso101, Contoso102 o Contoso104 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Can you create a premium file share in
+Contoso101, Contoso102 , Contoso103 or Contoso104
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can use the Archive access tier in
+Contoso101 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can use the Archive access tier in
+Contoso101 or Contoso103 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can use the Archive access tier in
+Contoso101, Contoso102 , and Contoso103 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>&amp;#x003C;img src=&quot;q32t33.png&quot; alt=&quot;q32t33.png&quot; title=&quot;q32t33&quot; width=&quot;703&quot; height=&quot;278&quot;/&amp;#x003E;
+
+&amp;#x003C;br&amp;#x003E;
+
+Object storage data tiering between hot, cool, and archive is supported in Blob Storage and General Purpose v2 (GPv2) accounts.
+General Purpose v1 (GPv1) accounts don&apos;t support tiering. The archive tier supports only LRS, GRS, and RA-GRS
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-premium-fileshare?tabs=azure-portal&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can use the Archive access tier in
+Contoso101, Contoso102 , and Contoso104 only
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can use the Archive access tier in
+Contoso101, Contoso102 ,,Contoso103  and  Contoso104
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1.In Subscription1, you create an Azure file share named share1.
+You create a shared access signature (SAS) named SAS1 as shown in the following exhibit:
+
+&amp;#x003C;img src=&quot;q33t31.png&quot; alt=&quot;q33t31.png&quot; title=&quot;q33t31&quot; width=&quot;725&quot; height=&quot;687&quot;/&amp;#x003E;
+
+To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point
+
+&amp;#x003C;img src=&quot;q33t32.png&quot; alt=&quot;q33t32.png&quot; title=&quot;q33t32&quot; width=&quot;711&quot; height=&quot;297&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>If on Septembre 2, 2018 you run Microsoft Azure Storage Explorer on a computer that has an IP address of 193.77.134.1, and you use SAS1 to connect to the storage account, you...
+WILL BE PROMPTED FOR CREDENTIALS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on Septembre 2, 2018 you run Microsoft Azure Storage Explorer on a computer that has an IP address of 193.77.134.1, and you use SAS1 to connect to the storage account, you...
+WILL HAVE NO ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>The IP 193.77.134.1 does not have access on the SAS.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on Septembre 2, 2018 you run Microsoft Azure Storage Explorer on a computer that has an IP address of 193.77.134.1, and you use SAS1 to connect to the storage account, you...
+WILL HAVE READ, WRITE, AND LIST ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on Septembre 2, 2018 you run Microsoft Azure Storage Explorer on a computer that has an IP address of 193.77.134.1, and you use SAS1 to connect to the storage account, you...
+WILL HAVE READ-ONLY ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on September 10, 2018 you run the net use command on a computer that has an IP Address of 193.77.134.50, and you use SAS1 as the password to connect to share 1, you....
+WILL BE PROMPTED FOR CREDENTIALS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on September 10, 2018 you run the net use command on a computer that has an IP Address of 193.77.134.50, and you use SAS1 as the password to connect to share 1, you....
+WILL HAVE NO ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on September 10, 2018 you run the net use command on a computer that has an IP Address of 193.77.134.50, and you use SAS1 as the password to connect to share 1, you....
+WILL HAVE READ, WRITE, AND LIST ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback>Will have read, write, and list access .The net use command is used to connect to file shares.
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;img src=&quot;q33t33.png&quot; alt=&quot;q33t33.png&quot; title=&quot;q33t33&quot; width=&quot;722&quot; height=&quot;281&quot;/&amp;#x003E;
+
+&amp;#x003C;br&amp;#x003E;
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If on September 10, 2018 you run the net use command on a computer that has an IP Address of 193.77.134.50, and you use SAS1 as the password to connect to share 1, you....
+WILL HAVE READ-ONLY ACCESS
+
+&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have two Azure virtual machines named VM1 and VM2. You have two 
+Recovery Services vaults named RSV1 and RSV2. VM2 is backed up to RSV1.
+You need to back up VM2 to RSV2.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. From the RSV1 blade, click Backup items and stop the VM2 backup</text><feedback>The first step to back up VM2 to RSV2 is to stop the backup of VM2 in RSV1. So, thecorrect answer is: A
+
+&amp;#x003C;a style=&quot;cursor: pointer; text-decoration: underline;&quot; onclick=&quot;window.open(&apos;https://learn.microsoft.com/en-us/azure/backup/backup-azure-backup-faq&apos;);return false;&quot;&amp;#x003E;Haga clic aqu&amp;#x00ED;&amp;#x003C;/a&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. From the RSV2 blade, click Backup. From the Backup blade, select the backup for the virtual machine, and then click Backup</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. From the VM2 blade, click isaster recovery, click Replication settings, and then select RSV2 as the ecovery Services vault</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. From the RSV1 blade, click Backup Jobs and export the VM2 job</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

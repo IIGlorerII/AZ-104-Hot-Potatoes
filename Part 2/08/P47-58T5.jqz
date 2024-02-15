@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Francisco</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You plan to use Azure Network Watcher to perform the following tasks:
+&amp;#x2711; Task1: Identify a security rule that prevents a network packet from reaching an Azure virtual machine.
+&amp;#x2711; Task2: Validate outbound connectivity from an Azure virtual machine to an external host.
+Which feature should you use for each task? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q47t5-1.jpg&quot; alt=&quot;q47t5-1.jpg&quot; title=&quot;q47t5-1&quot; width=&quot;567&quot; height=&quot;386&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>task1: IP flow verify</text><feedback>At some point, a VM may become unable to communicate with other resources, because of a security rule. The IP flow verify capability enables you to specify a source and destination IPv4 address, port, protocol (TCP or UDP), and traffic direction (inbound or outbound). IP flow verify then tests the communication and informs you if the connection succeeds or fails. If the connection fails, IP flow verify tells you which.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task1: Next hop</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task1: Packet captura</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task1: Security group view</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task1: Traffic Analytics</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task2: Connection troubleshoot</text><feedback>Diagnose outbound connections from a VM: The connection troubleshoot capability enables you to test a connection between a VM and another VM, an FQDN, a URI, or an IPv4 address. The test returns similar information returned when using the connection monitor capability, but tests the connection at a point in time, rather than monitoring it over time, as connection monitor does. Learn more about how to troubleshoot connections using connection-troubleshoot.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task2: IP flow verify</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task2: Next hop</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task2: NSG flow logsd</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>task2: Traffic Analytics</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the Azure virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q48t5-1.jpg&quot; alt=&quot;q48t5-1.jpg&quot; title=&quot;q48t5-1&quot; width=&quot;425&quot; height=&quot;74&quot;/&amp;#x003E;
+You configure the network interfaces of the virtual machines to use the settings shown in the following table.
+&amp;#x003C;img src=&quot;q48t5-2.jpg&quot; alt=&quot;q48t5-2.jpg&quot; title=&quot;q48t5-2&quot; width=&quot;266&quot; height=&quot;96&quot;/&amp;#x003E;
+From the settings of VNET1 you configure the DNS servers shown in the following exhibit.
+&amp;#x003C;img src=&quot;q48t5-3.jpg&quot; alt=&quot;q48t5-3.jpg&quot; title=&quot;q48t5-3&quot; width=&quot;198&quot; height=&quot;183&quot;/&amp;#x003E;
+The virtual machines can successfully connect to the DNS server that has an IP address of 192.168.10.15 and the DNS server that has an IP address of
+193.77.134.10.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q48t5-4.jpg&quot; alt=&quot;q48t5-4.jpg&quot; title=&quot;q48t5-4&quot; width=&quot;567&quot; height=&quot;194&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>YES: VM1 connects to 193.77.134.10 for DNS queries</text><feedback>VM1 uses the VNET configured DNS 193.77.134.10. You can specify DNS server IP addresses in the VNet settings. The setting is applied as the default DNS server(s) for all VMs in the VNet. The DNS is set on the VNET level.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO: VM1 connects to 193.77.134.10 for DNS queries</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>YES:VM2 connects to 193.77.134.10 for DNS queries</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO:VM2 connects to 193.77.134.10 for DNS queries</text><feedback>VM2 uses the NIC configured DNS 192.168.10.15. You can set DNS servers per VM or cloud service to override the default network settings. This VM has 192.168.10.5 set as DNS server, so it overrides the default DNS set on VNET1.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>YES:VM3 connects to 193.77.134.10 for DNS queries</text><feedback>VM3 uses the NIC configured DNS 192.168.10.15 You can set DNS servers per VM or cloud service to override the default network settings. This VM has 192.168.10.5 set as DNS server, so it overrides the default DNS set on VNET1.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO:VM3 connects to 193.77.134.10 for DNS queries</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the resource groups shown in the following table.
+&amp;#x003C;img src=&quot;q49t5-1.jpg&quot; alt=&quot;q49t5-1.jpg&quot; title=&quot;q49t5-1&quot; width=&quot;373&quot; height=&quot;71&quot;/&amp;#x003E;
+RG1 contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;q49t5-2.jpg&quot; alt=&quot;q49t5-2.jpg&quot; title=&quot;q49t5-2&quot; width=&quot;425&quot; height=&quot;65&quot;/&amp;#x003E;
+You need to identify which resources you can move from RG1 to RG2, and which resources you can move from RG2 to RG1.
+Which resources should you identify? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q49t5-3.jpg&quot; alt=&quot;q49t5-3.jpg&quot; title=&quot;q49t5-3&quot; width=&quot;567&quot; height=&quot;353&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>BOX1: None</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX1: IP1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX1: IP1 and storage1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX1: IP1 and VNET1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX1: IP1, VNET2 and storage1</text><feedback>Locks are designed for any update or removal. In this case we want to move only, we are not deleting, and we are not changing anything in the resource.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX2: None</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX2: IP2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX2: IP2 and storage2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX2: IP2 and VNET2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX2: IP2, VNET2 and storage2</text><feedback>Locks are designed for any update or removal. In this case we want to move only, we are not deleting, and we are not changing anything in the resource.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q50t5-1.jpg&quot; alt=&quot;q50t5-1.jpg&quot; title=&quot;q50t5-1&quot; width=&quot;425&quot; height=&quot;61&quot;/&amp;#x003E;
+You deploy a load balancer that has the following configurations:
+&amp;#x2711; Name: LB1
+&amp;#x2711; Type: Internal
+&amp;#x2711; SKU: Standard
+&amp;#x2711; Virtual network: VNET1
+You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
+Solution: You create a Basic SKU public IP address, associate the address to the network interface of VM1, and then start VM1.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>You can only attach virtual machines that are in the same location and on the same virtual network as the LB. Virtual machines must have a standard SKU public IP or no public IP. The LB needs to be a standard SKU to accept individual VMs outside an availability set or vmss. VMs do not need to have public IPs but if they do have them they have to be standard SKU. Vms can only be from a single network. When they don&amp;#x2019;t have a public IP they are assigned an ephemeral IP.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q51t5-1.jpg&quot; alt=&quot;q51t5-1.jpg&quot; title=&quot;q51t5-1&quot; width=&quot;425&quot; height=&quot;61&quot;/&amp;#x003E;
+You deploy a load balancer that has the following configurations:
+&amp;#x2711; Name: LB1
+&amp;#x2711; Type: Internal
+&amp;#x2711; SKU: Standard
+&amp;#x2711; Virtual network: VNET1
+You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
+Solution: You create a Standard SKU public IP address, associate the address to the network interface of VM1, and then stop VM2.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>You can only attach virtual machines that are in the same location and on the same virtual network as the LB. Virtual machines must have a standard SKU public IP or no public IP.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q52t5-1.jpg&quot; alt=&quot;q52t5-1.jpg&quot; title=&quot;q52t5-1&quot; width=&quot;425&quot; height=&quot;63&quot;/&amp;#x003E;
+You deploy a load balancer that has the following configurations:
+&amp;#x2711; Name: LB1
+&amp;#x2711; Type: Internal
+&amp;#x2711; SKU: Standard
+&amp;#x2711; Virtual network: VNET1
+You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
+Solution: You create two Standard SKU public IP addresses and associate a Standard SKU public IP address to the network interface of each virtual machine.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback>You can only attach virtual machines that are in the same location and on the same virtual network as the LB. Virtual machines must have a standard SKU public IP or no public IP.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
+From Azure, you download and install the VPN client configuration package on a computer named Computer2.
+You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.
+Solution: You export the client certificate from Computer1 and install the certificate on Computer2.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback>Export the client certificate from Computer1 and install the certificate on Computer2. Each client computer that connects to a VNet using Point-to-Site must have a client certificate installed. You generate a client certificate from the self-signed root certificate, and then export and install the client certificate.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure virtual machine named VM1.
+The network interface for VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;q54t5-1.jpg&quot; alt=&quot;q54t5-1.jpg&quot; title=&quot;q54t5-1&quot; width=&quot;567&quot; height=&quot;442&quot;/&amp;#x003E;
+You deploy a web server on VM1, and then create a secure website that is accessible by using the HTTPS protocol. VM1 is used as a web server only.
+You need to ensure that users can connect to the website from the Internet.
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Modify the protocol of Rule4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Delete Rule1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>For Rule5, change the Action to Allow and change the priority to 401</text><feedback>HTTPS uses port 443. Rule2, with priority 500, denies HTTPS traffic. Rule5, with priority changed from 2000 to 401, would allow HTTPS traffic. Note: Priority is a number between 100 and 4096. Rules are processed in priority order, with lower numbers processed before higher numbers, because lower numbers have higher priority. Once traffic matches a rule, processing stops. As a result, any rules that exist with lower priorities (higher numbers) that have the same attributes as rules with higher priorities are not processed.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a new inbound rule that allows TCP protocol 443 and configure the rule to have a priority of 501.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
+Another administrator plans to create several network security groups (NSGs) in the subscription.
+You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.
+Solution: From the Resource providers blade, you unregister the Microsoft.ClassicNetwork provider.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>You need to use a custom policy definition, because there is not a built-in policy. Resource policy definition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the policy is enforced and what effect to take. By defining conventions, you can control costs and more easily manage your resources.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You manage two Azure subscriptions named Subscription1 and Subscription2.
+Subscription1 has following virtual networks:
+&amp;#x003C;img src=&quot;q56t5-1.jpg&quot; alt=&quot;q56t5-1.jpg&quot; title=&quot;q56t5-1&quot; width=&quot;326&quot; height=&quot;57&quot;/&amp;#x003E;
+The virtual networks contain the following subnets:
+&amp;#x003C;img src=&quot;q56t5-2.jpg&quot; alt=&quot;q56t5-2.jpg&quot; title=&quot;q56t5-2&quot; width=&quot;346&quot; height=&quot;72&quot;/&amp;#x003E;
+Subscription2 contains the following virtual network:
+&amp;#x2711; Name: VNETA
+&amp;#x2711; Address space: 10.10.128.0/17
+&amp;#x2711; Location: Canada Central
+VNETA contains the following subnets:
+&amp;#x003C;img src=&quot;q56t5-3.jpg&quot; alt=&quot;q56t5-3.jpg&quot; title=&quot;q56t5-3&quot; width=&quot;220&quot; height=&quot;54&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q56t5-3.jpg&quot; alt=&quot;q56t5-3.jpg&quot; title=&quot;q56t5-3&quot; width=&quot;220&quot; height=&quot;54&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>YES: A Site-toSite connection can be established between VNET1 and VNET2.</text><feedback>With VNet-to-VNet you can connect Virtual Networks in Azure across different regions.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO: A Site-toSite connection can be established between VNET1 and VNET2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>YES: VNET1 and VNET2 can be peered.</text><feedback>Azure supports the following types of peering:
+&amp;#x2711; Virtual network peering: Connect virtual networks within the same Azure region.
+&amp;#x2711; Global virtual network peering: Connecting virtual networks across Azure regions.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO: VNET1 and VNET2 can be peered.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>YES:  VNET1 and VNETA can be peered.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO: VNET1 and VNETA can be peered.</text><feedback>The virtual networks you peer must have non-overlapping IP address spaces.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
+Balancer.
+The effective network security configurations for VM2 are shown in the following exhibit.
+&amp;#x003C;img src=&quot;q57t5-1.jpg&quot; alt=&quot;q57t5-1.jpg&quot; title=&quot;q57t5-1&quot; width=&quot;567&quot; height=&quot;233&quot;/&amp;#x003E;
+You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
+You verify that the Load Balancer rules are configured correctly.
+You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.
+Solution: You create an inbound security rule that denies all traffic from the 131.107.100.50 source and has a cost of 64999.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>You want to establish a successful connection from 131.107.100.50 over TCP port 43, and the solution suggests to create a deny inbound rule with low priority. It doesn&amp;#x2019;t make any sense. Virtual machines in load-balanced pools: The source port and address range applied are from the originating computer, not the load balancer. The destination port and address range are for the destination computer, not the load balancer.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
+Balancer.
+The effective network security configurations for VM2 are shown in the following exhibit.
+&amp;#x003C;img src=&quot;q58t5-1.jpg&quot; alt=&quot;q58t5-1.jpg&quot; title=&quot;q58t5-1&quot; width=&quot;567&quot; height=&quot;233&quot;/&amp;#x003E;
+You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
+You verify that the Load Balancer rules are configured correctly.
+You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.
+Solution: You delete the BlockAllOther443 inbound security rule.
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NO</text><feedback>Allow_131.107.100.50 rule has a higher priority (100) than BlockAllOther441 (200) and it allows inbound traffic over TCP 443 from source 131.107.100.50. App1 (VM1 and VM2) is in a VNet, so this rule applies. Unfortunately, we still cannot access App1, so the issue is somewhere else, maybe the VMs are off, or the firewall is blocking it.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

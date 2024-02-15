@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure AD tenant that contains a user named External User.
+External User authenticates to the tenant by using external195@gmail.com.
+You need to ensure that External User authenticates to the tenant by
+using contractor@gmail.com.
+
+Which two settings should you configure from the Overview blade? To
+answer, select the appropriate settings in the answer area.
+
+NOTE: Each correct answer is worth one point.
+&amp;#x003C;img src=&quot;q87t2.png&quot; alt=&quot;q87t2.png&quot; title=&quot;q87t2&quot; width=&quot;970&quot; height=&quot;544&quot;/</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Identities</text><feedback>So this source shows that the first step is to do this: Browse to Identity &amp;#x003E; Users &amp;#x003E;
+All users. Which can be done from the Overview tab by simply clicking on
+Identities as noted by the given answer. Then it states: &quot;On the Overview tab,
+under My Feed, select the Reset redemption status link in the B2B collaboration
+tile.&quot; So the given answer of &quot;Identities&quot; and &quot;B2B Tile&quot; are correct</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Account status</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Sing-ins</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B2B collaboration</text><feedback>So this source shows that the first step is to do this: Browse to Identity &amp;#x003E; Users &amp;#x003E;
+All users. Which can be done from the Overview tab by simply clicking on
+Identities as noted by the given answer. Then it states: &quot;On the Overview tab,
+under My Feed, select the Reset redemption status link in the B2B collaboration
+tile.&quot; So the given answer of &quot;Identities&quot; and &quot;B2B Tile&quot; are correct</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the
+following table.
+
+&amp;#x003C;img src=&quot;q88t2.png&quot; alt=&quot;q88t2.png&quot; title=&quot;q88t2&quot; width=&quot;881&quot; height=&quot;294&quot;/&amp;#x003E;
+
+You need to assign Workspace1 a role to allow read, write, and delete
+operations for the data stored in the containers of storage1.
+
+Which role should you assign?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Storage Account Contributor</text><feedback>Sorry! the correct answer was C! Storage Blob Data Contributor Read, write, and delete Azure Storage containers
+and blobs. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/
+built-in-roles#storage-blob-data-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Contributor</text><feedback>Sorry! the correct answer was C! Storage Blob Data Contributor Read, write, and delete Azure Storage containers
+and blobs. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/
+built-in-roles#storage-blob-data-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Storage Blob Data Contributor</text><feedback>Correct! Storage Blob Data Contributor Read, write, and delete Azure Storage containers
+and blobs. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/
+built-in-roles#storage-blob-data-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Reader and Data Access</text><feedback>Sorry! the correct answer was C! Storage Blob Data Contributor Read, write, and delete Azure Storage containers
+and blobs. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/
+built-in-roles#storage-blob-data-contributor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains virtual
+network named VNet1. VNet1 is in a resource group named RG1.
+
+A user named User1 has the following roles for Subscription1:
+&amp;#x2022; Reader
+&amp;#x2022; Security Admin
+&amp;#x2022; Security Reader
+
+You need to ensure that User1 can assign the Reader role for VNet1 to other
+users.
+
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Remove User1 from the Security Reader and Reader roles for
+Subscription1. Assign User1 the Contributor role for Subscription1.</text><feedback>Sorry! the correct answer was C! user access admin is beyond the scope for A, B, and D - so the answer must be C
+by logical deduction. open to hearing your thoughts though!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Contributor role for VNet1.</text><feedback>Sorry! the correct answer was C! user access admin is beyond the scope for A, B, and D - so the answer must be C
+by logical deduction. open to hearing your thoughts though!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Owner role for VNet1.</text><feedback>Correct! user access admin is beyond the scope for A, B, and D - so the answer must be C
+by logical deduction. open to hearing your thoughts though!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assign User1 the Network Contributor role for RG1.</text><feedback>Sorry! the correct answer was C! user access admin is beyond the scope for A, B, and D - so the answer must be C
+by logical deduction. open to hearing your thoughts though!</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure AD tenant that contains the groups shown in the
+following table.
+
+&amp;#x003C;img src=&quot;q90t2.png&quot; alt=&quot;q90t2.png&quot; title=&quot;q90t2&quot; width=&quot;963&quot; height=&quot;327&quot;/&amp;#x003E;
+
+You purchase Azure Active Directory Premium P2 licenses.
+
+To which groups can you assign a license?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Group1 only</text><feedback>Answer is B: &quot;The feature can only be used with security groups, and Microsoft
+365 groups that have securityEnabled=TRUE.&quot;
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/
+licensing-group-advanced#limitations-and-known-issues I could not find much
+information on the possibility of adding it to &apos;mail enabled&apos; group.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Group1 and Group3 only</text><feedback>Correct! &quot;The feature can only be used with security groups, and Microsoft
+365 groups that have securityEnabled=TRUE.&quot;
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/
+licensing-group-advanced#limitations-and-known-issues I could not find much
+information on the possibility of adding it to &apos;mail enabled&apos; group.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Group3 and Group4 only</text><feedback>Answer is B: &quot;The feature can only be used with security groups, and Microsoft
+365 groups that have securityEnabled=TRUE.&quot;
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/
+licensing-group-advanced#limitations-and-known-issues I could not find much
+information on the possibility of adding it to &apos;mail enabled&apos; group.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Group1, Group2, and Group3 only</text><feedback>Answer is B: &quot;The feature can only be used with security groups, and Microsoft
+365 groups that have securityEnabled=TRUE.&quot;
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/
+licensing-group-advanced#limitations-and-known-issues I could not find much
+information on the possibility of adding it to &apos;mail enabled&apos; group.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Group1, Group2, Group3, and Group4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure AD tenant.
+You need to create a Microsoft 365 group that contains only members of a
+marketing department in France.
+
+How should you complete the dynamic membership rule? To answer, select
+the appropriate options in the answer area.
+
+NOTE: Each correct answer is worth one point.
+
+&amp;#x003C;img src=&quot;q91t2.png&quot; alt=&quot;q91t2.png&quot; title=&quot;q91t2&quot; width=&quot;1028&quot; height=&quot;284&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>1. device.managementType</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1. device.organizationalUnit</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1. user.department</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>1</correct><percent-correct>34</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>1. user.usageLocation</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2. and</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2. or</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2. typeof</text><feedback>((user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3. -and</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3. -eq</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3. -in</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3. -match</text><feedback>(user.department &amp;#x2013;eq &quot;Marketing&quot;) &amp;#x2013;and (user.country &amp;#x2013;eq &quot;France&quot;) parentheses
+could be used to determine order
+&amp;#x003C;br&amp;#x003E;
+ https://learn.microsoft.com/en-us/azure/activedirectory/
+enterprise-users/groups-dynamic-membership#operator-precedence</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure AD tenant.
+
+You need to modify the Default user role permissions settings for the tenant.
+
+The solution must meet the following requirements:
+&amp;#x2022; Standard users must be prevented from creating new service principals.
+&amp;#x2022; Standard users must only be able to use PowerShell or Microsoft Graph to
+manage their own Azure resources.
+
+Which two settings should you modify? To answer, select the appropriate
+settings in the answer area.
+
+NOTE: Each correct answer is worth one point.
+
+&amp;#x003C;img src=&quot;q92t2.png&quot; alt=&quot;q92t2.png&quot; title=&quot;q92t2&quot; width=&quot;970&quot; height=&quot;782&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Users can register applications</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Restrict non-admin users form creating tenants</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Users can create security groups</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Guest users have the same access as members (most inclusive)</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Guest users have &amp;#x00F1;o,oted access to properties and memberships of directory objects</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Guest users access is restricted to properties and memberships of their own directory objects (most restrictive)</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Restrict access to Azure AD administration portal</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Allow users to connect their work or school account with Linkedin -Yes</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Allow users to connect their work or school account with Linkedin -Selected group</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Allow users to connect their work or school account with Linkedin -No</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Show keep user signed in</text><feedback>Register applications: Setting this option to No prevents users from creating
+application registrations. Restrict access to Azure AD administration portal: What
+does this switch do? No: lets non-administrators browse the Azure AD
+administration portal. Yes: Restricts non-administrators from browsing the Azure
+AD administration portal. Non-administrators who are owners of groups or
+applications are unable to use the Azure portal to manage their owned resources.
+What does it not do? It doesn&apos;t restrict access to Azure AD data using PowerShell,
+Microsoft GraphAPI, or other clients such as Visual Studio. It doesn&apos;t restrict
+access as long as a user is assigned a custom role (or any role).
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/usersdefault-
+permissions</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Sub1 that contains the blob
+containers shown in the following table.
+
+&amp;#x003C;img src=&quot;q93t2i1.png&quot; alt=&quot;q93t2i1.png&quot; title=&quot;q93t2i1&quot; width=&quot;964&quot; height=&quot;281&quot;/&amp;#x003E;
+
+Sub1 contains two users named User1 and User2. Both users are assigned
+the Reader role at the Sub1 scope.
+You have a condition named Condition1 as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q93t2i2.png&quot; alt=&quot;q93t2i2.png&quot; title=&quot;q93t2i2&quot; width=&quot;1019&quot; height=&quot;222&quot;/&amp;#x003E;
+
+You have a condition named Condition2 as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q93t2i3.png&quot; alt=&quot;q93t2i3.png&quot; title=&quot;q93t2i3&quot; width=&quot;1061&quot; height=&quot;229&quot;/&amp;#x003E;
+
+You assign roles to User1 and User2 as shown in the following table.
+
+&amp;#x003C;img src=&quot;q93t2i4.png&quot; alt=&quot;q93t2i4.png&quot; title=&quot;q93t2i4&quot; width=&quot;985&quot; height=&quot;172&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true.
+Otherwise, select No.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>User1 can read blob2 -yes</text><feedback></feedback><correct>1</correct><percent-correct>34</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can read blob2 -no</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can read blob3 -yes</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can read blob3 -no</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can read blob1 -yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can read blob1 -no</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+
+You have an Azure Active Directory (Azure AD) tenant named contoso.com.
+
+You have a CSV file that contains the names and email addresses of 500
+external users.
+
+You need to create a guest user account in contoso.com for each of the 500
+external users.
+
+Solution: You create a PowerShell script that runs the New-MgUser cmdlet
+for each user.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Incorrect! Instead use the New-AzureADMSInvitation cmdlet which is used to invite a new
+external user to your directory. 
+&amp;#x003C;br&amp;#x003E;
+Reference:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/powershell/module/azuread/newazureadmsinvitation
+New-MgUser &amp;#x2014;&amp;#x003E;
+https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.users/
+new-mguser?view=graph-powershell-1.0</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Correct! Instead use the New-AzureADMSInvitation cmdlet which is used to invite a new
+external user to your directory. 
+&amp;#x003C;br&amp;#x003E;
+Reference:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/powershell/module/azuread/newazureadmsinvitation
+New-MgUser &amp;#x2014;&amp;#x003E;
+https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.users/
+new-mguser?view=graph-powershell-1.0</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You purchase a new Azure subscription.
+
+You create an Azure Resource Manager (ARM) template named deploy.json
+as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q95t2.png&quot; alt=&quot;q95t2.png&quot; title=&quot;q95t2&quot; width=&quot;955&quot; height=&quot;1540&quot;/&amp;#x003E;
+
+You connect to the subscription and run the following command.
+
+New-AzDeployment &amp;#x2013;Location westus &amp;#x2013;TemplateFile &amp;#x201C;deploy.json&amp;#x201D;
+
+For each of the following statements, select Yes if the statement is true.
+Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Three resource groups are created when you run the script -yes</text><feedback></feedback><correct>1</correct><percent-correct>34</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Three resource groups are created when you run the script -no</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A resource group named RGroup5 is created -yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A resource group named RGroup5 is created -no</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>All the resource groups are created in the East US Azure region -yes</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>All the resource groups are created in the East US Azure region -no</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Your on-premises network contains a VPN gateway.
+
+You have an Azure subscription that contains the resources shown in the
+following table.
+&amp;#x003C;img src=&quot;q96t2.png&quot; alt=&quot;q96t2.png&quot; title=&quot;q96t2&quot; width=&quot;969&quot; height=&quot;191&quot;/&amp;#x003E;
+
+You need to ensure that all the traffic from VM1 to storage1 travels across
+the Microsoft backbone network.
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure AD Application Proxy</text><feedback>incorrect! the correct answer was B! that&apos;s what private endpoints are for. &quot;A private endpoint is a network
+interface that uses a private IP address from your virtual network. This network
+interface connects you privately and securely to a service that&apos;s powered by Azure
+Private Link. By enabling a private endpoint, you&apos;re bringing the service into your
+virtual network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/private-link/privateendpoint-
+overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>private endpoints</text><feedback>Correct, that&apos;s what private endpoints are for. &quot;A private endpoint is a network
+interface that uses a private IP address from your virtual network. This network
+interface connects you privately and securely to a service that&apos;s powered by Azure
+Private Link. By enabling a private endpoint, you&apos;re bringing the service into your
+virtual network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/private-link/privateendpoint-
+overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a network security group (NSG)</text><feedback>incorrect! the correct answer was B! that&apos;s what private endpoints are for. &quot;A private endpoint is a network
+interface that uses a private IP address from your virtual network. This network
+interface connects you privately and securely to a service that&apos;s powered by Azure
+Private Link. By enabling a private endpoint, you&apos;re bringing the service into your
+virtual network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/private-link/privateendpoint-
+overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Peering Service</text><feedback>incorrect! the correct answer was B! that&apos;s what private endpoints are for. &quot;A private endpoint is a network
+interface that uses a private IP address from your virtual network. This network
+interface connects you privately and securely to a service that&apos;s powered by Azure
+Private Link. By enabling a private endpoint, you&apos;re bringing the service into your
+virtual network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/private-link/privateendpoint-
+overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Your on-premises network contains a VPN gateway.
+
+You have an Azure subscription that contains the resources shown in the
+following table.
+&amp;#x003C;img src=&quot;q97t2.png&quot; alt=&quot;q97t2.png&quot; title=&quot;q97t2&quot; width=&quot;964&quot; height=&quot;188&quot;/&amp;#x003E;
+
+You need to ensure that all the traffic from VM1 to storage1 travels across
+the Microsoft backbone network.
+
+What should you configure?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure AD Application Proxy</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>service endpoints</text><feedback>Correct. &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a network security group (NSG)</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Firewall</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Your on-premises network contains a VPN gateway.
+
+You have an Azure subscription that contains the resources shown in the
+following table.
+
+&amp;#x003C;img src=&quot;q98t2.png&quot; alt=&quot;q98t2.png&quot; title=&quot;q98t2&quot; width=&quot;967&quot; height=&quot;192&quot;/&amp;#x003E;
+
+You need to ensure that all the traffic from VM1 to storage1 travels across
+the Microsoft backbone network.
+
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Application Gateway</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>service endpoints</text><feedback>Correct. &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a network security group (NSG)</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Peering Service</text><feedback>Incorrect! the correct answer was B! &quot;Virtual Network (VNet) service endpoint provides secure and direct
+connectivity to Azure services over an optimized route over the Azure backbone
+network.&quot; 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/virtual-network/virtualnetwork-
+service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

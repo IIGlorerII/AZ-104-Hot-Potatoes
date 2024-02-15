@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Rodrigo</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>HOTSPOT -&amp;#x003C;br&amp;#x003E;
+You have two Azure subscriptions named Sub1 and Sub2. Sub1 is in a management group named MG1. Sub2 is in a management group named MG2.
+You have the resource groups shown in the following table.
+&amp;#x003C;img src=&quot;topic6_29 (1).png&quot; alt=&quot;topic6_29 (1).png&quot; title=&quot;topic6_29 (1)&quot; width=&quot;285&quot; height=&quot;96&quot;/&amp;#x003E;
+
+You have the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;topic6_29 (2).png&quot; alt=&quot;topic6_29 (2).png&quot; title=&quot;topic6_29 (2)&quot; width=&quot;333&quot; height=&quot;124&quot;/&amp;#x003E;
+
+You assign roles to users as shown in the following table.
+&amp;#x003C;img src=&quot;topic6_29 (3).png&quot; alt=&quot;topic6_29 (3).png&quot; title=&quot;topic6_29 (3)&quot; width=&quot;580&quot; height=&quot;171&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;topic6_29 (4).jpg&quot; alt=&quot;topic6_29 (4).jpg&quot; title=&quot;topic6_29 (4)&quot; width=&quot;567&quot; height=&quot;232&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>User1 can sign in to VM1 - YES</text><feedback>&amp;#x003C;img src=&quot;topic6_29 (5).jpg&quot; alt=&quot;topic6_29 (5).jpg&quot; title=&quot;topic6_29 (5)&quot; width=&quot;567&quot; height=&quot;232&quot;/&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 can sign in to VM1 - NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can manage disks and disk snapshots of VM1 - YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can manage disks and disk snapshots of VM1 - NO</text><feedback>&amp;#x003C;img src=&quot;topic6_29 (5).jpg&quot; alt=&quot;topic6_29 (5).jpg&quot; title=&quot;topic6_29 (5)&quot; width=&quot;567&quot; height=&quot;232&quot;/&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can manage disks and disk snapshots of VM3 - YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 can manage disks and disk snapshots of VM3 - NO</text><feedback>&amp;#x003C;img src=&quot;topic6_29 (5).jpg&quot; alt=&quot;topic6_29 (5).jpg&quot; title=&quot;topic6_29 (5)&quot; width=&quot;567&quot; height=&quot;232&quot;/&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure Active Directory (Azure AD) tenant that is linked to 10 Azure subscriptions.
+You need to centrally monitor user activity across all the subscriptions.
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Azure Application Insights Profiler</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>access reviews</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Activity log filters</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Log Analytics workspace</text><feedback>D is the answer. &amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log?tabs=powershell#send-to-log-analytics-workspace 
+&amp;#x003C;br&amp;#x003E;Send the activity log to a Log Analytics workspace to enable the Azure Monitor Logs feature, where you: - Consolidate log entries from multiple Azure subscriptions and tenants into one location for analysis together.&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://techcommunity.microsoft.com/t5/azure-observability/log-analytics-workspace-with-multiple-subscription/m-p/324805</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have a subnet named Subnet1 that contains Azure virtual machines. A network security group (NSG) named NSG1 is associated to Subnet1. NSG1 only contains the default rules.&amp;#x003C;br&amp;#x003E;
+You need to create a rule in NSG1 to prevent the hosts on Subnet1 form connecting to the Azure portal. The hosts must be able to connect to other internet hosts.
+To what should you set Destination in the rule?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Application security group</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP Addresses</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Service Tag</text><feedback>You can use service tags to achieve network isolation and protect your Azure resources from the general Internet while accessing Azure services that have public endpoints. &amp;#x003C;br&amp;#x003E;Create inbound/outbound network security group rules to deny traffic to/from Internet and allow traffic to/from AzureCloud or other available service tags of specific Azure services. &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Any</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.
+You need to view the error events from a table named Event.
+Which query should you run in Workspace1?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>search in (Event) &quot;error&quot;</text><feedback>&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/whereoperator</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Event | where EventType is &quot;error&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>select * from Event where EventType == &quot;error&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Get-Event Event | where {$_.EventType == &quot;error&quot;}</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure App Service web app named App1.
+You need to collect performance traces for App1.
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Azure Application Insights Profiler</text><feedback>&quot;With Application Insights Profiler, you can capture and view performance traces for your application in all these dynamic situations, automatically at-scale, without negatively affecting your end users.&quot; &amp;#x003C;br&amp;#x003E;https://docs.microsoft.com/en-us/azure/azure-monitor/profiler/profiler-overview
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+LOOK&amp;#x003C;br&amp;#x003E;
+Correct Answer: B&amp;#x003C;br&amp;#x003E;
+Community vote distribution&amp;#x003C;br&amp;#x003E;
+A (100%)</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Activity log</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Deployment center</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Diagnose and solve problems settings</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the storage accounts shown in the following table.
+&amp;#x003C;img src=&quot;topic6_35 (1).png&quot; alt=&quot;topic6_35 (1).png&quot; title=&quot;topic6_35 (1)&quot; width=&quot;377&quot; height=&quot;138&quot;/&amp;#x003E;
+You deploy a web app named App1 to the West US Azure region.
+
+You need to back up App1. The solution must minimize costs.
+
+Which storage account should you use as the target for the backup?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>storage1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage2</text><feedback>To minimize costs, you should use the storage account that is in the same region as the web app that you are backing up. &amp;#x003C;br&amp;#x003E;In this case, the web app is in the West US region, so you should use storage2
+LOOK&amp;#x003C;br&amp;#x003E;
+Correct Answer: D&amp;#x003C;br&amp;#x003E;
+Community vote distribution&amp;#x003C;br&amp;#x003E;
+B (83%)&amp;#x003C;br&amp;#x003E;
+A (17%)&amp;#x003C;br&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>storage4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+
+You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains two users named User1 and User2.
+
+The subscription contains the resources shown in the following table.
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;img src=&quot;topic6_36 (1).png&quot; alt=&quot;topic6_36 (1).png&quot; title=&quot;topic6_36 (1)&quot; width=&quot;281&quot; height=&quot;50&quot;/&amp;#x003E;
+The subscription contains the alert rules shown in the following table.
+&amp;#x003C;img src=&quot;topic6_36 (2).png&quot; alt=&quot;topic6_36 (2).png&quot; title=&quot;topic6_36 (2)&quot; width=&quot;242&quot; height=&quot;51&quot;/&amp;#x003E;
+The users perform the following action:
+
+&amp;#x2022; User1 creates a new virtual disk and attaches the disk to VM1
+&amp;#x2022; User2 creates a new resource tag and assigns the tag to RG1 and VM1
+
+Which alert rules are triggered by each user? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;topic6_36 (3).png&quot; alt=&quot;topic6_36 (3).png&quot; title=&quot;topic6_36 (3)&quot; width=&quot;589&quot; height=&quot;526&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>User1: No alert is triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1:  Only Alert1 is triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1:  Only Alert2 is triggered</text><feedback>&amp;#x003C;img src=&quot;topic6_36 (4).png&quot; alt=&quot;topic6_36 (4).png&quot; title=&quot;topic6_36 (4)&quot; width=&quot;377&quot; height=&quot;337&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1:  Alert1 And Alert2 are triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2: No alert is triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2:  Only Alert1 is triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2:  Only Alert2 is triggered</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2:  Alert1 And Alert2 are triggered</text><feedback>&amp;#x003C;img src=&quot;topic6_36 (4).png&quot; alt=&quot;topic6_36 (4).png&quot; title=&quot;topic6_36 (4)&quot; width=&quot;377&quot; height=&quot;337&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>a Desired State Configuration (DSC) extension</text><feedback>A is the answer. &amp;#x003C;br&amp;#x003E;https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the New-AzConfigurationAssignment cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Microsoft Endpoint Manager device configuration profile</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains eight virtual machines and the resources shown in the following table.
+&amp;#x003C;img src=&quot;topic6_38 (1).png&quot; alt=&quot;topic6_38 (1).png&quot; title=&quot;topic6_38 (1)&quot; width=&quot;534&quot; height=&quot;169&quot;/&amp;#x003E;
+You need to configure access for VNET1. The solution must meet the following requirements:
+
+&amp;#x2022; The virtual machines connected to VNET1 must be able to communicate with the virtual machines connected to VNET2 by using the Microsoft backbone.
+&amp;#x2022; The virtual machines connected to VNET1 must be able to access storage1, storage2, and Azure AD by using the Microsoft backbone.
+
+What is the minimum number of service endpoints you should add to VNET1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2</text><feedback>Yes B (2 s-e:s) but not for the reason you or other people below state You create one Service Endpoint per Azure service per Vnet (Vnet-to-Vnet does not require nor can it be configured with service endpoints) Hence: 1 service endpoint for Vnet1 to Microsoft.&amp;#x003C;br&amp;#x003E;Storage service 1 service endpoint for Vnet1 to Microsoft.KeyVault service Try it your self in portal and you&apos;ll see &amp;#x003C;br&amp;#x003E;https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+LOOK&amp;#x003C;br&amp;#x003E;
+Correct Answer: D&amp;#x003C;br&amp;#x003E;
+Community vote distribution&amp;#x003C;br&amp;#x003E;
+B (92%)&amp;#x003C;br&amp;#x003E;
+Others 8%</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>5</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You need to configure an Azure web app named contoso.azurewebsites.net to host www.contoso.com.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Create A records named www.contoso.com and asuid.contoso.com.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a TXT record named asuid that contains the domain verification ID.</text><feedback>LOOK&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Correct Answer: C&amp;#x003C;br&amp;#x003E;
+Community vote distribution&amp;#x003C;br&amp;#x003E;
+B (64%)&amp;#x003C;br&amp;#x003E;
+C (23%)&amp;#x003C;br&amp;#x003E;
+Others 8%&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=root%2Cazurecli</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a CNAME record named asuid that contains the domain verification ID.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Create a TXT record named www.contoso.com that has a value of contoso.azurewebsites.net.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains 10 network security groups (NSGs), 10 virtual machines, and a Log Analytics workspace named Workspace1. Each NSG is connected to a virtual machine.
+
+You need to configure an Azure Monitor Network Insights alert that will be triggered when suspicious network traffic is detected.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Deploy Connection Monitor.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure data collection endpoints.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure a private link.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure NSG flow logs.</text><feedback>Correct answer: D &amp;#x003C;br&amp;#x003E;To configure an Azure Monitor Network Insights alert that will be triggered when suspicious network traffic is detected, you should first configure NSG flow logs. &amp;#x003C;br&amp;#x003E;NSG flow logs provide information about traffic that is allowed or denied by an NSG.&amp;#x003C;br&amp;#x003E; By configuring NSG flow logs, you will be able to monitor the traffic passing through your NSGs and detect any suspicious activity. &amp;#x003C;br&amp;#x003E;You can use them for optimizing network flows, monitoring throughput, verifying compliance, detecting intrusions, and more. 
+&amp;#x003C;br&amp;#x003E;
+Reference: &amp;#x003C;br&amp;#x003E;https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview#why-use-flow-logs</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

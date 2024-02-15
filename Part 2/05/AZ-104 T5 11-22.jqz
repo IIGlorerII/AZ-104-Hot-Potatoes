@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>J.</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription that contains the resources in the following table.
+
+&amp;#x003C;img src=&quot;P11T5 - 1.png&quot; alt=&quot;P11T5 - 1.png&quot; title=&quot;P11T5 - 1&quot; width=&quot;850&quot; height=&quot;139&quot;/&amp;#x003E;
+
+
+To which subnets can you apply NSG1?
+&amp;#x2022;	A. the subnets on VNet1 only
+&amp;#x2022;	B. the subnets on VNet2 and VNet3 only
+&amp;#x2022;	C. the subnets on VNet2 only
+&amp;#x2022;	D. the subnets on VNet3 only
+&amp;#x2022;	E. the subnets on VNet1, VNet2, and VNet3
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. the subnets on VNet1 only</text><feedback>Correct Answer: D You can assign NSG to the Subnet of the VNet in the same region where NSG is. NSG1 is in East US and only VNet3 Subnets are in East US.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. the subnets on VNet2 and VNet3 only</text><feedback>Correct Answer: D You can assign NSG to the Subnet of the VNet in the same region where NSG is. NSG1 is in East US and only VNet3 Subnets are in East US.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. the subnets on VNet2 only</text><feedback>Correct Answer: D You can assign NSG to the Subnet of the VNet in the same region where NSG is. NSG1 is in East US and only VNet3 Subnets are in East US.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. the subnets on VNet3 only</text><feedback>Correct Answer: D You can assign NSG to the Subnet of the VNet in the same region where NSG is. NSG1 is in East US and only VNet3 Subnets are in East US.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. the subnets on VNet1, VNet2, and VNet3</text><feedback>Correct Answer: D You can assign NSG to the Subnet of the VNet in the same region where NSG is. NSG1 is in East US and only VNet3 Subnets are in East US.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains the resource groups shown in the following table.
+
+&amp;#x003C;img src=&quot;P13T5-1.png&quot; alt=&quot;P13T5-1.png&quot; title=&quot;P13T5-1&quot; width=&quot;520&quot; height=&quot;96&quot;/&amp;#x003E;
+
+RG1 contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;P13T5-2.png&quot; alt=&quot;P13T5-2.png&quot; title=&quot;P13T5-2&quot; width=&quot;654&quot; height=&quot;180&quot;/&amp;#x003E;
+
+VM1 is running and connects to NIC1 and Disk1. NIC1 connects to VNET1.
+RG2 contains a public IP address named IP2 that is in the East US location. IP2 is not assigned to a virtual machine.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+&amp;#x003C;img src=&quot;P13T5-3.png.jpg&quot; alt=&quot;P13T5-3.png.jpg&quot; title=&quot;P13T5-3.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+NOTE: Each correct selection is worth one point.
+Hot Area:
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can move storage1 to RG2 - YES</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can move storage1 to RG2 - NO</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can move NIC1 to RG2 - YES</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can move NIC1 to RG2 - NO</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you IP2 to Rg1, the location of IP2 will change - YES</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If you IP2 to Rg1, the location of IP2 will change  - NO</text><feedback>&amp;#x003C;img src=&quot;P13T5-4.png.jpg&quot; alt=&quot;P13T5-4.png.jpg&quot; title=&quot;P13T5-4.png&quot; width=&quot;804&quot; height=&quot;273&quot;/&amp;#x003E;
+
+Tested this in an identical lab: 1. YES. I was able to move the storage from RG1 to RG2, however it stayed in the West US region. 2. YES. I was able to move NIC1 from RG1 to RG2 which was associated with VM1 and VNET1 subnet1, however it stayed in the West US region. 3. NO. The location of IP2 did not change. However I was able to move LP2 from RG2 to RG1 as it isn&apos;t associated with any other resource, however it stayed in the East US region. All resources moved to the new resource groups, but the region did not change</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure web app named webapp1.
+You have a virtual network named VNET1 and an Azure virtual machine named VM1 that hosts a MySQL database. VM1 connects to VNET1.
+You need to ensure that webapp1 can access the data hosted on VM1.
+What should you do?
+&amp;#x2022;	A. Deploy an internal load balancer
+&amp;#x2022;	B. Peer VNET1 to another virtual network
+&amp;#x2022;	C. Connect webapp1 to VNET1
+&amp;#x2022;	D. Deploy an Azure Application Gateway
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. Deploy an internal load balancer</text><feedback>I think the answer should be C. &amp;#x003C;https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet&amp;#x003E;
+
+Answer is C. tested in the lab. web app pricing plan needed to be upgraded to Standard. There must be a vnet with a subnet that is not being used. If the subnet is used, you can create a new one.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Peer VNET1 to another virtual network</text><feedback>I think the answer should be C. &amp;#x003C;https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet&amp;#x003E;
+
+Answer is C. tested in the lab. web app pricing plan needed to be upgraded to Standard. There must be a vnet with a subnet that is not being used. If the subnet is used, you can create a new one.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Connect webapp1 to VNET1</text><feedback>I think the answer should be C. &amp;#x003C;https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet&amp;#x003E;
+
+Answer is C. tested in the lab. web app pricing plan needed to be upgraded to Standard. There must be a vnet with a subnet that is not being used. If the subnet is used, you can create a new one.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Deploy an Azure Application Gateway</text><feedback>I think the answer should be C. &amp;#x003C;https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet&amp;#x003E;
+
+Answer is C. tested in the lab. web app pricing plan needed to be upgraded to Standard. There must be a vnet with a subnet that is not being used. If the subnet is used, you can create a new one.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You create an Azure VM named VM1 that runs Windows Server 2019.
+VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
+
+&amp;#x003C;img src=&quot;P15T5-1.jpg&quot; alt=&quot;P15T5-1.jpg&quot; title=&quot;P15T5-1&quot; width=&quot;919&quot; height=&quot;826&quot;/&amp;#x003E;
+
+
+You need to enable Desired State Configuration for VM1.
+What should you do first?
+&amp;#x2022;	A. Connect to VM1.
+&amp;#x2022;	B. Start VM1.
+&amp;#x2022;	C. Capture a snapshot of VM1.
+&amp;#x2022;	D. Configure a DNS name for VM1
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Connect to VM1.</text><feedback>Correct Answer: B
+Status is Stopped (Deallocated).
+The DSC extension for Windows requires that the target virtual machine is able to communicate with Azure.
+The VM needs to be started.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-windows</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Start VM1.</text><feedback>Correct Answer: B
+Status is Stopped (Deallocated).
+The DSC extension for Windows requires that the target virtual machine is able to communicate with Azure.
+The VM needs to be started.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-windows</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Capture a snapshot of VM1.</text><feedback>Correct Answer: B
+Status is Stopped (Deallocated).
+The DSC extension for Windows requires that the target virtual machine is able to communicate with Azure.
+The VM needs to be started.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-windows</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Configure a DNS name for VM1</text><feedback>Correct Answer: B
+Status is Stopped (Deallocated).
+The DSC extension for Windows requires that the target virtual machine is able to communicate with Azure.
+The VM needs to be started.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-windows</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+You need to ensure that visitors are serviced by the same web server for each request.
+What should you configure?
+&amp;#x2022;	A. Floating IP (direct server return) to Disabled
+&amp;#x2022;	B. Session persistence to None
+&amp;#x2022;	C. Floating IP (direct server return) to Enabled
+&amp;#x2022;	D. Session persistence to Client IP
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Floating IP (direct server return) to Disabled</text><feedback>Correct Answer: D
+With Sticky Sessions when a client starts a session on one of your web servers, session stays on that specific server. To configure An Azure Load-Balancer For
+Sticky Sessions set Session persistence to Client IP or to Client IP and protocol.
+On the following image you can see sticky session configuration:
+Note:
+&amp;#x2711; Client IP and protocol specifies that successive requests from the same client IP address and protocol combination will be handled by the same virtual machine.
+&amp;#x2711; Client IP specifies that successive requests from the same client IP address will be handled by the same virtual machine.
+Reference:
+https://cloudopszone.com/configure-azure-load-balancer-for-sticky-sessions/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Session persistence to None</text><feedback>Correct Answer: D
+With Sticky Sessions when a client starts a session on one of your web servers, session stays on that specific server. To configure An Azure Load-Balancer For
+Sticky Sessions set Session persistence to Client IP or to Client IP and protocol.
+On the following image you can see sticky session configuration:
+Note:
+&amp;#x2711; Client IP and protocol specifies that successive requests from the same client IP address and protocol combination will be handled by the same virtual machine.
+&amp;#x2711; Client IP specifies that successive requests from the same client IP address will be handled by the same virtual machine.
+Reference:
+https://cloudopszone.com/configure-azure-load-balancer-for-sticky-sessions/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Floating IP (direct server return) to Enabled</text><feedback>Correct Answer: D
+With Sticky Sessions when a client starts a session on one of your web servers, session stays on that specific server. To configure An Azure Load-Balancer For
+Sticky Sessions set Session persistence to Client IP or to Client IP and protocol.
+On the following image you can see sticky session configuration:
+Note:
+&amp;#x2711; Client IP and protocol specifies that successive requests from the same client IP address and protocol combination will be handled by the same virtual machine.
+&amp;#x2711; Client IP specifies that successive requests from the same client IP address will be handled by the same virtual machine.
+Reference:
+https://cloudopszone.com/configure-azure-load-balancer-for-sticky-sessions/</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Session persistence to Client IP</text><feedback>Correct Answer: D
+With Sticky Sessions when a client starts a session on one of your web servers, session stays on that specific server. To configure An Azure Load-Balancer For
+Sticky Sessions set Session persistence to Client IP or to Client IP and protocol.
+On the following image you can see sticky session configuration:
+Note:
+&amp;#x2711; Client IP and protocol specifies that successive requests from the same client IP address and protocol combination will be handled by the same virtual machine.
+&amp;#x2711; Client IP specifies that successive requests from the same client IP address will be handled by the same virtual machine.
+Reference:
+https://cloudopszone.com/configure-azure-load-balancer-for-sticky-sessions/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the following resources:
+&amp;#x2711; A virtual network that has a subnet named Subnet1
+&amp;#x2711; Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1
+&amp;#x2711; A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections
+NSG-Subnet1 has the default inbound security rules only.
+NSG-VM1 has the default inbound security rules and the following custom inbound security rule:
+&amp;#x2711; Priority: 100
+&amp;#x2711; Source: Any
+&amp;#x2711; Source port range: *
+&amp;#x2711; Destination: *
+&amp;#x2711; Destination port range: 3389
+&amp;#x2711; Protocol: UDP
+&amp;#x2711; Action: Allow
+VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.
+You need to be able to establish Remote Desktop connections from the internet to VM1.
+Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the Any source to the *destination for port range 3389 and uses the TCP protocol. You remove NSG-VM1 from the network interface of VM1.
+Does this meet the goal?
+&amp;#x2022;	A. Yes
+&amp;#x2022;	B. No
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Yes</text><feedback>My comments were incorrect, late night study :-). The answer is Yes. The main point i miss was that NSG-Subnet 1 is correctly modified with TCP 3389 and NSG-VM1 is removed. In this case you should be able to connect. - &quot;Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the Any source to the *destination for port range 3389 and uses the TCP protocol. You remove NSG-VM1 from the network interface of VM1.&quot;
+
+reference to https://docs.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works , answer is yes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. No</text><feedback>My comments were incorrect, late night study :-). The answer is Yes. The main point i miss was that NSG-Subnet 1 is correctly modified with TCP 3389 and NSG-VM1 is removed. In this case you should be able to connect. - &quot;Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the Any source to the *destination for port range 3389 and uses the TCP protocol. You remove NSG-VM1 from the network interface of VM1.&quot;
+
+reference to https://docs.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works , answer is yes</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the following resources:
+&amp;#x2711; A virtual network that has a subnet named Subnet1
+&amp;#x2711; Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1
+&amp;#x2711; A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections
+NSG-Subnet1 has the default inbound security rules only.
+NSG-VM1 has the default inbound security rules and the following custom inbound security rule:
+&amp;#x2711; Priority: 100
+&amp;#x2711; Source: Any
+&amp;#x2711; Source port range: *
+&amp;#x2711; Destination: *
+&amp;#x2711; Destination port range: 3389
+
+Protocol: UDP -
+ 
+&amp;#x2711; Action: Allow
+VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.
+You need to be able to establish Remote Desktop connections from the internet to VM1.
+Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the UDP protocol.
+Does this meet the goal?
+&amp;#x2022;	A. Yes
+&amp;#x2022;	B. No
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Yes</text><feedback>Correct Answer: B
+The default port for RDP is TCP port 3389. A rule to permit RDP traffic must be created automatically when you create your VM.
+Note on NSG-Subnet1: Azure routes network traffic between all subnets in a virtual network, by default.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection
+
+Correct Answer: B - No The default port for RDP is TCP port 3389. Reference: https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/troubleshoot-rdp-connection</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. No</text><feedback>Correct Answer: B
+The default port for RDP is TCP port 3389. A rule to permit RDP traffic must be created automatically when you create your VM.
+Note on NSG-Subnet1: Azure routes network traffic between all subnets in a virtual network, by default.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection
+
+
+Correct Answer: B - No The default port for RDP is TCP port 3389. Reference: https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/troubleshoot-rdp-connection</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the following resources:
+&amp;#x2711; A virtual network that has a subnet named Subnet1
+&amp;#x2711; Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1
+&amp;#x2711; A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections
+NSG-Subnet1 has the default inbound security rules only.
+NSG-VM1 has the default inbound security rules and the following custom inbound security rule:
+&amp;#x2711; Priority: 100
+&amp;#x2711; Source: Any
+&amp;#x2711; Source port range: *
+&amp;#x2711; Destination: *
+&amp;#x2711; Destination port range: 3389
+&amp;#x2711; Protocol: UDP
+&amp;#x2711; Action: Allow
+VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.
+You need to be able to establish Remote Desktop connections from the internet to VM1.
+Solution: You add an inbound security rule to NSG-Subnet1 and NSG-VM1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the TCP protocol.
+Does this meet the goal?
+&amp;#x2022;	A. Yes
+&amp;#x2022;	B. No
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Yes</text><feedback>Correct Answer: A
+The default port for RDP is TCP port 3389. A rule to permit RDP traffic must be created automatically when you create your VM.
+Note on NSG-Subnet1: Azure routes network traffic between all subnets in a virtual network, by default.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection
+
+
+La respuesta es A. S&amp;#x00ED;.
+
+La soluci&amp;#x00F3;n propuesta permitir&amp;#x00ED;a establecer conexiones de Escritorio Remoto desde Internet a VM1. Al agregar una regla de seguridad entrante a NSG-Subnet1 y NSG-VM1 que permite conexiones desde cualquier origen a la red virtual para el rango de puerto 3389 y usa el protocolo TCP, se permitir&amp;#x00ED;an las conexiones de Escritorio Remoto, que utilizan el puerto 3389 y el protocolo TCP. Por lo tanto, esta soluci&amp;#x00F3;n cumple con el objetivo.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. No</text><feedback>Correct Answer: A
+The default port for RDP is TCP port 3389. A rule to permit RDP traffic must be created automatically when you create your VM.
+Note on NSG-Subnet1: Azure routes network traffic between all subnets in a virtual network, by default.
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection
+
+
+La respuesta es A. S&amp;#x00ED;.
+
+La soluci&amp;#x00F3;n propuesta permitir&amp;#x00ED;a establecer conexiones de Escritorio Remoto desde Internet a VM1. Al agregar una regla de seguridad entrante a NSG-Subnet1 y NSG-VM1 que permite conexiones desde cualquier origen a la red virtual para el rango de puerto 3389 y usa el protocolo TCP, se permitir&amp;#x00ED;an las conexiones de Escritorio Remoto, que utilizan el puerto 3389 y el protocolo TCP. Por lo tanto, esta soluci&amp;#x00F3;n cumple con el objetivo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have a virtual network named VNet1 that has the configuration shown in the following exhibit.
+&amp;#x003C;img src=&quot;P20T5-1.jpg&quot; alt=&quot;P20T5-1.jpg&quot; title=&quot;P20T5-1&quot; width=&quot;909&quot; height=&quot;652&quot;/&amp;#x003E;
+
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;P20T5-2.jpg.png&quot; alt=&quot;P20T5-2.jpg.png&quot; title=&quot;P20T5-2.jpg&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>BOX 1 : add network interface</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 1 : add subnet</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 1 : add and address space</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 1 : delete a subnet</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 1 : delete an adress space</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2 : add network interface</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2 : add subnet</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2 : add and address space</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 1: add an address space -
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2 : delete a subnet</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>BOX 2 : delete an adress space</text><feedback>&amp;#x003C;img src=&quot;P20T5-3.png&quot; alt=&quot;P20T5-3.png&quot; title=&quot;P20T5-3&quot; width=&quot;604&quot; height=&quot;352&quot;/&amp;#x003E;
+
+Box 2: add a network interface -
+The 10.2.1.0/24 network exists. We need to add a network interface.
+Reference:
+https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains a virtual network named VNET1. VNET1 contains the subnets shown in the following table.
+
+&amp;#x003C;img src=&quot;P21T5-1.png&quot; alt=&quot;P21T5-1.png&quot; title=&quot;P21T5-1&quot; width=&quot;397&quot; height=&quot;100&quot;/&amp;#x003E;
+
+Each virtual machine uses a static IP address.
+You need to create network security groups (NSGs) to meet following requirements:
+&amp;#x2711; Allow web requests from the internet to VM3, VM4, VM5, and VM6.
+&amp;#x2711; Allow all connections between VM1 and VM2.
+&amp;#x2711; Allow Remote Desktop connections to VM1.
+&amp;#x2711; Prevent all other network traffic to VNET1.
+What is the minimum number of NSGs you should create?
+&amp;#x2022;	A. 1
+&amp;#x2022;	B. 3
+&amp;#x2022;	C. 4
+&amp;#x2022;	D. 12
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. 1</text><feedback>La respuesta es B. 3.
+
+Para cumplir con los requisitos, necesitar&amp;#x00ED;as al menos tres grupos de seguridad de red (NSGs):
+
+Un NSG para Subnet1 que permita todas las conexiones entre VM1 y VM2, y permita las conexiones de Escritorio Remoto a VM1.
+Un NSG para Subnet2 que permita las solicitudes web desde Internet a VM3 y VM4.
+One NSG for the web requests from the internet to VM3, VM4, VM5, and VM6. One NSG for the connections between VM1 and VM2. One NSG for the Remote Desktop connections to VM1. By configuring these NSGs, you can allow the required traffic and prevent all other network traffic to VNET1.
+
+Un NSG para Subnet3 que permita las solicitudes web desde Internet a VM5 y VM6.
+Estos NSGs evitar&amp;#x00ED;an todo el otro tr&amp;#x00E1;fico de red a VNET1 que no cumpla con las reglas especificadas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. 3</text><feedback>La respuesta es B. 3.
+
+Para cumplir con los requisitos, necesitar&amp;#x00ED;as al menos tres grupos de seguridad de red (NSGs):
+
+Un NSG para Subnet1 que permita todas las conexiones entre VM1 y VM2, y permita las conexiones de Escritorio Remoto a VM1.
+Un NSG para Subnet2 que permita las solicitudes web desde Internet a VM3 y VM4.
+One NSG for the web requests from the internet to VM3, VM4, VM5, and VM6. One NSG for the connections between VM1 and VM2. One NSG for the Remote Desktop connections to VM1. By configuring these NSGs, you can allow the required traffic and prevent all other network traffic to VNET1.
+
+Un NSG para Subnet3 que permita las solicitudes web desde Internet a VM5 y VM6.
+Estos NSGs evitar&amp;#x00ED;an todo el otro tr&amp;#x00E1;fico de red a VNET1 que no cumpla con las reglas especificadas</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. 4</text><feedback>La respuesta es B. 3.
+
+Para cumplir con los requisitos, necesitar&amp;#x00ED;as al menos tres grupos de seguridad de red (NSGs):
+
+Un NSG para Subnet1 que permita todas las conexiones entre VM1 y VM2, y permita las conexiones de Escritorio Remoto a VM1.
+Un NSG para Subnet2 que permita las solicitudes web desde Internet a VM3 y VM4.
+One NSG for the web requests from the internet to VM3, VM4, VM5, and VM6. One NSG for the connections between VM1 and VM2. One NSG for the Remote Desktop connections to VM1. By configuring these NSGs, you can allow the required traffic and prevent all other network traffic to VNET1.
+
+Un NSG para Subnet3 que permita las solicitudes web desde Internet a VM5 y VM6.
+Estos NSGs evitar&amp;#x00ED;an todo el otro tr&amp;#x00E1;fico de red a VNET1 que no cumpla con las reglas especificadas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. 12</text><feedback>La respuesta es B. 3.
+
+Para cumplir con los requisitos, necesitar&amp;#x00ED;as al menos tres grupos de seguridad de red (NSGs):
+
+Un NSG para Subnet1 que permita todas las conexiones entre VM1 y VM2, y permita las conexiones de Escritorio Remoto a VM1.
+Un NSG para Subnet2 que permita las solicitudes web desde Internet a VM3 y VM4.
+One NSG for the web requests from the internet to VM3, VM4, VM5, and VM6. One NSG for the connections between VM1 and VM2. One NSG for the Remote Desktop connections to VM1. By configuring these NSGs, you can allow the required traffic and prevent all other network traffic to VNET1.
+
+Un NSG para Subnet3 que permita las solicitudes web desde Internet a VM5 y VM6.
+Estos NSGs evitar&amp;#x00ED;an todo el otro tr&amp;#x00E1;fico de red a VNET1 que no cumpla con las reglas especificadas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the following table:
+
+&amp;#x003C;img src=&quot;P22T5-1.png&quot; alt=&quot;P22T5-1.png&quot; title=&quot;P22T5-1&quot; width=&quot;416&quot; height=&quot;74&quot;/&amp;#x003E;
+
+The Not allowed resource types Azure policy that has policy enforcement enabled is assigned to RG1 and uses the following parameters:
+Microsoft.Network/virtualNetworks
+Microsoft.Compute/virtualMachines
+In RG1, you need to create a new virtual machine named VM2, and then connect VM2 to VNET1.
+What should you do first?
+&amp;#x2022;	A. Remove Microsoft.Compute/virtualMachines from the policy.
+&amp;#x2022;	B. Create an Azure Resource Manager template
+&amp;#x2022;	C. Add a subnet to VNET1.
+&amp;#x2022;	D. Remove Microsoft.Network/virtualNetworks from the policy.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Remove Microsoft.Compute/virtualMachines from the policy.</text><feedback>Correct Answer: A
+The Not allowed resource types Azure policy prohibits the deployment of specified resource types. You specify an array of the resource types to block.
+Virtual Networks and Virtual Machines are prohibited.
+Reference:
+https://docs.microsoft.com/en-us/azure/governance/policy/samples/not-allowed-resource-types</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Create an Azure Resource Manager template</text><feedback>Correct Answer: A
+The Not allowed resource types Azure policy prohibits the deployment of specified resource types. You specify an array of the resource types to block.
+Virtual Networks and Virtual Machines are prohibited.
+Reference:
+https://docs.microsoft.com/en-us/azure/governance/policy/samples/not-allowed-resource-types</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Add a subnet to VNET1.</text><feedback>Correct Answer: A
+The Not allowed resource types Azure policy prohibits the deployment of specified resource types. You specify an array of the resource types to block.
+Virtual Networks and Virtual Machines are prohibited.
+Reference:
+https://docs.microsoft.com/en-us/azure/governance/policy/samples/not-allowed-resource-types</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Remove Microsoft.Network/virtualNetworks from the policy.</text><feedback>Correct Answer: A
+The Not allowed resource types Azure policy prohibits the deployment of specified resource types. You specify an array of the resource types to block.
+Virtual Networks and Virtual Machines are prohibited.
+Reference:
+https://docs.microsoft.com/en-us/azure/governance/policy/samples/not-allowed-resource-types</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

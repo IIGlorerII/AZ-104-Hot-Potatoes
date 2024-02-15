@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #41Topic 6
+
+HOTSPOT
+-
+
+You have an Azure subscription named Sub1 that contains the resources shown in the following table
+
+&amp;#x003C;img src=&quot;q41t6.png&quot; alt=&quot;q41t6.png&quot; title=&quot;q41t6&quot; width=&quot;843&quot; height=&quot;99&quot;/&amp;#x003E;
+
+Sub1 contains the following alert rule:
+
+&amp;#x2022; Name: Alert1
+&amp;#x2022; Scope: All resource groups in Sub1
+o Include all future resources
+&amp;#x2022; Condition: All administrative operations
+&amp;#x2022; Actions: Action1
+
+Sub1 contains the following alert processing rule:
+
+&amp;#x2022; Name: Rule1
+&amp;#x2022; Scope: Sub1
+&amp;#x2022; Rule type: Suppress notifications
+&amp;#x2022; Apply the rule: On a specific time
+o Start: August 10, 2022
+o End: August 13, 2022
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q41t6i1.png&quot; alt=&quot;q41t6i1.png&quot; title=&quot;q41t6i1&quot; width=&quot;873&quot; height=&quot;207&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Statement1: Yes</text><feedback>Correct! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement1: No</text><feedback>Incorrect! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement2: Yes</text><feedback>Incorrect! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement2: No</text><feedback>Correct! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement3: Yes</text><feedback>Correct! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement3: No</text><feedback>Incorrect! Y - &quot;alert is listed&quot; does not mean a notification in my understanding therefore yes N - The date is within suppression rule boundaries therefore email will be suppressed Y - The date is outside suppression rule boundaries</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #42Topic 6
+
+You have an Azure subscription that contains a storage account named storage1 in the North Europe Azure region.
+
+You need to ensure that when blob data is added to storage1, a secondary copy is created in the East US region. The solution must minimize administrative effort.
+
+What should you configure?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>operational backup</text><feedback>Incorrect! With GRS you can&apos;t choose the Destination region and for North Europe the paired region is West Europe so correct answer Object replication.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>object replication</text><feedback>Correct! With GRS you can&apos;t choose the Destination region and for North Europe the paired region is West Europe so correct answer Object replication.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>geo-redundant storage (GRS)</text><feedback>Incorrect! With GRS you can&apos;t choose the Destination region and for North Europe the paired region is West Europe so correct answer Object replication.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a lifecycle management rule</text><feedback>Incorrect! With GRS you can&apos;t choose the Destination region and for North Europe the paired region is West Europe so correct answer Object replication.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #43Topic 6
+
+You have an Azure subscription that contains two Log Analytics workspaces named Workspace1 and Workspace2 and 100 virtual machines that run Windows Server.
+
+You need to collect performance data and events from the virtual machines. The solution must meet the following requirements:
+
+&amp;#x2022; Logs must be sent to Workspace1 and Workspace 2.
+&amp;#x2022; All Windows events must be captured.
+&amp;#x2022; All security events must be captured.
+
+What should you install and configure on each virtual machine?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the Azure Monitor agent</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview Azure Monitor Agent (AMA) collects monitoring data from the guest operating system of Azure and hybrid virtual machines and delivers it to Azure Monitor for use by features, insights, and other services, such as Microsoft Sentinel and Microsoft Defender for Cloud. Azure Monitor Agent replaces all of Azure Monitor&apos;s legacy monitoring agents.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Windows Azure diagnostics extension (WAD)</text><feedback>Incorrect! &quot;the Azure Monitor agent&quot; is the answer. https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview Azure Monitor Agent (AMA) collects monitoring data from the guest operating system of Azure and hybrid virtual machines and delivers it to Azure Monitor for use by features, insights, and other services, such as Microsoft Sentinel and Microsoft Defender for Cloud. Azure Monitor Agent replaces all of Azure Monitor&apos;s legacy monitoring agents.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Windows VM agent</text><feedback>Incorrect! &quot;the Azure Monitor agent&quot; is the answer. https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview Azure Monitor Agent (AMA) collects monitoring data from the guest operating system of Azure and hybrid virtual machines and delivers it to Azure Monitor for use by features, insights, and other services, such as Microsoft Sentinel and Microsoft Defender for Cloud. Azure Monitor Agent replaces all of Azure Monitor&apos;s legacy monitoring agents.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #44Topic 6
+
+You have an Azure subscription that contains a virtual machine named VM1 and an Azure function named App1.
+
+You need to create an alert rule that will run App1 if VM1 stops.
+
+What should you create for the alert rule?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>an application security group</text><feedback>Incorrect! The correct answer was &quot;an action group&quot;. An action group is a collection of actions that are triggered by an Azure alert. In this scenario, you need to create an alert rule that will run App1 if VM1 stops, and for this purpose, you need to create an action group. An action group defines the set of actions to be taken when an alert is triggered, such as running an Azure function, sending an email, or creating an Azure ticket. By creating an action group and associating it with the alert rule, you can automate the process of running App1 if VM1 stops, without the need for manual intervention. This helps ensure that critical systems, such as App1, are automatically activated when necessary, improving the overall reliability and availability of your Azure services.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a security group that has dynamic device membership</text><feedback>Incorrect! The correct answer was &quot;an action group&quot;. An action group is a collection of actions that are triggered by an Azure alert. In this scenario, you need to create an alert rule that will run App1 if VM1 stops, and for this purpose, you need to create an action group. An action group defines the set of actions to be taken when an alert is triggered, such as running an Azure function, sending an email, or creating an Azure ticket. By creating an action group and associating it with the alert rule, you can automate the process of running App1 if VM1 stops, without the need for manual intervention. This helps ensure that critical systems, such as App1, are automatically activated when necessary, improving the overall reliability and availability of your Azure services.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an action group</text><feedback>Correct! An action group is a collection of actions that are triggered by an Azure alert. In this scenario, you need to create an alert rule that will run App1 if VM1 stops, and for this purpose, you need to create an action group. An action group defines the set of actions to be taken when an alert is triggered, such as running an Azure function, sending an email, or creating an Azure ticket. By creating an action group and associating it with the alert rule, you can automate the process of running App1 if VM1 stops, without the need for manual intervention. This helps ensure that critical systems, such as App1, are automatically activated when necessary, improving the overall reliability and availability of your Azure services.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an application group</text><feedback>Incorrect! The correct answer was &quot;an action group&quot;. An action group is a collection of actions that are triggered by an Azure alert. In this scenario, you need to create an alert rule that will run App1 if VM1 stops, and for this purpose, you need to create an action group. An action group defines the set of actions to be taken when an alert is triggered, such as running an Azure function, sending an email, or creating an Azure ticket. By creating an action group and associating it with the alert rule, you can automate the process of running App1 if VM1 stops, without the need for manual intervention. This helps ensure that critical systems, such as App1, are automatically activated when necessary, improving the overall reliability and availability of your Azure services.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #45Topic 6
+
+You have an Azure subscription that contains a virtual network named VNet1.
+
+VNet1 uses two ExpressRoute circuits that connect to two separate on-premises datacenters.
+
+You need to create a dashboard to display detailed metrics and a visual representation of the network topology.
+
+What should you use?
+
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Monitor Network Insights</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview Azure Monitor Network Insights provides a comprehensive and visual representation through topologies, of health and metrics for all deployed network resources, without requiring any configuration. It also provides access to network monitoring capabilities like Connection Monitor, flow logging for network security groups (NSGs), and Traffic Analytics. And it provides other network diagnostic features.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Data Collection Rule (DCR)</text><feedback>Incorrect! the correct answer was &quot;Azure Monitor Network Insights&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview Azure Monitor Network Insights provides a comprehensive and visual representation through topologies, of health and metrics for all deployed network resources, without requiring any configuration. It also provides access to network monitoring capabilities like Connection Monitor, flow logging for network security groups (NSGs), and Traffic Analytics. And it provides other network diagnostic features.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Virtual Network Watcher</text><feedback>Incorrect! the correct answer was &quot;Azure Monitor Network Insights&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview Azure Monitor Network Insights provides a comprehensive and visual representation through topologies, of health and metrics for all deployed network resources, without requiring any configuration. It also provides access to network monitoring capabilities like Connection Monitor, flow logging for network security groups (NSGs), and Traffic Analytics. And it provides other network diagnostic features.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Log Analytics</text><feedback>Incorrect! the correct answer was &quot;Azure Monitor Network Insights&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-insights-overview Azure Monitor Network Insights provides a comprehensive and visual representation through topologies, of health and metrics for all deployed network resources, without requiring any configuration. It also provides access to network monitoring capabilities like Connection Monitor, flow logging for network security groups (NSGs), and Traffic Analytics. And it provides other network diagnostic features.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #46Topic 6
+
+You deploy Azure virtual machines to three Azure regions
+
+Each region contains a virtual network. Each virtual network contains multiple subnets peered in a full mesh topology.
+
+Each subnet contains a network security group (NSG) that has defined rules.
+
+A user reports that he cannot use port 33000 to connect from a virtual machine in one region to a virtual machine in another region.
+
+Which two options can you use to diagnose the issue? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Azure Virtual Network Manager</text><feedback>Incorrect! The correct answer was &quot;IP flow verify&quot; and &quot;Connection troubleshoot&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and a remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP flow verify</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and a remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Monitor Network Insights</text><feedback>Incorrect! The correct answer was &quot;IP flow verify&quot; and &quot;Connection troubleshoot&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and a remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Connection troubleshoot</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and a remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>elective security rules</text><feedback>Incorrect! The correct answer was &quot;IP flow verify&quot; and &quot;Connection troubleshoot&quot;. https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and a remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #47Topic 6
+
+You have an Azure subscription.
+
+You need to receive an email alert when a resource lock is removed from any resource in the subscription.
+
+What should you use to create an activity log alert in Azure Monitor?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>a resource, a condition, and an action group</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-new-alert-rule You create an alert rule by combining: - The resources to be monitored. - The signal or telemetry from the resource. - Conditions. Then you define these elements for the resulting alert actions by using: - Alert processing rules - Action groups</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a resource, a condition, and a Microsoft 365 group</text><feedback>Incorrect! the correct answer was &quot;a resource, a condition, and an action group&quot; https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-new-alert-rule You create an alert rule by combining: - The resources to be monitored. - The signal or telemetry from the resource. - Conditions. Then you define these elements for the resulting alert actions by using: - Alert processing rules - Action groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Log Analytics workspace, a resource, and an action group</text><feedback>Incorrect! the correct answer was &quot;a resource, a condition, and an action group&quot; https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-new-alert-rule You create an alert rule by combining: - The resources to be monitored. - The signal or telemetry from the resource. - Conditions. Then you define these elements for the resulting alert actions by using: - Alert processing rules - Action groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a data collection endpoint, an application security group, and a resource group</text><feedback>Incorrect! the correct answer was &quot;a resource, a condition, and an action group&quot; https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-new-alert-rule You create an alert rule by combining: - The resources to be monitored. - The signal or telemetry from the resource. - Conditions. Then you define these elements for the resulting alert actions by using: - Alert processing rules - Action groups</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #48Topic 6
+
+HOTSPOT
+-
+
+You have an Azure subscription that contains the alerts shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q48t1i1.png&quot; alt=&quot;q48t1i1.png&quot; title=&quot;q48t1i1&quot; width=&quot;974&quot; height=&quot;472&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q48t1i2.png&quot; alt=&quot;q48t1i2.png&quot; title=&quot;q48t1i2&quot; width=&quot;865&quot; height=&quot;380&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: cannot be changed</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: can be changed to New only</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: can be changed to Acknowledged only</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: can be changed to New or Acknowledge</text><feedback>Correct! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: cannot be changed</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: can be changed to Acknowledged only</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: can be changed to closed only</text><feedback>Incorrect! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: can be changed to Acknowledged or Closed</text><feedback>Correct! Tested in lab. Correct answer for: Box1: can be changed to New or Acknowledged Explanation: &quot;Changing the user response doesnt affect the alert condition&quot; is what the portal says while changing the response of an alert whose user response is closed Box2: can be changed to Acknowledged or Closed</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #49Topic 6
+
+HOTSPOT
+-
+
+You create a Recovery Services vault backup policy named Policy1 as shown in the following exhibit:
+
+&amp;#x003C;img src=&quot;q49t6i1.png&quot; alt=&quot;q49t6i1.png&quot; title=&quot;q49t6i1&quot; width=&quot;807&quot; height=&quot;1111&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q49t6i2.png&quot; alt=&quot;q49t6i2.png&quot; title=&quot;q49t6i2&quot; width=&quot;873&quot; height=&quot;352&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: 30 days</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 10 weeks</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 36 months</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: 10 years</text><feedback>Correct! answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 30 days</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 10 weeks</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 36 months</text><feedback>Correct! answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: 10 years</text><feedback>Incorrect! Correct answer Box 1: 10 years The yearly backup point occurs to 1 March and its retention period is 10 years. Box 2: 36 months The monthly backup point occurs on the 1 of every month and its retention period is 36 months. Note: Azure retention policy takes the longest period of retention for each backup. In case of conflict between 2 different policies. Reference: https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #50Topic 6
+
+HOTSPOT
+-
+
+You have an Azure subscription that contains the vaults shown in the following table.
+
+&amp;#x003C;img src=&quot;q50t6i1.png&quot; alt=&quot;q50t6i1.png&quot; title=&quot;q50t6i1&quot; width=&quot;834&quot; height=&quot;171&quot;/&amp;#x003E;
+
+You deploy the virtual machines shown in the following table.
+
+&amp;#x003C;img src=&quot;q50t6i2.png&quot; alt=&quot;q50t6i2.png&quot; title=&quot;q50t6i2&quot; width=&quot;845&quot; height=&quot;169&quot;/&amp;#x003E;
+
+You have the backup policies shown in the following table.
+
+&amp;#x003C;img src=&quot;q50t6i3.png&quot; alt=&quot;q50t6i3.png&quot; title=&quot;q50t6i3&quot; width=&quot;838&quot; height=&quot;228&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q50t6i4.png&quot; alt=&quot;q50t6i4.png&quot; title=&quot;q50t6i4&quot; width=&quot;849&quot; height=&quot;343&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Statement 1: Yes</text><feedback>Correct! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 1: No</text><feedback>Incorrect! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2: Yes</text><feedback>Incorrect! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2: No</text><feedback>Correct! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3: Yes</text><feedback>Correct! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3: No</text><feedback>Incorrect! A:yes B:No Azure Backup vaults is not support backup Azure virtual machines *Azure Backup vaults can protect the follwing types of datasource: 1- Azure Disks 2- Azure Blobs (Azure Storage) 3- Azure database for PostgreSQL server 4- Kubernetes services C:yes, enhanced support Trusted Launch You must enable backup of Trusted Launch VM through enhanced policy only. https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-enhanced-policy?tabs=azure-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #51Topic 6
+
+You have an Azure subscription. The subscription contains virtual machines that connect to a virtual network named VNet1.
+
+You plan to configure Azure Monitor for VM Insights.
+
+You need to ensure that all the virtual machines only communicate with Azure Monitor through VNet1.
+
+What should you create first?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>a data collection rule (DCR)</text><feedback>Incorrect! The correct answer was &quot;an Azure Monitor Private Link Scope (AMPLS)&quot;. With Private Link you can: -Connect privately to Azure Monitor without opening up any public network access. -Ensure your monitoring data is only accessed through authorized private networks. -Prevent data exfiltration from your private networks by defining specific Azure Monitor resources that connect through your private endpoint. -Securely connect your private on-premises network to Azure Monitor by using Azure ExpressRoute and Private Link. -Keep all traffic inside the Azure backbone network. https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security#advantages</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Log Analytics workspace</text><feedback>Incorrect! The correct answer was &quot;an Azure Monitor Private Link Scope (AMPLS)&quot;. With Private Link you can: -Connect privately to Azure Monitor without opening up any public network access. -Ensure your monitoring data is only accessed through authorized private networks. -Prevent data exfiltration from your private networks by defining specific Azure Monitor resources that connect through your private endpoint. -Securely connect your private on-premises network to Azure Monitor by using Azure ExpressRoute and Private Link. -Keep all traffic inside the Azure backbone network. https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security#advantages</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an Azure Monitor Private Link Scope (AMPLS)</text><feedback>Correct! With Private Link you can: -Connect privately to Azure Monitor without opening up any public network access. -Ensure your monitoring data is only accessed through authorized private networks. -Prevent data exfiltration from your private networks by defining specific Azure Monitor resources that connect through your private endpoint. -Securely connect your private on-premises network to Azure Monitor by using Azure ExpressRoute and Private Link. -Keep all traffic inside the Azure backbone network. https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security#advantages</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a private endpoint</text><feedback>Incorrect! The correct answer was &quot;an Azure Monitor Private Link Scope (AMPLS)&quot;. With Private Link you can: -Connect privately to Azure Monitor without opening up any public network access. -Ensure your monitoring data is only accessed through authorized private networks. -Prevent data exfiltration from your private networks by defining specific Azure Monitor resources that connect through your private endpoint. -Securely connect your private on-premises network to Azure Monitor by using Azure ExpressRoute and Private Link. -Keep all traffic inside the Azure backbone network. https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security#advantages</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #52Topic 6
+
+HOTSPOT
+-
+
+You have an Azure subscription that contains the vaults shown in the following table.
+
+&amp;#x003C;img src=&quot;q52t6i1.png&quot; alt=&quot;q52t6i1.png&quot; title=&quot;q52t6i1&quot; width=&quot;832&quot; height=&quot;248&quot;/&amp;#x003E;
+
+You create a storage account that contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;q52t6i2.png&quot; alt=&quot;q52t6i2.png&quot; title=&quot;q52t6i2&quot; width=&quot;726&quot; height=&quot;261&quot;/&amp;#x003E;
+
+To which vault can you back up cont1 and share1? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct answer is worth one point
+
+&amp;#x003C;img src=&quot;q52t6i3.png&quot; alt=&quot;q52t6i3.png&quot; title=&quot;q52t6i3&quot; width=&quot;749&quot; height=&quot;371&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1: Backup1 only</text><feedback>Correct! https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Recovery1 only</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Backup1 or Recovery1</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1: Cannot be backed up to Backup1 or Recovery1</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Backup1 only</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Recovery1 only</text><feedback>Correct! https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Backup1 or Recovery1</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2: Cannot be backed up to Backup1 or Recovery1</text><feedback>Incorrect! the correct answer: Backup1 &amp;#x0026; Recovery1 https://learn.microsoft.com/en-us/answers/questions/405915/what-is-difference-between-recovery-services-vault</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

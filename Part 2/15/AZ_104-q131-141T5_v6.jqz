@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>JMG</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription that contains a Recovery Services vault named Vault1.
+
+You need to enable multi-user authorization (MAU) for Vault1.
+
+Which resource should you create first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>an administrative unit</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a managed identity</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a resource guard</text><feedback>Given answer looks correct, see; https://learn.microsoft.com/en-us/azure/backup/multi-user-authorization?tabs=azure-portal&amp;#x0026;pivots=vaults-recovery-services-vault Before you start Testing scenarios Create a Resource Guard Enable MUA on a Recovery Services vault Protected operations on a vault using MUA Authorize critical operations on a vault Disable MUA on a Recovery Services vault</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a custom Azure role</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load Balancer.
+
+The effective network security configurations for VM2 are shown in the following exhibit.
+&amp;#x003C;img src=&quot;AZ_104-q13251.png&quot; alt=&quot;AZ_104-q13251.png&quot; title=&quot;AZ_104-q13251&quot; width=&quot;616&quot; height=&quot;252&quot;/&amp;#x003E;
+
+You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
+
+You verify that the Load Balancer rules are configured correctly.
+
+You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.
+
+Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a priority of 150.
+
+Does this meet the goal?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Without the rule, the LB is unable to complete health probes and access to the web page is cutoff</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Your on-premises network contains a VPN gateway.
+
+You have an Azure subscription that contains the resources shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13351.png&quot; alt=&quot;AZ_104-q13351.png&quot; title=&quot;AZ_104-q13351&quot; width=&quot;688&quot; height=&quot;140&quot;/&amp;#x003E;
+
+You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.
+
+What should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Application Gateway</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>service endpoints</text><feedback>Given answer is correct see; https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview &quot;Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network. Endpoints allow you to secure your critical Azure service resources to only your virtual networks. Service Endpoints enables private IP addresses in the VNet to reach the endpoint of an Azure service without needing a public IP address on the VNet.&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure AD Application Proxy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Virtual WAN</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You create an Azure VM named VM1 that runs Windows Server 2019.
+
+VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;AZ_104-q13451.png&quot; alt=&quot;AZ_104-q13451.png&quot; title=&quot;AZ_104-q13451&quot; width=&quot;1239&quot; height=&quot;593&quot;/&amp;#x003E;
+
+You need to enable Desired State Configuration for VM1.
+
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Connect to VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Start VM1</text><feedback>https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-windows &quot;The DSC extension for Windows requires that the target virtual machine is able to communicate with Azure and the location of the configuration package (.zip file) if it is stored in a location outside of Azure.&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Capture a snapshot of VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Configure a DNS name for VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13651.png&quot; alt=&quot;AZ_104-q13651.png&quot; title=&quot;AZ_104-q13651&quot; width=&quot;714&quot; height=&quot;147&quot;/&amp;#x003E;
+The subnets have the IP address spaces shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13652.png&quot; alt=&quot;AZ_104-q13652.png&quot; title=&quot;AZ_104-q13652&quot; width=&quot;342&quot; height=&quot;183&quot;/&amp;#x003E;
+You plan to create a container app named contapp1 in the East US Azure region.
+
+You need to create a container app environment named con-env1 that meets the following requirements:
+
+&amp;#x2022; Uses its own virtual network.
+&amp;#x2022; Uses its own subnet.
+&amp;#x2022; Is connected to the smallest possible subnet.
+
+To which virtual networks can you connect con-env1, and which subnet mask should you use? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>box1 VNet1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 Vnet2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 Vnet3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 VNet1 or Vnet2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 VNet2 or Vnet3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 VNet1 or Vnet3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1 VNet1, Vnet2, or VNet3</text><feedback>https://learn.microsoft.com/en-us/azure/container-apps/networking?tabs=azure-cli</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2 /16</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2 /23</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2 /24</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2 /26</text><feedback>https://learn.microsoft.com/en-us/azure/container-apps/networking?tabs=azure-cli</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box2 /28</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13653.png&quot; alt=&quot;AZ_104-q13653.png&quot; title=&quot;AZ_104-q13653&quot; width=&quot;445&quot; height=&quot;428&quot;/&amp;#x003E;
+All the virtual networks are peered. Each virtual network contains nine virtual machines.
+
+You need to configure secure RDP connections to the virtual machines by using Azure Bastion.
+
+What is the minimum number of Bastion hosts required?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>1</text><feedback>Azure Bastion and VNet peering can be used together. When VNet peering is configured, you don&apos;t have to deploy Azure Bastion in each peered VNet. This means if you have an Azure Bastion host configured in one virtual network (VNet), it can be used to connect to VMs deployed in a peered VNet without deploying an additional bastion host. For more information about VNet peering, see About virtual network peering. Azure Bastion works with the following types of peering: Virtual network peering: Connect virtual networks within the same Azure region. Global virtual network peering: Connecting virtual networks across Azure regions. Answer is A</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>9</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13751.png&quot; alt=&quot;AZ_104-q13751.png&quot; title=&quot;AZ_104-q13751&quot; width=&quot;551&quot; height=&quot;164&quot;/&amp;#x003E;
+The subscription contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13752.png&quot; alt=&quot;AZ_104-q13752.png&quot; title=&quot;AZ_104-q13752&quot; width=&quot;548&quot; height=&quot;163&quot;/&amp;#x003E;
+Each virtual machine contains only a private IP address.
+
+You create an Azure bastion for VNet1 as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;AZ_104-q13753.png&quot; alt=&quot;AZ_104-q13753.png&quot; title=&quot;AZ_104-q13753&quot; width=&quot;672&quot; height=&quot;864&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;AZ_104-q13754.png&quot; alt=&quot;AZ_104-q13754.png&quot; title=&quot;AZ_104-q13754&quot; width=&quot;1216&quot; height=&quot;367&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>The Remote Desktop Connection client (mstsc.exe) can be used to connect to VM1 through Bastion1 YES</text><feedback>https://learn.microsoft.com/en-us/azure/bastion/native-client</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Remote Desktop Connection client (mstsc.exe) can be used to connect to VM1 through Bastion1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Azure portal can use SSH to connect to VM2 through Bastion1 YES</text><feedback>https://learn.microsoft.com/en-us/azure/bastion/native-client</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Azure portal can use SSH to connect to VM2 through Bastion1 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Azure portal can be used to connect to VM3 through Bastion1 YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Azure portal can be used to connect to VM3 through Bastion1 NO</text><feedback>https://learn.microsoft.com/en-us/azure/bastion/native-client</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13851.png&quot; alt=&quot;AZ_104-q13851.png&quot; title=&quot;AZ_104-q13851&quot; width=&quot;366&quot; height=&quot;161&quot;/&amp;#x003E;
+The subscription contains the subnets shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13852.png&quot; alt=&quot;AZ_104-q13852.png&quot; title=&quot;AZ_104-q13852&quot; width=&quot;628&quot; height=&quot;200&quot;/&amp;#x003E;
+The subscription contains the storage accounts shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q13853.png&quot; alt=&quot;AZ_104-q13853.png&quot; title=&quot;AZ_104-q13853&quot; width=&quot;560&quot; height=&quot;162&quot;/&amp;#x003E;
+You create a service endpoint policy named Policy1 in the South Central US Azure region to allow connectivity to all the storage accounts in the subscription.
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point
+&amp;#x003C;img src=&quot;AZ_104-q13854.png&quot; alt=&quot;AZ_104-q13854.png&quot; title=&quot;AZ_104-q13854&quot; width=&quot;922&quot; height=&quot;345&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Policy1 can be applied to Subnet3 YES</text><feedback>https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Policy1 can be applied to Subnet3 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only storage1 and storage2 can be accessed from Vnet2 YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only storage1 and storage2 can be accessed from Vnet2 NO</text><feedback>https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only storage2 can be accessed from VNet3 YES</text><feedback>https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Only storage2 can be accessed from VNet3 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the New-AzConfigurationAssignment cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Publish-AzVMDscConfiguration cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Desired State Configuration (DSC) extension</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains a resource group named RG1 and a virtual network named VNet1.
+
+You plan to create an Azure container instance named container1.
+
+You need to be able to configure DNS name label scope reuse for container1.
+
+What should you configure for container1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the private networking type</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the public networking type</text><feedback>Answer is correct: Public networking type allows you to assign a DNS name label to the container instance that is globally unique within Azure, and it&apos;s accessible from the internet. This is typically used when you want to expose a service hosted in a container to the public. Private networking type would not allow you to configure DNS name label scope reuse because it doesn&apos;t expose the container instance to the public internet, and it typically operates within a virtual network (VNet) for private communication. Creating a new subnet on VNet1 (Option C) is related to configuring the network settings of the virtual network and isn&apos;t directly related to configuring DNS name label scope reuse for the container instance. A confidential SKU (Option D) is not related to DNS name label scope reuse or networking configurations. It is used for specific security and confidentiality requirements.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a new subnet on VNet1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a confidential SKU</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have the Azure virtual machines shown in the following table
+&amp;#x003C;img src=&quot;AZ_104-q14151.png&quot; alt=&quot;AZ_104-q14151.png&quot; title=&quot;AZ_104-q14151&quot; width=&quot;468&quot; height=&quot;182&quot;/&amp;#x003E;
+VNET1, VNET2, and VNET3 are peered.
+
+VM4 has a DNS server that is authoritative for a zone named contoso.com and contains the records shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q14152.png&quot; alt=&quot;AZ_104-q14152.png&quot; title=&quot;AZ_104-q14152&quot; width=&quot;462&quot; height=&quot;105&quot;/&amp;#x003E;
+The virtual networks are configured to use the DNS servers shown in the following table.
+&amp;#x003C;img src=&quot;AZ_104-q14153.png&quot; alt=&quot;AZ_104-q14153.png&quot; title=&quot;AZ_104-q14153&quot; width=&quot;446&quot; height=&quot;149&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point
+&amp;#x003C;img src=&quot;AZ_104-q14154.png&quot; alt=&quot;AZ_104-q14154.png&quot; title=&quot;AZ_104-q14154&quot; width=&quot;1006&quot; height=&quot;357&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>From VM1, server1.contoso.com resolves to 131.107.3.3 YES</text><feedback>Answer should be YNY. A portion of the question is missing.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM1, server1.contoso.com resolves to 131.107.3.3 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM2, server1.contoso.com resolves to 131.107.3.3 YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM2, server1.contoso.com resolves to 131.107.3.3 NO</text><feedback>Answer should be YNY. A portion of the question is missing.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM3, server2.contoso.com resolves to 131.107.2.4 YES</text><feedback>Answer should be YNY. A portion of the question is missing.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From VM3, server2.contoso.com resolves to 131.107.2.4 NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

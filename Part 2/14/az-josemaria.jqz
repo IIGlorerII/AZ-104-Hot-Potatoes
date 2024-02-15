@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #119Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Session persistence to Client IP and protocol</text><feedback>Correct!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protocol to UDP</text><feedback>Incorrect! The correct answer was &quot;Session persistence to Client IP and protocol&quot;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to None</text><feedback>Incorrect! The correct answer was &quot;Session persistence to Client IP and protocol&quot;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Floating IP (direct server return) to Disabled</text><feedback>Incorrect! The correct answer was &quot;Session persistence to Client IP and protocol&quot;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #121Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to Client IP</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protocol to UDP</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Idle Time-out (minutes) to 20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that has the public IP addresses shown in the following table.
+
+&amp;#x003C;img src=&quot;q122t5.png&quot; alt=&quot;q122t5.png&quot; title=&quot;q122t5&quot; width=&quot;839&quot; height=&quot;211&quot;/&amp;#x003E;
+
+You plan to deploy an Azure Bastion Basic SKU host named Bastion1.
+
+Which IP addresses can you use?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>IP1 only</text><feedback>Correct! Tested in sandbox - IPv4 - Static - Standard - Global: Error during the selection in the interface - A Global Tier PublicIPAddress cannot be attached to Bastions. - IPv4 - Static - Standard - Regional: OK - IPv4 - Static - Basic - Regional Error during the selection in the interface - Static public IP addresses cannot be associated. - IPv4 - Dynamic - Basic - Regional Error during the selection in the interface - The SKU type for the public IP address does not match the SKU type of the load balancer (?? I don&apos;t know why this message). - IPv6 - Static - Standard - Regional: Error during deployment (The selected IPv6 public IP address is not supported for Azure Bastion. To fix this, please recreate your Azure Bastion with an IPv4 public IP address. (Code: PublicIpAddressVersionNotSupported))</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP1 and IP2 only</text><feedback>Incorrect! The correct answer was &quot;IP1 only&quot;. Tested in sandbox - IPv4 - Static - Standard - Global: Error during the selection in the interface - A Global Tier PublicIPAddress cannot be attached to Bastions. - IPv4 - Static - Standard - Regional: OK - IPv4 - Static - Basic - Regional Error during the selection in the interface - Static public IP addresses cannot be associated. - IPv4 - Dynamic - Basic - Regional Error during the selection in the interface - The SKU type for the public IP address does not match the SKU type of the load balancer (?? I don&apos;t know why this message). - IPv6 - Static - Standard - Regional: Error during deployment (The selected IPv6 public IP address is not supported for Azure Bastion. To fix this, please recreate your Azure Bastion with an IPv4 public IP address. (Code: PublicIpAddressVersionNotSupported))</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP3, IP4, and IP5 only</text><feedback>Incorrect! The correct answer was &quot;IP1 only&quot;. Tested in sandbox - IPv4 - Static - Standard - Global: Error during the selection in the interface - A Global Tier PublicIPAddress cannot be attached to Bastions. - IPv4 - Static - Standard - Regional: OK - IPv4 - Static - Basic - Regional Error during the selection in the interface - Static public IP addresses cannot be associated. - IPv4 - Dynamic - Basic - Regional Error during the selection in the interface - The SKU type for the public IP address does not match the SKU type of the load balancer (?? I don&apos;t know why this message). - IPv6 - Static - Standard - Regional: Error during deployment (The selected IPv6 public IP address is not supported for Azure Bastion. To fix this, please recreate your Azure Bastion with an IPv4 public IP address. (Code: PublicIpAddressVersionNotSupported))</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP1, IP2, IP4, and IP5 only</text><feedback>Incorrect! The correct answer was &quot;IP1 only&quot;. Tested in sandbox - IPv4 - Static - Standard - Global: Error during the selection in the interface - A Global Tier PublicIPAddress cannot be attached to Bastions. - IPv4 - Static - Standard - Regional: OK - IPv4 - Static - Basic - Regional Error during the selection in the interface - Static public IP addresses cannot be associated. - IPv4 - Dynamic - Basic - Regional Error during the selection in the interface - The SKU type for the public IP address does not match the SKU type of the load balancer (?? I don&apos;t know why this message). - IPv6 - Static - Standard - Regional: Error during deployment (The selected IPv6 public IP address is not supported for Azure Bastion. To fix this, please recreate your Azure Bastion with an IPv4 public IP address. (Code: PublicIpAddressVersionNotSupported))</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>IP1, IP2, IP3, IP4, and IP5</text><feedback>Incorrect! The correct answer was &quot;IP1 only&quot;. Tested in sandbox - IPv4 - Static - Standard - Global: Error during the selection in the interface - A Global Tier PublicIPAddress cannot be attached to Bastions. - IPv4 - Static - Standard - Regional: OK - IPv4 - Static - Basic - Regional Error during the selection in the interface - Static public IP addresses cannot be associated. - IPv4 - Dynamic - Basic - Regional Error during the selection in the interface - The SKU type for the public IP address does not match the SKU type of the load balancer (?? I don&apos;t know why this message). - IPv6 - Static - Standard - Regional: Error during deployment (The selected IPv6 public IP address is not supported for Azure Bastion. To fix this, please recreate your Azure Bastion with an IPv4 public IP address. (Code: PublicIpAddressVersionNotSupported))</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #123Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Floating IP (direct server return) to Disabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to Client IP</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #124Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Idle Time-out (minutes) to 20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to Client IP</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #125Topic 5
+
+You have two Azure subscriptions named Sub1 and Sub2.
+
+Sub1 contains a virtual machine named VM1 and a storage account named storage1.
+
+VM1 is associated to the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;q125t5.png&quot; alt=&quot;q125t5.png&quot; title=&quot;q125t5&quot; width=&quot;429&quot; height=&quot;136&quot;/&amp;#x003E;
+
+You need to move VM1 to Sub2.
+
+Which resources should you move to Sub2?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>VM1, Disk1, and NetInt1 only</text><feedback>Incorrect! The correct answer was &quot;VM1, Disk1, NetInt1 and VNet1&quot;. When you move a virtual machine from one subscription to another, you need to ensure that all the dependent resources are also moved along with it. In the given scenario, VM1 is associated with the resources Disk1 (OS Disk), NetInt1 (Network Interface), and VNet1 (Virtual Network), and the storage account named storage1 is not associated with VM1. Therefore, to move VM1 to Sub2, you need to move the following resources: VM1: This is the virtual machine that you want to move to Sub2. Disk1: This is the OS disk for VM1, and it contains the operating system and boot files. NetInt1: This is the network interface that is attached to VM1 and provides connectivity to the virtual network. VNet1: This is the virtual network that is associated with VM1, and it provides the network connectivity to the virtual machine.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1, Disk1, and VNet1 only</text><feedback>Incorrect! The correct answer was &quot;VM1, Disk1, NetInt1 and VNet1&quot;. When you move a virtual machine from one subscription to another, you need to ensure that all the dependent resources are also moved along with it. In the given scenario, VM1 is associated with the resources Disk1 (OS Disk), NetInt1 (Network Interface), and VNet1 (Virtual Network), and the storage account named storage1 is not associated with VM1. Therefore, to move VM1 to Sub2, you need to move the following resources: VM1: This is the virtual machine that you want to move to Sub2. Disk1: This is the OS disk for VM1, and it contains the operating system and boot files. NetInt1: This is the network interface that is attached to VM1 and provides connectivity to the virtual network. VNet1: This is the virtual network that is associated with VM1, and it provides the network connectivity to the virtual machine.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1, Disk1, and storage1 only</text><feedback>Incorrect! The correct answer was &quot;VM1, Disk1, NetInt1 and VNet1&quot;. When you move a virtual machine from one subscription to another, you need to ensure that all the dependent resources are also moved along with it. In the given scenario, VM1 is associated with the resources Disk1 (OS Disk), NetInt1 (Network Interface), and VNet1 (Virtual Network), and the storage account named storage1 is not associated with VM1. Therefore, to move VM1 to Sub2, you need to move the following resources: VM1: This is the virtual machine that you want to move to Sub2. Disk1: This is the OS disk for VM1, and it contains the operating system and boot files. NetInt1: This is the network interface that is attached to VM1 and provides connectivity to the virtual network. VNet1: This is the virtual network that is associated with VM1, and it provides the network connectivity to the virtual machine.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1, Disk1, NetInt1, and VNet1</text><feedback>Correct! When you move a virtual machine from one subscription to another, you need to ensure that all the dependent resources are also moved along with it. In the given scenario, VM1 is associated with the resources Disk1 (OS Disk), NetInt1 (Network Interface), and VNet1 (Virtual Network), and the storage account named storage1 is not associated with VM1. Therefore, to move VM1 to Sub2, you need to move the following resources: VM1: This is the virtual machine that you want to move to Sub2. Disk1: This is the OS disk for VM1, and it contains the operating system and boot files. NetInt1: This is the network interface that is attached to VM1 and provides connectivity to the virtual network. VNet1: This is the virtual network that is associated with VM1, and it provides the network connectivity to the virtual machine.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #126Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Session persistence to Client IP and protocol</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Idle Time-out (minutes) to 20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to None</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #127Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Floating IP (direct server return) to Disabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Idle Time-out (minutes) to 20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to Client IP</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #128Topic 5
+
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Session persistence to Client IP</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Idle Time-out (minutes) to 20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Session persistence to None</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Protocol to UDP</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #129Topic 5
+
+You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the Publish-AzVMDscConfiguration cmdlet</text><feedback>Correct! https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-overview he Publish-AzVMDscConfiguration cmdlet takes in a configuration file, scans it for dependent DSC resources, and then creates a .zip file. The .zip file contains the configuration and DSC resources that are needed to enact the configuration. The cmdlet can also create the package locally by using the -OutputArchivePath parameter. Otherwise, the cmdlet publishes the .zip file to Blob Storage, and then secures it with an SAS token</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Microsoft Endpoint Manager device configuration profile</text><feedback>Incorrect! The correct answer was &quot;the Publish-AzVMDscConfiguration cmdlet&quot;! https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-overview he Publish-AzVMDscConfiguration cmdlet takes in a configuration file, scans it for dependent DSC resources, and then creates a .zip file. The .zip file contains the configuration and DSC resources that are needed to enact the configuration. The cmdlet can also create the package locally by using the -OutputArchivePath parameter. Otherwise, the cmdlet publishes the .zip file to Blob Storage, and then secures it with an SAS token.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback>Incorrect! The correct answer was &quot;the Publish-AzVMDscConfiguration cmdlet&quot;! https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-overview he Publish-AzVMDscConfiguration cmdlet takes in a configuration file, scans it for dependent DSC resources, and then creates a .zip file. The .zip file contains the configuration and DSC resources that are needed to enact the configuration. The cmdlet can also create the package locally by using the -OutputArchivePath parameter. Otherwise, the cmdlet publishes the .zip file to Blob Storage, and then secures it with an SAS token.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Desired State Configuration (DSC) extension</text><feedback>Incorrect! The correct answer was &quot;the Publish-AzVMDscConfiguration cmdlet&quot;! https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-overview he Publish-AzVMDscConfiguration cmdlet takes in a configuration file, scans it for dependent DSC resources, and then creates a .zip file. The .zip file contains the configuration and DSC resources that are needed to enact the configuration. The cmdlet can also create the package locally by using the -OutputArchivePath parameter. Otherwise, the cmdlet publishes the .zip file to Blob Storage, and then secures it with an SAS token.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #130Topic 5
+
+You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Custom Script Extension</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Deployment Center in Azure App Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Deployment Center in Azure App Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Microsoft Endpoint Manager device configuration profile</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

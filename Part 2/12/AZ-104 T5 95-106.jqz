@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>J.</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an on-premises datacenter and an Azure subscription.
+You plan to connect the datacenter to Azure by using ExpressRoute.
+You need to deploy an ExpressRoute gateway. The solution must meet the following requirements:
+&amp;#x2711; Support up to 10 Gbps of traffic.
+&amp;#x2711; Support availability zones.
+&amp;#x2711; Support FastPath.
+&amp;#x2711; Minimize costs.
+Which SKU should you deploy?
+&amp;#x2022;	A. ERGw1AZ
+&amp;#x2022;	B. ERGw2
+&amp;#x2022;	C. ErGw3
+&amp;#x2022;	D. ErGw3AZ
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x2022;	A. ERGw1AZ</text><feedback>&amp;#x003C;img src=&quot;P95T5.png&quot; alt=&quot;P95T5.png&quot; title=&quot;P95T5&quot; width=&quot;675&quot; height=&quot;270&quot;/&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x2022;	B. ERGw2</text><feedback>&amp;#x003C;img src=&quot;P95T5.png&quot; alt=&quot;P95T5.png&quot; title=&quot;P95T5&quot; width=&quot;675&quot; height=&quot;270&quot;/&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x2022;	C. ErGw3</text><feedback>&amp;#x003C;img src=&quot;P95T5.png&quot; alt=&quot;P95T5.png&quot; title=&quot;P95T5&quot; width=&quot;675&quot; height=&quot;270&quot;/&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x2022;	D. ErGw3AZ</text><feedback>&amp;#x003C;img src=&quot;P95T5.png&quot; alt=&quot;P95T5.png&quot; title=&quot;P95T5&quot; width=&quot;675&quot; height=&quot;270&quot;/&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have a virtual network named VNET1 that contains the subnets shown in the following table:
+&amp;#x003C;img src=&quot;P96T5-1.png&quot; alt=&quot;P96T5-1.png&quot; title=&quot;P96T5-1&quot; width=&quot;779&quot; height=&quot;93&quot;/&amp;#x003E;
+
+You have Azure virtual machines that have the network configurations shown in the following table:
+&amp;#x003C;img src=&quot;P96T5-2.png&quot; alt=&quot;P96T5-2.png&quot; title=&quot;P96T5-2&quot; width=&quot;870&quot; height=&quot;119&quot;/&amp;#x003E;
+For NSG1, you create the inbound security rule shown in the following table:
+
+&amp;#x003C;img src=&quot;P96T5-3.png&quot; alt=&quot;P96T5-3.png&quot; title=&quot;P96T5-3&quot; width=&quot;871&quot; height=&quot;65&quot;/&amp;#x003E;
+
+For NSG2, you create the inbound security rule shown in the following table:
+
+&amp;#x003C;img src=&quot;P96T5-4.png&quot; alt=&quot;P96T5-4.png&quot; title=&quot;P96T5-4&quot; width=&quot;870&quot; height=&quot;65&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;P96T5-5.png.jpg&quot; alt=&quot;P96T5-5.png.jpg&quot; title=&quot;P96T5-5.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>VM2 cant connect to the TCP port 1433 services VM1 - YES</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM2 cant connect to the TCP port 1433 services VM1 - no</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 cant connect to the TCP port 1433 services VM2 - YES</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 cant connect to the TCP port 1433 services VM2 - NO</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM2 cant connect to the TCP port 1433 services VM3 - YES</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM2 cant connect to the TCP port 1433 services VM3 - NO</text><feedback>&amp;#x003C;img src=&quot;P96T5-6.png.jpg&quot; alt=&quot;P96T5-6.png.jpg&quot; title=&quot;P96T5-6.png&quot; width=&quot;820&quot; height=&quot;284&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1.
+Subscription1 contains the virtual machines in the following table:
+
+&amp;#x003C;img src=&quot;p97T5-1.png&quot; alt=&quot;p97T5-1.png&quot; title=&quot;p97T5-1&quot; width=&quot;314&quot; height=&quot;123&quot;/&amp;#x003E;
+
+Subscription1 contains a virtual network named VNet1 that has the subnets in the following table:
+
+&amp;#x003C;img src=&quot;p97T5-2.png&quot; alt=&quot;p97T5-2.png&quot; title=&quot;p97T5-2&quot; width=&quot;648&quot; height=&quot;120&quot;/&amp;#x003E;
+
+VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on NIC3. Routing is enabled on VM3.
+You create a route table named RT1 that contains the routes in the following table:
+
+&amp;#x003C;img src=&quot;p97T5-3.png&quot; alt=&quot;p97T5-3.png&quot; title=&quot;p97T5-3&quot; width=&quot;759&quot; height=&quot;95&quot;/&amp;#x003E;
+
+You apply RT1 to Subnet1 and Subnet2.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;p97T5-4.png.jpg&quot; alt=&quot;p97T5-4.png.jpg&quot; title=&quot;p97T5-4.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>VM3 can establish a network connection to VM1 - YES</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM3 can establish a network connection to VM1 - NO</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If VM3 is turned off. VM2 can establish a network connection to VM1 - YES</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>If VM3 is turned off. VM2 can establish a network connection to VM1 - NO</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 can establish a network connection to VM2 - YES</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 can establish a network connection to VM2 - NO</text><feedback>&amp;#x003C;img src=&quot;p97T5-5.png.jpg&quot; alt=&quot;p97T5-5.png.jpg&quot; title=&quot;p97T5-5.png&quot; width=&quot;813&quot; height=&quot;274&quot;/&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Your on-premises network contains an SMB share named Share1.
+You have an Azure subscription that contains the following resources:
+&amp;#x2711; A web app named webapp1
+&amp;#x2711; A virtual network named VNET1
+You need to ensure that webapp1 can connect to Share1.
+What should you deploy?
+&amp;#x2022;	A. an Azure Application Gateway
+&amp;#x2022;	B. an Azure Active Directory (Azure AD) Application Proxy
+&amp;#x2022;	C. an Azure Virtual Network Gateway
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x2022;	A. an Azure Application Gateway</text><feedback>A Site-to-Site VPN gateway connection can be used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+This type of connection requires a VPN device, a VPN gateway, located on-premises that has an externally facing public IP address assigned to it.
+Incorrect Answers:
+B: Application Proxy is a feature of Azure AD that enables users to access on-premises web applications from a remote client.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x2022;	B. an Azure Active Directory (Azure AD) Application Proxy</text><feedback>A Site-to-Site VPN gateway connection can be used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+This type of connection requires a VPN device, a VPN gateway, located on-premises that has an externally facing public IP address assigned to it.
+Incorrect Answers:
+B: Application Proxy is a feature of Azure AD that enables users to access on-premises web applications from a remote client.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x2022;	C. an Azure Virtual Network Gateway</text><feedback>A Site-to-Site VPN gateway connection can be used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+This type of connection requires a VPN device, a VPN gateway, located on-premises that has an externally facing public IP address assigned to it.
+Incorrect Answers:
+B: Application Proxy is a feature of Azure AD that enables users to access on-premises web applications from a remote client.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+What should you use?
+&amp;#x2022;	A. the Publish-AzVMDscConfiguration cmdlet
+&amp;#x2022;	B. Azure Application Insights
+&amp;#x2022;	C. Azure Custom Script Extension
+&amp;#x2022;	D. the New-AzConfigurationAssignement cmdlet
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. the Publish-AzVMDscConfiguration cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Azure Application Insights</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure Custom Script Extension</text><feedback>There are several versions of this question in the exam. The question has two correct answers:
+1. a Desired State Configuration (DSC) extension
+2. Azure Custom Script Extension
+The question can have other incorrect answer options, including the following:
+&amp;#x2711; Deployment Center in Azure App Service
+&amp;#x2711; a Microsoft Intune device configuration profile
+Reference:
+https://docs.microsoft.com/en-us/azure/architecture/framework/devops/automation-configuration</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. the New-AzConfigurationAssignement cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Your on-premises network contains a VPN gateway.
+You have an Azure subscription that contains the resources shown in the following table.
+
+
+&amp;#x003C;img src=&quot;P100T5-1.png&quot; alt=&quot;P100T5-1.png&quot; title=&quot;P100T5-1&quot; width=&quot;869&quot; height=&quot;180&quot;/&amp;#x003E;
+
+You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.
+What should you configure?
+&amp;#x2022;	A. a network security group (NSG)
+&amp;#x2022;	B. service endpoints
+&amp;#x2022;	C. Azure Peering Service
+&amp;#x2022;	D. Azure Firewall
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. a network security group (NSG)</text><feedback>I believe it should be B &quot;Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network. &quot; https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. service endpoints</text><feedback>I believe it should be B &quot;Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network. &quot; https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure Peering Service</text><feedback>I believe it should be B &quot;Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network. &quot; https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Azure Firewall</text><feedback>I believe it should be B &quot;Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network. &quot; https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy route-based Site-to-Site VPN connections between several on-premises locations and an Azure virtual network.
+Which tunneling protocol should you use?
+&amp;#x2022;	A. IKEv1
+&amp;#x2022;	B. PPTP
+&amp;#x2022;	C. IKEv2
+&amp;#x2022;	D. L2TP
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. IKEv1</text><feedback>A Site-to-Site (S2S) VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+IKEv2 supports 10 S2S connections, while IKEv1 only supports 1.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps
+
+
+klexams
+ Highly Voted  1 year, 2 months ago
+C. IKEv2 IPsec keyword is &quot;Route-Based&quot; coz &quot;Policy-based&quot; only supports IKEv1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. PPTP</text><feedback>A Site-to-Site (S2S) VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+IKEv2 supports 10 S2S connections, while IKEv1 only supports 1.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps
+
+
+
+klexams
+ Highly Voted  1 year, 2 months ago
+C. IKEv2 IPsec keyword is &quot;Route-Based&quot; coz &quot;Policy-based&quot; only supports IKEv1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. IKEv2</text><feedback>A Site-to-Site (S2S) VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+IKEv2 supports 10 S2S connections, while IKEv1 only supports 1.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps
+
+
+
+klexams
+ Highly Voted  1 year, 2 months ago
+C. IKEv2 IPsec keyword is &quot;Route-Based&quot; coz &quot;Policy-based&quot; only supports IKEv1.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. L2TP</text><feedback>A Site-to-Site (S2S) VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel.
+IKEv2 supports 10 S2S connections, while IKEv1 only supports 1.
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps
+
+
+
+klexams
+ Highly Voted  1 year, 2 months ago
+C. IKEv2 IPsec keyword is &quot;Route-Based&quot; coz &quot;Policy-based&quot; only supports IKEv1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;P102T5-1.png&quot; alt=&quot;P102T5-1.png&quot; title=&quot;P102T5-1&quot; width=&quot;585&quot; height=&quot;307&quot;/&amp;#x003E;
+You configure Azure Site Recovery to replicate VM1 between the US East and West US regions.
+
+You perform a test failover of VM1 and specify VNET2 as the target virtual network.
+
+When the test version of VM1 is created, to which subnet will the virtual machine be connected?
+&amp;#x2022;	A. TestSubnet1
+&amp;#x2022;	B. DemoSubnet1
+&amp;#x2022;	C. RecoverySubnetA
+&amp;#x2022;	D. RecoverySubnetB
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. TestSubnet1</text><feedback>B is the answer. https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-network-mapping The subnet of the target VM is selected based on the name of the subnet of the source VM. - If a subnet with the same name as the source VM subnet is available in the target network, that subnet is set for the target VM. - If a subnet with the same name doesn&apos;t exist in the target network, the first subnet in the alphabetical order is set as the target subnet.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. DemoSubnet1</text><feedback>B is the answer. https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-network-mapping The subnet of the target VM is selected based on the name of the subnet of the source VM. - If a subnet with the same name as the source VM subnet is available in the target network, that subnet is set for the target VM. - If a subnet with the same name doesn&apos;t exist in the target network, the first subnet in the alphabetical order is set as the target subnet.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. RecoverySubnetA</text><feedback>B is the answer. https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-network-mapping The subnet of the target VM is selected based on the name of the subnet of the source VM. - If a subnet with the same name as the source VM subnet is available in the target network, that subnet is set for the target VM. - If a subnet with the same name doesn&apos;t exist in the target network, the first subnet in the alphabetical order is set as the target subnet.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. RecoverySubnetB</text><feedback>B is the answer. https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-network-mapping The subnet of the target VM is selected based on the name of the subnet of the source VM. - If a subnet with the same name as the source VM subnet is available in the target network, that subnet is set for the target VM. - If a subnet with the same name doesn&apos;t exist in the target network, the first subnet in the alphabetical order is set as the target subnet.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+&amp;#x2022;	A. Protocol to UDP
+&amp;#x2022;	B. Session persistence to None
+&amp;#x2022;	C. Floating IP (direct server return) to Disabled
+&amp;#x2022;	D. Session persistence to Client IP
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Protocol to UDP</text><feedback>D is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Session persistence to None</text><feedback>D is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Floating IP (direct server return) to Disabled</text><feedback>D is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Session persistence to Client IP</text><feedback>D is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+&amp;#x2022;	A. the Publish-AzVMDscConfiguration cmdlet
+&amp;#x2022;	B. a Microsoft Endpoint Manager device configuration profile
+&amp;#x2022;	C. Deployment Center in Azure App Service
+&amp;#x2022;	D. a Desired State Configuration (DSC) extension
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. the Publish-AzVMDscConfiguration cmdlet</text><feedback>Correct Answer D. a Desired State Configuration (DSC) extension</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. a Microsoft Endpoint Manager device configuration profile</text><feedback>Correct Answer D. a Desired State Configuration (DSC) extension</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Deployment Center in Azure App Service</text><feedback>Correct Answer D. a Desired State Configuration (DSC) extension</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. a Desired State Configuration (DSC) extension</text><feedback>Correct Answer D. a Desired State Configuration (DSC) extension</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
+
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
+
+You need to ensure that visitors are serviced by the same web server for each request.
+
+What should you configure?
+&amp;#x2022;	A. Floating IP (direct server return) to Disabled
+&amp;#x2022;	B. Session persistence to Client IP
+&amp;#x2022;	C. Protocol to UDP
+&amp;#x2022;	D. Idle Time-out (minutes) to 20
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Floating IP (direct server return) to Disabled</text><feedback>Same as Question 108. https://www.examtopics.com/discussions/microsoft/view/94077-exam-az-104-topic-5-question-108-discussion
+
+B is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Session persistence to Client IP</text><feedback>Same as Question 108. https://www.examtopics.com/discussions/microsoft/view/94077-exam-az-104-topic-5-question-108-discussion
+
+B is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Protocol to UDP</text><feedback>Same as Question 108. https://www.examtopics.com/discussions/microsoft/view/94077-exam-az-104-topic-5-question-108-discussion
+
+B is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Idle Time-out (minutes) to 20</text><feedback>Same as Question 108. https://www.examtopics.com/discussions/microsoft/view/94077-exam-az-104-topic-5-question-108-discussion
+
+B is the answer. https://learn.microsoft.com/en-us/azure/load-balancer/distribution-mode-concepts Session persistence: Client IP - Traffic from the same client IP is routed to the same backend instance</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains 20 virtual machines, a network security group (NSG) named NSG1, and two virtual networks named VNET1 and VNET2 that are peered.
+
+You plan to deploy an Azure Bastion Basic SKU host named Bastion1 to VNET1.
+
+You need to configure NSG1 to allow inbound access to the virtual machines via Bastion1.
+
+Which port should you configure for the inbound security rule?
+&amp;#x2022;	A. 22
+&amp;#x2022;	B. 443
+&amp;#x2022;	C. 389
+&amp;#x2022;	D. 8080
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. 22</text><feedback>Correct Answer B. 443 Using Bastion your RDP/SSH session is over TLS on port 443. https://learn.microsoft.com/en-us/azure/bastion/bastion-overview If you say port 22 then what about windows VM as it is not mentioned that the VM is windows or Linux? You will have to allow port 443 in NSG.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. 443</text><feedback>Correct Answer B. 443 Using Bastion your RDP/SSH session is over TLS on port 443. https://learn.microsoft.com/en-us/azure/bastion/bastion-overview If you say port 22 then what about windows VM as it is not mentioned that the VM is windows or Linux? You will have to allow port 443 in NSG.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. 389</text><feedback>Correct Answer B. 443 Using Bastion your RDP/SSH session is over TLS on port 443. https://learn.microsoft.com/en-us/azure/bastion/bastion-overview If you say port 22 then what about windows VM as it is not mentioned that the VM is windows or Linux? You will have to allow port 443 in NSG.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. 8080</text><feedback>Correct Answer B. 443 Using Bastion your RDP/SSH session is over TLS on port 443. https://learn.microsoft.com/en-us/azure/bastion/bastion-overview If you say port 22 then what about windows VM as it is not mentioned that the VM is windows or Linux? You will have to allow port 443 in NSG.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

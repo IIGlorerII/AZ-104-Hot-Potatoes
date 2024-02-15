@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #53Topic 6
+
+You have an Azure subscription that contains an Azure Stream Analytics job named Job1.
+
+You need to monitor input events for Job1 to identify the number of events that were NOT processed.
+
+Which metric should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Out-of-Order Events</text><feedback>Incorrect! Correct answer: D Out-of-Order Events Number of events received out of order that were either dropped or given an adjusted time stamp, based on the event ordering policy. This metric can be affected by the configuration of the Out-of-Order Tolerance Window setting. Output Events Amount of data that the Stream Analytics job sends to the output target, in number of events. Late Input Events Events that arrived later than the configured tolerance window for late arrivals. Learn more about Azure Stream Analytics event order considerations. Backlogged Input Events Number of input events that are backlogged. A nonzero value for this metric implies that your job can&apos;t keep up with the number of incoming events. If this value is slowly increasing or is consistently nonzero, you should scale out your job. To learn more, see Understand and adjust streaming units. Reference: https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-metrics</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Output Events</text><feedback>Incorrect! Correct answer: D Out-of-Order Events Number of events received out of order that were either dropped or given an adjusted time stamp, based on the event ordering policy. This metric can be affected by the configuration of the Out-of-Order Tolerance Window setting. Output Events Amount of data that the Stream Analytics job sends to the output target, in number of events. Late Input Events Events that arrived later than the configured tolerance window for late arrivals. Learn more about Azure Stream Analytics event order considerations. Backlogged Input Events Number of input events that are backlogged. A nonzero value for this metric implies that your job can&apos;t keep up with the number of incoming events. If this value is slowly increasing or is consistently nonzero, you should scale out your job. To learn more, see Understand and adjust streaming units. Reference: https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-metrics</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Late Input Events</text><feedback>Incorrect! Correct answer: D Out-of-Order Events Number of events received out of order that were either dropped or given an adjusted time stamp, based on the event ordering policy. This metric can be affected by the configuration of the Out-of-Order Tolerance Window setting. Output Events Amount of data that the Stream Analytics job sends to the output target, in number of events. Late Input Events Events that arrived later than the configured tolerance window for late arrivals. Learn more about Azure Stream Analytics event order considerations. Backlogged Input Events Number of input events that are backlogged. A nonzero value for this metric implies that your job can&apos;t keep up with the number of incoming events. If this value is slowly increasing or is consistently nonzero, you should scale out your job. To learn more, see Understand and adjust streaming units. Reference: https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-metrics</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Backlogged Input Events</text><feedback>Correct! Out-of-Order Events Number of events received out of order that were either dropped or given an adjusted time stamp, based on the event ordering policy. This metric can be affected by the configuration of the Out-of-Order Tolerance Window setting. Output Events Amount of data that the Stream Analytics job sends to the output target, in number of events. Late Input Events Events that arrived later than the configured tolerance window for late arrivals. Learn more about Azure Stream Analytics event order considerations. Backlogged Input Events Number of input events that are backlogged. A nonzero value for this metric implies that your job can&apos;t keep up with the number of incoming events. If this value is slowly increasing or is consistently nonzero, you should scale out your job. To learn more, see Understand and adjust streaming units. Reference: https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-metrics</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #54Topic 6
+
+You have an Azure subscription that contains an Azure SQL database named DB1.
+
+You plan to use Azure Monitor to monitor the performance of DB1. You must be able to run queries to analyze log data.
+
+Which destination should you configure in the Diagnostic settings of DB1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Send to a Log Analytics workspace.</text><feedback>Correct! To be able to run queries and analyze log data for Azure SQL database DB1, you should configure the Diagnostic settings to send the logs to a Log Analytics workspace. A. Send to a Log Analytics workspace: This option allows you to send the diagnostic logs to a Log Analytics workspace, which serves as a central repository for log data. You can then run queries and perform analysis on the log data using Azure Monitor Logs.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Archive to a storage account.</text><feedback>Incorrect! the correct answer was &quot;Send to a Log Analytics workspace.&quot;! To be able to run queries and analyze log data for Azure SQL database DB1, you should configure the Diagnostic settings to send the logs to a Log Analytics workspace. A. Send to a Log Analytics workspace: This option allows you to send the diagnostic logs to a Log Analytics workspace, which serves as a central repository for log data. You can then run queries and perform analysis on the log data using Azure Monitor Logs.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stream to an Azure event hub.</text><feedback>Incorrect! the correct answer was &quot;Send to a Log Analytics workspace.&quot;! To be able to run queries and analyze log data for Azure SQL database DB1, you should configure the Diagnostic settings to send the logs to a Log Analytics workspace. A. Send to a Log Analytics workspace: This option allows you to send the diagnostic logs to a Log Analytics workspace, which serves as a central repository for log data. You can then run queries and perform analysis on the log data using Azure Monitor Logs.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback>Incorrect! the correct answer was &quot;Send to a Log Analytics workspace.&quot;! To be able to run queries and analyze log data for Azure SQL database DB1, you should configure the Diagnostic settings to send the logs to a Log Analytics workspace. A. Send to a Log Analytics workspace: This option allows you to send the diagnostic logs to a Log Analytics workspace, which serves as a central repository for log data. You can then run queries and perform analysis on the log data using Azure Monitor Logs.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #55Topic 6
+
+You have an Azure subscription. The subscription contains virtual machines that run Windows Server.
+
+You have a data collection rule (DCR) named Rule1.
+
+You plan to use the Azure Monitor Agent to collect events from Windows System event logs.
+
+You only need to collect system events that have an ID of 1001.
+
+Which type of query should you use for the data source in Rule1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>SQL</text><feedback>Incorrect! The answer was &quot;XPath&quot;! To collect specific events from Windows System event logs, such as those with an Event ID of 1001, you should use an XPath query. XPath is a query language that can be used to filter XML data, which is the format used by Windows Event Logs. In Azure Monitor, when configuring data collection rules for collecting Windows event log data, XPath queries are used to specify the criteria for the events you want to collect. So, the correct answer is: B. XPath</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>XPath</text><feedback>Correct! To collect specific events from Windows System event logs, such as those with an Event ID of 1001, you should use an XPath query. XPath is a query language that can be used to filter XML data, which is the format used by Windows Event Logs. In Azure Monitor, when configuring data collection rules for collecting Windows event log data, XPath queries are used to specify the criteria for the events you want to collect. So, the correct answer is: B. XPath</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>KQL</text><feedback>Incorrect! The answer was &quot;XPath&quot;! To collect specific events from Windows System event logs, such as those with an Event ID of 1001, you should use an XPath query. XPath is a query language that can be used to filter XML data, which is the format used by Windows Event Logs. In Azure Monitor, when configuring data collection rules for collecting Windows event log data, XPath queries are used to specify the criteria for the events you want to collect. So, the correct answer is: B. XPath</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #56Topic 6
+You have an Azure subscription that contains a virtual machine named VM1.
+
+You have an on-premises datacenter that contains a domain controller named DC1. ExpressRoute is used to connect the on-premises datacenter to Azure.
+
+You need to use Connection Monitor to identify network latency between VM1 and DC1.
+
+What should you install on DC1?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the Azure Connected Machine agent for Azure Arc-enabled servers</text><feedback>Incorrect! The answer was &quot;an Azure Monitor agent extension&quot;! Connection monitor supports the Azure Monitor agent extension, which eliminates any dependency on the legacy Log Analytics agent. See here: https://learn.microsoft.com/en-us/azure/network-watcher/azure-monitor-agent-with-connection-monitor The following (older) link talks about setting up the Log Analytics agent: https://learn.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview#agents-for-on-premises-machines</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Azure Network Watcher Agent virtual machine extension</text><feedback>Incorrect! The answer was &quot;an Azure Monitor agent extension&quot;! Connection monitor supports the Azure Monitor agent extension, which eliminates any dependency on the legacy Log Analytics agent. See here: https://learn.microsoft.com/en-us/azure/network-watcher/azure-monitor-agent-with-connection-monitor The following (older) link talks about setting up the Log Analytics agent: https://learn.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview#agents-for-on-premises-machines</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Log Analytics agent</text><feedback>Incorrect! The answer was &quot;an Azure Monitor agent extension&quot;! Connection monitor supports the Azure Monitor agent extension, which eliminates any dependency on the legacy Log Analytics agent. See here: https://learn.microsoft.com/en-us/azure/network-watcher/azure-monitor-agent-with-connection-monitor The following (older) link talks about setting up the Log Analytics agent: https://learn.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview#agents-for-on-premises-machines</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an Azure Monitor agent extension</text><feedback>Correct! Connection monitor supports the Azure Monitor agent extension, which eliminates any dependency on the legacy Log Analytics agent. See here: https://learn.microsoft.com/en-us/azure/network-watcher/azure-monitor-agent-with-connection-monitor The following (older) link talks about setting up the Log Analytics agent: https://learn.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview#agents-for-on-premises-machines</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #57Topic 6
+
+You have an Azure subscription that has Traffic Analytics configured.
+
+You deploy a new virtual machine named VM1 that has the following settings:
+
+&amp;#x2022; Region: East US
+&amp;#x2022; Virtual network: VNet1
+&amp;#x2022; NIC network security group: NSG1
+
+You need to monitor VM1 traffic by using Traffic Analytics.
+
+Which settings should you configure?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Diagnostic settings for VM1</text><feedback>Incorrect! the correct answer was &quot;NSG flow logs for NSG1&quot; NSG flow logs are a feature of Azure Network Watcher that allows logging of information about IP traffic flowing through a network security group. This data can be used by Traffic Analytics to analyze network traffic in your environment. By enabling NSG flow logs for NSG1, the Network Security Group associated with VM1, you would be able to monitor the traffic of VM1 using Traffic Analytics https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-tutorial</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>NSG flow logs for NSG1</text><feedback>Correct! NSG flow logs are a feature of Azure Network Watcher that allows logging of information about IP traffic flowing through a network security group. This data can be used by Traffic Analytics to analyze network traffic in your environment. By enabling NSG flow logs for NSG1, the Network Security Group associated with VM1, you would be able to monitor the traffic of VM1 using Traffic Analytics https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-tutorial</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Diagnostic settings for NSG1</text><feedback>Incorrect! the correct answer was &quot;NSG flow logs for NSG1&quot; NSG flow logs are a feature of Azure Network Watcher that allows logging of information about IP traffic flowing through a network security group. This data can be used by Traffic Analytics to analyze network traffic in your environment. By enabling NSG flow logs for NSG1, the Network Security Group associated with VM1, you would be able to monitor the traffic of VM1 using Traffic Analytics https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-tutorial</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Insights for VM1</text><feedback>Incorrect! the correct answer was &quot;NSG flow logs for NSG1&quot; NSG flow logs are a feature of Azure Network Watcher that allows logging of information about IP traffic flowing through a network security group. This data can be used by Traffic Analytics to analyze network traffic in your environment. By enabling NSG flow logs for NSG1, the Network Security Group associated with VM1, you would be able to monitor the traffic of VM1 using Traffic Analytics https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics https://learn.microsoft.com/en-us/azure/network-watcher/nsg-flow-logs-tutorial</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #58Topic 6
+
+You have an Azure subscription. The subscription contains 10 virtual machines that run Windows Server. Each virtual machine hosts a website in IIS and has the Azure Monitor Agent installed.
+
+You need to collect the IIS logs from each virtual machine and store them in a Log Analytics workspace.
+
+What should you configure first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>a data collection endpoint</text><feedback>Correct! Data Collection End Point https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an Azure Monitor Private Link Scope (AMPLS)</text><feedback>Incorrect! the correct answer was &quot;Data Collection End Point&quot;! https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Diagnostic settings</text><feedback>Incorrect! the correct answer was &quot;Data Collection End Point&quot;! https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Diagnostic settings</text><feedback>Incorrect! the correct answer was &quot;Data Collection End Point&quot;! https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a private endpoint</text><feedback>Incorrect! the correct answer was &quot;Data Collection End Point&quot;! https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #59Topic 6
+
+HOTSPOT
+-
+
+You have an Azure subscription that contains two storage accounts named contoso101 and contoso102.
+
+The subscription contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;q59t6i1.png&quot; alt=&quot;q59t6i1.png&quot; title=&quot;q59t6i1&quot; width=&quot;721&quot; height=&quot;136&quot;/&amp;#x003E;
+
+VNet1 has service endpoints configured as shown in the Service endpoints exhibit. (Click the Service endpoints tab.)
+
+&amp;#x003C;img src=&quot;q59t6i2.png&quot; alt=&quot;q59t6i2.png&quot; title=&quot;q59t6i2&quot; width=&quot;872&quot; height=&quot;431&quot;/&amp;#x003E;
+
+The Microsoft.Storage service endpoint has the service endpoint policy shown in the Microsoft.Storage exhibit. (Click the Microsoft.Storage tab.)
+
+&amp;#x003C;img src=&quot;q59t6i3.png&quot; alt=&quot;q59t6i3.png&quot; title=&quot;q59t6i3&quot; width=&quot;904&quot; height=&quot;670&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q59t6i4.png&quot; alt=&quot;q59t6i4.png&quot; title=&quot;q59t6i4&quot; width=&quot;903&quot; height=&quot;426&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Statement 1: Yes</text><feedback>Incorrect! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 1: No</text><feedback>Correct! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2: Yes</text><feedback>Correct! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2: No</text><feedback>Incorrect! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3: Yes</text><feedback>Incorrect! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3: No</text><feedback>Correct! NYN. N: VM1 in VNET1/Subnet1 traffic is limited by the endpoint policy to ONLY the constoso101.(see Ref1) Y: VM2 in subnet 2, there&apos;s no sevice enpoint for subnet2 so it will reach out to it through the service Public IP, there&apos;s no mention that storage accounts are configuired to limit traffic to the VNET1 address space so we assume it&apos;s not configured. N: it uses public IP, Microsoft.AzureActiveDirectory is used only for supporting data late storages not for connecting to AzureAD/Entra doesn&apos;t support Service endpoints. Ref1: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration Ref2: https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview#limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #60Topic 6
+You have an Azure subscription that contains multiple virtual machines in the West US Azure region.
+
+You need to use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic.
+
+Which two resources should you create? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>a Log Analytics workspace</text><feedback>Correct! To use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic, you need to create the following resources: A. A Log Analytics workspace - Traffic Analytics requires a Log Analytics workspace to store and analyze network traffic data. E. A Data Collection Rule (DCR) in Azure Monitor - You need to create a Data Collection Rule within Azure Monitor to specify what data should be collected and sent to the Log Analytics workspace, including the network traffic data for Traffic Analytics. So, options A and E are the correct answers.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>an Azure Monitor workbook</text><feedback>Incorrect! To use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic, you need to create the following resources: A. A Log Analytics workspace - Traffic Analytics requires a Log Analytics workspace to store and analyze network traffic data. E. A Data Collection Rule (DCR) in Azure Monitor - You need to create a Data Collection Rule within Azure Monitor to specify what data should be collected and sent to the Log Analytics workspace, including the network traffic data for Traffic Analytics. So, options A and E are the correct answers.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a storage account</text><feedback>Incorrect! To use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic, you need to create the following resources: A. A Log Analytics workspace - Traffic Analytics requires a Log Analytics workspace to store and analyze network traffic data. E. A Data Collection Rule (DCR) in Azure Monitor - You need to create a Data Collection Rule within Azure Monitor to specify what data should be collected and sent to the Log Analytics workspace, including the network traffic data for Traffic Analytics. So, options A and E are the correct answers.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Microsoft Sentinel workspace</text><feedback>Incorrect! To use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic, you need to create the following resources: A. A Log Analytics workspace - Traffic Analytics requires a Log Analytics workspace to store and analyze network traffic data. E. A Data Collection Rule (DCR) in Azure Monitor - You need to create a Data Collection Rule within Azure Monitor to specify what data should be collected and sent to the Log Analytics workspace, including the network traffic data for Traffic Analytics. So, options A and E are the correct answers.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Data Collection Rule (DCR) in Azure Monitor</text><feedback>Correct! To use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic, you need to create the following resources: A. A Log Analytics workspace - Traffic Analytics requires a Log Analytics workspace to store and analyze network traffic data. E. A Data Collection Rule (DCR) in Azure Monitor - You need to create a Data Collection Rule within Azure Monitor to specify what data should be collected and sent to the Log Analytics workspace, including the network traffic data for Traffic Analytics. So, options A and E are the correct answers.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #1Topic 7
+Introductory InfoCase study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Overview -
+Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
+Contoso products are manufactured by using blueprint files that the company authors and maintains.
+
+Existing Environment -
+Currently, Contoso uses multiple types of servers for business operations, including the following:
+File servers
+Domain controllers
+Microsoft SQL Server servers
+Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.
+You have a public-facing application named App1. App1 is comprised of the following three tiers:
+A SQL database
+A web front end
+
+A processing middle tier -
+ 
+Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
+
+Requirements -
+
+Planned Changes -
+Contoso plans to implement the following changes to the infrastructure:
+Move all the tiers of App1 to Azure.
+Move the existing product blueprint files to Azure Blob storage.
+Create a hybrid directory to support an upcoming Microsoft 365 migration project.
+
+Technical Requirements -
+Contoso must meet the following technical requirements:
+Move all the virtual machines for App1 to Azure.
+Minimize the number of open ports between the App1 tiers.
+Ensure that all the virtual machines for App1 are protected by backups.
+Copy the blueprint files to Azure over the Internet.
+Ensure that the blueprint files are stored in the archive storage tier.
+Ensure that partner access to the blueprint files is secured and temporary.
+Prevent user passwords or hashes of passwords from being stored in Azure.
+Use unmanaged standard storage for the hard disks of the virtual machines.
+Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.
+Minimize administrative effort whenever possible.
+
+User Requirements -
+Contoso identifies the following requirements for users:
+Ensure that only users who are part of a group named Pilot can join devices to Azure AD.
+Designate a new user named Admin1 as the service admin for the Azure subscription.
+Admin1 must receive email alerts regarding service outages.
+Ensure that a new user named User3 can create network objects for the Azure subscription.
+
+Question
+
+HOTSPOT -
+You need to configure the Device settings to meet the technical requirements and the user requirements.
+
+Which two settings should you modify? To answer, select the appropriate settings in the answer area.
+
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1: Selected</text><feedback>Correct! : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: None</text><feedback>Incorrect! Explanation : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: Selected</text><feedback>Incorrect! Explanation : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box3: None</text><feedback>Incorrect! Explanation : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box4: Yes</text><feedback>Correct! : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box5</text><feedback>Incorrect! Explanation : Box 1: Selected As per User requirements &amp;#x201C;Ensure that only users who are part of a group named Pilot can join devices to Azure AD.&amp;#x201D; So, &amp;#x201C;Selected&amp;#x201D; must be selected for &amp;#x201C;User may join devices to Azure AD&amp;#x201D; Box 2: Yes As per User Requirements &amp;#x201C;Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity&amp;#x201D;. So, &amp;#x201C;Yes&amp;#x201D; must be selected for &amp;#x201C;Require Multi-Factor Auth to join devices&amp;#x201D;.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #2Topic 7
+Introductory InfoCase study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Overview -
+Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
+Contoso products are manufactured by using blueprint files that the company authors and maintains.
+
+Existing Environment -
+Currently, Contoso uses multiple types of servers for business operations, including the following:
+File servers
+Domain controllers
+Microsoft SQL Server servers
+Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.
+You have a public-facing application named App1. App1 is comprised of the following three tiers:
+A SQL database
+A web front end
+
+A processing middle tier -
+ 
+Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
+
+Requirements -
+
+Planned Changes -
+Contoso plans to implement the following changes to the infrastructure:
+Move all the tiers of App1 to Azure.
+Move the existing product blueprint files to Azure Blob storage.
+Create a hybrid directory to support an upcoming Microsoft 365 migration project.
+
+Technical Requirements -
+Contoso must meet the following technical requirements:
+Move all the virtual machines for App1 to Azure.
+Minimize the number of open ports between the App1 tiers.
+Ensure that all the virtual machines for App1 are protected by backups.
+Copy the blueprint files to Azure over the Internet.
+Ensure that the blueprint files are stored in the archive storage tier.
+Ensure that partner access to the blueprint files is secured and temporary.
+Prevent user passwords or hashes of passwords from being stored in Azure.
+Use unmanaged standard storage for the hard disks of the virtual machines.
+Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.
+Minimize administrative effort whenever possible.
+
+User Requirements -
+Contoso identifies the following requirements for users:
+Ensure that only users who are part of a group named Pilot can join devices to Azure AD.
+Designate a new user named Admin1 as the service admin for the Azure subscription.
+Admin1 must receive email alerts regarding service outages.
+Ensure that a new user named User3 can create network objects for the Azure subscription.
+
+Question
+
+You need to meet the user requirement for Admin1.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>From the Azure Active Directory blade, modify the Groups</text><feedback>Incorrect! the correct answer was &quot; From the Subscriptions blade, select the subscription, and then modify the Properties&quot;!
+Scenario:
+&amp;#x2711; Designate a new user named Admin1 as the service admin for the Azure subscription.
+&amp;#x2711; Admin1 must receive email alerts regarding service outages.
+Follow these steps to change the Service Administrator in the Azure portal.
+1. Make sure your scenario is supported by checking the limitations for changing the Service Administrator.
+2. Sign in to the Azure portal as the Account Administrator.
+3. Open Cost Management + Billing and select a subscription.
+4. In the left navigation, click Properties.
+5. Click Service Admin.
+Reference:
+https://docs.microsoft.com/en-us/azure/role-based-access-control/classic-administrators</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Azure Active Directory blade, modify the Properties</text><feedback>Incorrect! the correct answer was &quot; From the Subscriptions blade, select the subscription, and then modify the Properties&quot;!
+Scenario:
+&amp;#x2711; Designate a new user named Admin1 as the service admin for the Azure subscription.
+&amp;#x2711; Admin1 must receive email alerts regarding service outages.
+Follow these steps to change the Service Administrator in the Azure portal.
+1. Make sure your scenario is supported by checking the limitations for changing the Service Administrator.
+2. Sign in to the Azure portal as the Account Administrator.
+3. Open Cost Management + Billing and select a subscription.
+4. In the left navigation, click Properties.
+5. Click Service Admin.
+Reference:
+https://docs.microsoft.com/en-us/azure/role-based-access-control/classic-administrators</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Subscriptions blade, select the subscription, and then modify the Access control (IAM) settings</text><feedback>Incorrect! the correct answer was &quot; From the Subscriptions blade, select the subscription, and then modify the Properties&quot;!
+Scenario:
+&amp;#x2711; Designate a new user named Admin1 as the service admin for the Azure subscription.
+&amp;#x2711; Admin1 must receive email alerts regarding service outages.
+Follow these steps to change the Service Administrator in the Azure portal.
+1. Make sure your scenario is supported by checking the limitations for changing the Service Administrator.
+2. Sign in to the Azure portal as the Account Administrator.
+3. Open Cost Management + Billing and select a subscription.
+4. In the left navigation, click Properties.
+5. Click Service Admin.
+Reference:
+https://docs.microsoft.com/en-us/azure/role-based-access-control/classic-administrators</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From the Subscriptions blade, select the subscription, and then modify the Properties</text><feedback>Correct! Scenario:
+&amp;#x2711; Designate a new user named Admin1 as the service admin for the Azure subscription.
+&amp;#x2711; Admin1 must receive email alerts regarding service outages.
+Follow these steps to change the Service Administrator in the Azure portal.
+1. Make sure your scenario is supported by checking the limitations for changing the Service Administrator.
+2. Sign in to the Azure portal as the Account Administrator.
+3. Open Cost Management + Billing and select a subscription.
+4. In the left navigation, click Properties.
+5. Click Service Admin.
+Reference:
+https://docs.microsoft.com/en-us/azure/role-based-access-control/classic-administrators</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #1Topic 8
+Introductory InfoCase study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Overview -
+
+General Overview -
+Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
+
+Environment -
+
+Existing Environment -
+Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active
+Directory domain that syncs to the Azure AD tenant.
+The Azure AD tenant contains the users shown in the following table.
+
+&amp;#x003C;img src=&quot;q1t8i1.png&quot; alt=&quot;q1t8i1.png&quot; title=&quot;q1t8i1&quot; width=&quot;508&quot; height=&quot;171&quot;/&amp;#x003E;
+
+Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
+
+&amp;#x003C;img src=&quot;q1t8i2.png&quot; alt=&quot;q1t8i2.png&quot; title=&quot;q1t8i2&quot; width=&quot;599&quot; height=&quot;171&quot;/&amp;#x003E;
+
+User1 manages the resources in RG1. User4 manages the resources in RG2.
+Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
+
+&amp;#x003C;img src=&quot;q1t8i3.png&quot; alt=&quot;q1t8i3.png&quot; title=&quot;q1t8i3&quot; width=&quot;699&quot; height=&quot;199&quot;/&amp;#x003E;
+
+
+No network security groups (NSGs) are associated to the network interfaces or the subnets.
+Sub1 contains the storage accounts shown in the following table.
+
+&amp;#x003C;img src=&quot;q1t8i4.png&quot; alt=&quot;q1t8i4.png&quot; title=&quot;q1t8i4&quot; width=&quot;832&quot; height=&quot;363&quot;/&amp;#x003E;
+
+
+Requirements -
+
+Planned Changes -
+Contoso plans to implement the following changes:
+Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.
+Create a storage account named storage5 and configure storage replication for the Blob service.
+Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
+
+&amp;#x003C;img src=&quot;q1t8i5.png&quot; alt=&quot;q1t8i5.png&quot; title=&quot;q1t8i5&quot; width=&quot;848&quot; height=&quot;85&quot;/&amp;#x003E;
+
+Associate NSG1 to the network interface of VM1.
+Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
+
+&amp;#x003C;img src=&quot;q1t8i6.png&quot; alt=&quot;q1t8i6.png&quot; title=&quot;q1t8i6&quot; width=&quot;837&quot; height=&quot;109&quot;/&amp;#x003E;
+
+Associate NSG2 to VNET1/Subnet2.
+
+Technical Requirements -
+Contoso must meet the following technical requirements:
+Create container1 and share1.
+Use the principle of least privilege.
+Create an Azure AD security group named Group4.
+Back up the Azure file shares and virtual machines by using Azure Backup.
+Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.
+Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.
+Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1
+Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.
+Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.
+
+Question
+
+HOTSPOT -
+You need to configure Azure Backup to back up the file shares and virtual machines.
+What is the minimum number of Recovery Services vaults and backup policies you should create? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;q1t8i7.png&quot; alt=&quot;q1t8i7.png&quot; title=&quot;q1t8i7&quot; width=&quot;764&quot; height=&quot;1028&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1 :1</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1 :2</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1 :3</text><feedback>Correct! Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1 :4</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1 :7</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 1</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 2</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 3</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 4</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 5</text><feedback>Incorrect! 
+
+Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: 6</text><feedback>Correct! Box 1: 3 -
+If you have data sources in multiple regions, create a Recovery Services vault for each region.
+The File Shares and VMs are located in three Regions: West US, East US, Central US.
+
+Box 2: 6 -
+A backup policy is scoped to a vault. For each vault we need one backup policy for File Shares and one backup policy for VM.
+Note:
+Back up the Azure file shares and virtual machines by using Azure Backup</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

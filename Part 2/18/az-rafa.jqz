@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>PimPamPum</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #17Topic 6
+
+HOTSPOT -
+You purchase a new Azure subscription named Subscription1.
+You create a virtual machine named VM1 in Subscription1. VM1 is not protected by Azure Backup.
+You need to protect VM1 by using Azure Backup. Backups must be created at 01:00 and stored for 30 days.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q17t6.png&quot; alt=&quot;q17t6.png&quot; title=&quot;q17t6&quot; width=&quot;879&quot; height=&quot;467&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1: A blob container</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: A file share</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: A Recovery Services Vault</text><feedback>Correct! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: A storage account</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: A backup policy</text><feedback>Correct! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: A batch job</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: A batch schedule</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: A recovery plan</text><feedback>Incorrect! Box 1: A Recovery Services vault
+You can set up a Recovery Services vault and configure backup for multiple Azure VMs.
+
+Box 2: A backup policy -
+In Choose backup policy, do one of the following:
+&amp;#x2711; Leave the default policy. This backs up the VM once a day at the time specified, and retains backups in the vault for 30 days.
+&amp;#x2711; Select an existing backup policy if you have one.
+&amp;#x2711; Create a new policy, and define the policy settings.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #18Topic 6
+
+You have an Azure virtual machine named VM1.
+Azure collects events from VM1.
+You are creating an alert rule in Azure Monitor to notify an administrator when an error is logged in the System event log of VM1.
+Which target resource should you monitor in the alert rule?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>virtual machine extension</text><feedback>Incorrect! The correct answer was &quot;Azure Log Analytics workspace&quot;! For the first step to create the new alert tule, under the Create Alert section, you are going to select your Log Analytics workspace as the resource, since this is a log based alert signal.
+Reference:
+https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure-azure-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>virtual machine</text><feedback>Incorrect! The correct answer was &quot;Azure Log Analytics workspace&quot;! For the first step to create the new alert tule, under the Create Alert section, you are going to select your Log Analytics workspace as the resource, since this is a log based alert signal.
+Reference:
+https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure-azure-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>metric alert</text><feedback>Incorrect! The correct answer was &quot;Azure Log Analytics workspace&quot;! For the first step to create the new alert tule, under the Create Alert section, you are going to select your Log Analytics workspace as the resource, since this is a log based alert signal.
+Reference:
+https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure-azure-monitor</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Log Analytics workspace</text><feedback>Correct! For the first step to create the new alert tule, under the Create Alert section, you are going to select your Log Analytics workspace as the resource, since this is a log based alert signal.
+Reference:
+https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure-azure-monitor</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #19Topic 6
+
+You have an Azure subscription that contains 100 virtual machines.
+You regularly create and delete virtual machines.
+You need to identify unattached disks that can be deleted.
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>From Azure Cost Management, view Cost Analysis</text><feedback>Incorrect! The correct answer was &quot;From Azure Cost Management, view Advisor Recommendations&quot;! From Home -&amp;#x003E; Cost Management + Billing -&amp;#x003E; Cost Management, scroll down on the options and select View Recommendations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Azure Advisor, modify the Advisor configuration</text><feedback>Incorrect! The correct answer was &quot;From Azure Cost Management, view Advisor Recommendations&quot;! From Home -&amp;#x003E; Cost Management + Billing -&amp;#x003E; Cost Management, scroll down on the options and select View Recommendations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Microsoft Azure Storage Explorer, view the Account Management properties</text><feedback>Incorrect! The correct answer was &quot;From Azure Cost Management, view Advisor Recommendations&quot;! From Home -&amp;#x003E; Cost Management + Billing -&amp;#x003E; Cost Management, scroll down on the options and select View Recommendations</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Azure Cost Management, view Advisor Recommendations</text><feedback>Correct! From Home -&amp;#x003E; Cost Management + Billing -&amp;#x003E; Cost Management, scroll down on the options and select View Recommendations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #20Topic 6
+
+You have an Azure web app named webapp1.
+Users report that they often experience HTTP 500 errors when they connect to webapp1.
+You need to provide the developers of webapp1 with real-time access to the connection errors. The solution must provide all the connection error details.
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>From webapp1, enable Web server logging</text><feedback>Correct! Raw HTTP request data is provided by Web server logging and the question mentions 500 error codes. You need to catch connection error. When the connection fails it happens on web server, not within application. You can do it opening the web application -&amp;#x003E; Application Service logs -&amp;#x003E; Web server logging (there are multiple switches there). You can also see the errors live going to &quot;Log stream&quot; pane. Web server logging Windows App Service file system or Azure Storage blobs Raw HTTP request data in the W3C extended log file format. Each log message includes data such as the HTTP method, resource URI, client IP, client port, user agent, response code, and so on.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Azure Monitor, create a workbook</text><feedback>Incorrect! The correct answer was &quot;From webapp1, enable Web server logging&quot;! Raw HTTP request data is provided by Web server logging and the question mentions 500 error codes. You need to catch connection error. When the connection fails it happens on web server, not within application. You can do it opening the web application -&amp;#x003E; Application Service logs -&amp;#x003E; Web server logging (there are multiple switches there). You can also see the errors live going to &quot;Log stream&quot; pane. Web server logging Windows App Service file system or Azure Storage blobs Raw HTTP request data in the W3C extended log file format. Each log message includes data such as the HTTP method, resource URI, client IP, client port, user agent, response code, and so on.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From Azure Monitor, create a Service Health alert</text><feedback>Incorrect! The correct answer was &quot;From webapp1, enable Web server logging&quot;! Raw HTTP request data is provided by Web server logging and the question mentions 500 error codes. You need to catch connection error. When the connection fails it happens on web server, not within application. You can do it opening the web application -&amp;#x003E; Application Service logs -&amp;#x003E; Web server logging (there are multiple switches there). You can also see the errors live going to &quot;Log stream&quot; pane. Web server logging Windows App Service file system or Azure Storage blobs Raw HTTP request data in the W3C extended log file format. Each log message includes data such as the HTTP method, resource URI, client IP, client port, user agent, response code, and so on.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>From webapp1, turn on Application Logging</text><feedback>Incorrect! The correct answer was &quot;From webapp1, enable Web server logging&quot;! Raw HTTP request data is provided by Web server logging and the question mentions 500 error codes. You need to catch connection error. When the connection fails it happens on web server, not within application. You can do it opening the web application -&amp;#x003E; Application Service logs -&amp;#x003E; Web server logging (there are multiple switches there). You can also see the errors live going to &quot;Log stream&quot; pane. Web server logging Windows App Service file system or Azure Storage blobs Raw HTTP request data in the W3C extended log file format. Each log message includes data such as the HTTP method, resource URI, client IP, client port, user agent, response code, and so on.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #21Topic 6
+
+You have an Azure web app named App1.
+You need to monitor the availability of App1 by using a multi-step web test.
+What should you use in Azure Monitor?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Service Health</text><feedback>Incorrect! The correct answer was &quot;Azure Application Insights&quot;! Upload the web test -
+1. In the Application Insights portal on the Availability pane select Add Classic test, then select Multi-step as the SKU.
+2. Upload your multi-step web test.
+3. Set the test locations, frequency, and alert parameters.
+4. Select Create.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback>Correct! Upload the web test -
+1. In the Application Insights portal on the Availability pane select Add Classic test, then select Multi-step as the SKU.
+2. Upload your multi-step web test.
+3. Set the test locations, frequency, and alert parameters.
+4. Select Create.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Diagnostic settings</text><feedback>Incorrect! The correct answer was &quot;Azure Application Insights&quot;! Upload the web test -
+1. In the Application Insights portal on the Availability pane select Add Classic test, then select Multi-step as the SKU.
+2. Upload your multi-step web test.
+3. Set the test locations, frequency, and alert parameters.
+4. Select Create.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>metrics</text><feedback>Incorrect! The correct answer was &quot;Azure Application Insights&quot;! Upload the web test -
+1. In the Application Insights portal on the Availability pane select Add Classic test, then select Multi-step as the SKU.
+2. Upload your multi-step web test.
+3. Set the test locations, frequency, and alert parameters.
+4. Select Create.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #22Topic 6
+
+HOTSPOT -
+You have an Azure subscription that has diagnostic logging enabled and is configured to send logs to a Log Analytics workspace.
+You are investigating a service outage.
+You need to view the event time, the event name, and the affected resources.
+How should you complete the query? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q22t6.png&quot; alt=&quot;q22t6.png&quot; title=&quot;q22t6&quot; width=&quot;948&quot; height=&quot;442&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1: AzureActivity</text><feedback>Correct! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.
+
+Box 2: | project -
+Select a subset of columns: project.
+Use project to include only the columns you want. Building on the preceding example, let&apos;s limit the output to certain columns:
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+| project TimeGenerated, Level, OperationNameValue, ResourceGroup, _ResourceId
+Reference:
+https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/tutorial.md</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: Heartbeat</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.
+
+Box 2: | project -
+Select a subset of columns: project.
+Use project to include only the columns you want. Building on the preceding example, let&apos;s limit the output to certain columns:
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+| project TimeGenerated, Level, OperationNameValue, ResourceGroup, _ResourceId
+Reference:
+https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/tutorial.md</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: NetworkMonitoring</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: Perf</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: | extend</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: | join</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: | print</text><feedback>Incorrect! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: | project</text><feedback>Correct! Box 1: AzureActivity -
+The AzureActivity table has entries from the Azure activity log, which provides insight into subscription-level or management group-level events occuring in Azure.
+Let&apos;s see only Critical entries during a specific week.
+The where operator is common in the Kusto Query Language. where filters a table to rows that match specific criteria. The following example uses multiple commands. First, the query retrieves all records for the table. Then, it filters the data for only records that are in the time range. Finally, it filters those results for only records that have a Critical level.
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+Incorrect:
+not Perf: The Perf table has performance data that&apos;s collected from virtual machines that run the Log Analytics agent.
+
+Box 2: | project -
+Select a subset of columns: project.
+Use project to include only the columns you want. Building on the preceding example, let&apos;s limit the output to certain columns:
+
+AzureActivity -
+| where TimeGenerated &amp;#x003E; datetime(10-01-2020) and TimeGenerated &amp;#x003C; datetime(10-07-2020)
+| where Level == &apos;Critical&apos;
+| project TimeGenerated, Level, OperationNameValue, ResourceGroup, _ResourceId
+Reference:
+https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/tutorial.md</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #23Topic 6
+
+You have a Recovery Services vault named RSV1. RSV1 has a backup policy that retains instant snapshots for five days and daily backup for 14 days.
+RSV1 performs daily backups of VM1. VM1 hosts a static website that was updated eight days ago.
+You need to recover VM1 to a point eight days ago. The solution must minimize downtime.
+What should you do first?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Deallocate VM1.</text><feedback>Incorrect! The correct answer was &quot;Restore VM1 by using the Replace existing restore configuration option.&quot;! Replace existing:
+You can restore a disk, and use it to replace a disk on the existing VM.
+The current VM must exist. If it&apos;s been deleted, this option can&apos;t be used.
+Azure Backup takes a snapshot of the existing VM before replacing the disk, and stores it in the staging location you specify. Existing disks connected to the VM are replaced with the selected restore point.
+The snapshot is copied to the vault, and retained in accordance with the retention policy.
+After the replace disk operation, the original disk is retained in the resource group. You can choose to manually delete the original disks if they aren&apos;t needed.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Restore VM1 by using the Replace existing restore configuration option.</text><feedback>Correct! Replace existing:
+You can restore a disk, and use it to replace a disk on the existing VM.
+The current VM must exist. If it&apos;s been deleted, this option can&apos;t be used.
+Azure Backup takes a snapshot of the existing VM before replacing the disk, and stores it in the staging location you specify. Existing disks connected to the VM are replaced with the selected restore point.
+The snapshot is copied to the vault, and retained in accordance with the retention policy.
+After the replace disk operation, the original disk is retained in the resource group. You can choose to manually delete the original disks if they aren&apos;t needed.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Delete VM1.</text><feedback>Incorrect! The correct answer was &quot;Restore VM1 by using the Replace existing restore configuration option.&quot;! Replace existing:
+You can restore a disk, and use it to replace a disk on the existing VM.
+The current VM must exist. If it&apos;s been deleted, this option can&apos;t be used.
+Azure Backup takes a snapshot of the existing VM before replacing the disk, and stores it in the staging location you specify. Existing disks connected to the VM are replaced with the selected restore point.
+The snapshot is copied to the vault, and retained in accordance with the retention policy.
+After the replace disk operation, the original disk is retained in the resource group. You can choose to manually delete the original disks if they aren&apos;t needed.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Restore VM1 by using the Create new restore configuration option.</text><feedback>Incorrect! The correct answer was &quot;Restore VM1 by using the Replace existing restore configuration option.&quot;! Replace existing:
+You can restore a disk, and use it to replace a disk on the existing VM.
+The current VM must exist. If it&apos;s been deleted, this option can&apos;t be used.
+Azure Backup takes a snapshot of the existing VM before replacing the disk, and stores it in the staging location you specify. Existing disks connected to the VM are replaced with the selected restore point.
+The snapshot is copied to the vault, and retained in accordance with the retention policy.
+After the replace disk operation, the original disk is retained in the resource group. You can choose to manually delete the original disks if they aren&apos;t needed.
+Reference:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-restore-vms</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #24Topic 6
+
+HOTSPOT -
+You have an Azure subscription that contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;q24t6i1.png&quot; alt=&quot;q24t6i1.png&quot; title=&quot;q24t6i1&quot; width=&quot;747&quot; height=&quot;241&quot;/&amp;#x003E;
+
+You plan to create a data collection rule named DCR1 in Azure Monitor.
+Which resources can you set as data sources in DCR1, and which resources can you set as destinations in DCR1? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;q24t6i2.png&quot; alt=&quot;q24t6i2.png&quot; title=&quot;q24t6i2&quot; width=&quot;692&quot; height=&quot;431&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1: VM1 only</text><feedback>Correct! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: VM1 and storage1 only</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: VM1, storage1, and DB1 only</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: VM1, storage1, Workspace1, and DB1</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: storage1 only</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: Workspace1 only</text><feedback>Correct! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: Workspace1 and storage1 only</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: Workspace1, storage1,and DB1 only</text><feedback>Incorrect! Box 1: VM1 only -
+A virtual machine may have an association to multiple DCRs, and a DCR may have multiple virtual machines associated to it.
+In the Resources tab, add the resources (virtual machines, virtual machine scale sets, Arc for servers) that should have the Data Collection Rule applied.
+
+Box 2: Workspace1 only -
+On the Destination tab, add one or more destinations for the data source. You can select multiple destinations of same of different types, for instance multiple Log
+Analytics workspaces (i.e. &quot;multi-homing&quot;).
+Note: The Data Collection Rules (or DCR) improve on a few key areas of data collection from VMs including like better control and scoping of data collection (e.g. collect from a subset of VMs for a single workspace), collect once and send to both Log Analytics and Azure Monitor Metrics, send to multiple workspaces (multi- homing for Linux), improved Windows event filtering, and improved extension management.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #25Topic 6
+
+HOTSPOT -
+You have the role assignment file shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q25t6i1.png&quot; alt=&quot;q25t6i1.png&quot; title=&quot;q25t6i1&quot; width=&quot;992&quot; height=&quot;594&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;q25t6i2.png&quot; alt=&quot;q25t6i2.png&quot; title=&quot;q25t6i2&quot; width=&quot;897&quot; height=&quot;441&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1: User3 is</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: User3 and User4 are</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: User1 and User3 are</text><feedback>Correct! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: User1, User3 and User4 are</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1: User1, User2, User3 and User4</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: User1 and User4</text><feedback>Correct! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: User1, User2 and User3</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2:User1, User2 and User4</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2:User1, User3 and User4</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2: User1, User2, User3 and User4</text><feedback>Incorrect! User1 - Owner of the subscription. (He can manage any resources in the subscription.) User 2 - Owner of RG2(He can manage any resources in the RG2.) User 3 - Owner of a single VM that is VM1.(he can manage VM1 only) User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC) Box1: Owner of VM1 - User1, User3 Box2 : Create VM in RG1 - User1,User4</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #26Topic 6
+
+HOTSPOT -
+You have the following custom role-based access control (RBAC) role.
+
+&amp;#x003C;img src=&quot;q26t6i1.png&quot; alt=&quot;q26t6i1.png&quot; title=&quot;q26t6i1&quot; width=&quot;913&quot; height=&quot;787&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;q26t6i2.png&quot; alt=&quot;q26t6i2.png&quot; title=&quot;q26t6i2&quot; width=&quot;936&quot; height=&quot;279&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Statement 1:Yes</text><feedback>Incorrect! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 1:No</text><feedback>Correct! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2:Yes</text><feedback>Correct! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 2:No</text><feedback>Incorrect! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3:Yes</text><feedback>Correct! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement 3:No</text><feedback>Incorrect! The &quot;resourceGroups/read&quot; permission means that the user with that role can&apos;t create/modify/delete resource groups BUT if you have an existing RG, you can create a VM in it as you have the &quot;Microsoft.Compute/VirtualMachines/*&quot; permission that includes all the actions on VMs So the correct answers are NYY</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #27Topic 6
+
+HOTSPOT -
+You have an Azure subscription that contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;q27t6i1.png&quot; alt=&quot;q27t6i1.png&quot; title=&quot;q27t6i1&quot; width=&quot;849&quot; height=&quot;210&quot;/&amp;#x003E;
+
+NSG1 is configured as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;q27t6i2.png&quot; alt=&quot;q27t6i2.png&quot; title=&quot;q27t6i2&quot; width=&quot;924&quot; height=&quot;512&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+&amp;#x003C;img src=&quot;q27t6i3.png&quot; alt=&quot;q27t6i3.png&quot; title=&quot;q27t6i3&quot; width=&quot;932&quot; height=&quot;303&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Statement1: Yes</text><feedback>Correct! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement1: No</text><feedback>Incorrect! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement2: Yes</text><feedback>Correct! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement2: No</text><feedback>Incorrect! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement3: Yes</text><feedback>Incorrect! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Statement3: No</text><feedback>Correct! assuming that the NSG is applied to Subnet1. Y. Outbound rules have 145 priority for allow storage1 access Y. Inbound rules has default Vnet to Vnet allow so VM2 can access VM1. The deny rule 110 is for Internet traffic coming in. N. We can see the NSG is associated to 1 subnet from the image.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #28Topic 6
+
+You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. VNet1 contains a VPN gateway named
+VPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.
+On a computer named Client1 that runs Windows 10, you configure a point-to-site VPN connection to VNet1.
+You configure virtual network peering between VNet1 and VNet2. You verify that you can connect to VNet2 from the on-premises network. Client1 is unable to connect to VNet2.
+You need to ensure that you can connect Client1 to VNet2.
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Select Use the remote virtual network&apos;s gateway or Route Server on VNet1 to VNet2 peering.</text><feedback>Incorrect! After changes in topology it is needed to re-install the VPN client Answer is C</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Select Use the remote virtual network s gateway or Route Server on VNet2 to VNet1 peering.</text><feedback>Incorrect! After changes in topology it is needed to re-install the VPN client Answer is C</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Download and re-install the VPN client configuration package on Client1.</text><feedback>Correct! After changes in topology it is needed to re-install the VPN client Answer is C</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Enable BGP on VPNGW1.</text><feedback>Incorrect! After changes in topology it is needed to re-install the VPN client Answer is C</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

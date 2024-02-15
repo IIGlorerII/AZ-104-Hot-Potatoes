@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure virtual machine named VM1 that runs Windows Server 2019. The VM was deployed using default drive settings.
+You sign in to VM1 as a user named User1 and perform the following actions:
+&amp;#x2711; Create files on drive C.
+&amp;#x2711; Create files on drive D.
+&amp;#x2711; Modify the screen saver timeout.
+&amp;#x2711; Change the desktop background.
+You plan to redeploy VM1.
+
+Which changes will be lost after you redeploy VM1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the midified screen saver timeout</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the new desktop background</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the new files on drive D</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the new files on drive C</text><feedback>Correct Answer: C 
+For Windows Server, the temporary disk is mounted as &amp;#x201C;D:\&amp;#x201D;. 
+For Linux based VM&amp;#x2019;s the temporary disk is mounted as &amp;#x201C;/dev/sdb1&amp;#x201D;. 
+Reference: 
+https://www.cloudelicious.net/azure-vms-and-their-temporary-storage</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription.
+You have an on-premises virtual machine named VM1. The settings for VM1 are shown in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;q56t41.png&quot; alt=&quot;q56t41.png&quot; title=&quot;q56t41&quot; width=&quot;806&quot; height=&quot;770&quot;/&amp;#x003E;
+
+You need to ensure that you can use the disks attached to VM1 as a template for Azure virtual machines.
+
+What should you modify on VM1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the memory</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the network adapters</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the hard drive</text><feedback>Correct Answer: C 
+The Virtual hard disk is VHDx, it should be formated to VHD before migration from on-premises to Azure. 
+
+Azure supports only generation 1 VMs that are in the VHD file format and have a fixed sized disk. The maximum size allowed for the VHD is 1,023 GB. You can convert a generation 1 VM from the VHDX file system to VHD and from a dynamically expanding disk to fixed-sized. 
+
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the processor</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Integration devices</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription that contains a virtual machine scale set. The scale set contains four instances that have the following configurations:
+&amp;#x2711; Operating system: Windows Server 2016
+&amp;#x2711; Size: Standard_D1_v2
+You run the get-azvmss cmdlet as shown in the following exhibit:
+&amp;#x003C;img src=&quot;q57t41.jpg&quot; alt=&quot;q57t41.jpg&quot; title=&quot;q57t41&quot; width=&quot;969&quot; height=&quot;363&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q57t42.jpg&quot; alt=&quot;q57t42.jpg&quot; title=&quot;q57t42&quot; width=&quot;787&quot; height=&quot;409&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>When an administrator changes the virtual machine size, the size will be changed on up to [] virtual machines. - 0&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When an administrator changes the virtual machine size, the size will be changed on up to [] virtual machines. - 1&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When an administrator changes the virtual machine size, the size will be changed on up to [] virtual machines. - 2&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When an administrator changes the virtual machine size, the size will be changed on up to [] virtual machines. - 4&amp;#x003C;br&amp;#x003E;</text><feedback>Correct Answer: 
+Box 1: 4 If you resize the Scale Set all the VMs get resized at once, thus 4 is the correct answer. 
+Box 2: 1 Automatic OS updates update 20% of the VMs at once, with a minimum of 1 VM instance at a time. Also 20% of 4 = 0.8. 
+
+Reference: 
+https://docs.microsoft.com/en-us/learn/modules/build-app-with-scale-sets/2-features-benefits-virtual-machine-scale-sets 
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade 
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-upgrade-scale-set</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When a new build of the windows Server 2916 image is released, the new build will be deployed to up to [] virtual machines. - 0&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When a new build of the windows Server 2916 image is released, the new build will be deployed to up to [] virtual machines. - 1&amp;#x003C;br&amp;#x003E;</text><feedback>Correct Answer: 
+Box 1: 4 If you resize the Scale Set all the VMs get resized at once, thus 4 is the correct answer. 
+Box 2: 1 Automatic OS updates update 20% of the VMs at once, with a minimum of 1 VM instance at a time. Also 20% of 4 = 0.8. 
+
+Reference: 
+https://docs.microsoft.com/en-us/learn/modules/build-app-with-scale-sets/2-features-benefits-virtual-machine-scale-sets 
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade 
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-upgrade-scale-set</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When a new build of the windows Server 2916 image is released, the new build will be deployed to up to [] virtual machines. - 2&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>When a new build of the windows Server 2916 image is released, the new build will be deployed to up to [] virtual machines. - 4&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1 that is used by several departments at your company. Subscription1 contains the resources in the following table:
+&amp;#x003C;img src=&quot;q58t4.png&quot; alt=&quot;q58t4.png&quot; title=&quot;q58t4&quot; width=&quot;416&quot; height=&quot;154&quot;/&amp;#x003E;
+
+Another administrator deploys a virtual machine named VM1 and an Azure Storage account named storage2 by using a single Azure Resource Manager template.
+You need to view the template used for the deployment.
+
+From which blade can you view the template that was used for the deployment?
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>VM1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>RG1</text><feedback>View template from deployment history
+1. Go to the resource group for your new resource group. Notice that the portal shows the result of the last deployment. Select this link.
+&amp;#x003C;img src=&quot;q58t4a1.jpg&quot; alt=&quot;q58t4a1.jpg&quot; title=&quot;q58t4a1&quot; width=&quot;797&quot; height=&quot;222&quot;/&amp;#x003E;
+
+2. You see a history of deployments for the group. In your case, the portal probably lists only one deployment. Select this deployment.
+&amp;#x003C;img src=&quot;q58t4a2.jpg&quot; alt=&quot;q58t4a2.jpg&quot; title=&quot;q58t4a2&quot; width=&quot;453&quot; height=&quot;200&quot;/&amp;#x003E;
+
+3. The portal displays a summary of the deployment. The summary includes the status of the deployment and its operations and the values that you provided for parameters. To see the template that you used for the deployment, select View template.
+&amp;#x003C;img src=&quot;q58t4a3.png&quot; alt=&quot;q58t4a3.png&quot; title=&quot;q58t4a3&quot; width=&quot;547&quot; height=&quot;390&quot;/&amp;#x003E;
+
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-export-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Storage2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>container1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure web app named App1. App1 has the deployment slots shown in the following table:
+&amp;#x003C;img src=&quot;q59t4.png&quot; alt=&quot;q59t4.png&quot; title=&quot;q59t4&quot; width=&quot;469&quot; height=&quot;96&quot;/&amp;#x003E;
+
+In webapp1-test, you test several changes to App1.
+You back up App1.
+You swap webapp1-test for webapp1-prod and discover that App1 is experiencing performance issues.
+You need to revert to the previous version of App1 as quickly as possible.
+
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Redeploy App1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Swap the slots</text><feedback>When you swap deployment slots, Azure swaps the Virtual IP addresses of the source and destination slots, thereby swapping the URLs of the slots. We can easily revert the deployment by swapping back.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Clone App1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Restore the backup of App1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription named Subscription1. Subscription1 contains two Azure virtual machines VM1 and VM2. VM1 and VM2 run Windows Server
+2016.
+
+VM1 is backed up daily by Azure Backup without using the Azure Backup agent.
+VM1 is affected by ransomware that encrypts data.
+You need to restore the latest backup of VM1.
+
+To which location can you restore the backup? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can perform a file recovery of VM1 to:
+VM1 only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can perform a file recovery of VM1 to:
+VM1 or a new Azure virtual machine only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>Correct Answer: 
+Box 1: Any Windows computer that has Internet connectivity For files recovery, you download and run a windows executable to map a network drive. It can only run when the OS meets the requirements. Any computer running Windows Server 2016 or Windows 10 is suitable. File recovery can be done from any machine on the Internet. 
+Note: There might be compatibility issues with any Windows computer, so consider VM1 and VM2 only as an answer. 
+
+Box 2: VM1 or a new Azure virtual machine only For restoring a VM, you can choose &apos;Create new&apos; or &apos;Replace existing&apos;. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-restore-files-from-vm 
+https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/backup/backup-azure-restore-files-from-vm.md#for-windows-os</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can perform a file recovery of VM1 to:
+VM1 and VM2 only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can perform a file recovery of VM1 to:
+Any Windows computer that has internet connectivity &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can restore VM1 to:
+You can restore VM1 to:
+VM1 only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can restore VM1 to:
+VM1 or a new Azure virtual machine only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>Correct Answer: 
+Box 1: Any Windows computer that has Internet connectivity For files recovery, you download and run a windows executable to map a network drive. It can only run when the OS meets the requirements. Any computer running Windows Server 2016 or Windows 10 is suitable. File recovery can be done from any machine on the Internet. 
+Note: There might be compatibility issues with any Windows computer, so consider VM1 and VM2 only as an answer. 
+
+Box 2: VM1 or a new Azure virtual machine only For restoring a VM, you can choose &apos;Create new&apos; or &apos;Replace existing&apos;. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-restore-files-from-vm 
+https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/backup/backup-azure-restore-files-from-vm.md#for-windows-os</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can restore VM1 to:
+VM1 and VM2 only &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can restore VM1 to:
+Any Windows computer that has internet connectivity &amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to back up an Azure virtual machine named VM1.
+You discover that the Backup Pre-Check status displays a status of Warning.
+
+What is a possible cause of the Warning status?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>VM1 is stopped</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 does not have the latest version of the Azure VM Agent (WaAppAgent.exe) installed.</text><feedback>Answer is correct, B: 
+VM1 does not have the latest version of the Azure VM Agent (WaAppAgent.exe) installed. 
+
+The Azure VM Agent is required for managing virtual machines, and it provides the communication between the virtual machine and Azure. The latest version of the Azure VM Agent is required for Azure Backup to work correctly. If the agent is not installed or is outdated, the Backup Pre-Check status might display a warning.
+
+https://azure.microsoft.com/en-us/blog/azure-vm-backup-pre-checks</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VM1 has an unmanaged disk.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A Recovery Services vault is unavailable.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
+You receive a notification that VM1 will be affected by maintenance.
+You need to move VM1 to a different host immediately.
+
+Solution: From the Overview blade, you move the virtual machine to a different resource group.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>You would need to redeploy the VM.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/redeploy-to-new-node</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription.
+You plan to use Azure Resource Manager templates to deploy 50 Azure virtual machines that will be part of the same availability set.
+You need to ensure that as many virtual machines as possible are available if the fabric fails or during servicing.
+How should you configure the template? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+&amp;#x003C;img src=&quot;q63t4.png&quot; alt=&quot;q63t4.png&quot; title=&quot;q63t4&quot; width=&quot;810&quot; height=&quot;548&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>plataformFaultDomainCount - 0</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformFaultDomainCount - 1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformFaultDomainCount - 2</text><feedback>Box 1: 2 -
+Use two fault domains.
+2 or 3 is max, depending on which region you are in.
+
+Box 2: 20 -
+Use 20 for platformUpdateDomainCount
+Increasing the update domain (platformUpdateDomainCount) helps with capacity and availability planning when the platform reboots nodes. A higher number for the pool (20 is max) means that fewer of their nodes in any given availability set would be rebooted at once.
+
+Reference:
+https://www.itprotoday.com/microsoft-azure/check-if-azure-region-supports-2-or-3-fault-domains-managed-disks https://github.com/Azure/acs-engine/issues/1030</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformFaultDomainCount - 3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformFaultDomainCount - 4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformUpdateDomainCount - 10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformUpdateDomainCount - 20</text><feedback>Box 1: 2 -
+Use two fault domains.
+2 or 3 is max, depending on which region you are in.
+
+Box 2: 20 -
+Use 20 for platformUpdateDomainCount
+Increasing the update domain (platformUpdateDomainCount) helps with capacity and availability planning when the platform reboots nodes. A higher number for the pool (20 is max) means that fewer of their nodes in any given availability set would be rebooted at once.
+
+Reference:
+https://www.itprotoday.com/microsoft-azure/check-if-azure-region-supports-2-or-3-fault-domains-managed-disks https://github.com/Azure/acs-engine/issues/1030</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformUpdateDomainCount - 30</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformUpdateDomainCount - 40</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>plataformUpdateDomainCount - 50</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure virtual machine named VM1 that runs Windows Server 2016.
+You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
+
+Solution: You create an Azure Log Analytics workspace and configure the Agent configuration settings. You install the Microsoft Monitoring Agent on VM1. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback>Alerts in Azure Monitor can identify important information in your Log Analytics repository. 
+They are created by alert rules that automatically run log searches at regular intervals, and if results of the log search match particular criteria, then an alert record is created and it can be configured to perform an automated response.
+
+The Log Analytics agent collects monitoring data from the guest operating system and workloads of virtual machines in Azure, other cloud providers, and on- premises. It collects data into a Log Analytics workspace.
+
+References:
+https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agents-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+You have an Azure subscription.
+You deploy a virtual machine scale set that is configured as shown in the following exhibit.
+&amp;#x003C;img src=&quot;q65t41.png&quot; alt=&quot;q65t41.png&quot; title=&quot;q65t41&quot; width=&quot;648&quot; height=&quot;781&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;q65t42.png&quot; alt=&quot;q65t42.png&quot; title=&quot;q65t42&quot; width=&quot;905&quot; height=&quot;577&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>At 9:00 AM, the scale set start and CPU uyilization is 90 percent for 15 minutes. 
+How many virtual machines instances will be running at 9:15?
+2
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 9:00 AM, the scale set start and CPU uyilization is 90 percent for 15 minutes. 
+How many virtual machines instances will be running at 9:15?
+3
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>Box-1 : 3 Initial starts 2 VM&apos;s 15 minutes have passed. at 10 minutes 1 VM was added we now have 3 VM&apos;s. Cool down is 5 Minutes before another 10 minute wait cycle starts so the answer is 3. 
+
+Box-2: 1 Initial 5 VM&apos;s 60 minutes Pass. 1 VM removed every 15 minute cycle. 10 minutes wait timer plus 5 minute cool down equals 15 minutes cycle. Four 15 minute cycles pass equaling 60 minutes removing 4 VM&apos;s. We have 1 VM left. 
+
+Default Scale in and Out Default Durations are 10 minutes with 5 minute cool down. The default scale set settings in Azure are: 
+-Minimum number of instances 1 
+-Maximum number of instances 10 
+-Scale out CPU threshold (%) 75 
+-Duration in minutes10 
+-Number of instances to increase by 1 
+-Scale in CPU threshold (%) 25 -Number of instances to decrease by -1 
+
+References:
+https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-portal#create-a-rule-to-automatically-scale-in</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 9:00 AM, the scale set start and CPU uyilization is 90 percent for 15 minutes. 
+How many virtual machines instances will be running at 9:15?
+4
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 9:00 AM, the scale set start and CPU uyilization is 90 percent for 15 minutes. 
+How many virtual machines instances will be running at 9:15?
+5
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 10:00 AM, the scale set has five virtual machines instances running and CPU utilization falls to less than 15 percent for 60 minutes.
+How many virtual machines instances will be running at 11:AM?
+1
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback>Box-1 : 3 Initial starts 2 VM&apos;s 15 minutes have passed. at 10 minutes 1 VM was added we now have 3 VM&apos;s. Cool down is 5 Minutes before another 10 minute wait cycle starts so the answer is 3. 
+
+Box-2: 1 Initial 5 VM&apos;s 60 minutes Pass. 1 VM removed every 15 minute cycle. 10 minutes wait timer plus 5 minute cool down equals 15 minutes cycle. Four 15 minute cycles pass equaling 60 minutes removing 4 VM&apos;s. We have 1 VM left. 
+
+Default Scale in and Out Default Durations are 10 minutes with 5 minute cool down. The default scale set settings in Azure are: 
+-Minimum number of instances 1 
+-Maximum number of instances 10 
+-Scale out CPU threshold (%) 75 
+-Duration in minutes10 
+-Number of instances to increase by 1 
+-Scale in CPU threshold (%) 25 -Number of instances to decrease by -1 
+
+References:
+https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-portal#create-a-rule-to-automatically-scale-in</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 10:00 AM, the scale set has five virtual machines instances running and CPU utilization falls to less than 15 percent for 60 minutes.
+How many virtual machines instances will be running at 11:AM?
+2
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 10:00 AM, the scale set has five virtual machines instances running and CPU utilization falls to less than 15 percent for 60 minutes.
+How many virtual machines instances will be running at 11:AM?
+3
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>At 10:00 AM, the scale set has five virtual machines instances running and CPU utilization falls to less than 15 percent for 60 minutes.
+How many virtual machines instances will be running at 11:AM?
+4
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have web apps in the West US, Central US and East US Azure regions.
+You have the App Service plans shown in the following table.
+&amp;#x003C;img src=&quot;q66t4.png&quot; alt=&quot;q66t4.png&quot; title=&quot;q66t4&quot; width=&quot;583&quot; height=&quot;169&quot;/&amp;#x003E;
+
+You plan to create an additional App Service plan named ASP5 that will use the Linux operating system.
+You need to identify in which of the currently used locations you can deploy ASP5.
+
+What should you recommend?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>West US, Central US, or East US</text><feedback>This was such a trick question, like most questions on this exam. I will explain the asnwer. 
+
+You can always create a new App Service plan in any region. Granted the App Service plan can be set for 1 region only. 
+
+The key word in answer A is therefore &quot;OR&quot;. It is possible to use ASP5 in any of the listed regions, but ONLY IN ONE of the regions. If the answer said &quot;AND&quot; it would be incorrect. Since it says &quot;OR&quot;, A is Correct. It&apos;s absolutely ridiculous to ask questions like this in my opinion. It&apos;s like they are trying to set you up for doubt and confusion.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Central US only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>East US only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>West US only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

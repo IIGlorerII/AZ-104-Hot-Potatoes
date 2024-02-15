@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Ariel</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You are creating an Azure Kubernetes Services (AKS) cluster as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;imagen1.jpg&quot; alt=&quot;imagen1.jpg&quot; title=&quot;imagen1&quot; width=&quot;560&quot; height=&quot;709&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement 
+61 / 1468
+based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;img2.jpg&quot; alt=&quot;img2.jpg&quot; title=&quot;img2&quot; width=&quot;803&quot; height=&quot;365&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-Enable virtual nodes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Invrease the number of node pools</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Modify the kubernetes version setting</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-modify the network configuration setting</text><feedback>1) Modify the Network configuration setting &quot;To run an AKS cluster that supports 
+node pools for Windows Server containers, your cluster needs to use a network 
+policy that uses Azure CNI (advanced) network plugin.&quot; Ref: 
+https://learn.microsoft.com/en-us/azure/aks/learn/quick-windows-containerdeploy-cli 2) AKS-Managed Azure Active Directory Ref: 
+https://learn.microsoft.com/en-us/azure/aks/cluster-container-registryintegration?tabs=azure-cli</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-AKS-managed Azure Active Directory</text><feedback>1) Modify the Network configuration setting &quot;To run an AKS cluster that supports 
+node pools for Windows Server containers, your cluster needs to use a network 
+policy that uses Azure CNI (advanced) network plugin.&quot; Ref: 
+https://learn.microsoft.com/en-us/azure/aks/learn/quick-windows-containerdeploy-cli 2) AKS-Managed Azure Active Directory Ref: 
+https://learn.microsoft.com/en-us/azure/aks/cluster-container-registryintegration?tabs=azure-cli</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Authentication method</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Autorized IP ranges</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Kubernetes version</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Network configuration</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains an Azure Kubernetes Service (AKS) cluster 
+named Cluster1. Cluster1 hosts a node pool named Pool1 that has four nodes.
+You need to perform a coordinated upgrade of Cluster1. The solution must meet the
+following requirements:
+&amp;#x2022; Deploy two new nodes to perform the upgrade.
+&amp;#x2022; Minimize costs.
+How should you complete the command? To answer, select the appropriate options in the 
+answer area.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;img3.jpg&quot; alt=&quot;img3.jpg&quot; title=&quot;img3&quot; width=&quot;804&quot; height=&quot;224&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-add</text><feedback>Answer is WRONG. I assume there is a typo, where it says &quot;updates&quot; it should be 
+&quot;update&quot;. az aks nodepool **update** -n pool1 -g RG1 --cluster-name cluster1 
+**max-surge 2** https://learn.microsoft.com/enus/cli/azure/aks/nodepool?view=azure-cli-latest We want to edit an existing node 
+pool, so we cannot use &quot;add&quot;: &quot;Add a node pool to the managed Kubernetes 
+cluster.&quot; We want to update the properties of the node pool, so we need to use: az 
+aks nodepool update &quot;Update a node pool properties.&quot; We want to set it up to use 
+more nodes during an update, so this one is right: --max-surge &quot;Extra nodes used 
+to speed upgrade. When specified, it represents the number or percent used, eg. 
+5 or 33%.&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-get-updates</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-scale</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-updates</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-max-count 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-max-pods 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-max-surge 2</text><feedback>Answer is WRONG. I assume there is a typo, where it says &quot;updates&quot; it should be 
+&quot;update&quot;. az aks nodepool **update** -n pool1 -g RG1 --cluster-name cluster1 
+**max-surge 2** https://learn.microsoft.com/enus/cli/azure/aks/nodepool?view=azure-cli-latest We want to edit an existing node 
+pool, so we cannot use &quot;add&quot;: &quot;Add a node pool to the managed Kubernetes 
+cluster.&quot; We want to update the properties of the node pool, so we need to use: az 
+aks nodepool update &quot;Update a node pool properties.&quot; We want to set it up to use 
+more nodes during an update, so this one is right: --max-surge &quot;Extra nodes used 
+to speed upgrade. When specified, it represents the number or percent used, eg. 
+5 or 33%.&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-count 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription.
+You create the following file named Deploy.json.
+
+&amp;#x003C;img src=&quot;img4.jpg&quot; alt=&quot;img4.jpg&quot; title=&quot;img4&quot; width=&quot;819&quot; height=&quot;658&quot;/&amp;#x003E;
+
+&amp;#x003C;img src=&quot;img5.jpg&quot; alt=&quot;img5.jpg&quot; title=&quot;img5&quot; width=&quot;829&quot; height=&quot;306&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>the commands will create four new resources- YES</text><feedback>Answers: Yes / No / Yes Y: The 4 resources created are the RG1 resource group + 
+the 3 storage accounts N: the location of the storage accounts is defined by the 
+parameter &quot;location&quot; in the &quot;resources&quot; item that has the value of the Resource 
+Group (stated by the &quot;resourceGroup().location&quot; function that returns the 
+location of the resource group RG1 which is in Central US) Y: the names of the 
+storages account have the prefix given by the copyIndex() function in &quot;name&quot;: 
+&quot;[concat(copyIndex(),&apos;storage&apos;,uniqueString(resourceGroup().id))]&quot;, which starts 
+at the position 0</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the commands will create four new resources- NOT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the commands will create storage accounts in the west US azure region- YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the commands will create storage accounts in the west US azure region- NOT</text><feedback>Answers: Yes / No / Yes Y: The 4 resources created are the RG1 resource group + 
+the 3 storage accounts N: the location of the storage accounts is defined by the 
+parameter &quot;location&quot; in the &quot;resources&quot; item that has the value of the Resource 
+Group (stated by the &quot;resourceGroup().location&quot; function that returns the 
+location of the resource group RG1 which is in Central US) Y: the names of the 
+storages account have the prefix given by the copyIndex() function in &quot;name&quot;: 
+&quot;[concat(copyIndex(),&apos;storage&apos;,uniqueString(resourceGroup().id))]&quot;, which starts 
+at the position 0</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The first storage account that is created will have a prefix of 0.-YES</text><feedback>Answers: Yes / No / Yes Y: The 4 resources created are the RG1 resource group + 
+the 3 storage accounts N: the location of the storage accounts is defined by the 
+parameter &quot;location&quot; in the &quot;resources&quot; item that has the value of the Resource 
+Group (stated by the &quot;resourceGroup().location&quot; function that returns the 
+location of the resource group RG1 which is in Central US) Y: the names of the 
+storages account have the prefix given by the copyIndex() function in &quot;name&quot;: 
+&quot;[concat(copyIndex(),&apos;storage&apos;,uniqueString(resourceGroup().id))]&quot;, which starts 
+at the position 0</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The first storage account that is created will have a prefix of 0.-NOT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a 
+virtual machine scale set by using an Azure Resource Manager template.
+You need to ensure that NGINX is available on all the virtual machines after they are 
+deployed.
+
+What should you use?
+
+&amp;#x2022; A. Azure Custom Script Extension
+&amp;#x2022; B. Deployment Center in Azure App Service
+&amp;#x2022; C. the Publish-AzVMDscConfiguration cmdlet
+&amp;#x2022; D. the New-AzConfigurationAssignment cmdlet</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A</text><feedback>A is the answer. https://learn.microsoft.com/en-us/azure/virtualmachines/extensions/custom-script-windows The Custom Script Extension 
+downloads and runs scripts on Azure virtual machines (VMs). This extension is 
+useful for post-deployment configuration, software installation, or any other 
+configuration or management task. You can download scripts from Azure Storage 
+or GitHub, or provide them to the Azure portal at extension runtime.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains a resource group named RG1.
+You plan to use an Azure Resource Manager (ARM) template named template1 to deploy 
+resources. The solution must meet the following requirements:
+&amp;#x2022; Deploy new resources to RG1.
+&amp;#x2022; Remove all the existing resources from RG1 before deploying the new resources.
+How should you complete the command? To answer, select the appropriate options in the 
+answer area.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;img6.jpg&quot; alt=&quot;img6.jpg&quot; title=&quot;img6&quot; width=&quot;824&quot; height=&quot;333&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-Name</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-QueryString</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-ResourceGroupName</text><feedback>correct answer -Mode Specifies the deployment mode. The acceptable values for 
+this parameter are: Complete: In complete mode, Resource Manager deletes 
+resources that exist in the resource group but are not specified in the template. 
+Incremental: In incremental mode, Resource Manager leaves unchanged 
+resources that exist in the resource group but are not specified in the template. 
+https://learn.microsoft.com/en-us/powershell/module/az.resources/newazresourcegroupdeployment?view=azps-9.2.0 There is no such mode called &quot;All&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Tag</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-All</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Complete</text><feedback>correct answer -Mode Specifies the deployment mode. The acceptable values for 
+this parameter are: Complete: In complete mode, Resource Manager deletes 
+resources that exist in the resource group but are not specified in the template. 
+Incremental: In incremental mode, Resource Manager leaves unchanged 
+resources that exist in the resource group but are not specified in the template. 
+https://learn.microsoft.com/en-us/powershell/module/az.resources/newazresourcegroupdeployment?view=azps-9.2.0 There is no such mode called &quot;All&quot;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Incremental</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure App Service web app named app1.
+You configure autoscaling as shown in following exhibit.
+
+
+&amp;#x003C;img src=&quot;img7.jpg&quot; alt=&quot;img7.jpg&quot; title=&quot;img7&quot; width=&quot;796&quot; height=&quot;415&quot;/&amp;#x003E;
+
+You configure the autoscale rule criteria as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;img8.jpg&quot; alt=&quot;img8.jpg&quot; title=&quot;img8&quot; width=&quot;591&quot; height=&quot;817&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that answers each question based 
+on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;img9.jpg&quot; alt=&quot;img9.jpg&quot; title=&quot;img9&quot; width=&quot;802&quot; height=&quot;314&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-1 instance</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-2 instances</text><feedback>2, 15 Initial instance is 1 as specified in first figure. 80% for 15 minutes reaches 10 
+minutes duration, but haven&apos;t reached second turn of scale out, so only one new 
+instance is created. Since cool down time is 5 minutes, which means after one 
+scale happens, it will count 5 minutes before counting a new 10 minutes, so 15 
+minutes total.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-3 instances</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-4 instances</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-5 instances</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-1 minute</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-5 minutes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-10 minutes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-15 minutes</text><feedback>2, 15 Initial instance is 1 as specified in first figure. 80% for 15 minutes reaches 10 
+minutes duration, but haven&apos;t reached second turn of scale out, so only one new 
+instance is created. Since cool down time is 5 minutes, which means after one 
+scale happens, it will count 5 minutes before counting a new 10 minutes, so 15 
+minutes total.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription.
+You plan to deploy the Azure container instances shown in the following table.
+
+&amp;#x003C;img src=&quot;img10.jpg&quot; alt=&quot;img10.jpg&quot; title=&quot;img10&quot; width=&quot;612&quot; height=&quot;165&quot;/&amp;#x003E;
+
+Which instances can you deploy to a container group?
+&amp;#x2022; A. Instance1 only
+&amp;#x2022; B. Instance2 only
+&amp;#x2022; C. Instance1 and Instance2 only
+&amp;#x2022; D. Instance3 and Instance4 only</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D</text><feedback>nswer is D. https://learn.microsoft.com/en-us/azure/containerinstances/container-instances-container-groups Multi-container groups currently 
+support only Linux containers. For Windows containers, Azure Container 
+Instances only supports deployment of a single container instance. While we are 
+working to bring all features to Windows containers, you can find current 
+platform differences in the service</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a 
+virtual machine scale set by using an Azure Resource Manager template.
+You need to ensure that NGINX is available on all the virtual machines after they are 
+deployed.
+What should you use?
+
+&amp;#x2022; A. Azure Custom Script Extension
+&amp;#x2022; B. Deployment Center in Azure App Service
+&amp;#x2022; C. the New-AzConfigurationAssignment cmdlet
+&amp;#x2022; D. Azure AD Application Proxy</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A</text><feedback>A is the answer. https://learn.microsoft.com/en-us/azure/virtualmachines/extensions/custom-script-windows The Custom Script Extension 
+downloads and runs scripts on Azure virtual machines (VMs). This extension is 
+useful for post-deployment configuration, software installation, or any other 
+configuration or management task. You can download scripts from Azure Storage 
+or GitHub, or provide them to the Azure portal at extension runtime.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that has the public IP addresses shown in the following 
+table.
+
+
+&amp;#x003C;img src=&quot;img11.jpg&quot; alt=&quot;img11.jpg&quot; title=&quot;img11&quot; width=&quot;821&quot; height=&quot;482&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B</text><feedback>should be the correct answer instead. https://learn.microsoft.com/enus/azure/virtual-network/ip-services/public-ip-addresses#at-a-glance Azure 
+Firewall - Dynamic IPv4: No - Static IPv4: Yes - Dynamic IPv6: No - Static IPv6: No 
+https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/configurepublic-ip-firewall Azure Firewall is a cloud-based network security service that 
+protects your Azure Virtual Network resources. Azure Firewall requires at least 
+one public static IP address to be configured. This IP or set of IPs are used as the 
+external connection point to the firewall. Azure Firewall supports standard SKU 
+public IP addresses. Basic SKU public IP address and public IP prefixes aren&apos;t 
+supported.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription.
+You need to deploy a virtual machine by using an Azure Resource Manager (ARM) 
+template.
+How should you complete the template? To answer, select the appropriate options in the 
+answer area.
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;img12.jpg&quot; alt=&quot;img12.jpg&quot; title=&quot;img12&quot; width=&quot;841&quot; height=&quot;578&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-reference</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1-resourceld</text><feedback>- dependsON: resoureceID - storageProfile: ImageReference ref: 
+https://learn.microsoft.com/en-us/azure/virtual-machines/windows/ps-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>box1-Union</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-Array</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-image</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-imagereference</text><feedback>- dependsON: resoureceID - storageProfile: ImageReference ref: 
+https://learn.microsoft.com/en-us/azure/virtual-machines/windows/ps-template</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-vhd</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You need to configure a new Azure App Service app named WebApp1. The solution must 
+meet the following requirements:
+&amp;#x2022; WebApp1 must be able to verify a custom domain name of app.contoso.com.
+&amp;#x2022; WebApp1 must be able to automatically scale up to eight instances.
+&amp;#x2022; Costs and administrative effort must be minimized.
+Which pricing plan should you choose, and which type of record should you use to verify 
+the domain? To answer, select the appropriate options in the answer area.
+NOTE: Each correct answer is worth one point.
+
+&amp;#x003C;img src=&quot;img13.jpg&quot; alt=&quot;img13.jpg&quot; title=&quot;img13&quot; width=&quot;824&quot; height=&quot;593&quot;/&amp;#x003E;
+
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box1-Basic</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Free</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Shared</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box1-Standar</text><feedback>WebApp1 must be able to verify a custom domain name of app.contoso.com. All 
+paid tiers (Basic, Standard, Premium, Isolated) allow for custom domains. 
+WebApp1 must be able to automatically scale up to eight instances. Auto-scaling 
+is a feature that is available in the Standard, Premium, and Isolated tiers. It is not 
+available in the Basic tier, which allows you to manually scale up to 3 instances. 
+Costs and administrative effort must be minimized. Pricing Plan: Given these 
+requirements, the best option is the &quot;Standard&quot; tier. It offers both auto-scaling 
+and custom domains, while being less expensive than the Premium or Isolated 
+tiers. The Basic tier does not support auto-scaling, and the Free and Shared tiers 
+do not support custom domains or auto-scaling. For verifying a custom domain, 
+Azure uses a CNAME or TXT record. The A record cannot be used for domain 
+verification Pricing Plan: Standard Record Type: TXT</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-A</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-AAAA</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-PTR</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box2-TXT</text><feedback>WebApp1 must be able to verify a custom domain name of app.contoso.com. All 
+paid tiers (Basic, Standard, Premium, Isolated) allow for custom domains. 
+WebApp1 must be able to automatically scale up to eight instances. Auto-scaling 
+is a feature that is available in the Standard, Premium, and Isolated tiers. It is not 
+available in the Basic tier, which allows you to manually scale up to 3 instances. 
+Costs and administrative effort must be minimized. Pricing Plan: Given these 
+requirements, the best option is the &quot;Standard&quot; tier. It offers both auto-scaling 
+and custom domains, while being less expensive than the Premium or Isolated 
+tiers. The Basic tier does not support auto-scaling, and the Free and Shared tiers 
+do not support custom domains or auto-scaling. For verifying a custom domain, 
+Azure uses a CNAME or TXT record. The A record cannot be used for domain 
+verification Pricing Plan: Standard Record Type: TXT</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the virtual machines shown in the following 
+table.
+
+&amp;#x003C;img src=&quot;img14.jpg&quot; alt=&quot;img14.jpg&quot; title=&quot;img14&quot; width=&quot;863&quot; height=&quot;715&quot;/&amp;#x003E;
+
+In ComputeGallery1, you create a virtual machine image definition named Image1 as 
+shown in the image definition exhibit. (Click the Image Definition tab.
+
+&amp;#x003C;img src=&quot;img15.jpg&quot; alt=&quot;img15.jpg&quot; title=&quot;img15&quot; width=&quot;560&quot; height=&quot;743&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select 
+No,
+NOTE: Each correct selection is worth one point.
+
+
+&amp;#x003C;img src=&quot;img16.jpg&quot; alt=&quot;img16.jpg&quot; title=&quot;img16&quot; width=&quot;921&quot; height=&quot;315&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Opcion1-YES</text><feedback>So many people here are making assumptions without actually testing or 
+validating them. The answer is YYY - Tested in Lab. Neither the region, vCPU 
+count, nor the VM generation had any impact on my ability to select a particular 
+VM OS disk as a source for an image version.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Opcion1-NOT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Opcion2-YES</text><feedback>So many people here are making assumptions without actually testing or 
+validating them. The answer is YYY - Tested in Lab. Neither the region, vCPU 
+count, nor the VM generation had any impact on my ability to select a particular 
+VM OS disk as a source for an image version.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Opcion2-NOT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Opcion3-YES</text><feedback>So many people here are making assumptions without actually testing or 
+validating them. The answer is YYY - Tested in Lab. Neither the region, vCPU 
+count, nor the VM generation had any impact on my ability to select a particular 
+VM OS disk as a source for an image version.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Opcion3-NOT</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

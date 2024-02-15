@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>Joana</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title> AZ-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #94 Topic 5
+HOTSPOT - 
+You have two Azure virtual machines as shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q94-T5(1).png&quot; alt=&quot;AZ-104-Q94-T5(1).png&quot; title=&quot;AZ-104-Q94-T5(1)&quot; width=&quot;1005&quot; height=&quot;233&quot;/&amp;#x003E;
+You create the Azure DNS zones shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q94-T5(2).png&quot; alt=&quot;AZ-104-Q94-T5(2).png&quot; title=&quot;AZ-104-Q94-T5(2)&quot; width=&quot;349&quot; height=&quot;86&quot;/&amp;#x003E;
+You perform the following actions: &amp;#x2711; &amp;#x05C0; &amp;#x00A2; &amp;#x05C0; &amp;#x00BE; fabrikam.com, you add a virtual network link to vnet1 and enable auto registration. &amp;#x2711; For contoso.com, you assign vm1 and vm2 the Owner role. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. 
+
+Hot Area:
+&amp;#x003C;img src=&quot;AZ-104-Q94-T5(3).png&quot; alt=&quot;AZ-104-Q94-T5(3).png&quot; title=&quot;AZ-104-Q94-T5(3)&quot; width=&quot;907&quot; height=&quot;223&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1: Yes - The DNS A record for vm1 is added to contoso.com and has the IP address of 131.107.50.20</text><feedback>The DNS zone uses the Public IP address of vm1.
+
+https://docs.microsoft.com/en-us/azure/dns/private-dns-autoregistration
+
+&amp;#x003C;img src=&quot;AZ-104-Q94-T5(4).png&quot; alt=&quot;AZ-104-Q94-T5(4).png&quot; title=&quot;AZ-104-Q94-T5(4)&quot; width=&quot;916&quot; height=&quot;261&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: Yes - The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.4.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 3: Yes - The DNS A record for vm2 is added to fabrikam.com and has the IP address of 10.0.1.5.</text><feedback>Reference: https://docs.microsoft.com/en-us/azure/dns/dns-zones-records https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: No - The DNS A record for vm1 is added to contoso.com and has the IP address of 131.107.50.20</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: No - The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.4.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 3: No - The DNS A record for vm2 is added to fabrikam.com and has the IP address of 10.0.1.5.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #93 Topic 5
+HOTSPOT - 
+You have the Azure virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(1).png&quot; alt=&quot;AZ-104-Q93-T5(1).png&quot; title=&quot;AZ-104-Q93-T5(1)&quot; width=&quot;308&quot; height=&quot;119&quot;/&amp;#x003E;
+VNET1, VNET2, and VNET3 are peered.
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(2).jpg&quot; alt=&quot;AZ-104-Q93-T5(2).jpg&quot; title=&quot;AZ-104-Q93-T5(2)&quot; width=&quot;421&quot; height=&quot;88&quot;/&amp;#x003E;
+VNET1 and VNET2 are linked to an Azure private DNS zone named contoso.com that contains the records shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(3).jpg&quot; alt=&quot;AZ-104-Q93-T5(3).jpg&quot; title=&quot;AZ-104-Q93-T5(3)&quot; width=&quot;423&quot; height=&quot;92&quot;/&amp;#x003E;
+The virtual networks are configured to use the DNS servers shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(4).jpg&quot; alt=&quot;AZ-104-Q93-T5(4).jpg&quot; title=&quot;AZ-104-Q93-T5(4)&quot; width=&quot;423&quot; height=&quot;92&quot;/&amp;#x003E;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. 
+Hot Area:
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(5).png&quot; alt=&quot;AZ-104-Q93-T5(5).png&quot; title=&quot;AZ-104-Q93-T5(5)&quot; width=&quot;783&quot; height=&quot;282&quot;/&amp;#x003E;
+
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(6).png&quot; alt=&quot;AZ-104-Q93-T5(6).png&quot; title=&quot;AZ-104-Q93-T5(6)&quot; width=&quot;783&quot; height=&quot;282&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. Box 1: Yes - From VM1, server1.contoso.com resolves to 131.107.3.3.</text><feedback>VM1 is in VNET1. In VNET1 Server1 resolves to 131.107.3.3
+
+&amp;#x003C;img src=&quot;AZ-104-Q93-T5(3).jpg&quot; alt=&quot;AZ-104-Q93-T5(3).jpg&quot; title=&quot;AZ-104-Q93-T5(3)&quot; width=&quot;423&quot; height=&quot;92&quot;/&amp;#x003E;
+
+YNN VM2 and VM3 are both using the same DNS, and that DNS server is in VNET3 that cannot resolve the private DNS zone.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Box 2: No - From VM2, server1.contoso.com resolves to 131.107.3.3.</text><feedback>VM2 is in VNET2. VNET2 uses custom DNS server 192.168.05
+
+Hi Admin, This looks like incomplete question or something is missing. Could you please correct this and add more discussion?</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 3: Yes - From VM2, server1.contoso.com resolves to 131.107.3.3.</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #92 Topic 5
+You have an on-premises network that contains a database server named dbserver1. 
+You have an Azure subscription. 
+You plan to deploy three Azure virtual machines. Each virtual machine will be deployed to a separate availability zone. 
+You need to configure an Azure VPN gateway for a site-to-site VPN. The solution must ensure that the virtual machines can connect to dbserver1. 
+Which type of public IP address SKU and assignment should you use for the gateway?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. a basic SKU and a static IP address assignment</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. a standard SKU and a static IP address assignment</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. a basic SKU and a dynamic IP address assignment</text><feedback>Correct Answer: C 
+
+VPN gateway supports only Dynamic. 
+Note: VPN gateway requires a public IP address for its configuration. A public IP address is used as the external connection point of the VPN. 
+Specify in the values for Public IP address. These settings specify the public IP address object that gets associated to the VPN gateway. The public IP address is dynamically assigned to this object when the VPN gateway is created. The only time the Public IP address changes is when the gateway is deleted and re- created. 
+
+Reference: https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #91 Topic 5
+You have an Azure subscription that contains two virtual machines named VM1 and VM2. 
+You create an Azure load balancer. 
+You plan to create a load balancing rule that will load balance HTTPS traffic between VM1 and VM2. Which two additional load balancer resources should you create before you can create the load balancing rule? Each correct answer presents part of the solution. 
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. a frontend IP address</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. an inbound NAT rule</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. a virtual network</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. a backend pool</text><feedback>Correct Answer: DE 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/load-balancer/components</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. a health probe</text><feedback>Selected Answer: DE 
+D and E. You can&apos;t create a LB without FrontEnd IP, so if we have a LB we also have a FrontEnd IP already. You can however create a LB without a backend pool and without any rules. If you want to add a rule to your LB later you have to create a backend pool and health probe first. Those are mandatory properties for a rule. I also tested it in my lab to be sure.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #90 Topic 5
+HOTSPOT - 
+You have an Azure subscription that contains the virtual machines shown in the following table:
+&amp;#x003C;img src=&quot;AZ-104-Q90-T5(1).png&quot; alt=&quot;AZ-104-Q90-T5(1).png&quot; title=&quot;AZ-104-Q90-T5(1)&quot; width=&quot;756&quot; height=&quot;106&quot;/&amp;#x003E;
+VM1 and VM2 use public IP addresses. From Windows Server 2019 on VM1 and VM2, you allow inbound Remote Desktop connections. Subnet1 and Subnet2 are in a virtual network named VNET1. The subscription contains two network security groups (NSGs) named NSG1 and NSG2. NSG1 uses only the default rules. NSG2 uses the default rules and the following custom incoming rule: 
+&amp;#x2711; Priority: 100 
+&amp;#x2711; Name: Rule1 
+&amp;#x2711; Port: 3389 
+&amp;#x2711; Protocol: TCP 
+&amp;#x2711; Source: Any 
+&amp;#x2711; Destination: Any 
+&amp;#x2711; Action: Allow 
+NSG1 is associated to Subnet1. NSG2 is associated to the network interface of VM2. 
+For each of the following statements, select Yes if the statement is true. Otherwise, select No. 
+NOTE: Each correct selection is worth one point. 
+Hot Area:
+&amp;#x003C;img src=&quot;AZ-104-Q90-T5(2).png&quot; alt=&quot;AZ-104-Q90-T5(2).png&quot; title=&quot;AZ-104-Q90-T5(2)&quot; width=&quot;819&quot; height=&quot;288&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. No - From the Internet, you can connect to VM1 by using Remote Desktop</text><feedback>Answer is correct . No, Yes, Yes. 
+
+No: VM1 has default rules which denies any port open for inbound rules Yes: VM2 has custom rule allowing RDP port Yes: VM1 and VM2 are in the same Vnet. by default, communication are allowed</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Yes - From the Internet, you can connect to VM2 by using Remote Desktop</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Yes From VM1. you can connect to VM2 by using Remote Desktop</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #89 Topic 5
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers. 
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines. 
+You need to ensure that visitors are serviced by the same web server for each request. 
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Floating IP (direct server return) to Disabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. a health probe</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Session persistence to Client IP and Protocol</text><feedback>Correct Answer: D 
+
+With Sticky Sessions when a client starts a session on one of your web servers, session stays on that specific server. To configure An Azure Load-Balancer For Sticky Sessions set Session persistence to Client IP. On the following image you can see sticky session configuration:
+
+&amp;#x003C;img src=&quot;AZ-104-Q89-T5(1).png&quot; alt=&quot;AZ-104-Q89-T5(1).png&quot; title=&quot;AZ-104-Q89-T5(1)&quot; width=&quot;1267&quot; height=&quot;617&quot;/&amp;#x003E;
+
+Note: There are several versions of this question in the exam. The question can have other incorrect answer options, including the following: 
+1. Idle Time-out (minutes) to 20 
+2. Protocol to UDP 
+
+Reference: https://cloudopszone.com/configure-azure-load-balancer-for-sticky-sessions/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #88 Topic 5 
+HOTSPOT - 
+You have an Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address space of 10.0.0.0/16 and contains the VPN Gateway and subnets in the following table:
+&amp;#x003C;img src=&quot;AZ-104-Q88-T5(1).png&quot; alt=&quot;AZ-104-Q88-T5(1).png&quot; title=&quot;AZ-104-Q88-T5(1)&quot; width=&quot;399&quot; height=&quot;135&quot;/&amp;#x003E;
+Subnet1 contains a virtual appliance named VM1 that operates as a router. 
+You create a routing table named RT1. 
+You need to route all inbound traffic from the VPN gateway to VNet1 through VM1. 
+How should you configure RT1? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point. 
+Hot Area:
+&amp;#x003C;img src=&quot;AZ-104-Q88-T5(2).png&quot; alt=&quot;AZ-104-Q88-T5(2).png&quot; title=&quot;AZ-104-Q88-T5(2)&quot; width=&quot;574&quot; height=&quot;452&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Address prefix: 10.0.0.0/16</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q88-T5(3).png&quot; alt=&quot;AZ-104-Q88-T5(3).png&quot; title=&quot;AZ-104-Q88-T5(3)&quot; width=&quot;574&quot; height=&quot;452&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Address prefix: 10.0.1.0/24</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Address prefix: 10.0.254.0/24</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Next hop type: Virtual appliance</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q88-T5(3).png&quot; alt=&quot;AZ-104-Q88-T5(3).png&quot; title=&quot;AZ-104-Q88-T5(3)&quot; width=&quot;574&quot; height=&quot;452&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Next hop type: Virtual network</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Next hop type: Virtual network gateway</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assigned to: GatewaySubnet</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q88-T5(3).png&quot; alt=&quot;AZ-104-Q88-T5(3).png&quot; title=&quot;AZ-104-Q88-T5(3)&quot; width=&quot;574&quot; height=&quot;452&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assigned to: Subnet0</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Assigned to: Subnet1 and Subnet2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #87 Topic 5 
+You have an Azure subscription. 
+You are deploying an Azure Kubernetes Service (AKS) cluster that will contain multiple pods. The pods will use kubernet networking. 
+You need to restrict network traffic between the pods. 
+What should you configure on the AKS cluster?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. the Azure network policy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. the Calico network policy</text><feedback>Correct Answer: B 
+
+Reference: https://docs.microsoft.com/en-us/azure/aks/use-network-policies</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. pod security policies</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. an application security group</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #86 Topic 5 
+You have an Azure subscription that uses the public IP addresses shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q87-T5(1).png&quot; alt=&quot;AZ-104-Q87-T5(1).png&quot; title=&quot;AZ-104-Q87-T5(1)&quot; width=&quot;582&quot; height=&quot;148&quot;/&amp;#x003E;
+You need to create a public Azure Standard Load Balancer. 
+Which public IP addresses can you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. IP1, IP2, and IP3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. IP2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. IP3 only</text><feedback>Correct Answer: C 
+
+Matching SKUs are required for load balancer and public IP resources. You can&apos;t have a mixture of Basic SKU resources and standard SKU resources. 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. IP1 and IP3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #85 Topic 5 
+You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers. 
+You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines. 
+You need to ensure that visitors are serviced by the same web server for each request. 
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. Session persistence to Client IP and protocol</text><feedback>Correct Answer: A 
+
+Reference: 
+https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-distribution-mode?tabs=azure-portal</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Protocol to UDP</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Session persistence to None</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Floating IP (direct server return) to Enabled</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #84 Topic 5 
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. 
+After you answer a question in this section, you will NOT be able to return to it. 
+As a result, these questions will not appear in the review screen. 
+You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate. 
+From Azure, you download and install the VPN client configuration package on a computer named Computer2. 
+You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2. Solution: On Computer2, you set the Startup type for the IPSec Policy Agent service to Automatic. Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. No</text><feedback>Correct Answer: B 
+
+Each client computer that connects to a VNet using Point-to-Site must have a client certificate installed. You generate a client certificate from the self-signed root certificate, and then export and install the client certificate. If the client certificate is not installed, authentication fails. 
+
+Reference: https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #83 Topic 5 
+HOTSPOT - 
+You have a network security group (NSG) named NSG1 that has the rules defined in the exhibit. (Click the Exhibit tab.)
+&amp;#x003C;img src=&quot;AZ-104-Q83-T5(1).png&quot; alt=&quot;AZ-104-Q83-T5(1).png&quot; title=&quot;AZ-104-Q83-T5(1)&quot; width=&quot;876&quot; height=&quot;608&quot;/&amp;#x003E;
+NSG1 is associated to a subnet named Subnet1. Subnet1 contains the virtual machines shown in the following table.
+&amp;#x003C;img src=&quot;AZ-104-Q83-T5(2).png&quot; alt=&quot;AZ-104-Q83-T5(2).png&quot; title=&quot;AZ-104-Q83-T5(2)&quot; width=&quot;487&quot; height=&quot;92&quot;/&amp;#x003E;
+You need to add a rule to NSG1 to ensure that VM1 can ping VM2. The solution must use the principle of least privilege. 
+How should you configure the rule? To answer, select the appropriate options in the answer area. 
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;AZ-104-Q83-T5(3).png&quot; alt=&quot;AZ-104-Q83-T5(3).png&quot; title=&quot;AZ-104-Q83-T5(3)&quot; width=&quot;655&quot; height=&quot;625&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Direction: Inbound</text><feedback>&amp;#x003C;img src=&quot;AZ-104-Q83-T5(4).png&quot; alt=&quot;AZ-104-Q83-T5(4).png&quot; title=&quot;AZ-104-Q83-T5(4)&quot; width=&quot;655&quot; height=&quot;625&quot;/&amp;#x003E;
+
+Reference: https://www.thomasmaurer.ch/2019/09/how-to-enable-ping-icmp-echo-on-an-azure-vm/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Direction: Outbound</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Source: Any</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Source: 10.1.0.10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Source: 10.1.0.11</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Source: 10.1.0.10; 10.1.0.11</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Source: 10.1.0.0/28</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Destination: Any</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Destination: 10.1.0.10</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Destination: 10.1.0.11</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Destination: 10.1.0.10; 10.1.0.11</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Destination: 10.1.0.0/28</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Priority: 110</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Priority: 111</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Priority: 112</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

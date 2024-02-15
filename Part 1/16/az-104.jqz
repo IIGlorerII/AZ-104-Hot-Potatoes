@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Stanly</dc:creator>
+    <dc:creator>Martin Holmes</dc:creator>
+    <dc:creator>UNREGISTERED</dc:creator>
+    <dc:title>az-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>az-104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>1</include-reading>
+<reading-title>A Quiz made with JQuiz</reading-title>
+<reading-text>This is a typical JQuiz quiz. In this box, there is a reading text. The reading text may be entered directly into the JQuiz program by choosing &amp;#x003C;strong&amp;#x003E;File / Add Reading Text&amp;#x003C;/strong&amp;#x003E;. Alternatively, you may choose not to include a reading text at all. All of the Hot Potatoes applications allow you to include a reading text.
+
+On the other side of the screen, you&apos;ll see the first of the questions. You can answer the first question by clicking on one of the answer buttons; you can keep choosing answers until you get one which is correct. When you&apos;ve answered a question, you can move on to the next one using the arrow buttons above the question. You can also choose to see all the questions together, by clicking on the &quot;Show all questions&quot; button.</reading-text>
+
+</reading>
+
+<questions><question-record><question>Question #31Topic 4
+You need to deploy an Azure virtual machine scale set that contains five
+instances as quickly as possible.
+What should you do?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Deploy five virtual machines. Modify the Availability Zones settings
+for each virtual machine.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Deploy five virtual machines. Modify the Size setting for each virtual
+machine</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Deploy one virtual machine scale set that is set to VM (virtual
+machines) orchestration mode.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Deploy one virtual machine scale set that is set to ScaleSetVM
+orchestration mode</text><feedback>Answer is correct (D). the main idea is to create 5 VMs asap. To do this you should
+let Azure do it for you with the least steps. either by using ARM template which is
+not mentioned here or VM scale set. That leaves us with 2 options C or D. C is like
+unmanaged Scale set where you add the VMs manually to the scale set as a
+unmanaged group. while D is managed scale set by Azure where it is based on
+configuration set during the setup of the VM Scale set</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #32Topic 4
+You plan to create the Azure web apps shown in the following table
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q32-T-4.png&quot; alt=&quot;az-104-Q32-T-4.png&quot; title=&quot;az-104-Q32-T-4&quot; width=&quot;495&quot; height=&quot;183&quot;/&amp;#x003E;
+Question #32Topic 4
+You plan to create the Azure web apps shown in the following table.
+What is the minimum number of App Service plans you should create for the
+web apps?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>2</text><feedback>Correct Answer: B .NET Core 3.0: Windows and Linux ASP .NET V4.7: Windows only
+PHP 7.3: Windows and Linux Ruby 2.6: Linux only Also, you can&amp;#x2019;t use Windows and
+Linux Apps in the same App Service Plan, because when you create a new App
+Service plan you have to choose the OS type. You can&apos;t mix Windows and Linux
+apps in the same App Service plan. So, you need 2 ASPs. Reference:
+https://docs.microsoft.com/en-us/azure/app-service/overview
+upvoted 76 times</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q33-T-4.png&quot; alt=&quot;az-104-Q33-T-4.png&quot; title=&quot;az-104-Q33-T-4&quot; width=&quot;621&quot; height=&quot;195&quot;/&amp;#x003E;
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q33-T-4(2).png&quot; alt=&quot;az-104-Q33-T-4(2).png&quot; title=&quot;az-104-Q33-T-4(2)&quot; width=&quot;656&quot; height=&quot;604&quot;/&amp;#x003E;
+Question #33Topic 4
+HOTSPOT -
+You have a pay-as-you-go Azure subscription that contains the virtual
+machines shown in the following table.
+You create the budget shown in the following exhibit.
+The AG1 action group contains a user named admin@contoso.com only.
+Use the drop-down menus to select the answer choice that completes each
+statement based on the information presented in the graphic
+
+
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q33-T-4(3).png&quot; alt=&quot;az-104-Q33-T-4(3).png&quot; title=&quot;az-104-Q33-T-4(3)&quot; width=&quot;658&quot; height=&quot;249&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1. VM1 and VM2 are turned off</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1. VM1 and VM2 continue to run</text><feedback>Box 1: VM1 and VM2 continue to run The Budget&amp;#x2019;s scope is RG1,
+so only VM1 will be handled. When the budget thresholds you&apos;ve created are
+exceeded, only notifications are triggered. To stop resources, you need to setup
+additional things, none of which are mentioned in the question. 
+VM2. However, when the budget thresholds you&apos;ve created are exceeded,
+only notifications are triggered. None of your resources are affected and
+your consumption isn&apos;t stopped</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1. VM1 is turned off, and VM2 continues to run</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2. No email notification will be sent each month</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2. One email notification will be sent each month</text><feedback>ox 2: one email
+notification will be sent each month. Budget alerts have scope in Resource Group
+RG1, which includes VM1, but not VM2. VM1 consumes 20 Euro/day, so 20 euros *
+30 days = 600 euros. The 50%, 500 Euro limit, will be reached in 25 days (25*20 =
+500), so an email will be sent. The 70% and 100% alert conditions will not be
+reached within a month, and they don&apos;t trigger email actions anyway, because
+AG1 action group contains a user. Credit alerts: Credit alerts are generated
+automatically at 90% and at 100% of your Azure credit balance. Whenever an alert
+is generated, it&apos;s reflected in cost alerts and in the email sent to the account
+owners. 90% and 100% will not be reached though.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2. Two email notification will be sent each month</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2, Three email notification will be sent each month</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>uestion #34Topic 4
+Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription named Subscription1. Subscription1
+contains a resource group named RG1. RG1 contains resources that were
+deployed by using templates.
+You need to view the date and time when the resources were created in RG1.
+Solution: From the Subscriptions blade, you select the subscription, and then
+click Programmatic deployment.
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Correct Answer: B - No From the RG1 blade, click Deployments. You see a history
+of deployment for the resource group. Reference: https://docs.microsoft.com/en-
+us/azure/azure-resource-manager/templates/template-tutorial-create-first-
+template?tabs=azure-powershell</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #35Topic 4
+Note: This question is part of a series of questions that present the same
+scenario. Each question in the series contains a unique solution that might
+meet the stated goals. Some question sets might have more than one correct
+solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to
+it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains the resources shown in the
+following table
+
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q35-T-4.png&quot; alt=&quot;az-104-Q35-T-4.png&quot; title=&quot;az-104-Q35-T-4&quot; width=&quot;516&quot; height=&quot;202&quot;/&amp;#x003E;
+
+VM1 connects to VNET1.
+You need to connect VM1 to VNET2.
+Solution: You create a new network interface, and then you add the network
+interface to VM1.
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Correct Answer: B - No Instead, you should delete VM1. Then recreate VM1 and
+add the network interface for VM1. To migrate a VM from a VNET to another
+VNET. The only option is to delete the VM and redeploy it using a new NIC and NIC
+connected to VNET2. Note: When you create an Azure Virtual Machine (VM), you
+must create a Virtual Network (VNet) or use an existing VNet. You can change the subnet a VM is connected to after it&apos;s created, but you cannot change the VNet.
+You can also change the size of a VM. Reference: https://docs.microsoft.com/en-
+us/azure/virtual-machines/windows/network-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #36Topic 4
+You have an Azure Active Directory (Azure AD) tenant named adatum.com
+that contains the users shown in the following table.
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q36-T-4.png&quot; alt=&quot;az-104-Q36-T-4.png&quot; title=&quot;az-104-Q36-T-4&quot; width=&quot;348&quot; height=&quot;123&quot;/&amp;#x003E;
+Adatum.com has the following configurations:
+&amp;#x2711; Users may join devices to Azure AD is set to User1.
+&amp;#x2711; Additional local administrators on Azure AD joined devices is set to None.
+You deploy Windows 10 to a computer named Computer1. User1 joins
+Computer1 to adatum.com.
+You need to identify the local Administrator group membership on
+Computer1.
+Which users are members of the local Administrators group?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>User1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1 and User2 only</text><feedback>Answer is correct . User 1 and User 2 only. First the only user who can join Azure
+AD devices is User 1 . since User1 is admin on machine. So, the machine can be
+added. Second, the ones that can be local admins on Windows 10 are managed
+under &quot;Additional local administrators&quot; , since this is not mentioned, so we can
+assume default. By default, the ones are global administrator and device owners
+(device administrators). This lead us to User1 and User2 only</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1, User2, and User3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>User1, User2, User3, and User4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #37Topic 4
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q37-T-4.png&quot; alt=&quot;az-104-Q37-T-4.png&quot; title=&quot;az-104-Q37-T-4&quot; width=&quot;597&quot; height=&quot;351&quot;/&amp;#x003E;
+
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q37-T-4(2).png&quot; alt=&quot;az-104-Q37-T-4(2).png&quot; title=&quot;az-104-Q37-T-4(2)&quot; width=&quot;637&quot; height=&quot;268&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1: can be moved to RG2 (YES)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: can be moved to RG2 (NO)</text><feedback>Box 1: No -RG2 is read only. ReadOnly means authorized users can read a resource, but
+they cannot delete or update the resource.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: can be moved to RG3 (YES)</text><feedback>Box 2: Yes -</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: can be moved to RG3 (NO)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 3: can be moved to RG4 (YES)</text><feedback>Box 3: Yes -
+Note:
+App Service resources are region-specific and cannot be moved directly
+across regions. You can move the App Service resource by creating a copy of
+your existing App Service resource in the target region, then move your
+content over to the new app. You can then delete the source app and App
+Service plan.
+To make copying your app easier, you can clone an individual App Service
+app into an App Service plan in another region.
+Reference:
+https://docs.microsoft.com/en-us/azure/app-service/manage-move-across-
+regions
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/managemen
+t/move-limitations/app-service-move-limitations</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 3: can be moved to RG4 (NO)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #38Topic 4
+HOTSPOT -
+You have an Azure subscription named Subscription1 that contains the
+following resource group:
+&amp;#x2711; Name: RG1
+&amp;#x2711; Region: West US
+&amp;#x2711; Tag: `tag1`: `value1`
+You assign an Azure policy named Policy1 to Subscription1 by using the
+following configurations:
+&amp;#x2711; Exclusions: None
+&amp;#x2711; Policy definition: Append a tag and its value to resources
+&amp;#x2711; Assignment name: Policy1
+&amp;#x2711; Parameters:
+&amp;#x2711; Tag name: tag2
+Tag value: value2 -
+After Policy1 is assigned, you create a storage account that has the following
+configuration:
+&amp;#x2711; Name: storage1
+&amp;#x2711; Location: West US
+&amp;#x2711; Resource group: RG1
+&amp;#x2711; Tags: `tag3`: `value3`
+You need to identify which tags are assigned to each resource.
+What should you identify? To answer, select the appropriate options in the
+answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q38-T-4.png&quot; alt=&quot;az-104-Q38-T-4.png&quot; title=&quot;az-104-Q38-T-4&quot; width=&quot;713&quot; height=&quot;298&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1. &quot;tag1&quot;: &quot;value1&quot; only</text><feedback>Tag assigned to RG1 - tag1: value1 Tag assigned to storage1: tag2: value2 and
+tag3: value3 RG1 already exists so does not receive tag2. According to the
+documentation: &quot;Add a tag to resources&quot; Adds the specified tag and value when
+any resource missing this tag is created or updated. Existing resources can be
+remediated by triggering a remediation task. If the tag exists with a different
+value it will not be changed. Does not modify tags on resource groups.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-
+group-using-tags</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1. &quot;tag2&quot;: &quot;value2&quot; only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1. &quot;tag1&quot;: &quot;value1&quot; only and &quot;tag2&quot;: &quot;value2&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2. &quot;tag3&quot;: &quot;value3&quot; only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: &quot;tag1&quot;: &quot;value1&quot; and &quot;tag3&quot;: &quot;value3&quot; only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: &quot;tag2&quot;: &quot;value2&quot; and &quot;tag3&quot;: &quot;value3&quot; only</text><feedback>Tag assigned to RG1 - tag1: value1 Tag assigned to storage1: tag2: value2 and
+tag3: value3 RG1 already exists so does not receive tag2. According to the
+documentation: &quot;Add a tag to resources&quot; Adds the specified tag and value when
+any resource missing this tag is created or updated. Existing resources can be
+remediated by triggering a remediation task. If the tag exists with a different
+value it will not be changed. Does not modify tags on resource groups.
+
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-
+group-using-tags</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: &quot;tag1&quot;: &quot;value1&quot;, &quot;tag2&quot;: &quot;value2&quot;, and &quot;tag3&quot;, &quot;value3&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #39Topic 4
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q39-T-4.png&quot; alt=&quot;az-104-Q39-T-4.png&quot; title=&quot;az-104-Q39-T-4&quot; width=&quot;634&quot; height=&quot;400&quot;/&amp;#x003E;
+
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q39-T-4(2).png&quot; alt=&quot;az-104-Q39-T-4(2).png&quot; title=&quot;az-104-Q39-T-4(2)&quot; width=&quot;683&quot; height=&quot;319&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Box 1: 0-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 4-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 6-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 12-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 1: 60 -</text><feedback>One alert per minute will trigger one email per minute.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: 0-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: 4-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: 6-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: 12 -</text><feedback>No more than 1 SMS every 5 minutes can be send, which equals 12 per
+hour.
+Note: Rate limiting is a suspension of notifications that occurs when too
+many are sent to a particular phone number, email address or device. Rate
+limiting ensures that alerts are manageable and actionable.
+The rate limit thresholds are:
+&amp;#x2711; SMS: No more than 1 SMS every 5 minutes.
+&amp;#x2711; Voice: No more than 1 Voice call every 5 minutes.
+&amp;#x2711; Email: No more than 100 emails in an hour.
+&amp;#x2711; Other actions are not rate limited.
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-rate-
+limiting</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Box 2: 60-</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #40Topic 4
+You have an Azure subscription named Subscription1 that contains the
+resources shown in the following table.
+&amp;#x003C;img src=&quot;../../../users/Stanly/Pictures/az-104-Q40-T-4.png&quot; alt=&quot;az-104-Q40-T-4.png&quot; title=&quot;az-104-Q40-T-4&quot; width=&quot;636&quot; height=&quot;290&quot;/&amp;#x003E;
+
+You plan to use Vault1 for the backup of as many virtual machines as
+possible.
+Which virtual machines can be backed up to Vault1?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. VM1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. VM3 and VMC only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. VM1, VM2, VM3, VMA, VMB, and VMC</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. VM1, VM3, VMA, and VMC only</text><feedback>To create a vault to protect virtual machines, the vault must be in the same
+region as the virtual machines. If you have virtual machines in several
+regions, create a
+Recovery Services vault in each region.
+Reference:
+https://docs.microsoft.com/bs-cyrl-ba/azure/backup/backup-create-rs-vault
+
+Answer is correct. D The following criteria is important for vault backup, the data
+source (VM) must be in the same region and subscription. It works with any
+resource group or any Operating system. Accordingly the answer is correct.
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-vms-prepare</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. VM1 and VM3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Question #41Topic 4
+You have an Azure Kubernetes Service (AKS) cluster named AKS1.
+You need to configure cluster autoscaler for AKS1.
+Which two tools should you use? Each correct answer presents a complete
+solution.
+NOTE: Each correct selection is worth one point.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>A. the kubectl command</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. the az aks command</text><feedback>Correct Answer: B and D We need to configure autoscaler for the AKS cluster. We
+do not want to scale Kubernetes pods, so kubectl command is not needed. A:
+kubectl command is used for configuring Kubernetes and not AKS cluster. B: The
+az aks command is used for the AKS cluster configuration. C: Set-AzVm cmdlet is
+used for VMs. D: Azure portal, under node pools, press scale, then choose auto
+scale. E: Set-AzAks, creates or updates an AKS cluster, the correct cmdlet is Set-
+AzAksCluster. AKS clusters can scale in one of two ways: - The cluster autoscaler
+watches for pods that can&apos;t be scheduled on nodes because of resource
+constraints. The cluster then automatically increases the number of nodes. - The
+horizontal pod autoscaler uses the Metrics Server in a Kubernetes cluster to
+monitor the resource demand of pods. If an application needs more resources,
+the number of pods is automatically increased to meet the demand. Reference:
+https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. the Set-AzVm cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. the Azure porta</text><feedback>Correct Answer: B and D We need to configure autoscaler for the AKS cluster. We
+do not want to scale Kubernetes pods, so kubectl command is not needed. A:
+kubectl command is used for configuring Kubernetes and not AKS cluster. B: The
+az aks command is used for the AKS cluster configuration. C: Set-AzVm cmdlet is
+used for VMs. D: Azure portal, under node pools, press scale, then choose auto
+scale. E: Set-AzAks, creates or updates an AKS cluster, the correct cmdlet is Set-
+AzAksCluster. AKS clusters can scale in one of two ways: - The cluster autoscaler
+watches for pods that can&apos;t be scheduled on nodes because of resource
+constraints. The cluster then automatically increases the number of nodes. - The
+horizontal pod autoscaler uses the Metrics Server in a Kubernetes cluster to
+monitor the resource demand of pods. If an application needs more resources,
+the number of pods is automatically increased to meet the demand. Reference:
+https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>E. the Set-AzAks cmdle</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Question #42Topic 4
+You create the following resources in an Azure subscription:
+&amp;#x2711; An Azure Container Registry instance named Registry1
+&amp;#x2711; An Azure Kubernetes Service (AKS) cluster named Cluster1
+You create a container image named App1 on your administrative
+workstation.
+You need to deploy App1 to Cluster1.
+What should you do first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Run the docker push command.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Create an App Service plan</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Run the az acr build command.</text><feedback>You should sign in and push a container image to Container Registry.
+Run the az acr build command to build and push the container image. az acr
+build \
+--image contoso-website \
+--registry $ACR_NAME \
+--file Dockerfile .
+Reference:
+https://docs.microsoft.com/en-us/learn/modules/aks-deploy-container-app/5-
+exercise-deploy-app
+
+Answer is Correct . C. The question has a lot of missing steps. If we go with
+Answer A. then we need the following: - Make sure that ACR is integrated to AKS. -
+docker tag has been run with the right ACR. - docker push - create kubectl apply
+with the right deployment and right ACR. In case we go with Answer C. - No need
+for docker push or tag. - still need to make sure that ACR is integrated to AKS. -
+then run kubectl apply</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. Run the az aks create command.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Choose the correct answer for each question.</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>jcloze1.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>0</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>Next example</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#ffffff</page-bg-color>
+<title-color>#000033</title-color>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000ff</link-color>
+<vlink-color>#0000cc</vlink-color>
+<nav-bar-color>#000066</nav-bar-color>
+<formmail-url>http://web.yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1></user-string-1>
+<user-string-2></user-string-2>
+<user-string-3></user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

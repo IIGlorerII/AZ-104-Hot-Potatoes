@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>J.</dc:creator>
+    <dc:title>AZ-104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title> 
+AZ-104 </title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>You have an Azure subscription that contains the storage account shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;P59T3-1.png&quot; alt=&quot;P59T3-1.png&quot; title=&quot;P59T3-1&quot; width=&quot;964&quot; height=&quot;457&quot;/&amp;#x003E;
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic
+
+NOTE: Each correct selection is worth one point.
+&amp;#x003C;img src=&quot;P59T3-2.png&quot; alt=&quot;P59T3-2.png&quot; title=&quot;P59T3-2&quot; width=&quot;751&quot; height=&quot;355&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>The maximum number of additional stroed acces polices that you can creat for container1 is - n &amp;#x00BA; 0</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional stroed acces polices that you can creat for container1 is n &amp;#x00BA; 1</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional stroed acces polices that you can creat for container1 is n &amp;#x00BA; 3</text><feedback>Tested in LAB, you can have a maximum of 5 stored access policies and a maximum of 2 immutable blob storage policies. In the question body we can see that there are 2 storage access policies already created and 1 immutable blob storage policy as well. So the correct answer, since we are asked about how many other policies we can create, is box1: 3 and box2: 1
+upvoted 1 times
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;img src=&quot;P59T3-2.png&quot; alt=&quot;P59T3-2.png&quot; title=&quot;P59T3-2&quot; width=&quot;751&quot; height=&quot;355&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional stroed acces polices that you can creat for container1 is n &amp;#x00BA; 5</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional stroed acces polices that you can creat for container1 is n &amp;#x00BA; 6</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional immutable blob storage policies that you can create for container1 is n &amp;#x00BA; 0</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional immutable blob storage policies that you can create for container1 is n &amp;#x00BA; 1</text><feedback>AndreaStack
+&amp;#x003C;br&amp;#x003E;
+1. Additional access policy ----&amp;#x003E; 3( because Max total stored access policies is 5) 2) Additional immutable blob storage ------&amp;#x003E; 1 (because Max total of immutable blob storage policies is 2)... Azure allows to have 1 legal hold policy and one-time based retention policy! LOOK THE PIC AT THE END OF PAGE! It&apos;s clear! https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-policy-configure-version-scope?tabs=azure-portal
+upvoted 1 times
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;img src=&quot;P59T3-3.png&quot; alt=&quot;P59T3-3.png&quot; title=&quot;P59T3-3&quot; width=&quot;624&quot; height=&quot;295&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>50</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional immutable blob storage policies that you can create for container1 is n &amp;#x00BA; 2</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional immutable blob storage policies that you can create for container1 is n &amp;#x00BA; 4</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The maximum number of additional immutable blob storage policies that you can create for container1 is n &amp;#x00BA; 5</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1.
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A. Azure Blob Storage</text><feedback>elior19940
+Correct answer is A Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.
+&amp;#x003C;br&amp;#x003E;
+This service can also be used to transfer data from Azure Blob storage to disk drives and ship to your on-premises sites. Data from one or more disk drives can be imported either to Azure Blob storage or Azure Files. The maximum size of an Azure Files Resource of a file share is 5 TB.
+&amp;#x003C;br&amp;#x003E;
+Note: There are several versions of this question in the exam. The question has two correct answers: 1. Azure File Storage or 2. Azure Blob Storage</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>B. Azure Data Lake Store</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>C. Azure SQL Database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>D. a virtual machine</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.
+
+&amp;#x003C;img src=&quot;P61T3.png&quot; alt=&quot;P61T3.png&quot; title=&quot;P61T3&quot; width=&quot;626&quot; height=&quot;125&quot;/&amp;#x003E;
+
+On June 1, you store a blob named File1 in the Hot access tier of storage1.
+
+What is the state of File1 on June 7?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Stored in the Cool access tier</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stored in the Archive access tier</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Stored in the Hot access tier</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Deleted</text><feedback>elior19940
+&amp;#x003C;br&amp;#x003E;
+Sorry, the corect answer is D If you define more than one action on the same blob, lifecycle management applies the least expensive action to the blob. For example, action delete is cheaper than action tierToArchive. Action tierToArchive is cheaper than action tierToCool. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the storage accounts shown in the following table.
+
+&amp;#x003C;img src=&quot;P62T3-1.png&quot; alt=&quot;P62T3-1.png&quot; title=&quot;P62T3-1&quot; width=&quot;653&quot; height=&quot;105&quot;/&amp;#x003E;
+
+You need to identify which storage accounts support lifecycle management, and which storage accounts support moving data to the Archive access tier.
+
+Which storage accounts should you use? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;P62T3-2.png&quot; alt=&quot;P62T3-2.png&quot; title=&quot;P62T3-2&quot; width=&quot;544&quot; height=&quot;383&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Lifecycle management:  STORAGE1 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Lifecycle management:  STORAGE 2 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Lifecycle management:  STORAGE 1 AND STORAGE 3 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Lifecycle management: STORAGE 2 AND STORAGE3 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Lifecycle management: STORAGE 1, STORAGE 2 AND STORAGE 3</text><feedback>&amp;#x003C;img src=&quot;P62T3-3.png&quot; alt=&quot;P62T3-3.png&quot; title=&quot;P62T3-3&quot; width=&quot;544&quot; height=&quot;383&quot;/&amp;#x003E;
+
+&amp;#x003C;br&amp;#x003E;
+yauhen_zd
+ Highly Voted  11 months, 1 week ago
+Correct 
+&amp;#x003C;br&amp;#x003E;
+1 - storage1, storage2, storage3 Lifecycle management policies are supported for block blobs and append blobs in general-purpose v2, premium block blob, and Blob Storage accounts. 
+&amp;#x003C;br&amp;#x003E;
+2 - storage2 Only storage accounts that are configured for LRS, GRS, or RA-GRS support moving blobs to the archive tier. The archive tier isn&apos;t supported for ZRS, GZRS, or RA-GZRS accounts. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The archive access tier: STORAGE1 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The archive access tier: STORAGE 2 ONLY</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The archive access tier: STORAGE 1 AND STORAGE 3 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The archive access tier: STORAGE 2 AND STORAGE3 ONLY</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The archive access tier: STORAGE 1, STORAGE 2 AND STORAGE 3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1.
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>an Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Data Lake Store</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Blob storage</text><feedback>zellc
+C is the answer. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/import-export/storage-import-export-service Azure Import/Export 
+
+&amp;#x003C;br&amp;#x003E; The service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.
+&amp;#x003C;br&amp;#x003E;
+This service can also be used to transfer data from Azure Blob storage to disk drives and ship to your on-premises sites. Data from one or more disk drives can be imported either to Azure Blob storage or Azure</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Data Factory</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
+
+You create a blob lifecycle rule named rule1.
+
+You need to configure rule1 to automatically move blobs that were NOT updated for 45 days from contained to the Cool access tier.
+
+How should you complete the rule? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;P64T3-1.png&quot; alt=&quot;P64T3-1.png&quot; title=&quot;P64T3-1&quot; width=&quot;596&quot; height=&quot;843&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>&quot;days after creation creater than&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;days after last access time Greater than&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;days after modification Greater than&quot;</text><feedback>&amp;#x003C;img src=&quot;P64T3-2.png&quot; alt=&quot;P64T3-2.png&quot; title=&quot;P64T3-2&quot; width=&quot;417&quot; height=&quot;590&quot;/&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+1. daysAfterModificationGreaterThan 2. 
+&amp;#x003C;br&amp;#x003E;
+Blockblob https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview#rule-actions
+&amp;#x003C;br&amp;#x003E; 
+daysAfterModificationGreaterThan - The condition for actions on a current version of a blob Tiering is not yet supported in a premium block blob storage account. For all other accounts, tiering is allowed only on block blobs and not for append and page blobs. tierToCool - Supported for blockBlob</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;appendBlob&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;Blockblob&quot;</text><feedback>&amp;#x003C;img src=&quot;P64T3-2.png&quot; alt=&quot;P64T3-2.png&quot; title=&quot;P64T3-2&quot; width=&quot;417&quot; height=&quot;590&quot;/&amp;#x003E;
+
+1. daysAfterModificationGreaterThan 2. Blockblob https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview#rule-actions daysAfterModificationGreaterThan - The condition for actions on a current version of a blob Tiering is not yet supported in a premium block blob storage account. For all other accounts, tiering is allowed only on block blobs and not for append and page blobs. tierToCool - Supported for blockBlob</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&quot;Pageblob&quot;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1.
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>an Azure Cosmos DB database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Blob Storage</text><feedback>https://learn.microsoft.com/en-us/azure/import-export/storage-import-export-service
+&amp;#x003C;br&amp;#x003E;
+Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter. 
+&amp;#x003C;br&amp;#x003E;
+This service can also be used to transfer data from Azure Blob storage to disk drives and ship to your on-premises sites. Data from one or more disk drives can be imported either to Azure Blob storage or Azure Files.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure SQL Database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Azure File Sync Storage Sync Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to create an Azure Storage account named storage1 that will contain a file share named share1.
+
+You need to ensure that share1 can support SMB Multichannel. The solution must minimize costs.
+
+How should you configure storage?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Premium performance with locally-redundant storage (LRS)</text><feedback>Provided answer is correct. According to documentation only Premium file shares (FileStorage), LRS/ZRS are supported for SMB. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/storage/files/storage-files-smb-multichannel-performance</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Standard performance with zone-redundant storage (ZRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Premium performance with geo-redundant storage (GRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Standard performance with locally-redundant storage (LRS)</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription named Subscription1.
+
+You have 5 TB of data that you need to transfer to Subscription1.
+
+You plan to use an Azure Import/Export job.
+
+What can you use as the destination of the imported data?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure Data Lake Store</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure File Storage</text><feedback>Correct Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter. 
+&amp;#x003C;br&amp;#x003E;
+This service can also be used to transfer data from Azure Blob storage to disk drives and ship to your on-premises sites. Data from one or more disk drives can be imported either to Azure Blob storage or Azure Files. 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/import-export/storage-import-export-service</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure SQL Database</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>the Azure File Sync Storage Sync Service</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains a storage account named storage1.
+
+You plan to use conditions when assigning role-based access control (RBAC) roles to storage1.
+
+Which storage1 services support conditions when assigning roles?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>containers only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>file shares only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>tables only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>queues only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>containers and queues only</text><feedback>As of my last update in September 2021, Azure Active Directory (Azure AD) conditions in role-based access control (RBAC) assignments are generally used for fine-grained access control. 
+&amp;#x003C;br&amp;#x003E;
+These conditions can be based on attributes like user membership, IP address range, device state, and others. However, when it comes to Azure Storage services, not all of them fully support Azure AD-based authentication. Blob containers and queues do support Azure AD authentication, while file shares rely primarily on the SMB protocol (which doesn&apos;t use Azure AD for authentication) and tables have their own authentication mechanisms. Therefore, when considering the Azure storage services that support conditions in RBAC assignments based on Azure AD capabilities: E. containers and queues only is the correct answer.
+upvoted 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+Correct answer is Blob &amp;#x0026; Queue 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>files shares and tables only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have an Azure subscription that contains the resource groups shown in the following table.
+&amp;#x003C;img src=&quot;P69T3-1.png&quot; alt=&quot;P69T3-1.png&quot; title=&quot;P69T3-1&quot; width=&quot;236&quot; height=&quot;139&quot;/&amp;#x003E;
+
+The subscription contains the virtual networks shown in the following table.
+&amp;#x003C;img src=&quot;P69T3-2.png&quot; alt=&quot;P69T3-2.png&quot; title=&quot;P69T3-2&quot; width=&quot;926&quot; height=&quot;139&quot;/&amp;#x003E;
+
+You plan to deploy the Azure Kubernetes Service (AKS) clusters shown in the following table.
+&amp;#x003C;img src=&quot;P69T3-3.png&quot; alt=&quot;P69T3-3.png&quot; title=&quot;P69T3-3&quot; width=&quot;916&quot; height=&quot;228&quot;/&amp;#x003E;
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+&amp;#x003C;img src=&quot;P69T3-4.png&quot; alt=&quot;P69T3-4.png&quot; title=&quot;P69T3-4&quot; width=&quot;769&quot; height=&quot;403&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>You can deploy ASK1 to Vnet2
+
+YES</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy ASK1 to Vnet2
+
+NO</text><feedback>Should be No, Yes, Yes. 3 Yes, because Kubenet can use an existing VNET with the only requirement that it should be in the same region. 
+&amp;#x003C;br&amp;#x003E;&amp;#x003C;br&amp;#x003E;
+See also: 
+&amp;#x003C;br&amp;#x003E;
+https://learn.microsoft.com/en-us/azure/aks/configure-kubenet: 
+&amp;#x003C;br&amp;#x003E; &amp;#x003C;&amp;#x003C;&amp;#x003C;snip&amp;#x003E;&amp;#x003E; As a compromise, you can create an AKS cluster that uses kubenet and connect to an existing virtual network subnet. This approach lets the nodes receive defined IP addresses, without the need to reserve a large number of IP addresses up front for all of the potential pods that could run in the cluster.&amp;#x003C;&amp;#x003C;snip&amp;#x003E;&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+upvoted</feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy ASK2 to Vnet1
+
+YES</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy ASK2 to Vnet1
+
+NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy ASK3 to Vnet3
+
+YES</text><feedback></feedback><correct>1</correct><percent-correct>33</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>You can deploy ASK3 to Vnet3
+
+NO</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
+
+You need to ensure that NGINX is available on all the virtual machines after they are deployed.
+
+What should you use?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>the Publish-AzVMDscConfiguration cmdlet</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure Application Insights</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a Desired State Configuration (DSC) extension</text><feedback>To ensure that NGINX is available on all the virtual machines after they are deployed in an Azure Virtual Machine Scale Set using an Azure Resource Manager template, you should leverage the Desired State Configuration (DSC) extension. With DSC, you can define and apply a consistent configuration to target nodes (in this case, virtual machines) in an automated and idempotent manner. 
+&amp;#x003C;br&amp;#x003E;
+Thus, the correct answer is: C. a Desired State Configuration (DSC) extension You would define a DSC configuration that ensures the installation of NGINX and then apply this configuration using the DSC extension in the Azure Resource Manager template.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure AD Application Proxy</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question></question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

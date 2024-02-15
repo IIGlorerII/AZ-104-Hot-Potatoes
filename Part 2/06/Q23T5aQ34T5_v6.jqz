@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Glorer</dc:creator>
+    <dc:creator>DOM</dc:creator>
+    <dc:title>AZ104</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>AZ104</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Your company has an Azure subscription named Subscription1.
+
+The company also has two on-premises servers named Server1 and Server2 that run Windows Server 2016. Server1 is configured as a DNS server that has a primary DNS zone named adatum.com. Adatum.com contains 1,000 DNS records.
+
+You manage Server1 and Subscription1 from Server2. Server2 has the following tools installed:
+
+&amp;#x2711; The DNS Manager console
+&amp;#x2711; Azure PowerShell
+&amp;#x2711; Azure CLI 2.0
+
+You need to move the adatum.com zone to an Azure DNS zone in Subscription1. The solution must minimize administrative effort.
+
+What should you use?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Azure CLI</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Azure PowerShell</text><feedback>Step 1: Installing the DNS migration script
+Open an elevated PowerShell window (Administrative mode) and run following command install-script PrivateDnsMigrationScript
+&amp;#x003C;br&amp;#x003E;
+Step 2: Running the script -
+Execute following command to run the script
+&amp;#x003C;br&amp;#x003E;
+PrivateDnsMigrationScript.ps1 -
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-migration-guide</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The Azure portal</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>The DNS Manager console</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have a public load balancer that balances ports 80 and 443 across three virtual machines named VM1, VM2, and VM3.
+
+You need to direct all the Remote Desktop Protocol (RDP) connections to VM3 only.
+
+What should you configure?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>an inbound NAT rule</text><feedback>The difference between inbound NAT rules and port mapping in load balancer rules is that inbound NAT rules apply to direct forwarding to a VM, whereas load balancer rules forward traffic to a backend pool. 
+&amp;#x003C;br&amp;#x003E;
+An inbound NAT rule forwards incoming traffic to a specific virtual machine Service: RDP Protocol: TCP Port: 3389 Target VM =VM3
+&amp;#x003C;br&amp;#x003E; 
+Reference:
+&amp;#x003C;br&amp;#x003E; 
+https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal https://pixelrobots.co.uk/2017/08/azure-load-balancer-for-rds/</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a new public load balancer for VM3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a frontend IP configuration</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a load balancing rule</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+
+You have an Azure subscription named Subscription1 that contains the virtual networks in the following table.
+
+&amp;#x003C;img src=&quot;Q25T5_1.png&quot; alt=&quot;Q25T5_1.png&quot; title=&quot;Q25T5_1&quot; width=&quot;575&quot; height=&quot;116&quot;/&amp;#x003E;
+
+Subscription1 contains the virtual machines in the following table.
+
+&amp;#x003C;img src=&quot;Q25T5_2.png&quot; alt=&quot;Q25T5_2.png&quot; title=&quot;Q25T5_2&quot; width=&quot;632&quot; height=&quot;255&quot;/&amp;#x003E;
+
+In Subscription1, you create a load balancer that has the following configurations:
+
+&amp;#x2711; Name: LB1
+&amp;#x2711; SKU: Basic
+&amp;#x2711; Type: Internal
+&amp;#x2711; Subnet: Subnet12
+&amp;#x2711; Virtual network: VNET1
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q25T5_3.png&quot; alt=&quot;Q25T5_3.png&quot; title=&quot;Q25T5_3&quot; width=&quot;886&quot; height=&quot;336&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>LB1 can balance the traffic between VM1 and VM2</text><feedback>YES. Correct
+&amp;#x003C;br&amp;#x003E;
+Reference:
+&amp;#x003C;br&amp;#x003E;
+https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-overview
+&amp;#x003C;br&amp;#x003E;
+Basic Load Balancer: Backend pool endpoints for Virtual machines in a single availability set or virtual machine scale set. Subnet12 association will be used to assign an IP for the internal load balancer, not to load balance the VMs in the Subnet. Box 1: Yes VM1 and VM are in the Availability Set. Box 2: No Both VMs are not part of any Availability Set or Scale Set. Box 3: No Both VMs are not part of any Availability Set or Scale Set.&amp;#x2003; Reference: https://docs.microsoft.com/en-us/azure/load-balancer/skus</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LB1 can balance the traffic between VM3 and VM4</text><feedback>NO. Incorrect</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>LB1 can balance the traffic between VM5 and VM6</text><feedback>NO. Incorrect</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>HOTSPOT -
+
+You have an Azure virtual machine that runs Windows Server 2019 and has the following configurations:
+
+&amp;#x2711; Name: VM1
+&amp;#x2711; Location: West US
+&amp;#x2711; Connected to: VNET1
+&amp;#x2711; Private IP address: 10.1.0.4
+&amp;#x2711; Public IP addresses: 52.186.85.63
+&amp;#x2711; DNS suffix in Windows Server: Adatum.com
+
+You create the Azure DNS zones shown in the following table.
+
+&amp;#x003C;img src=&quot;Q26T5_1.png&quot; alt=&quot;Q26T5_1.png&quot; title=&quot;Q26T5_1&quot; width=&quot;602&quot; height=&quot;188&quot;/&amp;#x003E;
+
+You need to identify which DNS zones you can link to VNET1 and the DNS zones to which VM1 can automatically register.
+
+Which zones should you identify? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q26T5_2.png&quot; alt=&quot;Q26T5_2.png&quot; title=&quot;Q26T5_2&quot; width=&quot;886&quot; height=&quot;408&quot;/&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>DNS zones that you can link to VNET1: Adatum.com only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones that you can link to VNET1: Adatum.pri zones only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones that you can link to VNET1: The private zones only</text><feedback>Box 1: Private Box 2: Private You can only link VNETs to private DNS zones only and accordingly auto register a VNET only to a private DNS zones. Private DNS zones can be linked with VNETs (not public ones). And VM can auto-register to any private DNS zone linked with the Vnet and with auto-registration option set. To resolve the records of a private DNS zone from your virtual network, you must link the virtual network with the zone. Linked virtual networks have full access and can resolve all DNS records published in the private zone.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones that you can link to VNET1: The public zones only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones to which VM1 can automatically: Adatum.com only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones to which VM1 can automatically: Adatum.pri zones only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones to which VM1 can automatically: The private zones only</text><feedback>Box 1: Private Box 2: Private You can only link VNETs to private DNS zones only and accordingly auto register a VNET only to a private DNS zones. Private DNS zones can be linked with VNETs (not public ones). And VM can auto-register to any private DNS zone linked with the Vnet and with auto-registration option set. To resolve the records of a private DNS zone from your virtual network, you must link the virtual network with the zone. Linked virtual networks have full access and can resolve all DNS records published in the private zone.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-overview</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>DNS zones to which VM1 can automatically: The public zones only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>You have an Azure subscription that contains the resources in the following table.
+
+&amp;#x003C;img src=&quot;Q28T5_1.png&quot; alt=&quot;Q28T5_1.png&quot; title=&quot;Q28T5_1&quot; width=&quot;707&quot; height=&quot;188&quot;/&amp;#x003E;
+
+VM1 and VM2 are deployed from the same template and host line-of-business applications.
+
+You configure the network security group (NSG) shown in the exhibit. (Click the Exhibit tab.)
+
+&amp;#x003C;img src=&quot;Q28T5_2.png&quot; alt=&quot;Q28T5_2.png&quot; title=&quot;Q28T5_2&quot; width=&quot;886&quot; height=&quot;507&quot;/&amp;#x003E;
+
+You need to prevent users of VM1 and VM2 from accessing websites on the Internet over TCP port 80.
+What should you do?
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Disassociate the NSG from a network interface</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Change the Port_80 inbound security rule.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Associate the NSG to Subnet1.</text><feedback>You can associate or dissociate a network security group from a network interface or subnet.
+The NSG has the appropriate rule to block users from accessing the Internet. We just need to associate it with Subnet1.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Outbound rule &amp;#x201C;DenyWebSites&amp;#x201D; is setup correctly to block outbound internet traffic over port 80. In the screenshot it states, &quot;Associated with: 0 subnets, 0 NIC&apos;s&quot;, so you need to associate the NSG to Subnet1.You can associate or dissociate a network security group from a NIC or Subnet. Reference: https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Change the DenyWebSites outbound security rule.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You have two subscriptions named Subscription1 and Subscription2. Each subscription is associated to a different Azure AD tenant.
+
+Subscription1 contains a virtual network named VNet1. VNet1 contains an Azure virtual machine named VM1 and has an IP address space of 10.0.0.0/16.
+
+Subscription2 contains a virtual network named VNet2. VNet2 contains an Azure virtual machine named VM2 and has an IP address space of 10.10.0.0/24.
+
+You need to connect VNet1 to VNet2.
+
+What should you do first?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Move VM1 to Subscription2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Move VNet1 to Subscription2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Modify the IP address space of VNet2.</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Provision virtual network gateways.</text><feedback>The virtual networks can be in the same or different regions, and from the same or different subscriptions. When connecting VNets from different subscriptions, the subscriptions do not need to be associated with the same Active Directory tenant.
+&amp;#x003C;br&amp;#x003E;
+Configuring a VNet-to-VNet connection is a good way to easily connect VNets. Connecting a virtual network to another virtual network using the VNet-to-VNet connection type (VNet2VNet) is similar to creating a Site-to-Site IPsec connection to an on-premises location. Both connectivity types use a VPN gateway to provide a secure tunnel using IPsec/IKE, and both function the same way when communicating.
+The local network gateway for each VNet treats the other VNet as a local site. This lets you specify additional address space for the local network gateway in order to route traffic.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+There is no overlap between the VNets: VNet1: 10.0.0.0/16 - CIDR IP Range 10.0.0.0 - 10.0.255.255 VNet2: 10.10.0.0/24 - CIDR IP Range 10.10.0.0 - 10.0.0.255 Note: If a virtual network has address ranges that overlap with another virtual network or on-premises network, the two networks can&apos;t be connected. You can connect virtual networks (VNets) by using the VNet-to-VNet connection type. Virtual networks can be in different regions and from different subscriptions. When you connect VNets from different subscriptions, the subscriptions don&apos;t need to be associated with the same Active Directory tenant. Reference: https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>You plan to create an Azure virtual machine named VM1 that will be configured as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;Q30T5_1.png&quot; alt=&quot;Q30T5_1.png&quot; title=&quot;Q30T5_1&quot; width=&quot;886&quot; height=&quot;830&quot;/&amp;#x003E;
+
+The planned disk configurations for VM1 are shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;Q30T5_2.png&quot; alt=&quot;Q30T5_2.png&quot; title=&quot;Q30T5_2&quot; width=&quot;886&quot; height=&quot;830&quot;/&amp;#x003E;
+
+You need to ensure that VM1 can be created in an Availability Zone.
+
+Which two settings should you modify? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Use managed disks</text><feedback>Your VMs should use managed disks if you want to move them to an Availability Zone by using Site Recovery.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-portal-availability-zone
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Your VMs should use managed disks if you want to move them to an Availability Zone by using Site Recovery. C: When you create a VM for an Availability Zone, Under Settings &amp;#x003E; High availability, select one of the numbered zones from the Availability zone dropdown. Reference: https://docs.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-portal-availability-zone https://docs.microsoft.com/en-us/azure/virtual-machines/manage-availability https://docs.microsoft.com/en-us/azure/availability-zones/az-overview#availability-zones
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;img src=&quot;Q30T5_3.png&quot; alt=&quot;Q30T5_3.png&quot; title=&quot;Q30T5_3&quot; width=&quot;491&quot; height=&quot;777&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>OS disk type</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Availability options</text><feedback>When you create a VM for an Availability Zone, Under Settings &amp;#x003E; High availability, select one of the numbered zones from the Availability zone dropdown.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-portal-availability-zone
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+Your VMs should use managed disks if you want to move them to an Availability Zone by using Site Recovery. C: When you create a VM for an Availability Zone, Under Settings &amp;#x003E; High availability, select one of the numbered zones from the Availability zone dropdown. Reference: https://docs.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-portal-availability-zone https://docs.microsoft.com/en-us/azure/virtual-machines/manage-availability https://docs.microsoft.com/en-us/azure/availability-zones/az-overview#availability-zones
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;img src=&quot;Q30T5_3.png&quot; alt=&quot;Q30T5_3.png&quot; title=&quot;Q30T5_3&quot; width=&quot;491&quot; height=&quot;777&quot;/&amp;#x003E;</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Size</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Image</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+
+You have an Azure subscription that contains the resources shown in the following table.
+
+&amp;#x003C;img src=&quot;Q31T5_1.png&quot; alt=&quot;Q31T5_1.png&quot; title=&quot;Q31T5_1&quot; width=&quot;883&quot; height=&quot;176&quot;/&amp;#x003E;
+
+VMSS1 is set to VM (virtual machines) orchestration mode.
+
+You need to deploy a new Azure virtual machine named VM1, and then add VM1 to VMSS1.
+
+Which resource group and location should you use to deploy VM1? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q31T5_2.png&quot; alt=&quot;Q31T5_2.png&quot; title=&quot;Q31T5_2&quot; width=&quot;603&quot; height=&quot;480&quot;/&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Resource group: RG1 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource group: RG2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource group: RG1 or RG2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Resource group: RG1, RG2 or RG3</text><feedback>RG1, RG2, or RG3 -
+The resource group stores metadata about the resources. When you specify a location for the resource group, you&apos;re specifying where that metadata is stored.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+RG3 The resource group stores metadata about the resources. When you specify a location for the resource group, you&apos;re specifying where that metadata is stored. The location of the RG doesn&apos;t influence the choice of the location of VM. best practice would be to create the VM1 in the RG1 because the scale set is in RG1. And Microsoft recommends that resources contained in a Resource Group share the same resource lifecycle.
+&amp;#x003C;br&amp;#x003E;
+Reference: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-orchestration-modes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Location: West US only</text><feedback>West US only -
+Note: Virtual machine scale sets will support 2 distinct orchestration modes:
+ScaleSetVM &amp;#x05D2;&amp;#x20AC;&quot; Virtual machine instances added to the scale set are based on the scale set configuration model. The virtual machine instance lifecycle - creation, update, deletion - is managed by the scale set.
+VM (virtual machines) &amp;#x05D2;&amp;#x20AC;&quot; Virtual machines created outside of the scale set can be explicitly added to the scaleset.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+West US only You can add the virtual machine to a scale set in the same region, zone, and resource group. 
+&amp;#x003C;br&amp;#x003E;
+Reference: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-orchestration-modes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Location: Central US only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Location: Central US or West US only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>East US, Central US, or West US</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>HOTSPOT -
+
+You have an Azure subscription that contains three virtual networks named VNET1, VNET2, and VNET3.
+
+Peering for VNET1 is configured as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;Q32T5_1.png&quot; alt=&quot;Q32T5_1.png&quot; title=&quot;Q32T5_1&quot; width=&quot;886&quot; height=&quot;309&quot;/&amp;#x003E;
+
+Peering for VNET2 is configured as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;Q32T5_2.png&quot; alt=&quot;Q32T5_2.png&quot; title=&quot;Q32T5_2&quot; width=&quot;886&quot; height=&quot;325&quot;/&amp;#x003E;
+
+Peering for VNET3 is configured as shown in the following exhibit.
+
+&amp;#x003C;img src=&quot;Q32T5_3.png&quot; alt=&quot;Q32T5_3.png&quot; title=&quot;Q32T5_3&quot; width=&quot;886&quot; height=&quot;316&quot;/&amp;#x003E;
+
+How can packets be routed between the virtual networks? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+
+&amp;#x003C;img src=&quot;Q32T5_4.png&quot; alt=&quot;Q32T5_4.png&quot; title=&quot;Q32T5_4&quot; width=&quot;713&quot; height=&quot;425&quot;/&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Packets from VNET1 can be routed to: VNET2 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Packets from VNET1 can be routed to: VNET3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Packets from VNET1 can be routed to: VNET2 and VNET3</text><feedback>Gateway transit is disabled.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+VNet1: Peered with VNet2 and VNet3 VNet2: Peered with VNet1 VNet3: Peered with VNet1 Box 1. VNET2 and VNET3 VNet1 is peered with VNet2 and VNet3. Also Gateway transit is disabled.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Packets from VNET2 can be routed to: VNET1 only</text><feedback>Gateway transit is disabled.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+VNET1 only Gateway transit is disabled, so it can only communicate with the connected VNET1. Reference: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-peering-gateway-transit</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Packets from VNET2 can be routed to: VNET3 only</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Packets from VNET2 can be routed to: VNET1 and VNET3</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+
+You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
+
+From Azure, you download and install the VPN client configuration package on a computer named Computer2.
+
+You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.
+
+Solution: You modify the Azure Active Directory (Azure AD) authentication policies.
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>Instead export the client certificate from Computer1 and install the certificate on Computer2.
+&amp;#x003C;br&amp;#x003E;
+Note:
+Each client computer that connects to a VNet using Point-to-Site must have a client certificate installed. You generate a client certificate from the self-signed root certificate, and then export and install the client certificate. If the client certificate is not installed, authentication fails.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site
+
+Instead export the client certificate from Computer1 and install the certificate on Computer2. A Point-to-Site (P2S) VPN gateway connection lets you create a secure connection to your virtual network from an individual client computer. A P2S connection is established by starting it from the client computer. This solution is useful for telecommuters who want to connect to Azure VNets from a remote location, such as from home or a conference. P2S VPN is also a useful solution to use instead of S2S VPN when you have only a few clients that need to connect to a VNet. This article applies to the Resource Manager deployment model.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
+
+From Azure, you download and install the VPN client configuration package on a computer named Computer2.
+
+You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.
+
+Solution: You join Computer2 to Azure Active Directory (Azure AD).
+
+Does this meet the goal?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Yes</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No</text><feedback>A client computer that connects to a VNet using Point-to-Site must have a client certificate installed.
+&amp;#x003C;br&amp;#x003E;
+Reference:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site
+&amp;#x003C;br&amp;#x003E;
+&amp;#x003C;br&amp;#x003E;
+A client computer that connects to a VNet using Point-to-Site must have a client certificate installed. Instead export the client certificate from Computer1 and install the certificate on Computer2. A Point-to-Site (P2S) VPN gateway connection lets you create a secure connection to your virtual network from an individual client computer. A P2S connection is established by starting it from the client computer. This solution is useful for telecommuters who want to connect to Azure VNets from a remote location, such as from home or a conference. P2S VPN is also a useful solution to use instead of S2S VPN when you have only a few clients that need to connect to a VNet. This article applies to the Resource Manager deployment model.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Quiz</exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly wrong: </partly-incorrect>
+<enter-a-guess>Please enter a guess.</enter-a-guess>
+<next-correct-letter>Next correct letter in the answer: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
